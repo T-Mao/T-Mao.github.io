@@ -82,7 +82,9 @@ Feel free to reach out if you’d like to:
 - Discuss fresh ideas or potential collaborations  
 
 I’d love to hear from you!
+
+<br>
+
 <br>
 
 ---
-<br>
