@@ -36,7 +36,7 @@ My fascination with **product design** and **UI/UX** runs deep. Over the years, 
 <br>
 
 ### Professional Experience
-#### SupTech
+#### *SupTech*
 At **SupTech**, a fast-paced startup, I led a two-person team to conceptualize, build, and launch **two new apps** from the ground up in just 3 months. My responsibilities spanned:
 
 - `Front-end development` (iOS & Android)  
@@ -48,7 +48,7 @@ At **SupTech**, a fast-paced startup, I led a two-person team to conceptualize, 
 <br>
 
 ### Research Endeavors
-#### Ren Lab, The Chinese University of Hong Kong
+#### *Ren Lab, The Chinese University of Hong Kong*
 In addition to app development, I contributed to the **EndoNeRF** project, focusing on reconstructing endoscopic procedures. This experience honed my skills in:
 
 - **Complex data processing**  
