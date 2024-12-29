@@ -59,7 +59,7 @@ In addition to app development, I contributed to the **EndoNeRF** project, focus
 ### Personal Projects
 My favorite project so far is **“DoneTodo”**, an app designed to help users **visualize and optimize** their day by tracking hourly activities. This perfectly aligns with my core goal:
 
-> **Empowering people through technology—one app at a time.**
+> ***Empowering people through technology—one app at a time.***
 
 <br>
 
