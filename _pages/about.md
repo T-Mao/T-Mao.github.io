@@ -15,7 +15,6 @@ news: true
 selected_papers: false
 social: true
 ---
----
 
 ### Introduction
 Hi, I’m **Tongze Mao**, a passionate app developer and creative tech enthusiast dedicated to crafting forward-thinking solutions that address real-life problems—especially those involving productivity and time management.
@@ -82,3 +81,7 @@ Feel free to reach out if you’d like to:
 - Discuss fresh ideas or potential collaborations  
 
 I’d love to hear from you!
+<br>
+
+---
+<br>
