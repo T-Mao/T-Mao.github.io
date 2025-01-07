@@ -13,14 +13,14 @@ WriterCards is a unique iOS app developed solely by me, Tongze Mao, utilizing Sw
 <br>
 
 ---
-<!-- 
+
 ## WriterCards App - Enhancing Creativity One Card at a Time
 
 #### WriterCards App Overview
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
   <video controls="" width="100%" style="max-height: 600px; max-width: 200px;"> 
-    <source src="/assets/img/WriterCards/WriterCardsDemo.mp4" type="video/mp4">
+    <source src="/assets/img/projects/WriterCards/WriterCardsDemo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -39,7 +39,7 @@ WriterCards is a unique iOS app developed solely by me, Tongze Mao, utilizing Sw
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
   <video controls="" width="100%" style="max-height: 600px; max-width: 200px;"> 
-    <source src="/assets/img/WriterCards/horizDarkDemo.mp4" type="video/mp4">
+    <source src="/assets/img/projects/WriterCards/horizDarkDemo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -118,4 +118,4 @@ WriterCards was born out of a desire to combine technology with creative writing
 
 ### Conclusion
 
-WriterCards stands as a testament to my ability to ideate, design, and develop a complete software solution solo. It showcases my skills in Swift programming, project management, and creative design, demonstrating my potential as a valuable asset to any software development team. -->
+WriterCards stands as a testament to my ability to ideate, design, and develop a complete software solution solo. It showcases my skills in Swift programming, project management, and creative design, demonstrating my potential as a valuable asset to any software development team.

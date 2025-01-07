@@ -13,7 +13,7 @@ Creating a user-centric health tracking application aimed at reducing data overw
 <br>
 
 ---
-<!-- 
+
 ## LifeTune Application Demo
 
 <video controls="" width="100%" style="max-height: 600px;"> 
@@ -56,7 +56,7 @@ We delved into existing health platforms like **Apple Health**, **Google Fit**, 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/competitive_analysis.png" title="Competitive Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/LifeTune/competitive_analysis.png" title="Competitive Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -72,7 +72,7 @@ Our design journey began with rudimentary sketches and storyboards, exploring a 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/storyboards.png" title="LifeTune Storyboards" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/LifeTune/storyboards.png" title="LifeTune Storyboards" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -108,7 +108,7 @@ Transitioning from low to mid-fidelity prototypes allowed us to refine our conce
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/mid_fidelity_prototypes.png" title="Mid-Fidelity Prototypes" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/LifeTune/mid_fidelity_prototypes.png" title="Mid-Fidelity Prototypes" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -120,7 +120,7 @@ Our high-fidelity prototypes represented the culmination of iterative design and
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/high_fidelity_prototypes.png" title="High-Fidelity Prototypes" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/LifeTune/high_fidelity_prototypes.png" title="High-Fidelity Prototypes" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -130,4 +130,4 @@ Our high-fidelity prototypes represented the culmination of iterative design and
 
 ## Reflection
 
-Embarking on the LifeTune project was a journey of empathy, innovation, and relentless pursuit of user-centricity. My personal role transcended traditional design; it was about championing the user's voice, transforming their needs and challenges into a digital form that empowers and motivates. LifeTune stands as a monument to the collaborative spirit and a beacon of user-centered design philosophy. -->
+Embarking on the LifeTune project was a journey of empathy, innovation, and relentless pursuit of user-centricity. My personal role transcended traditional design; it was about championing the user's voice, transforming their needs and challenges into a digital form that empowers and motivates. LifeTune stands as a monument to the collaborative spirit and a beacon of user-centered design philosophy.

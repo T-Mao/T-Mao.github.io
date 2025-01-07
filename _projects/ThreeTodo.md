@@ -13,14 +13,14 @@ ThreeTodo is a streamlined to-do list application that I single-handedly designe
 <br>
 
 ---
-<!-- 
+
 ### Demo Videos and Descriptions
 
 #### V2 Update - Major Functionality Enhancements (2024/4/21)
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
   <video controls="" style="max-height: 600px; max-width: 200px;"> 
-    <source src="/assets/img/ThreeTodo/ThreeTodoDemoV2.mp4" type="video/mp4">
+    <source src="/assets/img/projects/ThreeTodo/ThreeTodoDemoV2.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -38,7 +38,7 @@ ThreeTodo is a streamlined to-do list application that I single-handedly designe
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
   <video controls="" style="max-height: 600px; max-width: 200px;"> 
-    <source src="/assets/img/ThreeTodo/ThreeTodoDemo.mp4" type="video/mp4">
+    <source src="/assets/img/projects/ThreeTodo/ThreeTodoDemo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -54,7 +54,7 @@ ThreeTodo is a streamlined to-do list application that I single-handedly designe
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
   <video controls="" style="max-height: 600px; max-width: 200px;"> 
-    <source src="/assets/img/ThreeTodo/ThreeTodoDemoDarkHoriz.mp4" type="video/mp4">
+    <source src="/assets/img/projects/ThreeTodo/ThreeTodoDemoDarkHoriz.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -71,11 +71,11 @@ ThreeTodo is a streamlined to-do list application that I single-handedly designe
 ### V1 ThreeTodo Screenshots
 
 <p align="center">
-  <img src="/assets/img/ThreeTodo/PlanPage.PNG" alt="Plan Page" style="width: 100%; max-width: 200px;">
+  <img src="/assets/img/projects/ThreeTodo/PlanPage.PNG" alt="Plan Page" style="width: 100%; max-width: 200px;">
 
-  <img src="/assets/img/ThreeTodo/TodayPage.PNG" alt="Today Page" style="width: 100%; max-width: 200px;">
+  <img src="/assets/img/projects/ThreeTodo/TodayPage.PNG" alt="Today Page" style="width: 100%; max-width: 200px;">
 
-  <img src="/assets/img/ThreeTodo/ThoughtsPage.jpeg" alt="Thoughts Page" style="width: 100%; max-width: 200px;">
+  <img src="/assets/img/projects/ThreeTodo/ThoughtsPage.jpeg" alt="Thoughts Page" style="width: 100%; max-width: 200px;">
 </p>
 
 <br>
@@ -165,4 +165,4 @@ This user-centric approach not only makes ThreeTodo a valuable tool for busy pro
 
 ThreeTodo exemplifies my approach to software development: thoughtful, user-focused, and efficiency-driven. It stands as a testament to my skills in creating practical solutions that cater to the real needs of users, reflecting a deep understanding of task management challenges and user interface design.
 
-This project not only showcases my technical prowess but also my capability to quickly turn concepts into fully functional products, making me a valuable asset to any team looking to enhance productivity and user engagement in software applications. -->
+This project not only showcases my technical prowess but also my capability to quickly turn concepts into fully functional products, making me a valuable asset to any team looking to enhance productivity and user engagement in software applications.
