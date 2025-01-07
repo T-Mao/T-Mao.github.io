@@ -325,18 +325,6 @@
       "url": ""
     },
     {
-      "name": "Spotify Browser (Web)",
-      "summary": "A high-performance web application mimicking core Spotify functionalities with Angular, Node.js, Express, and MongoDB.",
-      "highlights": [
-        "Implemented OAuth-based authentication and real-time Spotify API data retrieval.",
-        "Utilized lazy loading and caching to optimize page load times.",
-        "Supported multi-user logins with robust session management."
-      ],
-      "startDate": "2022-10-01",
-      "endDate": "2022-11-01",
-      "url": ""
-    },
-    {
       "name": "LifeTune",
       "summary": "Health-tracking app offering simplified data visuals and motivational insights to help users avoid data overload.",
       "highlights": [
@@ -370,6 +358,18 @@
       ],
       "startDate": "2023-04-01",
       "endDate": "2023-06-01",
+      "url": ""
+    },
+    {
+      "name": "Spotify Browser (Web)",
+      "summary": "A high-performance web application mimicking core Spotify functionalities with Angular, Node.js, Express, and MongoDB.",
+      "highlights": [
+        "Implemented OAuth-based authentication and real-time Spotify API data retrieval.",
+        "Utilized lazy loading and caching to optimize page load times.",
+        "Supported multi-user logins with robust session management."
+      ],
+      "startDate": "2022-10-01",
+      "endDate": "2022-11-01",
       "url": ""
     },
     {
