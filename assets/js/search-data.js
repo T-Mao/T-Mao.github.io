@@ -430,6 +430,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-goshsha",
+          title: 'Goshsha',
+          description: "2024/1 – Present",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Goshsha/";
+            },},{id: "projects-lifetune",
+          title: 'LifeTune',
+          description: "2024/1 – 2024/3",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LifeTune/";
+            },},{id: "projects-threetodo",
+          title: 'ThreeTodo',
+          description: "2024/4/13 - 2024/4/21",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ThreeTodo/";
+            },},{id: "projects-writercards",
+          title: 'WriterCards',
+          description: "2024/2 - 2024/4",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/WriterCards/";
             },},{
         id: 'social-email',
         title: 'email',
