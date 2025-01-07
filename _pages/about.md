@@ -12,7 +12,7 @@ profile:
     <p><strong>Tongze Mao (She/Her/Hers)</strong></p>
     <br><p><strong>University of California, Irvine</strong></p>
     <br><p>CUM LAUDE</p>
-news: true
+news: false
 selected_papers: false
 social: true
 ---
