@@ -378,26 +378,11 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-goshsha",
-          title: 'Goshsha',
-          description: "2024/1 – Present",
+          section: "News",},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Goshsha/";
-            },},{id: "projects-lifetune",
-          title: 'LifeTune',
-          description: "2024/1 – 2024/3",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/LifeTune/";
-            },},{id: "projects-threetodo",
-          title: 'ThreeTodo',
-          description: "2024/4/13 - 2024/4/21",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ThreeTodo/";
-            },},{id: "projects-writercards",
-          title: 'WriterCards',
-          description: "2024/2 - 2024/4",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/WriterCards/";
+              window.location.href = "/projects/1_project/";
             },},{
         id: 'social-email',
         title: 'email',
