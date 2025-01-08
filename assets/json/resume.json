@@ -93,7 +93,7 @@
       "studyType": "Bachelor of Science (CUM LAUDE)",
       "startDate": "2020-09-01",
       "endDate": "2024-06-01",
-      "score": "3.934 / 4.0",
+      "score": "GPA: 3.934 / 4.0",
       "courses": [
         "Algorithm",
         "Artificial Intelligence",
@@ -103,31 +103,34 @@
         "System Design",
         "Software Engineering"
       ],
-      "summary": "Dean’s Honor List for 9 quarters, recognized for exceptional academic achievement in dual majors (Computer Science & Informatics)."
+      "summary": "Graduated CUM LAUDE with dual majors in Computer Science & Informatics plus a Minor in Statistics. Maintained a 3.934 GPA, earning placement on the Dean’s Honor List for 9 consecutive quarters, reflecting high academic standing and consistent excellence."
     },
     {
       "institution": "The Chinese University of Hong Kong",
       "location": "Hong Kong",
       "url": "https://www.cuhk.edu.hk/",
-      "area": "Summer Undergraduate Research Program (GPA: 4.0)",
-      "studyType": "Research Internship",
+      "area": "Summer Undergraduate Research Program",
+      "studyType": "Research Internship (GPA: 4.0)",
       "startDate": "2023-06-01",
       "endDate": "2023-08-01",
-      "courses": ["EndoNeRF - Pose-Free Depth-Supervised Neural Radiance Fields"],
-      "summary": "Focused on medical 3D reconstruction for endoscopic procedures, collaborating on advanced NeRF-based solutions."
+      "courses": [
+        "EndoNeRF - Pose-Free Depth-Supervised Neural Radiance Fields"
+      ],
+      "summary": "Contributed to advanced NeRF-based research focused on 3D scene reconstruction in endoscopic procedures, collaborating within a multidisciplinary team to address real-world medical imaging challenges."
     },
     {
       "institution": "Arcadia High School",
       "location": "Arcadia, CA",
-      "url": "",
+      "url": "https://ahs.ausd.net/",
       "area": "High School Diploma",
       "studyType": "High School",
       "startDate": "2018-02-01",
       "endDate": "2020-06-01",
-      "score": "3.97 / 4.0",
-      "summary": "Class of 2020 Salutatorian, recognized for exemplary academic performance and leadership."
+      "score": "GPA: 3.97 / 4.0",
+      "summary": "Graduated as the Class of 2020 Salutatorian, recognized for exemplary academic performance, leadership, and community engagement."
     }
   ],
+
   "awards": [
     {
       "title": "UCI CUM LAUDE",
