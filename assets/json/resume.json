@@ -168,7 +168,7 @@
       "issuer": "Arcadia High School",
       "url": "",
       "icon": "fa-solid fa-laptop",
-      "summary": "Introduced core programming methodologies, language fundamentals, and best practices for ethical computing."
+      "summary": "Laid the groundwork for coding proficiency by introducing core programming environments, control structures, and ethical computing principles. Emphasized structured problem-solving, language fundamentals (e.g., variables, loops), and modern best practices in software development."
     },
     {
       "name": "Career Skills Certificate: Computer Programming II Java",
@@ -176,7 +176,7 @@
       "issuer": "Arcadia High School",
       "url": "",
       "icon": "fa-solid fa-laptop",
-      "summary": "Covered advanced OOP concepts, searching/sorting algorithms, and design using Unified Modeling Language (UML)."
+      "summary": "Expanded programming competence with advanced object-oriented design (OOP), searching/sorting algorithms, and the use of Unified Modeling Language (UML). Covered multidimensional arrays, dynamic data structures, and abstract data types—preparing students for complex, real-world coding challenges."
     },
     {
       "name": "Career Skills Certificate: Computer Programming IB Java",
@@ -184,9 +184,10 @@
       "issuer": "Arcadia High School",
       "url": "",
       "icon": "fa-solid fa-laptop",
-      "summary": "Highest-level certificate, emphasizing real-world collaboration, object-oriented programming, and arrays/sequential files."
+      "summary": "Highest-level certification culminating in team-based projects and in-depth OOP mastery. Incorporated arrays, sequential file operations, and agile collaboration techniques while highlighting career pathways in Computer Programming and Software Engineering. Reflects a strong command of industry-relevant skills and readiness to tackle professional-level coding tasks."
     }
   ],
+
   "publications": [],
   "skills": [
     {
