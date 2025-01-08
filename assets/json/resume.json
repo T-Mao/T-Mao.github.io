@@ -16,11 +16,11 @@
       "url": "https://suptech.pro/",
       "startDate": "2024-04-01",
       "endDate": "Present",
-      "summary": "Led a two-person dev team to create two separate production-ready apps (each for iOS & Android) in three months using Flutter, Firebase, JavaScript, and MySQL. Integrated with partner APIs (e.g. Roborock, EcoFlow, dreame, jackery) and managed the entire development cycle, from coding and testing to deployment.",
+      "summary": "Led a two-person dev team to create two separate production-ready apps (each for iOS & Android) in three months using Flutter, Firebase, JavaScript, and MySQL. Integrated with partner APIs (e.g. Roborock, EcoFlow, Anker, Dreame, Jackery) and managed the entire development cycle, from coding and testing to deployment.",
       "highlights": [
         "Developed two full-stack mobile apps (iOS & Android) from scratch using Flutter and Firebase.",
         "Implemented back-end integrations in MySQL + JavaScript and set up robust CI/CD pipelines.",
-        "Collaborated with multiple partner APIs (Roborock, EcoFlow, dreame, jackery) for seamless data flow.",
+        "Collaborated with multiple partner APIs (Roborock, EcoFlow, Anker, Dreame, Jackery) for seamless data flow.",
         "Acted as both hands-on coder and project manager: built features, oversaw Agile sprints, conducted code reviews, and created user documentation."
       ]
     },
