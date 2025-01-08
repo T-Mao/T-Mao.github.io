@@ -305,28 +305,33 @@
   "projects": [
     {
       "name": "DoneTodo",
-      "summary": "A minimalist time-planning app enabling intuitive drag-and-drop scheduling, real-time color-coded timelines, and detailed analytics of daily/weekly/monthly usage.",
+      "summary": "A minimalistic time-planning app enabling effortless drag-and-drop scheduling, color-coded timelines, and detailed usage analytics.",
       "highlights": [
-        "Swift-based iOS development with a focus on lightweight UI/UX design.",
-        "Implemented statistical insights for user time distribution and behavior patterns.",
-        "Reduces cognitive overload by limiting features to essential productivity flows."
+        "Developed a Swift-based iOS application emphasizing lightweight UI/UX, reducing user friction and cognitive load.",
+        "Integrated statistical modules to visualize real-time time-distribution trends, providing actionable insights.",
+        "Adhered to a 'less-is-more' philosophy, focusing on core productivity features to minimize bloat and streamline workflows."
       ],
       "startDate": "2024-08-01",
       "endDate": "Present",
       "url": ""
     },
     {
-      "name": "HowDidI — Paid Résumé-Sharing Platform (iOS)",
-      "summary": "An iOS application allowing users to upload and monetize their résumés, while readers purchase passes to access curated, first-hand career application materials.",
+      "name": "HowDidI – Paid Résumé-Sharing Platform",
+      "summary": "An iOS app allowing professionals to upload résumés for monetization, enabling readers to purchase passes and access first-hand application materials.",
       "highlights": [
-        "Served as PM & tech lead for a 3-person university team, using Swift + Firebase for real-time data storage.",
-        "Coordinated Agile sprints, requirement breakdown, and progress demos to stakeholders.",
-        "Mentored junior developers on end-to-end app creation (UI design, back-end integration, testing)."
+        "Served as PM & technical lead for a 3-person university team, utilizing Swift and Firebase for real-time content synchronization.",
+        "Instituted Agile sprints with continuous requirement refinement, progress demos, and stakeholder feedback loops.",
+        "Mentored junior developers on comprehensive app-building processes: front-end design, back-end integration, user testing, and release management."
       ],
       "startDate": "2024-06-17",
       "endDate": "2024-10-24",
       "url": ""
     },
+
+
+
+    
+    
     {
       "name": "WriterCards",
       "summary": "An iOS app dedicated to daily writing prompts for creativity and self-reflection, developed independently using Swift.",
