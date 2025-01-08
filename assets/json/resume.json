@@ -260,33 +260,47 @@
     }
   ],
   "interests": [
-    {
-      "name": "Digital Illustration & Sticker Design",
-      "icon": "fa-solid fa-paintbrush",
-      "keywords": [
-        "Designed sticker sets (crocodile, fuzzy monster) with 10k+ sends",
-        "Exploring new forms of creative expression"
-      ]
-    },
-    {
-      "name": "Writing & Literature",
-      "icon": "fa-solid fa-book",
-      "keywords": [
-        "Daily practice in classical Chinese writing",
-        "4th place in classical Chinese writing contest",
-        "Working towards publishing a novel"
-      ]
-    },
-    {
-      "name": "Performing Arts & Dance",
-      "icon": "fa-solid fa-music",
-      "keywords": [
-        "Latin dancing",
-        "Musicals",
-        "Community cultural events"
-      ]
-    }
-  ],
+  {
+    "name": "Digital Illustration & Sticker Design",
+    "icon": "fa-solid fa-paintbrush",
+    "keywords": [
+      "Crocodile & fuzzy monster WeChat sticker sets (50k+ sends)",
+      "Adobe Photoshop & Illustrator artistry",
+      "Continuously experimenting with new mediums, color palettes, and digital art tools"
+    ],
+    "summary": "Continually refine digital art skills by producing stickers that reach wide audiences and experimenting with unconventional mediums. Passionate about creating visually striking designs that spark conversations and bring joy to everyday messaging."
+  },
+  {
+    "name": "Fine Arts & Exhibition",
+    "icon": "fa-solid fa-image",
+    "keywords": [
+      "Future Art China International Competition (Top 100 of 10,000)",
+      "Arcadia High School Annual Art Exhibition poster design",
+      "Visual storytelling & conceptual painting"
+    ],
+    "summary": "Demonstrated a flair for creative expression by placing in the top 100 of an international art contest and designing posters exhibited to thousands. Skilled in blending research, environmental themes, and personal imagination to deliver compelling visual narratives."
+  },
+  {
+    "name": "Writing & Literature",
+    "icon": "fa-solid fa-book",
+    "keywords": [
+      "Daily practice in Chinese writing",
+      "4th place in classical Chinese writing contest",
+      "Working towards publishing my novels that blends tradition with contemporary storytelling"
+    ],
+    "summary": "Devoted to crafting engaging narratives through consistent writing, both in classical Chinese and modern forms. Passionate about weaving cultural depth into stories, with the ultimate goal of publishing a full-length novel that resonates with diverse audiences."
+  },
+  {
+    "name": "Performing Arts & Dance",
+    "icon": "fa-solid fa-music",
+    "keywords": [
+      "Latin dancing & musicals",
+      "Orchesis Dance Company poster design",
+      "Enthusiastic about expressive movement and stagecraft"
+    ],
+    "summary": "Immersed in the vibrant world of stage performance, from enjoying live musicals to creating eye-catching promotional materials. Draws inspiration from the energy of dance and music, fueling broader artistic and creative pursuits."
+  }
+],
   "references": [],
   "projects": [
     {
