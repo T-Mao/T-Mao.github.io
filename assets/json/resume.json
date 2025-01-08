@@ -195,12 +195,13 @@
       "level": "Advanced",
       "icon": "fa-solid fa-mobile-screen",
       "keywords": [
-        "Swift (iOS)",
+        "Swift (iOS, SwiftUI, Concurrency)",
         "React / React Native",
-        "Flutter",
-        "Android",
-        "JavaScript",
-        "Agile/Scrum"
+        "Flutter (Dart)",
+        "JavaScript (ES6+)",
+        "HTML / CSS / TypeScript",
+        "Shell Scripting (Bash, Zsh)",
+        "Agile / Scrum Practices"
       ]
     },
     {
@@ -208,12 +209,14 @@
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
       "keywords": [
-        "Python",
-        "C++",
-        "C",
-        "Java",
-        "NeRF / Computer Vision",
-        "Machine Learning Concepts"
+        "Python (NumPy, scikit-learn)",
+        "C++ / C (Systems & OOP)",
+        "Java (OOP & Data Structures)",
+        "MIPS (Assembly)",
+        "MATLAB (Data Analysis)",
+        "R (Statistical Computing)",
+        "Machine Learning Fundamentals",
+        "Algorithmic Complexity"
       ]
     },
     {
@@ -221,11 +224,12 @@
       "level": "Intermediate",
       "icon": "fa-solid fa-database",
       "keywords": [
-        "Firebase",
-        "MySQL",
-        "MongoDB",
-        "Node.js / Express",
-        "API Integrations"
+        "Firebase (Firestore, Auth)",
+        "MySQL (Relational Schema Design)",
+        "MongoDB (NoSQL)",
+        "Node.js / Express (REST APIs)",
+        "Postman (API Testing)",
+        "API Integrations & Webhooks"
       ]
     },
     {
@@ -233,14 +237,16 @@
       "level": "Advanced",
       "icon": "fa-solid fa-pencil-ruler",
       "keywords": [
-        "Figma",
-        "Adobe Photoshop/Illustrator",
-        "Jira",
-        "GitHub",
-        "UI/UX Prototyping"
+        "Figma (Wireframing, Prototyping)",
+        "Adobe Photoshop / Illustrator",
+        "MS Office Suite (Excel, Word, PowerPoint)",
+        "Jira (Agile Project Tracking)",
+        "GitHub (Version Control & Code Review)",
+        "UI/UX Research & Design Principles"
       ]
     }
   ],
+
   "languages": [
     {
       "language": "English",
