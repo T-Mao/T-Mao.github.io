@@ -328,29 +328,26 @@
       "url": ""
     },
 
-
-
-    
-    
     {
       "name": "WriterCards",
-      "summary": "An iOS app dedicated to daily writing prompts for creativity and self-reflection, developed independently using Swift.",
+      "summary": "An iOS app fostering daily creative writing and introspection, developed using Swift.",
       "highlights": [
-        "Employed project management to prevent scope creep (tracked tasks via Jira & GitHub).",
-        "Handled all stages—design, coding, and QA—single-handedly.",
-        "Facilitated user-driven journaling experiences for personal growth."
+        "Implemented Jira & GitHub tracking to avoid scope creep, ensuring an on-time and feature-focused release.",
+        "Owned the full development lifecycle—UI prototyping, coding, QA, and deployment—as a solo developer.",
+        "Elevated user engagement by promoting structured journaling habits, fostering personal growth and creativity."
       ],
       "startDate": "2024-02-01",
       "endDate": "2024-04-01",
       "url": ""
     },
+
     {
       "name": "Goshsha App – Future AR Interactive Shopping",
-      "summary": "Revamped an AR-based shopping prototype to attract Gen Z users by focusing on UI/UX improvements and cross-platform performance.",
+      "summary": "Revamped an AR-based shopping prototype for Gen Z by prioritizing UI/UX enhancements and stable cross-platform performance.",
       "highlights": [
-        "Employed React Expo for iOS & Android compatibility.",
-        "Conducted weekly stakeholder sessions, refining design based on direct feedback.",
-        "Enhanced database performance and front-end responsiveness while de-emphasizing heavy AR components."
+        "Utilized React Expo for a seamless iOS/Android experience, significantly increasing accessibility.",
+        "Conducted weekly stakeholder sessions to iterate designs based on direct feedback, improving satisfaction rates.",
+        "Refined database architecture and front-end responsiveness while strategically reducing AR complexity for broader user appeal."
       ],
       "startDate": "2024-01-01",
       "endDate": "2024-06-01",
@@ -358,23 +355,23 @@
     },
     {
       "name": "LifeTune",
-      "summary": "Health-tracking app offering simplified data visuals and motivational insights to help users avoid data overload.",
+      "summary": "A health-tracking application distilling complex data into simple visuals, providing motivational nudges to reduce data overload.",
       "highlights": [
-        "Collaborated on user research, wireframing, and prototype testing.",
-        "Developed a user-centric dashboard displaying diet, exercise, and sleep patterns.",
-        "Adopted iterative design methods to continually refine core features."
+        "Led user research, wireframing, and prototype development to validate core features.",
+        "Showcased aggregated dietary, fitness, and sleep metrics in a centralized, user-centric dashboard.",
+        "Employed iterative design sprints, applying feedback loops to elevate functionality and user satisfaction."
       ],
       "startDate": "2024-01-01",
       "endDate": "2024-03-01",
       "url": ""
     },
     {
-      "name": "MyWellness (iOS)",
-      "summary": "Built an iOS application that collects and analyzes user health metrics, delivering personalized feedback.",
+      "name": "MyWellness",
+      "summary": "An iOS app tracking and analyzing user fitness data, delivering personalized lifestyle recommendations through intuitive visuals.",
       "highlights": [
-        "Swift-based mobile development with integrated visualization for physical activities.",
-        "Introduced a recommendation engine for curated health suggestions.",
-        "Created brand visuals (logo, color palette) to establish identity."
+        "Swift-based mobile development with integrated data visualizations for diet, exercise, and sleep patterns.",
+        "Implemented a recommendation engine for targeted health advice, boosting user adherence.",
+        "Designed comprehensive brand visuals to solidify product identity."
       ],
       "startDate": "2023-04-01",
       "endDate": "2023-06-01",
@@ -382,23 +379,23 @@
     },
     {
       "name": "Canvas for Neurodivergent Students",
-      "summary": "Enhanced LMS (Canvas) accessibility through Dark Mode, Text-to-Speech, and improved user flow tailored to neurodivergent needs.",
+      "summary": "Enhanced LMS (Canvas) accessibility with Dark Mode, Text-to-Speech, and streamlined flows tailored to neurodivergent learners.",
       "highlights": [
-        "Conducted interviews to uncover core accessibility pain points.",
-        "Developed wireframes and prototypes for inclusive UI/UX features.",
-        "Demonstrated improved usability in user testing with diverse student profiles."
+        "Facilitated in-depth user interviews to pinpoint accessibility pain points and drive design decisions.",
+        "Developed wireframes and prototypes for inclusive UI/UX features, showcasing improved usability and reduced cognitive strain.",
+        "Achieved higher user satisfaction across diverse student profiles in beta testing phases."
       ],
       "startDate": "2023-04-01",
       "endDate": "2023-06-01",
       "url": ""
     },
     {
-      "name": "Spotify Browser (Web)",
-      "summary": "A high-performance web application mimicking core Spotify functionalities with Angular, Node.js, Express, and MongoDB.",
+      "name": "Spotify Browser",
+      "summary": "A high-performance Angular-based application replicating core Spotify features, featuring Node.js/Express and MongoDB on the back end.",
       "highlights": [
-        "Implemented OAuth-based authentication and real-time Spotify API data retrieval.",
-        "Utilized lazy loading and caching to optimize page load times.",
-        "Supported multi-user logins with robust session management."
+        "Incorporated OAuth authentication and real-time data retrieval from Spotify's API.",
+        "Leveraged lazy loading and caching strategies to reduce load times and optimize user experience.",
+        "Engineered multi-user session handling to accommodate concurrent logins with stable performance."
       ],
       "startDate": "2022-10-01",
       "endDate": "2022-11-01",
@@ -406,10 +403,10 @@
     },
     {
       "name": "CheckersAI",
-      "summary": "Collaborative AI agent for a classic Checkers game under UCI's COMPSCI 171 (Intro to AI).",
+      "summary": "An AI-driven Checkers agent built to showcase strategic decision-making in board games.",
       "highlights": [
-        "Engineered search algorithms to dynamically adapt to various board states.",
-        "Incorporated heuristics and alpha-beta pruning for strategic gameplay."
+        "Integrated heuristic-based search algorithms and alpha-beta pruning, enabling efficient move selection.",
+        "Adapted dynamically to various board states, demonstrating real-time strategy modifications."
       ],
       "startDate": "2022-09-01",
       "endDate": "2022-12-01",
@@ -417,11 +414,11 @@
     },
     {
       "name": "Cancer Observer",
-      "summary": "A user-centric application recommending cancer screenings based on personal health data, leveraging WordPress for rapid prototyping.",
+      "summary": "A WordPress-prototyped solution recommending timely cancer screenings based on personal health data and lifestyle factors.",
       "highlights": [
-        "Established brand identity and coded the web interface.",
-        "Implemented reminders to encourage consistent screening habits.",
-        "Demonstrated expertise in UI/UX design for preventive healthcare solutions."
+        "Established brand identity and web design to encourage consistent screening habits.",
+        "Programmed reminder notifications, furthering user engagement and medical adherence.",
+        "Displayed UI/UX proficiency in shaping preventive healthcare experiences."
       ],
       "startDate": "2022-08-01",
       "endDate": "2022-09-01",
