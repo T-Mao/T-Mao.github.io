@@ -5,7 +5,7 @@
     "image": "tree_square.jpg",
     "email": "tongzemao@gmail.com",
     "url": "https://t-mao.github.io",
-    "summary": "A dedicated and creative full-stack developer specializing in mobile app development, human-computer interaction, and intelligent systems. Graduated CUM LAUDE from UC Irvine with dual degrees in Computer Science and Informatics, plus a minor in Statistics. Skilled in Swift, React, Flutter, Python, and more. Seeking to build innovative solutions that empower users and solve real-world problems."
+    "summary": "Full-stack engineer specializing in robust, user-centric mobile applications, with proven expertise in Swift, React, Flutter, Python, and MySQL. Graduated CUM LAUDE from UC Irvine, earning dual degrees in Computer Science and Informatics plus a minor in Statistics, and achieved the Dean’s Honor List for 9 quarters. Adept at Agile methodologies, bridging UI/UX design with efficient back-end architectures, and leveraging AI insights to create intuitive, high-impact solutions. Seeking to drive innovation and solve real-world problems through intelligent systems and engaging user interfaces."
     
   },
 
@@ -16,25 +16,27 @@
       "url": "https://suptech.pro/",
       "startDate": "2024-04-01",
       "endDate": "Present",
-      "summary": "Led a two-person dev team to create two separate production-ready apps (each for iOS & Android) in three months using Flutter, Firebase, JavaScript, and MySQL. Integrated with partner APIs (e.g. Roborock, EcoFlow, Anker, Dreame, Jackery) and managed the entire development cycle, from coding and testing to deployment.",
+      "summary": "Led a two-person dev team to develop and deploy two production-ready apps—each available for iOS and Android—in just three months. Utilized Flutter, Firebase, JavaScript, and MySQL to build robust front-end and back-end architectures, while integrating with multiple partner APIs. Oversaw the entire SDLC, including coding, UI/UX design, testing, deployment, and Agile project management.",  
       "highlights": [
-        "Developed two full-stack mobile apps (iOS & Android) from scratch using Flutter and Firebase.",
-        "Implemented back-end integrations in MySQL + JavaScript and set up robust CI/CD pipelines.",
-        "Collaborated with multiple partner APIs (Roborock, EcoFlow, Anker, Dreame, Jackery) for seamless data flow.",
-        "Acted as both hands-on coder and project manager: built features, oversaw Agile sprints, conducted code reviews, and created user documentation."
+        "Engineered two full-stack mobile apps (iOS & Android) from the ground up using Flutter and Firebase, achieving rapid MVP delivery.",
+        "Set up MySQL databases and JavaScript-driven back-end services, ensuring seamless data flow and real-time synchronization.",
+        "Integrated APIs from major partners (Roborock, EcoFlow, Anker, Dreame, Jackery, etc.) to provide advanced device connectivity.",
+        "Served as project manager and lead developer: executed Agile sprints, conducted code reviews, and guided release cycles.",
+        "Created end-to-end user documentation, tutorials, and troubleshooting guides, boosting user onboarding and product adoption."
       ]
     },
     {
       "name": "HD EDUCATION",
       "position": "Senior Tutor (Single/Multi-variable Calculus)",
-      "url": "",
+      "url": "https://www.hdedu.ai/",
       "startDate": "2021-07-01",
       "endDate": "Present",
-      "summary": "Instructed over 160 undergraduate students in advanced calculus topics through 150+ hours of teaching. Promoted to Senior Tutor for consistently high feedback and effective course design.",
+      "summary": "Instruct over 160 undergraduate students in single-variable and multivariable calculus, accumulating more than 200 hours of teaching experience. Promoted to Senior Tutor in 2023 for consistently high feedback and the successful design of comprehensive course materials.",
       "highlights": [
-        "Developed comprehensive curriculum on Antiderivatives, Fundamental Theorem of Calculus, and more.",
-        "Structured learning paths, hands-on problem sessions, and real-time Q&A channels.",
-        "Recognized as Senior Tutor in 2023 for outstanding results and dedication to student success."
+        "Developed and delivered curricula covering Antiderivatives, the Fundamental Theorem of Calculus, Taylor series, and advanced multivariable topics.",
+        "Implemented structured lesson plans, interactive problem-solving sessions, and real-time Q&A channels to enhance student engagement.",
+        "Achieved measurable performance improvements across diverse learner populations through personalized teaching and targeted feedback loops.",
+        "Recognized as Senior Tutor after demonstrating exceptional teaching quality, proven course design, and consistently positive evaluations."
       ]
     }
   ],
