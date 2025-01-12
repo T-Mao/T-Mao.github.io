@@ -56,49 +56,7 @@
     }
     
   ],
-  "volunteer": [
-    {
-      "organization": "Infinite Horizons Learning Collective",
-      "location": "Remote",
-      "position": "Founder & Organizer",
-      "url": "",
-      "startDate": "2023-11-01",
-      "endDate": "Present",
-      "summary": "Established a self-directed study group encouraging daily learning, knowledge sharing, and consistent personal growth beyond formal academics. Members dedicate a minimum of 40 minutes each day to explore new subjects and share insights.",
-      "highlights": [
-        "Created an accountability framework that led participants to collectively read over 200 books and deepen interdisciplinary understanding.",
-        "Developed and maintained a centralized progress-tracking platform, celebrating milestones and reinforcing long-term learning habits.",
-        "Fostered a diverse and supportive environment, promoting peer mentorship and collaborative problem-solving."
-      ]
-    },
-    {
-      "organization": "Arcadia Performing Arts Foundation",
-      "location": "Arcadia, CA",
-      "position": "Volunteer (Theater & Event Support)",
-      "url": "",
-      "startDate": "2018-06-01",
-      "endDate": "2020-03-01",
-      "summary": "Contributed 46 hours in various capacities—such as ticket inspector, attendant, and cleaning staff—to ensure seamless theater productions and enhance attendee satisfaction.",
-      "highlights": [
-        "Facilitated front-of-house operations and audience management, aiding the success of multiple school district events.",
-        "Strengthened communication skills by engaging with diverse patrons and providing quality customer service.",
-        "Ensured a well-organized venue, reflecting a commitment to enriching the community’s cultural and educational experiences."
-      ]
-    },
-    {
-      "organization": "TreePeople",
-      "location": "Los Angeles, CA",
-      "position": "Environmental Volunteer",
-      "url": "https://www.treepeople.org/",
-      "startDate": "2018-12-01",
-      "endDate": "2018-12-01",
-      "summary": "Participated in a urban reforestation initiative, planting trees and cleaning communal areas to foster environmental stewardship.",
-      "highlights": [
-        "Gained hands-on experience in sustainable tree planting methods and water conservation practices.",
-        "Collaborated with local residents to maximize community impact and promote a cleaner, healthier environment."
-      ]
-    }
-  ],
+
 
   "education": [
     {
@@ -146,38 +104,7 @@
       "summary": "Graduated as the Class of 2020 Salutatorian, recognized for exemplary academic performance, leadership, and community engagement."
     }
   ],
-
-  "awards": [
-    {
-      "title": "UCI CUM LAUDE",
-      "date": "2024-06-01",
-      "awarder": "University of California, Irvine",
-      "url": "",
-      "summary": "Granted upon graduation for exceptional academic performance across dual bachelor’s degrees (Computer Science & Informatics) and a minor in Statistics. Maintained a 3.934 GPA, demonstrating consistent dedication to rigorous coursework and research involvement."
-    },
-    {
-      "title": "Dean’s Honor List (9 Quarters)",
-      "date": "2024-06-01",
-      "awarder": "University of California, Irvine",
-      "url": "",
-      "summary": "Recognized for outstanding academic standing over nine quarters in dual B.S. programs, reflecting steadfast commitment and excellence across a broad spectrum of technical and interdisciplinary courses."
-    },
-    {
-      "title": "HD EDU Senior Tutor Recognition",
-      "date": "2023-07-01",
-      "awarder": "HD EDU",
-      "url": "",
-      "summary": "Achieved multiple promotions in two years—initially to Advanced Tutor in 2022, followed by Senior Tutor in 2023—after teaching over 160 undergraduate students (200+ hours of instruction) in both single- and multivariable calculus. Reflects consistent high performance, exceptional curriculum design, and a proven track record of improving student outcomes."
-    },
-    {
-      "title": "Arcadia High School Salutatorian",
-      "date": "2020-06-01",
-      "awarder": "Arcadia High School",
-      "url": "",
-      "summary": "Earned Class of 2020 Salutatorian distinction with a 3.97 GPA. Demonstrated leadership in academics, maintained exemplary attendance, and upheld a strong disciplinary record throughout high school."
-    }
-  ],
-  "certificates": [
+"certificates": [
     {
       "name": "Career Skills Certificate: Computer Programming I",
       "date": "2019-05-01",
@@ -263,62 +190,9 @@
     }
   ],
 
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    },
-    {
-      "language": "Mandarin",
-      "fluency": "Native speaker",
-      "icon": ""
-    }
-  ],
-  "interests": [
-  {
-    "name": "Digital Illustration & Sticker Design",
-    "icon": "fa-solid fa-paintbrush",
-    "keywords": [
-      "Crocodile & fuzzy monster WeChat sticker sets (50k+ sends)",
-      "Adobe Photoshop & Illustrator artistry",
-      "Continuously experimenting with new mediums, color palettes, and digital art tools"
-    ],
-    "summary": "Continually refine digital art skills by producing stickers that reach wide audiences and experimenting with unconventional mediums. Passionate about creating visually striking designs that spark conversations and bring joy to everyday messaging."
-  },
-  {
-    "name": "Fine Arts & Exhibition",
-    "icon": "fa-solid fa-image",
-    "keywords": [
-      "Future Art China International Competition (Top 100 of 10,000)",
-      "Arcadia High School Annual Art Exhibition poster design",
-      "Visual storytelling & conceptual painting"
-    ],
-    "summary": "Demonstrated a flair for creative expression by placing in the top 100 of an international art contest and designing posters exhibited to thousands. Skilled in blending research, environmental themes, and personal imagination to deliver compelling visual narratives."
-  },
-  {
-    "name": "Writing & Literature",
-    "icon": "fa-solid fa-book",
-    "keywords": [
-      "Daily practice in Chinese writing",
-      "4th place in classical Chinese writing contest",
-      "Working towards publishing my novels that blends tradition with contemporary storytelling"
-    ],
-    "summary": "Devoted to crafting engaging narratives through consistent writing, both in classical Chinese and modern forms. Passionate about weaving cultural depth into stories, with the ultimate goal of publishing a full-length novel that resonates with diverse audiences."
-  },
-  {
-    "name": "Performing Arts & Dance",
-    "icon": "fa-solid fa-music",
-    "keywords": [
-      "Latin dancing & musicals",
-      "Orchesis Dance Company poster design",
-      "Enthusiastic about expressive movement and stagecraft"
-    ],
-    "summary": "Immersed in the vibrant world of stage performance, from enjoying live musicals to creating eye-catching promotional materials. Draws inspiration from the energy of dance and music, fueling broader artistic and creative pursuits."
-  }
-],
-  "references": [],
-  "projects": [
+    
+
+"projects": [
     {
       "name": "DoneTodo",
       "summary": "A minimalistic time-planning app enabling effortless drag-and-drop scheduling, color-coded timelines, and detailed usage analytics.",
@@ -440,5 +314,136 @@
       "endDate": "2022-09-01",
       "url": ""
     }
-  ]
+  ],
+
+  "awards": [
+    {
+      "title": "UCI CUM LAUDE",
+      "date": "2024-06-01",
+      "awarder": "University of California, Irvine",
+      "url": "",
+      "summary": "Granted upon graduation for exceptional academic performance across dual bachelor’s degrees (Computer Science & Informatics) and a minor in Statistics. Maintained a 3.934 GPA, demonstrating consistent dedication to rigorous coursework and research involvement."
+    },
+    {
+      "title": "Dean’s Honor List (9 Quarters)",
+      "date": "2024-06-01",
+      "awarder": "University of California, Irvine",
+      "url": "",
+      "summary": "Recognized for outstanding academic standing over nine quarters in dual B.S. programs, reflecting steadfast commitment and excellence across a broad spectrum of technical and interdisciplinary courses."
+    },
+    {
+      "title": "HD EDU Senior Tutor Recognition",
+      "date": "2023-07-01",
+      "awarder": "HD EDU",
+      "url": "",
+      "summary": "Achieved multiple promotions in two years—initially to Advanced Tutor in 2022, followed by Senior Tutor in 2023—after teaching over 160 undergraduate students (200+ hours of instruction) in both single- and multivariable calculus. Reflects consistent high performance, exceptional curriculum design, and a proven track record of improving student outcomes."
+    },
+    {
+      "title": "Arcadia High School Salutatorian",
+      "date": "2020-06-01",
+      "awarder": "Arcadia High School",
+      "url": "",
+      "summary": "Earned Class of 2020 Salutatorian distinction with a 3.97 GPA. Demonstrated leadership in academics, maintained exemplary attendance, and upheld a strong disciplinary record throughout high school."
+    }
+  ],
+  
+  "volunteer": [
+    {
+      "organization": "Infinite Horizons Learning Collective",
+      "location": "Remote",
+      "position": "Founder & Organizer",
+      "url": "",
+      "startDate": "2023-11-01",
+      "endDate": "Present",
+      "summary": "Established a self-directed study group encouraging daily learning, knowledge sharing, and consistent personal growth beyond formal academics. Members dedicate a minimum of 40 minutes each day to explore new subjects and share insights.",
+      "highlights": [
+        "Created an accountability framework that led participants to collectively read over 200 books and deepen interdisciplinary understanding.",
+        "Developed and maintained a centralized progress-tracking platform, celebrating milestones and reinforcing long-term learning habits.",
+        "Fostered a diverse and supportive environment, promoting peer mentorship and collaborative problem-solving."
+      ]
+    },
+    {
+      "organization": "Arcadia Performing Arts Foundation",
+      "location": "Arcadia, CA",
+      "position": "Volunteer (Theater & Event Support)",
+      "url": "",
+      "startDate": "2018-06-01",
+      "endDate": "2020-03-01",
+      "summary": "Contributed 46 hours in various capacities—such as ticket inspector, attendant, and cleaning staff—to ensure seamless theater productions and enhance attendee satisfaction.",
+      "highlights": [
+        "Facilitated front-of-house operations and audience management, aiding the success of multiple school district events.",
+        "Strengthened communication skills by engaging with diverse patrons and providing quality customer service.",
+        "Ensured a well-organized venue, reflecting a commitment to enriching the community’s cultural and educational experiences."
+      ]
+    },
+    {
+      "organization": "TreePeople",
+      "location": "Los Angeles, CA",
+      "position": "Environmental Volunteer",
+      "url": "https://www.treepeople.org/",
+      "startDate": "2018-12-01",
+      "endDate": "2018-12-01",
+      "summary": "Participated in a urban reforestation initiative, planting trees and cleaning communal areas to foster environmental stewardship.",
+      "highlights": [
+        "Gained hands-on experience in sustainable tree planting methods and water conservation practices.",
+        "Collaborated with local residents to maximize community impact and promote a cleaner, healthier environment."
+      ]
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Mandarin",
+      "fluency": "Native speaker",
+      "icon": ""
+    }
+  ],
+  "interests": [
+  {
+    "name": "Digital Illustration & Sticker Design",
+    "icon": "fa-solid fa-paintbrush",
+    "keywords": [
+      "Crocodile & fuzzy monster WeChat sticker sets (50k+ sends)",
+      "Adobe Photoshop & Illustrator artistry",
+      "Continuously experimenting with new mediums, color palettes, and digital art tools"
+    ],
+    "summary": "Continually refine digital art skills by producing stickers that reach wide audiences and experimenting with unconventional mediums. Passionate about creating visually striking designs that spark conversations and bring joy to everyday messaging."
+  },
+  {
+    "name": "Fine Arts & Exhibition",
+    "icon": "fa-solid fa-image",
+    "keywords": [
+      "Future Art China International Competition (Top 100 of 10,000)",
+      "Arcadia High School Annual Art Exhibition poster design",
+      "Visual storytelling & conceptual painting"
+    ],
+    "summary": "Demonstrated a flair for creative expression by placing in the top 100 of an international art contest and designing posters exhibited to thousands. Skilled in blending research, environmental themes, and personal imagination to deliver compelling visual narratives."
+  },
+  {
+    "name": "Writing & Literature",
+    "icon": "fa-solid fa-book",
+    "keywords": [
+      "Daily practice in Chinese writing",
+      "4th place in classical Chinese writing contest",
+      "Working towards publishing my novels that blends tradition with contemporary storytelling"
+    ],
+    "summary": "Devoted to crafting engaging narratives through consistent writing, both in classical Chinese and modern forms. Passionate about weaving cultural depth into stories, with the ultimate goal of publishing a full-length novel that resonates with diverse audiences."
+  },
+  {
+    "name": "Performing Arts & Dance",
+    "icon": "fa-solid fa-music",
+    "keywords": [
+      "Latin dancing & musicals",
+      "Orchesis Dance Company poster design",
+      "Enthusiastic about expressive movement and stagecraft"
+    ],
+    "summary": "Immersed in the vibrant world of stage performance, from enjoying live musicals to creating eye-catching promotional materials. Draws inspiration from the energy of dance and music, fueling broader artistic and creative pursuits."
+  }
+],
+  "references": []
 }
