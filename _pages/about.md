@@ -10,8 +10,8 @@ profile:
   image_circular: true
   more_info: >
     <p><strong>Tongze Mao (She/Her/Hers)</strong></p>
-    <br><p><strong>Mobile App Developer & UI/UX Designer</strong></p>
-    <br><p>(HCI & AI)</p>
+    <br><p><strong>Mobile App Developer</strong></p>
+    <br><p>UI/UX Designer</p>
 news: false
 selected_papers: false
 social: true
