@@ -193,18 +193,6 @@
     
 
 "projects": [
-  {
-    "name": "ThreeTodo App – Efficient Task Management",
-    "summary": "Developed a highly intuitive task manager focused on minimal navigation and reduced UI overload, delivered under a tight five-day deadline.",
-    "highlights": [
-      "Engineered draggable tasks, inline editing, and context-sensitive menus single-handedly.",
-      "Demonstrated user-centric design, receiving praise for clarity and practicality.",
-      "Showcased rapid development proficiency and Agile-style iteration, completing an MVP swiftly."
-    ],
-    "startDate": "2024-04-01",
-    "endDate": "2024-04-01",
-    "url": ""
-  },
 
     {
       "name": "DoneTodo - Minimalistic Time-Planning Solution",
@@ -230,7 +218,19 @@
       "endDate": "2024-10-24",
       "url": ""
     },
-
+    {
+      "name": "ThreeTodo App – Efficient Task Management",
+      "summary": "Developed a highly intuitive task manager focused on minimal navigation and reduced UI overload, delivered under a tight five-day deadline.",
+      "highlights": [
+        "Engineered draggable tasks, inline editing, and context-sensitive menus single-handedly.",
+        "Demonstrated user-centric design, receiving praise for clarity and practicality.",
+        "Showcased rapid development proficiency and Agile-style iteration, completing an MVP swiftly."
+      ],
+      "startDate": "2024-04-01",
+      "endDate": "2024-04-01",
+      "url": ""
+    },
+  
     {
       "name": "WriterCards – Daily Creativity & Self-Reflection",
       "summary": "An iOS app fostering daily creative writing and introspection, developed using Swift.",
