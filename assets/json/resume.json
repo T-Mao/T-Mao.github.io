@@ -193,8 +193,21 @@
     
 
 "projects": [
+  {
+    "name": "ThreeTodo App – Efficient Task Management",
+    "summary": "Developed a highly intuitive task manager focused on minimal navigation and reduced UI overload, delivered under a tight five-day deadline.",
+    "highlights": [
+      "Engineered draggable tasks, inline editing, and context-sensitive menus single-handedly.",
+      "Demonstrated user-centric design, receiving praise for clarity and practicality.",
+      "Showcased rapid development proficiency and Agile-style iteration, completing an MVP swiftly."
+    ],
+    "startDate": "2024-04-01",
+    "endDate": "2024-04-01",
+    "url": ""
+  },
+
     {
-      "name": "DoneTodo",
+      "name": "DoneTodo - Minimalistic Time-Planning Solution",
       "summary": "A minimalistic time-planning app enabling effortless drag-and-drop scheduling, color-coded timelines, and detailed usage analytics.",
       "highlights": [
         "Developed a Swift-based iOS application emphasizing lightweight UI/UX, reducing user friction and cognitive load.",
@@ -219,7 +232,7 @@
     },
 
     {
-      "name": "WriterCards",
+      "name": "WriterCards – Daily Creativity & Self-Reflection",
       "summary": "An iOS app fostering daily creative writing and introspection, developed using Swift.",
       "highlights": [
         "Implemented Jira & GitHub tracking to avoid scope creep, ensuring an on-time and feature-focused release.",
@@ -244,7 +257,7 @@
       "url": ""
     },
     {
-      "name": "LifeTune",
+      "name": "LifeTune – Streamlined Health Monitoring",
       "summary": "A health-tracking application distilling complex data into simple visuals, providing motivational nudges to reduce data overload.",
       "highlights": [
         "Led user research, wireframing, and prototype development to validate core features.",
@@ -256,7 +269,7 @@
       "url": ""
     },
     {
-      "name": "MyWellness",
+      "name": "MyWellness – iOS Health & Fitness Assistant",
       "summary": "An iOS app tracking and analyzing user fitness data, delivering personalized lifestyle recommendations through intuitive visuals.",
       "highlights": [
         "Swift-based mobile development with integrated data visualizations for diet, exercise, and sleep patterns.",
@@ -268,7 +281,7 @@
       "url": ""
     },
     {
-      "name": "Canvas for Neurodivergent Students",
+      "name": "Canvas for Neurodivergent Students – Enhanced LMS Accessibility",
       "summary": "Enhanced LMS (Canvas) accessibility with Dark Mode, Text-to-Speech, and streamlined flows tailored to neurodivergent learners.",
       "highlights": [
         "Facilitated in-depth user interviews to pinpoint accessibility pain points and drive design decisions.",
@@ -280,7 +293,7 @@
       "url": ""
     },
     {
-      "name": "Spotify Browser",
+      "name": "Spotify Browser - High-Performance Music Streaming Web App",
       "summary": "A high-performance Angular-based application replicating core Spotify features, featuring Node.js/Express and MongoDB on the back end.",
       "highlights": [
         "Incorporated OAuth authentication and real-time data retrieval from Spotify's API.",
@@ -292,7 +305,7 @@
       "url": ""
     },
     {
-      "name": "CheckersAI",
+      "name": "CheckersAI – Intelligent Board-Game Strategy",
       "summary": "An AI-driven Checkers agent built to showcase strategic decision-making in board games.",
       "highlights": [
         "Integrated heuristic-based search algorithms and alpha-beta pruning, enabling efficient move selection.",
@@ -303,7 +316,7 @@
       "url": ""
     },
     {
-      "name": "Cancer Observer",
+      "name": "Cancer Observer – Preventive Healthcare Tracking",
       "summary": "A WordPress-prototyped solution recommending timely cancer screenings based on personal health data and lifestyle factors.",
       "highlights": [
         "Established brand identity and web design to encourage consistent screening habits.",
