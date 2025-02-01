@@ -18,7 +18,7 @@ footer_text:
   # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: Tongze Mao, Computer Science, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: notion_tran.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://T-Mao.github.io # the base hostname & protocol for your site
 baseurl: 
