@@ -16,15 +16,16 @@
       "url": "https://suptech.pro/",
       "startDate": "2024-04-01",
       "endDate": "Present",
-      "summary": "Led a two-person dev team to develop and deploy two production-ready apps—each available for iOS and Android—in just three months. Utilized Flutter, Firebase, JavaScript, and MySQL to build robust front-end and back-end architectures, while integrating with multiple partner APIs. Oversaw the entire SDLC, including coding, UI/UX design, testing, deployment, and Agile project management.",  
+      "summary": "Led end-to-end development of two cross-platform mobile apps (Consumer App & Technician App) from scratch using Flutter, Firebase, and MySQL—covering architecture design, coding, testing, and deployment for both iOS and Android. Leveraged robust Node.js + Express backend integration, advanced encryption (RSA + AES), and Stripe Connect for secure payments and delayed transfer scheduling. Oversaw the entire SDLC through Agile sprints, code reviews, and close stakeholder collaboration.",
       "highlights": [
-        "Engineered two full-stack mobile apps (iOS & Android) from the ground up using Flutter and Firebase, achieving rapid MVP delivery.",
-        "Set up MySQL databases and JavaScript-driven back-end services, ensuring seamless data flow and real-time synchronization.",
-        "Integrated APIs from major partners (Roborock, EcoFlow, Anker, Dreame, Jackery, etc.) to provide advanced device connectivity.",
-        "Served as project manager and lead developer: executed Agile sprints, conducted code reviews, and guided release cycles.",
-        "Created end-to-end user documentation, tutorials, and troubleshooting guides, boosting user onboarding and product adoption."
+        "Engineered multi-tier features, including real-time location tracking (Haversine), geospatial queries, FCM-based push notifications, and consumer–technician chat sessions.",
+        "Developed AI Repair module integrated with ChatGPT-like LLM to assist in self-diagnosis and on-demand technician requests.",
+        "Managed release cycles across App Store & Google Play, implementing CI/CD pipelines, semantic versioning, and user onboarding flows.",
+        "Implemented advanced UI/UX with multi-language support (English, Simplified/Traditional Chinese) and responsive layouts.",
+        "Mentored junior developers on Flutter best practices, facilitated daily stand-ups, backlog grooming, and sprint retros to boost dev throughput by ~50%."
       ]
     },
+    
     {
       "name": "HD EDU",
       "position": "Senior Tutor (Single/Multi-variable Calculus)",
