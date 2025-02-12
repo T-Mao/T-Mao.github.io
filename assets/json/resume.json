@@ -188,7 +188,7 @@
 
   "projects": [
     {
-      "name": "DoneTodo - Minimalistic Time-Planning Solution",
+      "name": "DoneTodo App - Minimalistic Time-Planning Solution",
       "summary": "A minimalistic time-planning app enabling effortless drag-and-drop scheduling, color-coded timelines, and detailed usage analytics.",
       "highlights": [
         "Developed a Swift-based iOS application emphasizing lightweight UI/UX, reducing user friction and cognitive load.",
@@ -200,7 +200,7 @@
       "url": ""
     },
     {
-      "name": "HowDidI – Paid Résumé-Sharing Platform",
+      "name": "HowDidI App – Paid Résumé-Sharing Platform",
       "summary": "An iOS app allowing professionals to upload résumés for monetization, enabling readers to purchase passes and access first-hand application materials.",
       "highlights": [
         "Served as PM & technical lead for a 3-person university team, utilizing Swift and Firebase for real-time content synchronization.",
@@ -225,7 +225,7 @@
     },
 
     {
-      "name": "WriterCards – Daily Creativity & Self-Reflection",
+      "name": "WriterCards App – Daily Creativity & Self-Reflection",
       "summary": "An iOS app fostering daily creative writing and introspection, developed using Swift.",
       "highlights": [
         "Implemented Jira & GitHub tracking to avoid scope creep, ensuring an on-time and feature-focused release.",
@@ -250,7 +250,7 @@
       "url": ""
     },
     {
-      "name": "LifeTune – Streamlined Health Monitoring",
+      "name": "LifeTune App – Streamlined Health Monitoring",
       "summary": "A health-tracking application distilling complex data into simple visuals, providing motivational nudges to reduce data overload.",
       "highlights": [
         "Led user research, wireframing, and prototype development to validate core features.",
@@ -262,7 +262,7 @@
       "url": ""
     },
     {
-      "name": "MyWellness – iOS Health & Fitness Assistant",
+      "name": "MyWellnes Apps – iOS Health & Fitness Assistant",
       "summary": "An iOS app tracking and analyzing user fitness data, delivering personalized lifestyle recommendations through intuitive visuals.",
       "highlights": [
         "Swift-based mobile development with integrated data visualizations for diet, exercise, and sleep patterns.",
