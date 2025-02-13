@@ -30,25 +30,33 @@ Below is a more detailed breakdown of my work.
 
 <!-- Consumer App Download Buttons -->
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" 
-       path="assets/img/appleDownload.png" 
-       url="https://apps.apple.com/us/app/suptech-consumer/id6581481234"
-       title="Download on iOS"
-       class="img-fluid rounded z-depth-1" 
-    %}
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <a href="https://apps.apple.com/us/app/suptech-consumer/id6581481234" target="_blank">
+      {% include figure.liquid
+         loading="eager"
+         path="assets/img/appleDownload.png"
+         alt="Download on iOS"
+         title="Download on iOS"
+         width="180"
+         class="rounded z-depth-1"
+      %}
+    </a>
   </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" 
-       path="assets/img/androidDownload.png" 
-       url="https://play.google.com/store/apps/details?id=com.suptech.suptechconsumer"
-       title="Download on Google Play"
-       class="img-fluid rounded z-depth-1" 
-    %}
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechconsumer" target="_blank">
+      {% include figure.liquid
+         loading="eager"
+         path="assets/img/androidDownload.png"
+         alt="Download on Google Play"
+         title="Download on Google Play"
+         width="180"
+         class="rounded z-depth-1"
+      %}
+    </a>
   </div>
 </div>
 <div class="caption">
-  **SupTech Consumer App**: Download for iOS or Android
+  **SupTech Consumer App** – iOS & Android
 </div>
 
 <!-- Technician App Download Buttons -->
