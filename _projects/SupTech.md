@@ -18,7 +18,7 @@ Throughout the process, I specialized in:
 
 1. **Full-cycle App Development**: from **requirement gathering**, system architecture, responsive UI design, to final deployment on both iOS and Android.
 2. **Cross-platform Flutter**: building robust, fluid interfaces supporting multiple languages (English, Simplified Chinese, Traditional Chinese).
-3. **Backend Integration**: working closely with **Firebase** (old version) and **MySQL/Java** (new version) to ensure data synchronization, authentication, push notifications, and real-time location tracking.
+3. **Backend Integration**: initially leveraging **Firebase-based serverless functions (Node.js)** for rapid prototyping, then moving to a **MySQL/Java** architecture to ensure stable data synchronization, authentication, push notifications, and real-time location tracking.
 4. **Stripe Payment Integration**: implementing secure payment flows, creating and attaching payment methods, and enabling technicians to bind their bank accounts for receiving payouts.
 5. **Team Coordination & Leadership**: bridging communication between stakeholders, gathering app requirements, leading daily stand-ups, and guiding new hires. I also assumed responsibilities like a Project Manager, documenting tasks, drawing mind maps, making swimlane diagrams, and clarifying business logic with the in-house or external tech teams.
 
@@ -28,40 +28,50 @@ Below is a more detailed breakdown of my work.
 
 ## Downloads
 
+<!-- Consumer App Download Buttons -->
 <div class="row">
-  <div class="col-sm">
-    <h4>SupTech Consumer App</h4>
-    <div class="row">
-      <div class="col-sm text-center">
-        <a href="https://apps.apple.com/us/app/suptech-consumer/id6581481234" target="_blank">
-          <img src="assets/img/appleDownload.png" alt="Download on iOS" style="max-width:180px;">
-        </a>
-      </div>
-      <div class="col-sm text-center">
-        <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechconsumer" target="_blank">
-          <img src="assets/img/androidDownload.png" alt="Download on Google Play" style="max-width:180px;">
-        </a>
-      </div>
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" 
+       path="assets/img/appleDownload.png" 
+       url="https://apps.apple.com/us/app/suptech-consumer/id6581481234"
+       title="Download on iOS"
+       class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" 
+       path="assets/img/androidDownload.png" 
+       url="https://play.google.com/store/apps/details?id=com.suptech.suptechconsumer"
+       title="Download on Google Play"
+       class="img-fluid rounded z-depth-1" 
+    %}
   </div>
 </div>
+<div class="caption">
+  **SupTech Consumer App**: Download for iOS or Android
+</div>
 
+<!-- Technician App Download Buttons -->
 <div class="row mt-4">
-  <div class="col-sm">
-    <h4>SupTech Technician App</h4>
-    <div class="row">
-      <div class="col-sm text-center">
-        <a href="https://apps.apple.com/us/app/suptech-technician/id6581481909" target="_blank">
-          <img src="assets/img/appleDownload.png" alt="Download on iOS" style="max-width:180px;">
-        </a>
-      </div>
-      <div class="col-sm text-center">
-        <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechtechnician" target="_blank">
-          <img src="assets/img/androidDownload.png" alt="Download on Google Play" style="max-width:180px;">
-        </a>
-      </div>
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" 
+       path="assets/img/appleDownload.png" 
+       url="https://apps.apple.com/us/app/suptech-technician/id6581481909"
+       title="Download on iOS"
+       class="img-fluid rounded z-depth-1" 
+    %}
   </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" 
+       path="assets/img/androidDownload.png" 
+       url="https://play.google.com/store/apps/details?id=com.suptech.suptechtechnician"
+       title="Download on Google Play"
+       class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
+</div>
+<div class="caption">
+  **SupTech Technician App**: Download for iOS or Android
 </div>
 
 ## Project Highlights
@@ -225,22 +235,7 @@ I believe these experiences and the robust code I wrote can significantly contri
 
 <br>
 
----
-
-<div class="row justify-content-sm-center">
-   <div class="col-sm-8 mt-3 mt-md-0">
-       {% include figure.liquid path="assets/img/6.jpg" title="Example Image" class="img-fluid rounded z-depth-1" %}
-   </div>
-   <div class="col-sm-4 mt-3 mt-md-0">
-       {% include figure.liquid path="assets/img/11.jpg" title="Example Image" class="img-fluid rounded z-depth-1" %}
-   </div>
-</div>
-<div class="caption">
-   Closer look at the AI Chat wizard and order detail modules. I ensured all modules had consistent theming & i18n support.
-</div>
-```
-
-### Additional Resources
+## Additional Resources
 
 - **SupTech Official Website**: [https://suptech.pro](https://suptech.pro)
 - **B-end System (merchants)**: [https://admin.app.suptech.pro](https://admin.app.suptech.pro)
