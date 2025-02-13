@@ -201,3 +201,50 @@ I believe these experiences and the robust code I wrote can significantly contri
    Closer look at the AI Chat wizard and order detail modules. I ensured all modules had consistent theming & i18n support.
 </div>
 ```
+
+## Learn More
+
+<!-- Consumer App 下载 -->
+<div class="row">
+  <div class="col-sm">
+    <h5>SupTech Consumer App</h5>
+    <div class="row">
+      <div class="col-sm text-center">
+        <a href="https://apps.apple.com/us/app/suptech-consumer/id6581481234" target="_blank">
+          <img src="assets/img/appleDownload.png" alt="iOS Download" style="max-width: 180px;">
+        </a>
+      </div>
+      <div class="col-sm text-center">
+        <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechconsumer" target="_blank">
+          <img src="assets/img/androidDownload.png" alt="Android Download" style="max-width: 180px;">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Technician App 下载 -->
+<div class="row mt-4">
+  <div class="col-sm">
+    <h5>SupTech Technician App</h5>
+    <div class="row">
+      <div class="col-sm text-center">
+        <a href="https://apps.apple.com/us/app/suptech-technician/id6581481909" target="_blank">
+          <img src="assets/img/appleDownload.png" alt="iOS Download" style="max-width: 180px;">
+        </a>
+      </div>
+      <div class="col-sm text-center">
+        <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechtechnician" target="_blank">
+          <img src="assets/img/androidDownload.png" alt="Android Download" style="max-width: 180px;">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+- [SupTech Official Website](https://suptech.pro/)
+- B-end System (for merchants): [https://admin.app.suptech.pro](https://admin.app.suptech.pro)
+- Usage Manuals:
+  - Consumer App manual: [View PDF](https://drive.google.com/file/d/1j4Cwr_yp5ZLrX-ZkkmdUNP7Lh3v_0Qcy/view?usp=sharing)
+  - Technician App manual: [View PDF](https://drive.google.com/file/d/1EOJLPrZmqyvNHaLw-YYWX3LCRfjXeIlv/view?usp=sharing)
+- Video Tutorial (Technician App): [YouTube Demo](https://youtu.be/g31Roq_gGrU)
