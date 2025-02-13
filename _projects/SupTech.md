@@ -28,98 +28,104 @@ Below is a more detailed breakdown of my work.
 
 ## Downloads
 
-### SupTech Consumer App
-
-<!-- iOS Button -->
 <div class="row">
-  <div class="col-sm text-center">
-    <a href="https://apps.apple.com/us/app/suptech-consumer/id6581481234"
-       target="_blank"
-       style="display:inline-block;"
-    >
-      {% include figure.liquid
-         loading="eager"
-         path="assets/img/appleDownload.png"
-         alt="Download on iOS"
-         title="Download on iOS"
-         width="180"
-         class="rounded z-depth-1"
-         style="display:inline-block;"
-      %}
-    </a>
-  </div>
-</div>
 
-<!-- Android Button -->
-<div class="row mt-2">
-  <div class="col-sm text-center">
-    <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechconsumer"
-       target="_blank"
-       style="display:inline-block;"
-    >
-      {% include figure.liquid
-         loading="eager"
-         path="assets/img/androidDownload.png"
-         alt="Download on Google Play"
-         title="Download on Google Play"
-         width="180"
-         class="rounded z-depth-1"
-         style="display:inline-block;"
-      %}
-    </a>
-  </div>
-</div>
+  <!-- Left Column (Consumer App) -->
+  <div class="col-sm-6">
+    <h4>SupTech Consumer App</h4>
+
+    <!-- iOS Button -->
+    <div class="row">
+      <div class="col-sm text-center">
+        <a href="https://apps.apple.com/us/app/suptech-consumer/id6581481234"
+           target="_blank"
+           style="display:inline-block;"
+        >
+          {% include figure.liquid
+             loading="eager"
+             path="assets/img/appleDownload.png"
+             alt="Download on iOS"
+             title="Download on iOS"
+             width="180"
+             class="rounded z-depth-1"
+             style="display:inline-block;"
+          %}
+        </a>
+      </div>
+    </div>
+
+    <!-- Android Button -->
+    <div class="row mt-2">
+      <div class="col-sm text-center">
+        <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechconsumer"
+           target="_blank"
+           style="display:inline-block;"
+        >
+          {% include figure.liquid
+             loading="eager"
+             path="assets/img/androidDownload.png"
+             alt="Download on Google Play"
+             title="Download on Google Play"
+             width="180"
+             class="rounded z-depth-1"
+             style="display:inline-block;"
+          %}
+        </a>
+      </div>
+    </div>
+
+  </div> <!-- end col-sm-6 (Consumer) -->
+
+  <!-- Right Column (Technician App) -->
+  <div class="col-sm-6">
+    <h4>SupTech Technician App</h4>
+
+    <!-- iOS Button -->
+    <div class="row">
+      <div class="col-sm text-center">
+        <a href="https://apps.apple.com/us/app/suptech-technician/id6581481909"
+           target="_blank"
+           style="display:inline-block;"
+        >
+          {% include figure.liquid
+             loading="eager"
+             path="assets/img/appleDownload.png"
+             alt="Download on iOS"
+             title="Download on iOS"
+             width="180"
+             class="rounded z-depth-1"
+             style="display:inline-block;"
+          %}
+        </a>
+      </div>
+    </div>
+
+    <!-- Android Button -->
+    <div class="row mt-2">
+      <div class="col-sm text-center">
+        <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechtechnician"
+           target="_blank"
+           style="display:inline-block;"
+        >
+          {% include figure.liquid
+             loading="eager"
+             path="assets/img/androidDownload.png"
+             alt="Download on Google Play"
+             title="Download on Google Play"
+             width="180"
+             class="rounded z-depth-1"
+             style="display:inline-block;"
+          %}
+        </a>
+      </div>
+    </div>
+
+  </div> <!-- end col-sm-6 (Technician) -->
+
+</div> <!-- end .row -->
 
 <div class="caption my-3">
-  **SupTech Consumer App** – iOS & Android
-</div>
-
----
-
-### SupTech Technician App
-
-<!-- iOS Button -->
-<div class="row">
-  <div class="col-sm text-center">
-    <a href="https://apps.apple.com/us/app/suptech-technician/id6581481909"
-       target="_blank"
-       style="display:inline-block;"
-    >
-      {% include figure.liquid
-         loading="eager"
-         path="assets/img/appleDownload.png"
-         alt="Download on iOS"
-         title="Download on iOS"
-         width="180"
-         class="rounded z-depth-1"
-         style="display:inline-block;"
-      %}
-    </a>
-  </div>
-</div>
-
-<!-- Android Button -->
-<div class="row mt-2">
-  <div class="col-sm text-center">
-    <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechtechnician"
-       target="_blank"
-       style="display:inline-block;"
-    >
-      {% include figure.liquid
-         loading="eager"
-         path="assets/img/androidDownload.png"
-         alt="Download on Google Play"
-         title="Download on Google Play"
-         width="180"
-         class="rounded z-depth-1"
-         style="display:inline-block;"
-      %}
-    </a>
-  </div>
-</div>
-
-<div class="caption my-3">
-  **SupTech Technician App** – iOS & Android
+  Download the <strong>Consumer App</strong> (left) or <strong>Technician App</strong> (right) for iOS & Android.
 </div>
 
 ## Project Highlights
