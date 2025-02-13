@@ -31,14 +31,14 @@ Below is a more detailed breakdown of my work.
 <div class="row">
 
   <!-- Left Column (Consumer App) -->
-  <div class="col-sm-6">
-    <h4>SupTech Consumer App</h4>
-
+  <div class="col-sm-6 text-center"><!-- 加了 text-center -->
+    <h4 class="text-center">SupTech Consumer App</h4><!-- 标题也可加 text-center -->
+    
     <!-- iOS Button -->
     <div class="row">
-      <div class="col-sm text-center">
-        <a href="https://apps.apple.com/us/app/suptech-consumer/id6581481234"
-           target="_blank"
+      <div class="col-sm">
+        <a href="https://apps.apple.com/us/app/suptech-consumer/id6581481234" 
+           target="_blank" 
            style="display:inline-block;"
         >
           {% include figure.liquid
@@ -56,7 +56,7 @@ Below is a more detailed breakdown of my work.
 
     <!-- Android Button -->
     <div class="row mt-2">
-      <div class="col-sm text-center">
+      <div class="col-sm">
         <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechconsumer"
            target="_blank"
            style="display:inline-block;"
@@ -77,14 +77,14 @@ Below is a more detailed breakdown of my work.
   </div> <!-- end col-sm-6 (Consumer) -->
 
   <!-- Right Column (Technician App) -->
-  <div class="col-sm-6">
-    <h4>SupTech Technician App</h4>
-
+  <div class="col-sm-6 text-center"><!-- 加了 text-center -->
+    <h4 class="text-center">SupTech Technician App</h4>
+    
     <!-- iOS Button -->
     <div class="row">
-      <div class="col-sm text-center">
-        <a href="https://apps.apple.com/us/app/suptech-technician/id6581481909"
-           target="_blank"
+      <div class="col-sm">
+        <a href="https://apps.apple.com/us/app/suptech-technician/id6581481909" 
+           target="_blank" 
            style="display:inline-block;"
         >
           {% include figure.liquid
@@ -102,7 +102,7 @@ Below is a more detailed breakdown of my work.
 
     <!-- Android Button -->
     <div class="row mt-2">
-      <div class="col-sm text-center">
+      <div class="col-sm">
         <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechtechnician"
            target="_blank"
            style="display:inline-block;"
@@ -127,6 +127,8 @@ Below is a more detailed breakdown of my work.
 <div class="caption my-3">
   Download the <strong>Consumer App</strong> (left) or <strong>Technician App</strong> (right) for iOS & Android.
 </div>
+
+<br>
 
 ## Project Highlights
 
