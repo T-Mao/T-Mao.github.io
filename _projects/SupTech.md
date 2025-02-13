@@ -30,10 +30,10 @@ Below is a more detailed breakdown of my work.
 
 <div class="row">
    <div class="col-sm mt-3 mt-md-0">
-       {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="SupTech Consumer App" class="img-fluid rounded z-depth-1" %}
+       {% include figure.liquid loading="eager" path="assets/img/C.jpg" title="SupTech Consumer App" class="img-fluid rounded z-depth-1" %}
    </div>
    <div class="col-sm mt-3 mt-md-0">
-       {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="SupTech Technician App" class="img-fluid rounded z-depth-1" %}
+       {% include figure.liquid loading="eager" path="assets/img/T.jpg" title="SupTech Technician App" class="img-fluid rounded z-depth-1" %}
    </div>
    <div class="col-sm mt-3 mt-md-0">
        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Backend Integration" class="img-fluid rounded z-depth-1" %}
@@ -98,12 +98,10 @@ Besides solely focusing on app coding, I played multiple roles:
   - Held requirement-gathering meetings, created mind maps and swimlane diagrams, documented all changes, and aligned them with the dev tasks.
   - Handled stakeholder requests, bridging business logic with technical feasibility.
 - **Ad Hoc Tasks**:
-
   - Assisted with HR tasks: from screening candidates to orienting new hires.
   - Built the company’s basic web presence and fixed design issues on official website.
   - Occasionally performed office errands (e.g., shipping packages, setting up coworker computers, supporting system admin tasks).
   - Engaged in cross-team communication, from clarifying B-end system queries to instructing business partners on how to utilize the new AI chat modules.
-
 - **Release & Store Management**:
   - Single-handedly managed app submissions to Apple’s App Store and Google Play.
   - Coordinated store listing, test flight/beta testing cycles, and official rollout.
