@@ -25,6 +25,7 @@ Throughout the process, I specialized in:
 Below is a more detailed breakdown of my work.
 
 <br>
+
 ## Downloads
 
 ### SupTech Consumer App
@@ -32,35 +33,46 @@ Below is a more detailed breakdown of my work.
 <!-- iOS Button -->
 <div class="row">
   <div class="col-sm text-center">
-    {% include figure.liquid
-       loading="eager"
-       path="assets/img/appleDownload.png"
-       url="https://apps.apple.com/us/app/suptech-consumer/id6581481234"
-       width="180"
-       class="rounded z-depth-1"
+    <a href="https://apps.apple.com/us/app/suptech-consumer/id6581481234"
+       target="_blank"
        style="display:inline-block;"
-       title="Download on iOS"
-       alt="iOS Download"
-    %}
+    >
+      {% include figure.liquid
+         loading="eager"
+         path="assets/img/appleDownload.png"
+         alt="Download on iOS"
+         title="Download on iOS"
+         width="180"
+         class="rounded z-depth-1"
+         style="display:inline-block;"
+      %}
+    </a>
   </div>
 </div>
 
 <!-- Android Button -->
 <div class="row mt-2">
   <div class="col-sm text-center">
-    {% include figure.liquid
-       loading="eager"
-       path="assets/img/androidDownload.png"
-       url="https://play.google.com/store/apps/details?id=com.suptech.suptechconsumer"
-       width="180"
-       class="rounded z-depth-1"
+    <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechconsumer"
+       target="_blank"
        style="display:inline-block;"
-       title="Download on Google Play"
-       alt="Android Download"
-    %}
+    >
+      {% include figure.liquid
+         loading="eager"
+         path="assets/img/androidDownload.png"
+         alt="Download on Google Play"
+         title="Download on Google Play"
+         width="180"
+         class="rounded z-depth-1"
+         style="display:inline-block;"
+      %}
+    </a>
   </div>
 </div>
-<div class="caption my-3">**SupTech Consumer App** – iOS & Android</div>
+
+<div class="caption my-3">
+  **SupTech Consumer App** – iOS & Android
+</div>
 
 ---
 
@@ -69,35 +81,46 @@ Below is a more detailed breakdown of my work.
 <!-- iOS Button -->
 <div class="row">
   <div class="col-sm text-center">
-    {% include figure.liquid
-       loading="eager"
-       path="assets/img/appleDownload.png"
-       url="https://apps.apple.com/us/app/suptech-technician/id6581481909"
-       width="180"
-       class="rounded z-depth-1"
+    <a href="https://apps.apple.com/us/app/suptech-technician/id6581481909"
+       target="_blank"
        style="display:inline-block;"
-       title="Download on iOS"
-       alt="iOS Download"
-    %}
+    >
+      {% include figure.liquid
+         loading="eager"
+         path="assets/img/appleDownload.png"
+         alt="Download on iOS"
+         title="Download on iOS"
+         width="180"
+         class="rounded z-depth-1"
+         style="display:inline-block;"
+      %}
+    </a>
   </div>
 </div>
 
 <!-- Android Button -->
 <div class="row mt-2">
   <div class="col-sm text-center">
-    {% include figure.liquid
-       loading="eager"
-       path="assets/img/androidDownload.png"
-       url="https://play.google.com/store/apps/details?id=com.suptech.suptechtechnician"
-       width="180"
-       class="rounded z-depth-1"
+    <a href="https://play.google.com/store/apps/details?id=com.suptech.suptechtechnician"
+       target="_blank"
        style="display:inline-block;"
-       title="Download on Google Play"
-       alt="Android Download"
-    %}
+    >
+      {% include figure.liquid
+         loading="eager"
+         path="assets/img/androidDownload.png"
+         alt="Download on Google Play"
+         title="Download on Google Play"
+         width="180"
+         class="rounded z-depth-1"
+         style="display:inline-block;"
+      %}
+    </a>
   </div>
 </div>
-<div class="caption my-3">**SupTech Technician App** – iOS & Android</div>
+
+<div class="caption my-3">
+  **SupTech Technician App** – iOS & Android
+</div>
 
 ## Project Highlights
 
