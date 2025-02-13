@@ -137,12 +137,13 @@ Below is a more detailed breakdown of my work.
    <div class="col-sm mt-3 mt-md-0">
        {% include figure.liquid loading="eager" path="assets/img/T.jpg" title="SupTech Technician App" class="img-fluid rounded z-depth-1" %}
    </div>
-   <div class="col-sm mt-3 mt-md-0">
+   <!-- <div class="col-sm mt-3 mt-md-0">
        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Backend Integration" class="img-fluid rounded z-depth-1" %}
-   </div>
+   </div> -->
 </div>
 <div class="caption">
-  From left to right: (1) The Consumer App (C-end), allowing customers to create and track repair orders; (2) The Technician App (T-end), enabling technicians to pick up tasks and communicate in real time; (3) Integrations with various backend services (Firebase & MySQL/Java).
+  From left to right: (1) The Consumer App (C-end), allowing customers to create and track repair orders; (2) The Technician App (T-end), enabling technicians to pick up tasks and communicate in real time.
+  <!-- ; (3) Integrations with various backend services (Firebase & MySQL/Java). -->
 </div>
 
 ### 1. The SupTech Consumer App (C-end)
@@ -212,6 +213,7 @@ Besides solely focusing on app coding, I played multiple roles:
 
 ## Technical Contributions
 
+<!--
 <div class="row">
    <div class="col-sm mt-3 mt-md-0">
        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Code and Architecture" class="img-fluid rounded z-depth-1" %}
@@ -225,7 +227,7 @@ Besides solely focusing on app coding, I played multiple roles:
 </div>
 <div class="caption">
   Thorough coding standards, collaborative workflows, and version control across multiple repos.
-</div>
+</div> -->
 
 1. **Flutter Architecture**
 
@@ -295,4 +297,5 @@ I believe these experiences and the robust code I wrote can significantly contri
 - **B-end System (merchants)**: [https://admin.app.suptech.pro](https://admin.app.suptech.pro)
 - **Consumer App Manual (PDF)**: [View here](https://drive.google.com/file/d/1j4Cwr_yp5ZLrX-ZkkmdUNP7Lh3v_0Qcy/view?usp=sharing)
 - **Technician App Manual (PDF)**: [View here](https://drive.google.com/file/d/1EOJLPrZmqyvNHaLw-YYWX3LCRfjXeIlv/view?usp=sharing)
+- **Consumer App Video Tutorial**: [Step-by-Step Guide (for orders created by businesses)](https://youtu.be/AZmgWjkivf0?si=Rapk2FASGpgNS29B)
 - **Technician App Video Tutorial**: [YouTube Demo](https://youtu.be/g31Roq_gGrU)
