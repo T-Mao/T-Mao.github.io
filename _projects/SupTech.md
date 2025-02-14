@@ -133,12 +133,24 @@ Below is a more detailed breakdown of my work.
 ## Project Highlights
 
 <div class="row">
-   <div class="col-sm mt-3 mt-md-0">
-       {% include figure.liquid loading="eager" path="assets/img/C.jpg" title="SupTech Consumer App" class="img-fluid rounded z-depth-1" %}
-   </div>
-   <div class="col-sm mt-3 mt-md-0">
-       {% include figure.liquid loading="eager" path="assets/img/T.jpg" title="SupTech Technician App" class="img-fluid rounded z-depth-1" %}
-   </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/C.jpg"
+       title="SupTech Consumer App"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/T.jpg"
+       title="SupTech Technician App"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
 </div>
 <div class="caption">
   From left to right: (1) The Consumer App (C-end), allowing customers to create and track repair orders; (2) The Technician App (T-end), enabling technicians to pick up tasks and communicate in real time.
