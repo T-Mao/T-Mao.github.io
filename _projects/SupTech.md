@@ -8,8 +8,6 @@ category: work
 related_publications: false
 ---
 
-<br>
-
 ## Overview
 
 During my time at **SupTech**, I took on the challenge of building two large-scale mobile applications in **Flutter**—the **SupTech Consumer App** (C-end) and **SupTech Technician App** (T-end). I was not only responsible for **designing and coding** these apps but also took on roles typically divided among multiple teams in larger companies.
