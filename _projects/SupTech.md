@@ -221,28 +221,29 @@ Besides solely focusing on app coding, I played multiple roles:
 
 ## Technical Contributions
 
-1. **Flutter Architecture**
+**Flutter Architecture**
 
-   - Implemented **Provider** & **Riverpod** for state management in different modules.
-   - Optimized performance with asynchronous data streams (StreamBuilders) + caching (SharedPreferences).
+- Implemented **Provider** & **Riverpod** for state management in different modules.
+- Optimized performance with asynchronous data streams (StreamBuilders) + caching (SharedPreferences).
 
-2. **Multi-Language & Internationalization**
+**Multi-Language & Internationalization**
 
-   - Organized translations in `.arb`/`.json` files, ensuring easy expansions to new languages.
-   - Dynamically switched UI texts based on system language or user preference.
+- Organized translations in `.arb`/`.json` files, ensuring easy expansions to new languages.
+- Dynamically switched UI texts based on system language or user preference.
 
-3. **Stripe Payment & Connect**
+**Stripe Payment & Connect**
 
-   - Built robust flow for PaymentMethod creation, ephemeral keys handling, PaymentIntents, and Connect-based payouts to technicians.
-   - RSA encryption for sensitive data, ephemeral token usage for web hooks.
+- Built robust flow for PaymentMethod creation, ephemeral keys handling, PaymentIntents, and Connect-based payouts to technicians.
+- RSA encryption for sensitive data, ephemeral token usage for web hooks.
 
-4. **Location & Map Integrations**
+**Location & Map Integrations**
 
-   - Deployed Google Maps SDK for in-app location display, technician route mapping, and geo-based filtering of tasks.
-   - Handling iOS & Android location permission differences, background location updates, and UI refresh cycles.
+- Deployed Google Maps SDK for in-app location display, technician route mapping, and geo-based filtering of tasks.
+- Handling iOS & Android location permission differences, background location updates, and UI refresh cycles.
 
-5. **AI Chat & Prompt Engineering**
-   - Built Chat GPT 4.0 conversation flows, ensuring clear step-by-step troubleshooting guides, brand/SKU/fault code recognition, and user-linguistic style adaptation.
+**AI Chat & Prompt Engineering**
+
+- Built Chat GPT 4.0 conversation flows, ensuring clear step-by-step troubleshooting guides, brand/SKU/fault code recognition, and user-linguistic style adaptation.
 
 <br>
 
