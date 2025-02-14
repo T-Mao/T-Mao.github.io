@@ -139,13 +139,9 @@ Below is a more detailed breakdown of my work.
    <div class="col-sm mt-3 mt-md-0">
        {% include figure.liquid loading="eager" path="assets/img/T.jpg" title="SupTech Technician App" class="img-fluid rounded z-depth-1" %}
    </div>
-   <!-- <div class="col-sm mt-3 mt-md-0">
-       {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Backend Integration" class="img-fluid rounded z-depth-1" %}
-   </div> -->
 </div>
 <div class="caption">
   From left to right: (1) The Consumer App (C-end), allowing customers to create and track repair orders; (2) The Technician App (T-end), enabling technicians to pick up tasks and communicate in real time.
-  <!-- ; (3) Integrations with various backend services (Firebase & MySQL/Java). -->
 </div>
 
 ### 1. The SupTech Consumer App (C-end)
@@ -214,22 +210,6 @@ Besides solely focusing on app coding, I played multiple roles:
 <br>
 
 ## Technical Contributions
-
-<!--
-<div class="row">
-   <div class="col-sm mt-3 mt-md-0">
-       {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Code and Architecture" class="img-fluid rounded z-depth-1" %}
-   </div>
-   <div class="col-sm mt-3 mt-md-0">
-       {% include figure.liquid loading="eager" path="assets/img/6.jpg" title="Team Collaboration" class="img-fluid rounded z-depth-1" %}
-   </div>
-   <div class="col-sm mt-3 mt-md-0">
-       {% include figure.liquid loading="eager" path="assets/img/11.jpg" title="Version Control" class="img-fluid rounded z-depth-1" %}
-   </div>
-</div>
-<div class="caption">
-  Thorough coding standards, collaborative workflows, and version control across multiple repos.
-</div> -->
 
 1. **Flutter Architecture**
 
