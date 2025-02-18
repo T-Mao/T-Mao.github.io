@@ -38,7 +38,7 @@
 } /* Comment.Special */
 .highlight .gd {
   color: #000000;
-  background-color: #ffdddd;
+  background-color: var(--global-danger-block-bg);
 } /* Generic.Deleted */
 .highlight .ge {
   color: #000000;
