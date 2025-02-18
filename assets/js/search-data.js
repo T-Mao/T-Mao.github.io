@@ -389,6 +389,11 @@ ninja.data = [{
           description: "My role as an App Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SupTech/";
+            },},{id: "projects-threetodo-app-efficient-task-management",
+          title: 'ThreeTodo App – Efficient Task Management',
+          description: "Rapidly Developed Minimalist Task Manager",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ThreeTodo/";
             },},{
         id: 'social-email',
         title: 'email',
