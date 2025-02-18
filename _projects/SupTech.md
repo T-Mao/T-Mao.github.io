@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SupTech Mobile Apps Project
+title: SupTech Apps
 description: My role as an App Developer
 img: assets/img/SupTech.jpeg
 importance: 1
