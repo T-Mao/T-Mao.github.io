@@ -1,8 +1,8 @@
 ---
 layout: page
-title: LifeTune Mobile App
+title: LifeTune App
 description: Streamlined Health Monitoring
-img: assets/img/lifetune_cover.jpg
+img:
 importance: 3
 category: group
 related_publications: false
