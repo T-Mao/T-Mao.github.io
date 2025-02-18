@@ -3,7 +3,7 @@ layout: page
 title: HowDidI App – Paid Résumé-Sharing Platform
 description: My role as a Swift/iOS Developer & Project Lead
 img: assets/img/9.jpg
-importance: 1
+importance: 2
 category: group
 related_publications: false
 ---
