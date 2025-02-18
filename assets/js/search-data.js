@@ -374,6 +374,11 @@ ninja.data = [{
           description: "My role as a Swift/iOS Developer &amp; Project Lead",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HowDidI/";
+            },},{id: "projects-spotify-browser-high-performance-music-streaming-web-app",
+          title: 'Spotify Browser – High-Performance Music Streaming Web App',
+          description: "My role as a Full-stack / Angular Developer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Spotify/";
             },},{id: "projects-suptech-mobile-apps-project",
           title: 'SupTech Mobile Apps Project',
           description: "My role as an App Developer",
