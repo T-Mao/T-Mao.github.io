@@ -194,8 +194,6 @@ Key takeaways:
 - **TabView** with `.page` style for seamless navigation among the “Edit,” “Main,” and “History” views.
 </details>
 
-_(For more details, please refer to the full source code on my GitHub repo or contact me for a private repository link.)_
-
 <br>
 
 ## Project Outcomes
@@ -229,11 +227,3 @@ _(For more details, please refer to the full source code on my GitHub repo or co
 If you’re seeking an **iOS App Developer** with **end-to-end project execution** capabilities, strong **SwiftUI proficiency**, and a flair for building engaging digital products, I believe my work on **WriterCards** demonstrates exactly those strengths. I’m eager to bring this adaptability and problem-solving mindset to future projects and teams.
 
 <br>
-
----
-
-### Additional Resources
-
-- **GitHub Repository**: _[Access available upon request]_
-- **Jira Board Snapshots**: _[Available upon request]_
-- **Screenshots & Documentation**: _[Inquiries welcome—detailed UI/UX demos and test builds can be shared upon request.]_
