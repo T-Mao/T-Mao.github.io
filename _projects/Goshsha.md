@@ -100,12 +100,12 @@ We also integrated agile best practices, meeting every Tuesday to present comple
 // encouraged liking & commenting.
 
 export default function communityPage() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Community</Text>
-      {/* Potential feed of AR-related posts */}
-    </View>
-  );
+return (
+<View style={styles.container}>
+<Text style={styles.title}>Community</Text>
+{/_ Potential feed of AR-related posts _/}
+</View>
+);
 }
 {% endhighlight %}
 
@@ -121,16 +121,16 @@ export default function communityPage() {
 
 {% highlight ts %}
 const handleBarCodeScanned = async ({ type, data }) => {
-  if (type === BarCodeScanner.Constants.BarCodeType.ean13 && !isCapturing) {
-    setIsCapturing(true);
-    await capturePhoto(data).then(() => setIsCapturing(false));
-  }
+if (type === BarCodeScanner.Constants.BarCodeType.ean13 && !isCapturing) {
+setIsCapturing(true);
+await capturePhoto(data).then(() => setIsCapturing(false));
+}
 };
 
 const capturePhoto = async (barcodeData: string = "") => {
-  let photo = await cameraRef.current.takePictureAsync();
-  // If doc found => popup with product details
-  // else => user is prompted to create new item
+let photo = await cameraRef.current.takePictureAsync();
+// If doc found => popup with product details
+// else => user is prompted to create new item
 };
 {% endhighlight %}
 
@@ -146,17 +146,17 @@ const capturePhoto = async (barcodeData: string = "") => {
 
 {% highlight ts %}
 useEffect(() => {
-  if (barcodeContent) {
-    // fetch UPC data from 3rd-party
-    // set brand, productName, color, details
-  }
+if (barcodeContent) {
+// fetch UPC data from 3rd-party
+// set brand, productName, color, details
+}
 }, [barcodeContent]);
 
 async function handleSubmission() {
-  await setDoc(doc(db, `products/${barcodeContent}`), {
-    brand, productName, ...
-  });
-  Alert.alert("Success", "Added item to Goshsha DB");
+await setDoc(doc(db, `products/${barcodeContent}`), {
+brand, productName, ...
+});
+Alert.alert("Success", "Added item to Goshsha DB");
 }
 {% endhighlight %}
 
