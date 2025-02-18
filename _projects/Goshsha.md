@@ -72,11 +72,6 @@ We also integrated agile best practices, meeting every Tuesday to present comple
 
 **Objective**: Deliver a **responsive** AR-enabled shopping app focusing on frictionless user flows for product scanning and interactive content. We updated Goshsha’s interface for a more modern, youthful vibe, while refining code structure for better performance.
 
-**Team**:
-
-- _ARtisan_ dev group: Elara Liu, Jason Bhatnagar, Jianwen Qi, Tay Taylor, Tongze Mao
-- Weekly stakeholder calls with business partner **Athena Yap** to ensure alignment with real-world retail needs.
-
 **Timeline**:
 
 - **Winter 2024**: Overhauled UI/UX in Figma, user testing sessions, partial AR scanning.
@@ -89,8 +84,8 @@ We also integrated agile best practices, meeting every Tuesday to present comple
 ### 1. UI/UX Redesign with React Expo
 
 <p align="center">
-  <img src="/assets/img/Goshsha/FigmaMockups1.png" alt="Figma Mockup 1" style="width:400px;">
-  <img src="/assets/img/Goshsha/FigmaMockups2.png" alt="Figma Mockup 2" style="width:400px;">
+  <img src="/assets/img/Goshsha/FigmaMockups1.png" alt="Figma Mockup 1" style="height:300px;">
+  <img src="/assets/img/Goshsha/FigmaMockups2.png" alt="Figma Mockup 2" style="height:300px;">
 </p>
 
 - **Gen Z–friendly** styling: bold color palette, large CTA buttons, and “vertical-first” navigations improved user retention.
