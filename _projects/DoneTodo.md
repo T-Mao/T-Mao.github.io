@@ -56,12 +56,13 @@ var label: () -> Label
     }
 
 }
-{% endhighlight %}
 
 **Why it’s clever**:
 
 - Combining **UIImpactFeedbackGenerator** with SwiftUI’s `Button` seamlessly provides user feedback.
 - Minimizes code duplication by encapsulating haptics in a custom view, simplifying repeated usage.
+
+{% endhighlight %}
 
 </details>
 
@@ -107,12 +108,12 @@ let color: Color?
     }
 
 }
-{% endhighlight %}
 
 **Highlights**:
 
 - Supports full ARGB hex (`#RRGGBBAA` or `#RRGGBB`) for flexible color alpha.
 - **`CodableColor`** + `Color(hex:)` allowed robust data persistence in `UserDefaults`, minimizing user friction.
+  {% endhighlight %}
 
 </details>
 
@@ -150,12 +151,12 @@ var isSelected: Bool
     }
 
 }
-{% endhighlight %}
 
 **Why it’s clever**:
 
 - Combines **offset** animations with SwiftUI geometry to “pop out” a slice on tap.
 - Simple configuration allows toggling between **“Total”** or **“Average”** calculations via a segmented control.
+  {% endhighlight %}
 
 </details>
 

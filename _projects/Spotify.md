@@ -71,12 +71,12 @@ this.spotifyService.searchFor(this.searchCategory, this.searchString)
 this.resources = data;
 });
 }
-{% endhighlight %}
 
 **Highlights**:
 
 - Binds `[(ngModel)]` to handle user input changes for search queries and categories (artist, album, track).
 - On button click, fires an HTTP request to **Node.js** server, which in turn queries **Spotify’s REST endpoints**.
+  {% endhighlight %}
 
 </details>
 
@@ -113,12 +113,12 @@ res.json(json);
 console.error(err);
 });
 }
-{% endhighlight %}
 
 **Highlights**:
 
 - Demonstrates robust error handling by hooking into Spotify’s standard 401 response, ensuring continuous user sessions.
 - The `refresh()` function also writes the new tokens to disk or a DB for persistent state.
+  {% endhighlight %}
 
 </details>
 
