@@ -4,7 +4,7 @@ title: ThreeTodo App – Efficient Task Management
 description: Rapidly Developed Minimalist Task Manager
 img:
 importance: 1
-category: Individual Projects
+category: individual
 related_publications: false
 ---
 
