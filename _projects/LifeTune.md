@@ -67,7 +67,7 @@ Experience **LifeTune** in action! The video highlights our streamlined dashboar
        path="assets/img/mid_fidelity_prototypes.png"
        title="LifeTune Mid-Fidelity Prototypes"
        class="rounded z-depth-1"
-       height="350px"
+       style="max-height: 250px; width: auto;"
     %}
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
@@ -76,10 +76,11 @@ Experience **LifeTune** in action! The video highlights our streamlined dashboar
        path="assets/img/high_fidelity_prototypes.png"
        title="LifeTune High-Fidelity Prototypes"
        class="rounded z-depth-1"
-       height="350px"
+       style="max-height: 250px; width: auto;"
     %}
   </div>
 </div>
+
 <div class="caption">
   Early to high-fidelity prototypes evolved through user feedback, ensuring both visual appeal and effortless usability.
 </div>
