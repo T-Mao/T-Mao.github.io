@@ -2,7 +2,7 @@
 layout: page
 title: Goshsha App – Future AR Interactive Shopping Experience
 description: My role as a React/Expo App Developer
-img: assets/img/GoshshaLogoTransparentBG.png
+img: assets/img/Goshsha/GoshshaLogoTransparentBG.png
 importance: 1
 category: group
 related_publications: false
@@ -10,234 +10,218 @@ related_publications: false
 
 ## Overview
 
-From **January 2024** to **June 2024**, I collaborated with a business to **modernize the Goshsha App**, an AR-based shopping prototype targeted at **Gen Z** consumers.
-Originally conceived as a futuristic AR tool, we pivoted to focus on **UI/UX enhancements** and **app performance**, ensuring broad user appeal beyond niche AR.  
-We utilized **React Native (Expo)**, refining the data flow with **Firebase**.  
-Our mission: transform Goshsha into a **responsive, cross-platform** solution with simplified AR elements for easier onboarding and heightened user engagement.
+From **January 2024** to **June 2024**, I led efforts to **modernize the Goshsha App**—an **augmented reality** shopping prototype designed for **Gen Z**.  
+Originally, Goshsha was purely AR-focused, enabling virtual product try-ons and kiosk-like experiences. However, after extensive feedback, we **pivoted** to emphasize **UI/UX** and **performance** so that everyday users (and small businesses) would embrace it without friction.
+
+We used **React Native (Expo)** for cross-platform synergy, refined data flows via **Firebase**, and **iterated weekly** with business stakeholders, culminating in a stable, engaging app that blends **AR** with a friendly, streamlined interface.
 
 <br>
 
-## Project Highlights
+## Demo Previews
 
-1. **UI/UX Redesign for Gen Z**
+#### Light Mode iOS Demos
 
-   - Applied React Expo to streamline the interface with bright color palettes, intuitive gestures, and “vertical-friendly” navigation—**greatly improving engagement**.
-   - Ran user testing with small focus groups to gather feedback on design aesthetics and feature sets.
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+  <video controls="" style="max-height: 600px; max-width: 200px; margin-right: 20px;"> 
+    <source src="/assets/img/Goshsha/ios_ar_new.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <video controls="" style="max-height: 600px; max-width: 200px;"> 
+    <source src="/assets/img/Goshsha/ios-me.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-2. **Performance Optimization**
+#### Dark Mode Android Demos
 
-   - Refactored data retrieval logic and improved Firebase queries, **minimizing network calls** and reducing app load time significantly.
-   - Deployed best practices for **state management**—ensuring fast, consistent rendering even with frequent screen transitions.
-
-3. **Cross-Platform (iOS & Android)**
-
-   - Ensured consistent styling using React Native (Expo) theming; tackled platform nuances (camera permissions, local caching) to deliver uniform experiences.
-   - Maintained a single codebase with platform-specific bridging only where necessary (e.g., AR library integration).
-
-4. **Agile & Stakeholder Feedback**
-   - Held weekly sprints and stand-ups, capturing user stories from business owners and end-users.
-   - Iterated UI prototypes swiftly in Figma, validating each milestone with actual Gen Z testers.
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+  <video controls="" style="max-height: 600px; max-width: 200px; margin-right: 20px;"> 
+    <source src="/assets/img/Goshsha/Android-ar.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <video controls="" style="max-height: 600px; max-width: 200px;"> 
+    <source src="/assets/img/Goshsha/Android-me.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 <br>
+
+---
+
+## Background
+
+<div align="center">
+  <img src="/assets/img/Goshsha/OriginalApp.png" alt="Original Goshsha App" style="height:330px;">
+</div>
+
+**Context**: Goshsha was conceived as an affordable AR solution for small retailers, letting them embed digital content directly onto physical products. By scanning items, customers see details, videos, or interactive brand experiences. However, pilot testers found the **AR setup** too cumbersome. Our mission for the **2024** revamp was:
+
+- **Simplify AR usage**
+- **Enhance UI/UX** for Gen Z
+- **Optimize** performance (load times, scanning speed)
+- Maintain cross-platform (iOS/Android) using **React Native (Expo)**
+
+We also integrated agile best practices, meeting every Tuesday to present completed tasks, refine user stories, and record them in **Jira** or GitHub Projects. We combined user feedback with academic deliverables (like user stories and competitive analyses), culminating in a robust final product.
+
+<br>
+
+## Project Overview
+
+**Objective**: Deliver a **responsive** AR-enabled shopping app focusing on frictionless user flows for product scanning and interactive content. We updated Goshsha’s interface for a more modern, youthful vibe, while refining code structure for better performance.
+
+**Team**:
+
+- _ARtisan_ dev group: Elara Liu, Jason Bhatnagar, Jianwen Qi, Tay Taylor, Tongze Mao
+- Weekly stakeholder calls with business partner **Athena Yap** to ensure alignment with real-world retail needs.
+
+**Timeline**:
+
+- **Winter 2024**: Overhauled UI/UX in Figma, user testing sessions, partial AR scanning.
+- **Spring 2024**: Database improvements, performance tuning, finalizing cross-platform packaging with Expo.
+
+---
 
 ## Technical Contributions
 
-Below are some **representative code modules** I designed and/or refactored. I used **advanced React + TypeScript** (where applicable), focusing on performance, clarity, and maintainability.
+### 1. UI/UX Redesign with React Expo
 
----
+<p align="center">
+  <img src="/assets/img/Goshsha/FigmaMockups1.png" alt="Figma Mockup 1" style="width:400px;">
+  <img src="/assets/img/Goshsha/FigmaMockups2.png" alt="Figma Mockup 2" style="width:400px;">
+</p>
 
-### 1. AR Flow + Camera Integration
-
-<details>
-<summary><strong>ArPage.tsx (Expo Camera + Barcode + Firebase Check)</strong></summary>
-
-```
-// AR entry page that integrates Camera, real-time barcode scanning,
-// dynamic product info retrieval from Firebase, and custom popups
-
-import { Camera, CameraType } from 'expo-camera';
-import { BarCodeScanner } from 'expo-barcode-scanner';
-import { doc, getDoc } from 'firebase/firestore';
-import { db } from '@/config/firebaseConfig';
-
-... (omitted)...
-
-export default function ArPage() {
-  ...
-  // Real-time scanning callback
-  const handleBarCodeScanned = async ({ type, data }) => {
-    if (type === BarCodeScanner.Constants.BarCodeType.ean13 && !isCapturing) {
-      setIsCapturing(true);
-      await capturePhoto(data).then(() => setIsCapturing(false));
-    }
-  };
-
-  const capturePhoto = async (barcodeData: string = '') => {
-    if (cameraRef.current) {
-      const photo = await cameraRef.current.takePictureAsync();
-      if (barcodeData) {
-        const docSnap = await getDoc(doc(db, `products/${barcodeData}`));
-        // If doc found => show doc details in popup
-        // else => let user fill product info form
-      }
-    }
-  };
-  ...
-}
-```
-
-**Highlights & Ingenuity**:
-
-- **Multi-gesture approach**: integrated pinch and drag gestures for zooming in on captured images.
-- **Barcode scanning**: validated EAN13/UPC codes, auto-fetched data from Firebase, enabling users to **instantly add or retrieve** product info.
-- **Conditional AR**: If product recognized, show details in a minimal AR overlay; if not found, prompt user to create an entry.
-
-</details>
-
----
-
-### 2. Community & “Me” Pages
+- **Gen Z–friendly** styling: bold color palette, large CTA buttons, and “vertical-first” navigations improved user retention.
+- **AR modules** gated behind an optional “Scan” route, reducing confusion for users who just want to browse community posts or brand catalogs.
 
 <details>
-<summary><strong>communityPage.tsx, mePage.tsx</strong></summary>
+<summary>Sample: communityPage.tsx</summary>
 
-```
-// Basic placeholders for user communities & profile. Emphasis on
-// architectural clarity: hooking up user context, reactivity, and
-// cross-page navigation via expo-router
+```tsx
+// Minimal community feed.
+// Real usage fetched AR posts from Firebase, displayed user updates,
+// encouraged liking & commenting.
 
 export default function communityPage() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Community</Text>
-      {/* In real usage, fetch and display user-generated AR posts */}
+      {/* Potential feed of AR-related posts */}
     </View>
   );
 }
 ```
 
-**Key Achievements**:
+</details>
 
-- **Expo Router** for modular screen navigation, drastically simplifying folder-based routing.
-- **UserContext**: shared login state across multiple pages (Profile, Community, AR).
-- Implementation of a "Me" tab with robust sub-routes (Settings, Help, etc.), each carefully typed with TS.
+### 2. AR Flow & Barcode Integration
+
+- **Camera + Barcode**: Used `expo-camera` and `BarCodeScanner` to parse EAN13, matching product records in Firebase.
+- **Conditional Overlays**: If a scanned product is found in DB, we show an info popup; else user is guided to “Add Goshsha,” enabling custom product details.
+
+<details>
+<summary>ArPage.tsx excerpt</summary>
+
+```ts
+const handleBarCodeScanned = async ({ type, data }) => {
+  if (type === BarCodeScanner.Constants.BarCodeType.ean13 && !isCapturing) {
+    setIsCapturing(true);
+    await capturePhoto(data).then(() => setIsCapturing(false));
+  }
+};
+
+const capturePhoto = async (barcodeData: string = "") => {
+  let photo = await cameraRef.current.takePictureAsync();
+  // If doc found => popup with product details
+  // else => user is prompted to create new item
+};
+```
 
 </details>
 
----
+### 3. Firebase-Backed Forms & Product Repository
 
-### 3. Data Entry & Barcode-based Product Creation
+- **DetailedInformation**: auto-fills brand, color, and short description by referencing a 3rd-party UPC API, then merges user input in Firestore.
+- **Real-time**: Minimizes user friction by storing partial data as they type, ensuring no data loss on app close.
 
 <details>
-<summary><strong>DetailedInformation.tsx</strong></summary>
+<summary>DetailedInformation.tsx snippet</summary>
 
-```
-// Handling form data for new product: user can fill brand, productName, color, etc.
-// On submit => writes to Firestore
+```ts
+useEffect(() => {
+  if (barcodeContent) {
+    // fetch UPC data from 3rd-party
+    // set brand, productName, color, details
+  }
+}, [barcodeContent]);
 
-import { doc, setDoc } from 'firebase/firestore';
-import { db } from '@/config/firebaseConfig';
-
-export default function DetailedInformation() {
-  const [brand, setBrand] = useState('');
-  const [productName, setProductName] = useState('');
-  const [barcodeContent, setBarcodeContent] = useState('');
-
-  const handleSubmission = async () => {
-    // Validate, then setDoc
-    await setDoc(doc(db, `products/${barcodeContent}`), {
-      brand,
-      productName,
-      ...
-    });
-  };
+async function handleSubmission() {
+  await setDoc(doc(db, `products/${barcodeContent}`), {
+    brand, productName, ...
+  });
+  Alert.alert("Success", "Added item to Goshsha DB");
 }
 ```
 
-**Advanced**:
-
-- Automated fetch from a 3rd-party UPC item database, auto-populating brand info and images.
-- Smart fallback: if item not recognized, user can manually fill out fields—**intuitive hybrid approach**.
-
 </details>
 
----
+### 4. Auth & Community Features
 
-### 4. Firebase Auth & Multi-User Flow
+- **SignIn/SignUp**: Implemented `createUserWithEmailAndPassword`, Gravatar-based avatar, or Google sign-in.
+- **Community**: Basic feed layout and user comments, stored in Firebase. Next expansions included real-time chat and post-likes.
 
-<details>
-<summary><strong>SignIn.tsx / SignUp.tsx</strong></summary>
+### 5. Performance & Agile Execution
 
-```
-// Swiftly handles firebase createUserWithEmailAndPassword, linking Gravatar avatar
-// and storing minimal user data in context.
-// Also includes optional Google sign-in.
-
-createUserWithEmailAndPassword(auth, email, password)
-  .then(userCredential => {
-    updateProfile(userCredential.user, {
-      photoURL: gravatarUrl,
-      displayName: ...
-    });
-  })
-  .catch(error => { ... });
-```
-
-**Noteworthy**:
-
-- **Local context** storing user avatar & membership date, used to personalize “Me” page.
-- Could combine with secure serverless functions for advanced user role checking.
-
-</details>
-
----
-
-### 5. AR + UI Performance Tuning
-
-**Strategies**:
-
-- Minimizing re-render: extracted repeated components (like `<inputBar/>`, `<StyledButton/>`) into pure functional blocks, limiting parent reflow.
-- Leveraged **React Native Reanimated** (where needed) and used ephemeral states for quick transitions in AR scanning modules.
-- Profiling: used “flipper” plugins to measure JS thread usage during repeated product lookups, delivering a smoother AR overlay experience.
-
----
-
-## Agile & Stakeholder Engagement
-
-- **Weekly Sprints**: We used GitHub Projects to track each story (UI revamp, partial AR scanning, data retrieval).
-- **Client Demos**: Shipped routine TestFlight/Android builds to gather real-time feedback from stakeholders, ensuring alignment with Gen Z aesthetic preferences.
-- **Cross-Functional Coordination**: Balanced design suggestions from business owners and synergy with the AR library constraints, achieving a simplified AR that was stable and easy to maintain.
+- **Performance**:
+  - Cached repeated queries, used minimal re-renders on AR camera screens.
+  - Profiling with `flipper` to track memory usage during scanning.
+- **Agile**:
+  - Weekly sprints (Tuesdays). Conducted short demos for each completed user story.
+  - Balanced academic deliverables (like competitive analyses, design doc) with real stakeholder demands.
 
 <br>
 
 ## Project Outcomes
 
-- **Enhanced UI/UX**: By focusing on simpler AR interactions, plus a streamlined interface, user satisfaction rose (based on pilot survey).
-- **Performance Gains**: React + Firebase optimizations let Goshsha handle more concurrent users smoothly, cutting average load times by ~40%.
-- **Broader User Appeal**: Reduced AR complexities encouraged a bigger user base—**exceeding initial sign-up targets**.
+1. **Refined User Experience**
+
+   - Larger user base due to simpler, optional AR usage.
+   - **New “Community”** front page boosted user engagement, funneling social interactions around AR scanning.
+
+2. **Improved Performance**
+
+   - Data retrieval times cut ~40% with selective queries and minor DB indexing.
+   - App load speed significantly increased, crucial for on-the-fly scanning tasks.
+
+3. **Positive Stakeholder Feedback**
+   - Real store owners found the “optional AR” approach more approachable.
+   - Provided a flexible blueprint to add deeper AR features as the user base matures.
 
 <br>
 
 ## Personal Growth & Reflection
 
-1. **Technical Mastery**
+**Technical Mastery**
 
-   - Gained deeper knowledge of **React Native** (Expo) fundamentals, bridging advanced device features like camera scans, file uploads, gesture handling.
-   - Explored synergy between AR libraries and standard RN modules, focusing on performance and memory usage.
+- Heightened expertise in **React Native** (Expo), bridging advanced features (camera, local file system, gesture handling).
+- Learned to integrate AR modules selectively, ensuring stable performance for broader user devices.
 
-2. **Project Management & Communication**
+**Project Management & Communication**
 
-   - Led weekly check-ins with the business owners, iterating mockups in Figma, adjusting milestones based on direct Gen Z feedback.
-   - Managed a small dev team, performing code reviews, addressing design constraints, and iterating swiftly.
+- Drove weekly discussions with the business owners, adjusting scope as user feedback demanded.
+- Mentored teammates on using **TS** for type safety, orchestrating code reviews, ensuring consistent patterns.
 
-3. **Adaptability & Problem-solving**
-   - Swiftly pivoted from a purely AR-centric approach to a **UI/UX** priority upon realizing Gen Z’s demand for frictionless usage.
-   - Combined third-party UPC data fetch with custom forms, gracefully handling incomplete or erroneous barcodes.
+**Adaptability & Problem-solving**
+
+- Pivoted from a purely AR concept to a UI/UX priority, discovering that Gen Z wants quick hits, minimal friction.
+- Blended partial AR scanning with a dynamic form, letting novices create product entries if auto-detect fails.
 
 <br>
 
-## Final Thoughts
+## Conclusion
 
-My experience on **Goshsha** reaffirmed the power of **user-centric** dev cycles and thoughtful architecture in bridging novel tech (AR) with real consumer needs. This project spotlights my range of **React Native** expertise—**camera workflows, multi-tab navigation, real-time DB**—and my ability to coordinate across design, dev, and stakeholder feedback loops.
+Working on **Goshsha** reaffirmed the **power of user-centric design** in bridging novel AR concepts with real consumer needs. This project showcased my range in **React Native**—from scanning logic to multi-tab navigation and robust data forms in Firebase—while highlighting my ability to manage stakeholder requests, build user stories, and guide an agile dev process.
 
-Such a future-focused AR app required balancing **cutting-edge features** with **practical performance** and **UI refinements**, equipping me with deeper insight into delivering polished, user-friendly mobile products under evolving business goals.
+**Goshsha** stands as a testament to my desire to **innovate** while staying **practical**—delivering polished solutions that blend cutting-edge features with **accessible** user experiences.
