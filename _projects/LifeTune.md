@@ -41,7 +41,6 @@ From **January 2024** to **March 2024**, I led a rapid development cycle to crea
    - Ensured **data security** with role-based read/write rules in Firebase, plus encryption for sensitive info
 
 5. **Project Coordination & Collaboration**
-   - Orchestrated **daily stand-ups** and served as a liaison between design, marketing, and engineering
    - Scoped MVP features, managed **Jira** tasks, and documented milestone deliverables
    - Balanced business priorities with technical constraints under tight deadlines
 
@@ -68,7 +67,7 @@ Experience **LifeTune** in action! The video highlights our streamlined dashboar
        path="assets/img/mid_fidelity_prototypes.png"
        title="LifeTune Mid-Fidelity Prototypes"
        class="rounded z-depth-1"
-       max-width="250px"
+       height="350px"
     %}
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
@@ -77,7 +76,7 @@ Experience **LifeTune** in action! The video highlights our streamlined dashboar
        path="assets/img/high_fidelity_prototypes.png"
        title="LifeTune High-Fidelity Prototypes"
        class="rounded z-depth-1"
-       max-width="250px"
+       height="350px"
     %}
   </div>
 </div>
