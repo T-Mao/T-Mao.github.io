@@ -364,24 +364,24 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-donetodo-app-minimalistic-time-planning-solution",
-          title: 'DoneTodo App – Minimalistic Time-Planning Solution',
-          description: "My role as an iOS Developer",
+          section: "News",},{id: "projects-donetodo-app",
+          title: 'DoneTodo App',
+          description: "Minimalistic Time-Planning Solution",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DoneTodo/";
-            },},{id: "projects-goshsha-app-future-ar-interactive-shopping-experience",
-          title: 'Goshsha App – Future AR Interactive Shopping Experience',
-          description: "My role as a React/Expo App Developer",
+            },},{id: "projects-goshsha-app",
+          title: 'Goshsha App',
+          description: "Future AR Interactive Shopping Experience",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Goshsha/";
-            },},{id: "projects-howdidi-app-paid-résumé-sharing-platform",
-          title: 'HowDidI App – Paid Résumé-Sharing Platform',
-          description: "My role as a Swift/iOS Developer &amp; Project Lead",
+            },},{id: "projects-howdidi-app",
+          title: 'HowDidI App',
+          description: "Paid Résumé-Sharing Platform",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HowDidI/";
-            },},{id: "projects-spotify-browser-high-performance-music-streaming-web-app",
-          title: 'Spotify Browser – High-Performance Music Streaming Web App',
-          description: "My role as a Full-stack / Angular Developer",
+            },},{id: "projects-spotify-browser",
+          title: 'Spotify Browser',
+          description: "High-Performance Music Streaming Web App",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Spotify/";
             },},{id: "projects-suptech-mobile-apps-project",
@@ -389,14 +389,14 @@ ninja.data = [{
           description: "My role as an App Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SupTech/";
-            },},{id: "projects-threetodo-app-efficient-task-management",
-          title: 'ThreeTodo App – Efficient Task Management',
-          description: "Rapidly Developed Minimalist Task Manager",
+            },},{id: "projects-threetodo-app",
+          title: 'ThreeTodo App',
+          description: "Efficient Task Management",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ThreeTodo/";
-            },},{id: "projects-writercards-daily-creativity-amp-self-reflection",
-          title: 'WriterCards – Daily Creativity &amp;amp; Self-Reflection',
-          description: "My role as an iOS Developer",
+            },},{id: "projects-writercards",
+          title: 'WriterCards',
+          description: "Daily Creativity &amp; Self-Reflection",
           section: "Projects",handler: () => {
               window.location.href = "/projects/WriterCards/";
             },},{
