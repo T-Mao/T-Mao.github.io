@@ -51,7 +51,7 @@ Below are some **representative code modules** I designed and/or refactored. I u
 <details>
 <summary><strong>ArPage.tsx (Expo Camera + Barcode + Firebase Check)</strong></summary>
 
-```ts
+```
 // AR entry page that integrates Camera, real-time barcode scanning,
 // dynamic product info retrieval from Firebase, and custom popups
 
@@ -101,7 +101,7 @@ export default function ArPage() {
 <details>
 <summary><strong>communityPage.tsx, mePage.tsx</strong></summary>
 
-```ts
+```
 // Basic placeholders for user communities & profile. Emphasis on
 // architectural clarity: hooking up user context, reactivity, and
 // cross-page navigation via expo-router
@@ -131,7 +131,7 @@ export default function communityPage() {
 <details>
 <summary><strong>DetailedInformation.tsx</strong></summary>
 
-```ts
+```
 // Handling form data for new product: user can fill brand, productName, color, etc.
 // On submit => writes to Firestore
 
@@ -168,7 +168,7 @@ export default function DetailedInformation() {
 <details>
 <summary><strong>SignIn.tsx / SignUp.tsx</strong></summary>
 
-```ts
+```
 // Swiftly handles firebase createUserWithEmailAndPassword, linking Gravatar avatar
 // and storing minimal user data in context.
 // Also includes optional Google sign-in.
