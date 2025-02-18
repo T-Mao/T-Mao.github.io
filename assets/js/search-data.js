@@ -379,6 +379,11 @@ ninja.data = [{
           description: "Paid Résumé-Sharing Platform",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HowDidI/";
+            },},{id: "projects-lifetune-mobile-app",
+          title: 'LifeTune Mobile App',
+          description: "Streamlined Health Monitoring",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LifeTune/";
             },},{id: "projects-spotify-browser",
           title: 'Spotify Browser',
           description: "High-Performance Music Streaming Web App",
