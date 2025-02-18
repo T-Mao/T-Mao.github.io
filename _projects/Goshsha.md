@@ -94,7 +94,7 @@ We also integrated agile best practices, meeting every Tuesday to present comple
 <details>
 <summary>Sample: communityPage.tsx</summary>
 
-```typescript
+{% highlight ts %}
 // Minimal community feed.
 // Real usage fetched AR posts from Firebase, displayed user updates,
 // encouraged liking & commenting.
@@ -107,7 +107,7 @@ export default function communityPage() {
     </View>
   );
 }
-```
+{% endhighlight %}
 
 </details>
 
@@ -119,7 +119,7 @@ export default function communityPage() {
 <details>
 <summary>ArPage.tsx excerpt</summary>
 
-```typescript
+{% highlight ts %}
 const handleBarCodeScanned = async ({ type, data }) => {
   if (type === BarCodeScanner.Constants.BarCodeType.ean13 && !isCapturing) {
     setIsCapturing(true);
@@ -132,7 +132,7 @@ const capturePhoto = async (barcodeData: string = "") => {
   // If doc found => popup with product details
   // else => user is prompted to create new item
 };
-```
+{% endhighlight %}
 
 </details>
 
@@ -144,7 +144,7 @@ const capturePhoto = async (barcodeData: string = "") => {
 <details>
 <summary>DetailedInformation.tsx snippet</summary>
 
-```typescript
+{% highlight ts %}
 useEffect(() => {
   if (barcodeContent) {
     // fetch UPC data from 3rd-party
@@ -158,7 +158,7 @@ async function handleSubmission() {
   });
   Alert.alert("Success", "Added item to Goshsha DB");
 }
-```
+{% endhighlight %}
 
 </details>
 
