@@ -115,25 +115,8 @@ struct PagingScrollView<Content: View>: UIViewControllerRepresentable {
   Set up requirement-gathering sessions with project owners, refined user stories, and validated acceptance criteria—ensuring each sprint delivered meaningful increments.
 - **UI/UX Design**  
   Collaborated on wireframes, tested color palettes, and tested user flows for frictionless reading/purchase experiences.
-- **Release Management**  
-  Deployed **TestFlight** builds for iterative testing, ensuring timely feedback loops before official App Store submission.
 - **Database & Security**  
   Advised team on Firebase rules for read/write privileges, preventing unauthorized access or data tampering. Proposed minimal data indexing for faster queries.
-
-<br>
-
-## Project Outcomes
-
-1. **User Engagement**
-
-   - Beta test showed strong interest from jobseekers and grad school applicants seeking real application examples. Over 100 PDFs uploaded in initial pilot.
-
-2. **Scalable Real-time Model**
-
-   - Achieved near-instant media syncing through Firebase; capacity planning done for potential 10k+ daily active users.
-
-3. **Team Growth**
-   - Junior devs completed end-to-end app-building experience, from SwiftUI layout to backend integration, significantly boosting their confidence and skill set.
 
 <br>
 
@@ -152,7 +135,6 @@ struct PagingScrollView<Content: View>: UIViewControllerRepresentable {
 **Communication & Adaptability**
 
 - Balanced stakeholder requests with pragmatic dev timelines, re-prioritizing features and scope as needed.
-- Learned to pivot quickly when user feedback demanded changes in pay model, pass unlocking, or media display.
 
 <br>
 
