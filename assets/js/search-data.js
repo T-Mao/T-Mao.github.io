@@ -389,8 +389,8 @@ ninja.data = [{
           description: "High-Performance Music Streaming Web App",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Spotify/";
-            },},{id: "projects-suptech-mobile-apps-project",
-          title: 'SupTech Mobile Apps Project',
+            },},{id: "projects-suptech-apps",
+          title: 'SupTech Apps',
           description: "My role as an App Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SupTech/";
