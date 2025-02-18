@@ -364,7 +364,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-goshsha-app-future-ar-interactive-shopping-experience",
+          section: "News",},{id: "projects-donetodo-app-minimalistic-time-planning-solution",
+          title: 'DoneTodo App – Minimalistic Time-Planning Solution',
+          description: "My role as an iOS Developer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/DoneTodo/";
+            },},{id: "projects-goshsha-app-future-ar-interactive-shopping-experience",
           title: 'Goshsha App – Future AR Interactive Shopping Experience',
           description: "My role as a React/Expo App Developer",
           section: "Projects",handler: () => {
