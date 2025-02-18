@@ -394,6 +394,11 @@ ninja.data = [{
           description: "Rapidly Developed Minimalist Task Manager",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ThreeTodo/";
+            },},{id: "projects-writercards-daily-creativity-amp-self-reflection",
+          title: 'WriterCards – Daily Creativity &amp;amp; Self-Reflection',
+          description: "My role as an iOS Developer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/WriterCards/";
             },},{
         id: 'social-email',
         title: 'email',
