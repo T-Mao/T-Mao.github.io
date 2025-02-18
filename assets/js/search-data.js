@@ -364,7 +364,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-suptech-mobile-apps-project",
+          section: "News",},{id: "projects-howdidi-app-paid-résumé-sharing-platform",
+          title: 'HowDidI App – Paid Résumé-Sharing Platform',
+          description: "My role as a Swift/iOS Developer &amp; Project Lead",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/HowDidI/";
+            },},{id: "projects-suptech-mobile-apps-project",
           title: 'SupTech Mobile Apps Project',
           description: "My role as an App Developer",
           section: "Projects",handler: () => {
