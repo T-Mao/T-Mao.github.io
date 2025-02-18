@@ -1,7 +1,7 @@
 ---
 layout: page
-title: WriterCards – Daily Creativity & Self-Reflection
-description: My role as an iOS Developer
+title: WriterCards
+description: Daily Creativity & Self-Reflection
 img:
 importance: 2
 category: individual

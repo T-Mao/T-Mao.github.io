@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Goshsha App – Future AR Interactive Shopping Experience
-description: My role as a React/Expo App Developer
+title: Goshsha App
+description: Future AR Interactive Shopping Experience
 img: assets/img/Goshsha/GoshshaLogoTransparentBG.png
 importance: 1
 category: group

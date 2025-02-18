@@ -1,7 +1,7 @@
 ---
 layout: page
-title: DoneTodo App – Minimalistic Time-Planning Solution
-description: My role as an iOS Developer
+title: DoneTodo App
+description: Minimalistic Time-Planning Solution
 img: assets/img/DoneTodo.png
 importance: 1
 category: individual

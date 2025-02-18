@@ -1,7 +1,7 @@
 ---
 layout: page
-title: HowDidI App – Paid Résumé-Sharing Platform
-description: My role as a Swift/iOS Developer & Project Lead
+title: HowDidI App
+description: Paid Résumé-Sharing Platform
 img: assets/img/9.jpg
 importance: 2
 category: group

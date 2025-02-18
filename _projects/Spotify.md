@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Spotify Browser – High-Performance Music Streaming Web App
-description: My role as a Full-stack / Angular Developer
+title: Spotify Browser
+description: High-Performance Music Streaming Web App
 img: assets/img/12.png
 importance: 1
 category: individual
