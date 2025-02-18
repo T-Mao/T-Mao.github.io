@@ -63,15 +63,15 @@ Between **October 2022** and **November 2022**, I developed a **Spotify-like** m
 <details>
 <summary><strong>SearchComponent Excerpt</strong></summary>
 
-```typescript
+{% highlight ts %}
 search() {
-  // Calls SpotifyService, which calls the Express server
-  this.spotifyService.searchFor(this.searchCategory, this.searchString)
-    .then((data) => {
-      this.resources = data;
-    });
+// Calls SpotifyService, which calls the Express server
+this.spotifyService.searchFor(this.searchCategory, this.searchString)
+.then((data) => {
+this.resources = data;
+});
 }
-```
+{% endhighlight %}
 
 **Highlights**:
 
@@ -93,26 +93,27 @@ search() {
 <details>
 <summary><strong>server/routes/index.js - Refresh Logic</strong></summary>
 
-```js
+{% highlight js %}
+
 function makeAPIRequest(url, res) {
-  const headers = { Authorization: "Bearer " + access_token };
-  fetch(url, { method: "GET", headers })
-    .then((response) => {
-      if (response.ok) {
-        return response.json();
-      } else if (response.status === 401) {
-        // handle token refresh
-        return refresh().then(() => fetch(url, { method: "GET", headers }));
-      }
-    })
-    .then((json) => {
-      res.json(json);
-    })
-    .catch((err) => {
-      console.error(err);
-    });
+const headers = { Authorization: "Bearer " + access_token };
+fetch(url, { method: "GET", headers })
+.then((response) => {
+if (response.ok) {
+return response.json();
+} else if (response.status === 401) {
+// handle token refresh
+return refresh().then(() => fetch(url, { method: "GET", headers }));
 }
-```
+})
+.then((json) => {
+res.json(json);
+})
+.catch((err) => {
+console.error(err);
+});
+}
+{% endhighlight %}
 
 **Highlights**:
 
@@ -135,14 +136,16 @@ function makeAPIRequest(url, res) {
 <details>
 <summary><strong>CarouselCardComponent Template Excerpt</strong></summary>
 
-```html
+{% highlight html %}
+
 <a [href]="'/' + resource.category + '/' + resource.id">
-  <img [src]="resource.imageURL" class="d-block w-100" alt="Resource image" />
+<img [src]="resource.imageURL" class="d-block w-100" alt="Resource image" />
+
   <div class="carousel-caption d-none d-md-block">
     <h5>{{ resource.name }}</h5>
   </div>
 </a>
-```
+{% endhighlight %}
 
 </details>
 
