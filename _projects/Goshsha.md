@@ -84,8 +84,8 @@ We also integrated agile best practices, meeting every Tuesday to present comple
 ### 1. UI/UX Redesign with React Expo
 
 <p align="center">
-  <img src="/assets/img/Goshsha/FigmaMockups1.png" alt="Figma Mockup 1" style="height:300px;">
-  <img src="/assets/img/Goshsha/FigmaMockups2.png" alt="Figma Mockup 2" style="height:300px;">
+  <img src="/assets/img/Goshsha/FigmaMockups1.png" alt="Figma Mockup 1" style="height:350px;">
+  <img src="/assets/img/Goshsha/FigmaMockups2.png" alt="Figma Mockup 2" style="height:350px;">
 </p>
 
 - **Gen Z–friendly** styling: bold color palette, large CTA buttons, and “vertical-first” navigations improved user retention.
