@@ -364,7 +364,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-checkersai",
+          section: "News",},{id: "projects-dataset-engineering-amp-stereo-3d-reconstruction",
+          title: 'Dataset Engineering &amp;amp; Stereo 3D Reconstruction',
+          description: "Research at CUHK – My Role as a Summer Research Intern",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CUHK/";
+            },},{id: "projects-checkersai",
           title: 'CheckersAI',
           description: "Intelligent Board-Game Strategy",
           section: "Projects",handler: () => {
