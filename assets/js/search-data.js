@@ -384,11 +384,6 @@ ninja.data = [{
           description: "Streamlined Health Monitoring",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LifeTune/";
-            },},{id: "projects-mywellness-app",
-          title: 'MyWellness App',
-          description: "Developed a comprehensive iOS health tracking app in Swift.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/MyWellness/";
             },},{id: "projects-spotify-browser",
           title: 'Spotify Browser',
           description: "High-Performance Music Streaming Web App",
