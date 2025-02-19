@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LifeTune App
-description: Streamlined Health Monitoring with a User-Centric, Tech-Driven Approach
+description: Streamlined Health Monitoring (Concept & Prototype)
 img:
 importance: 3
 category: group
@@ -10,15 +10,15 @@ related_publications: false
 
 ## Overview
 
-From **January 2024** to **March 2024**, I built **LifeTune**, a health-tracking application designed to reduce data overwhelm through **simple visuals**, **motivational nudges**, and **personalized recommendations**. I played multiple roles—**developer**, **designer**, and **researcher**—crafting a robust, **Flutter-based** mobile app that integrates with **Apple HealthKit / Google Fit**, transforming raw health data into actionable insights for users.
+From **January 2024** to **March 2024**, I spearheaded a **concept-to-prototype** project called **LifeTune**, aimed at **simplifying personal health management**. Rather than being a fully integrated, production-level app, **LifeTune** represents a **high-fidelity iOS prototype**—complete with user-driven design insights, interactive mockups, and foundational Swift code. Our focus was to **distill complex health data** (diet, activity, sleep) into clear visuals and **motivational nudges**, reducing data overload for everyday users.
 
 <br>
 
 ## Problem Statement
 
-> “How might we develop a solution that **minimizes data overload** for health-conscious users, providing **motivational insights** and **personalized recommendations**—such as showing a current health score, offering small actionable steps, and giving users **real-time, user-friendly** health status updates?”
+> “How might we develop a solution that **minimizes data overwhelm** for health-conscious users, providing **motivational insights** and **personalized recommendations**—for instance, showing a current health score and offering small, actionable steps to ensure real-time, user-friendly health updates?”
 
-This question guided the entire design and development process, ensuring LifeTune addressed core user pain points right from ideation to deployment.
+This guiding question shaped every phase of our design and development process, from initial **user research** to final high-fidelity mockups.
 
 <br>
 
@@ -26,95 +26,86 @@ This question guided the entire design and development process, ensuring LifeTun
 
 ### Research Participants
 
-1. **Health Enthusiasts**  
-   \- Individuals actively tracking exercise, diet, and sleep who needed a more **user-friendly** dashboard.
-2. **Existing App Users**  
-   \- People who have tried other health apps and found them either too complicated or lacking key features.
-3. **Technology Developers**  
-   \- Professionals familiar with building health apps, offering feedback on feasibility and best practices.
-4. **Reluctant Tech Users**  
-   \- Skeptics who fear complexity or privacy issues, ensuring our design accommodates non-tech-savvy audiences.
+1. **Health Enthusiasts**
+   - Already monitoring exercise and diet, but felt many apps were cluttered or inconsistent.
+2. **Existing App Users**
+   - Offered comparative feedback on popular health apps—highlighting the need for streamlined dashboards.
+3. **Developers / Tech Professionals**
+   - Provided feasibility checks and suggestions for key features in a minimal viable prototype.
+4. **Tech-Wary Individuals**
+   - Voiced concerns about complexity and privacy, emphasizing intuitive design and clear data use policies.
 
-### Focus & Findings
+### Findings
 
-- **Awareness & Usage**: Users want a concise, holistic view of health metrics in one place.
-- **Overwhelm & Complexity**: Many existing apps bombard users with unprioritized data, leading to confusion and eventual dropout.
-- **Integration & Simplicity**: Hands-off data capture (e.g., Apple HealthKit / Google Fit sync) is critical for sustained engagement.
-- **Motivation & Feedback**: Gamified features (e.g., progress trackers, health scores) can encourage users to stay consistent.
-- **Privacy & Control**: Transparent data policies and user consent features are non-negotiable for trust.
-
-### Design Insights
-
-1. **Simplification**: Consolidate multiple data points (diet, fitness, sleep) into a single “at-a-glance” dashboard.
-2. **Seamless Integration**: Automate data collection and reduce manual input, lowering the barrier to entry.
-3. **Progress & Achievement**: Use dynamic prompts and visual cues to celebrate small wins and motivate continuous improvement.
-4. **Emotional Well-Being**: Offer subtle mental health nudges, highlighting healthy habits beyond just numbers.
+- **Data Overwhelm**: Many users appreciated having health metrics but were turned off by cluttered interfaces or tedious manual inputs.
+- **Motivation & Progress**: They favored apps that **celebrate small wins** (e.g., daily progress updates, reminders to move or hydrate).
+- **Seamless Integration**: Automated data input (hypothetically via Apple HealthKit) was critical for consistency and engagement.
+- **Privacy Concerns**: Even in a conceptual prototype, participants stressed wanting control over personal data.
 
 <br>
 
-## Storyboards & Design Evolution
+## Design & Prototyping Process
+
+### Storyboards & Wireframes
+
+- Drafted **user journey storyboards** to ensure each screen had a clear purpose and minimized user friction.
+- Low-fidelity **wireframes** tested initial layout ideas, focusing on clean navigation and straightforward visuals.
+
+### Mid-Fidelity Prototype
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
        path="assets/img/mid_fidelity_prototypes.png"
-       title="LifeTune Mid-Fidelity Prototypes"
+       title="LifeTune Mid-Fidelity Prototype"
        class="rounded z-depth-1"
-       style="height: 250px; width: auto;"
+       style="max-height: 250px; width: auto;"
     %}
   </div>
+</div>
+
+- Added **interactive elements** for key tasks (e.g., logging meals, checking steps).
+- Incorporated basic color coding and icons to differentiate various health metrics at a glance.
+
+### High-Fidelity Prototype
+
+<div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
        path="assets/img/high_fidelity_prototypes.png"
-       title="LifeTune High-Fidelity Prototypes"
+       title="LifeTune High-Fidelity Prototype"
        class="rounded z-depth-1"
-       style="height: 350px; width: auto;"
+       style="max-height: 250px; width: auto;"
     %}
   </div>
 </div>
 
-<div class="caption">
-  Storyboards and prototypes guided iterative improvements, ensuring user needs always shaped the UI and feature set.
-</div>
-
-- **Initial Sketches & Storyboards**
-  - Mapped out user journeys for tasks like “log a meal” or “view today’s health score,” confirming the need to keep screens minimal and intuitive.
-- **Mid-Fidelity Prototypes**
-  - Validated navigation flows with real users, refining the **daily check-in** and **progress tracking** modules.
-- **High-Fidelity Designs**
-  - Finalized visual elements for iOS/Android, with an emphasis on clean layouts and consistent color schemes that reinforce user motivation.
+- Refined the **visual design** with SwiftUI styling for iOS consistency.
+- Introduced a **“Health Score”** feature to give users an at-a-glance overview of their overall well-being.
 
 <br>
 
-## Development Approach
+## Technical Implementation (iOS / SwiftUI)
 
-### 1. Tech Stack & Architecture
+1. **SwiftUI Structure**
 
-- **Flutter & Dart**  
-  \- Delivered cross-platform performance while maintaining native look-and-feel.
-- **Firebase**  
-  \- Used for real-time database, secure user authentication, and offline caching.
-- **Apple HealthKit / Google Fit Integration**  
-  \- Automated data sync for workout sessions, dietary logs, and sleep analysis.
+   - Built a **basic model-view** architecture allowing swift UI updates in response to user actions.
+   - Mocked health data (e.g., calorie intake, steps) to simulate real-world scenarios in user testing.
 
-### 2. Core Responsibilities
+2. **Local Data Handling**
 
-1. **Full-Stack Implementation**
-   - Set up **Firebase** environment with secure role-based read/write permissions.
-   - Built out client-side logic in **Flutter** using **Provider** for state management and **StreamBuilders** for real-time updates.
-2. **Iterative Testing & Feedback Loops**
-   - Conducted **usability tests** weekly, adjusting the UI/UX to remove friction points.
-   - Leveraged **user analytics** to track feature engagement, pivoting as needed in agile sprints.
-3. **Agile Project Management**
-   - Created and refined **user stories**, scoping MVP features in **Jira**.
-   - Led **daily stand-ups** and milestone demos, ensuring timely progress under tight deadlines.
-4. **Performance Optimization**
-   - Streamlined data fetches using asynchronous calls and caching strategies.
-   - Ensured minimal UI lag by splitting large updates into smaller, continuous streams.
-5. **Security & Compliance**
-   - Enforced **OAuth 2.0**–based user authorization, data encryption, and transparent consent flows.
+   - No full backend integration; data persisted locally or in mock JSON files.
+   - Demonstrated potential for future Apple HealthKit integration if fully developed.
+
+3. **Iterative Testing**
+
+   - Conducted **user tests** on interactive prototypes, refining the UI for better clarity (e.g., reorganizing menu items, adjusting color schemes).
+   - Focused on **key flows** like daily check-ins, meal logging, and progress viewing.
+
+4. **Conceptual Privacy & Consent**
+   - Discussed potential privacy controls (permissions dialog, data encryption) to address user concerns, though not fully implemented in code.
 
 <br>
 
@@ -126,25 +117,42 @@ This question guided the entire design and development process, ensuring LifeTun
   </video>
 </div>
 
-Experience **LifeTune** in action! The demo reveals our consolidated dashboard, motivational nudges, and user-friendly flows, showing how even novice users can track their well-being effectively.
+Experience **LifeTune** in action! The demo highlights our **streamlined dashboard**, **motivational prompts**, and **interactive flows**, demonstrating how we tackled data overload through clean, intuitive design.
+
+<br>
+
+## My Contributions
+
+1. **SwiftUI Prototyping**
+
+   - Set up the **core screens** and navigational flows in Swift, using mock datasets for realistic demonstrations.
+   - Experimented with layout optimizations and interactive components to capture essential user tasks.
+
+2. **User-Centric Design**
+
+   - Conducted **user research** sessions and integrated feedback directly into iterative design.
+   - Developed **wireframes** and storyboards, translating them into clickable prototypes.
+
+3. **Project Coordination**
+
+   - Organized sprint-based **milestones** and deliverables (mid-fi, hi-fi prototypes, user interviews).
+   - Consolidated findings into clear documentation for team reference and stakeholder presentations.
+
+4. **Competitive Analysis & Insights**
+   - Examined popular health apps, highlighting best practices (simple dashboards, activity reminders) and pitfalls (cluttered data, lack of engagement).
+   - Derived design goals that shaped LifeTune’s minimalistic, motivating approach.
 
 <br>
 
 ## Outcomes & Reflections
 
-- **Minimized Data Overwhelm**
-  - Testers reported feeling more **in control** of their wellness, citing the app’s “at-a-glance” design.
-- **Higher Engagement Rates**
-  - Gamification features, like daily health scores and progress badges, boosted user retention across the 3-month beta.
-- **Robust, Maintainable Codebase**
-  - Flutter’s modular architecture and well-structured provider patterns ensure easy feature expansions (e.g., additional health metrics).
-- **Personal & Team Growth**
-  - Balanced stakeholder expectations, user needs, and technical constraints under strict deadlines, refining both my **leadership** and **development** skillset.
-- **Future Roadmap**
-  - Plans to integrate **stress-level monitoring**, additional wearable device support, and AI-driven personalized tips.
+- **Validated Concept**: User tests confirmed that **simplified UIs** and **motivational scoring** can effectively reduce data overwhelm.
+- **Showcased Technical Feasibility**: Demonstrated how **SwiftUI**’s dynamic nature could support a flexible health-tracking interface, even without a full backend.
+- **Enhanced Design Thinking**: Balancing user insights with prototype coding sharpened my skills in **translating needs into functional interfaces**.
+- **Foundation for Future Expansion**: If developed further, LifeTune could incorporate **live HealthKit integration**, secure data storage, and personalized AI-driven recommendations.
 
 <br>
 
 ## Final Thoughts
 
-**LifeTune** highlights my ability to unify **technical engineering** with **design thinking** and **user research**—ultimately delivering a cross-platform app that helps people grasp and improve their health data. By focusing on simplifying complex metrics, motivating users to take small steps, and ensuring a rock-solid code foundation, I believe **LifeTune** stands as a prime example of my passion for building impactful, user-centered mobile solutions.
+Though **LifeTune** remains a **conceptual prototype** rather than a production app, it stands as a testament to **user-driven design** and **solid SwiftUI practices**. By marrying **in-depth user research**, a **streamlined interface**, and **iterative testing**, we created a compelling vision of how everyday users can manage health data with minimal stress. I’m proud of this project’s potential to evolve into a full-fledged solution and grateful for the lessons learned in delivering a **clear, motivating** health-tracking experience.
