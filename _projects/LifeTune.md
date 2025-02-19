@@ -60,7 +60,7 @@ This guiding question shaped every phase of our design and development process, 
        path="assets/img/mid_fidelity_prototypes.png"
        title="LifeTune Mid-Fidelity Prototype"
        class="rounded z-depth-1"
-       style="max-height: 250px; width: auto;"
+       style="max-height: 350px"
     %}
   </div>
 </div>
@@ -77,7 +77,7 @@ This guiding question shaped every phase of our design and development process, 
        path="assets/img/high_fidelity_prototypes.png"
        title="LifeTune High-Fidelity Prototype"
        class="rounded z-depth-1"
-       style="max-height: 250px; width: auto;"
+       style="max-height: 350px;"
     %}
   </div>
 </div>
