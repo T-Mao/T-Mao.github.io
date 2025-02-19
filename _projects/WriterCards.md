@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WriterCards
+title: WriterCards App
 description: Daily Creativity & Self-Reflection
 img: assets/img/writercards.png
 importance: 2
