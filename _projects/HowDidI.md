@@ -2,7 +2,7 @@
 layout: page
 title: HowDidI App
 description: Paid Résumé-Sharing Platform
-img: assets/img/9.jpg
+img: https://i.fbcd.co/products/original/04-resume-cover-letter-page-free-resume-design-template-acc6f24923fb19e12b9a301619175f200cfdd73d19538a86453429f40ff5d7bf.jpg
 importance: 2
 category: group
 related_publications: false
