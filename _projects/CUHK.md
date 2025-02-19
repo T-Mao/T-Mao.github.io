@@ -4,7 +4,7 @@ title: Dataset Engineering & Stereo 3D Reconstruction
 description: Research at CUHK – My Role as a Summer Research Intern
 img: https://upload.wikimedia.org/wikipedia/commons/1/1c/CU_Emblem.jpg
 importance: 1
-category: work
+category: group
 related_publications: false
 ---
 
