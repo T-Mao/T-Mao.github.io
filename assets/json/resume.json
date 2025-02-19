@@ -86,7 +86,7 @@
       "startDate": "2023-06-01",
       "endDate": "2023-08-01",
       "courses": ["EndoNeRF - Pose-Free Depth-Supervised Neural Radiance Fields"],
-      "summary": "Contributed to advanced NeRF-based research focused on 3D scene reconstruction in endoscopic procedures, collaborating within a multidisciplinary team to address real-world medical imaging challenges."
+      "summary": "Participated in a cutting-edge medical imaging project focusing on 3D reconstruction of endoscopic scenes, leveraging stereo video data and Neural Radiance Fields (NeRF)."
     },
     {
       "institution": "Arcadia High School",
@@ -299,10 +299,12 @@
     },
     {
       "name": "CheckersAI – Intelligent Board-Game Strategy",
-      "summary": "An AI-driven Checkers agent built to showcase strategic decision-making in board games.",
+      "summary": "Developed an AI-driven Checkers agent to demonstrate high-level strategic decision-making in board games.",
       "highlights": [
-        "Integrated heuristic-based search algorithms and alpha-beta pruning, enabling efficient move selection.",
-        "Adapted dynamically to various board states, demonstrating real-time strategy modifications."
+        "Algorithmic Depth: Implemented alpha-beta pruning and heuristic-based evaluation to efficiently explore move trees and prioritize high-value captures.",
+        "Dynamic Board Adaptation: Built a robust board-state architecture to handle king promotions, multi-jumps, and real-time state shifts.",
+        "Performance Tuning: Iteratively refined scoring parameters (e.g., rewarding aggressive play, penalizing risky moves), significantly improving win rates against baseline AIs.",
+        "Scalable Codebase: Leveraged modular design to support various board sizes and game expansions, illustrating strong architecture and maintainability."
       ],
       "startDate": "2022-09-01",
       "endDate": "2022-12-01",
