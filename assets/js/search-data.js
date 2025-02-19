@@ -364,7 +364,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-donetodo-app",
+          section: "News",},{id: "projects-checkersai",
+          title: 'CheckersAI',
+          description: "Intelligent Board-Game Strategy",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CheckersAI/";
+            },},{id: "projects-donetodo-app",
           title: 'DoneTodo App',
           description: "Minimalistic Time-Planning Solution",
           section: "Projects",handler: () => {
