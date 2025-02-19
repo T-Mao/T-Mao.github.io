@@ -2,7 +2,7 @@
 layout: page
 title: Goshsha App
 description: Future AR Interactive Shopping Experience
-img: assets/img/Goshsha/GoshshaLogoTransparentBG.png
+img: assets/img/9.png
 importance: 1
 category: group
 related_publications: false

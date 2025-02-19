@@ -2,7 +2,7 @@
 layout: page
 title: WriterCards
 description: Daily Creativity & Self-Reflection
-img:
+img: assets/img/12.png
 importance: 2
 category: individual
 related_publications: false

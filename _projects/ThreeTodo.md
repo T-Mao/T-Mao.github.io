@@ -2,7 +2,7 @@
 layout: page
 title: ThreeTodo App
 description: Efficient Task Management
-img:
+img: assets/img/12.png
 importance: 1
 category: individual
 related_publications: false
