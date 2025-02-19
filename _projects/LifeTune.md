@@ -2,7 +2,7 @@
 layout: page
 title: LifeTune App
 description: Streamlined Health Monitoring (Concept & Prototype)
-img: assets/img/9.png
+img: assets/img/LifeTune.png
 importance: 3
 category: group
 related_publications: false
