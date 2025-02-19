@@ -61,7 +61,7 @@ This question guided the entire design and development process, ensuring LifeTun
        path="assets/img/mid_fidelity_prototypes.png"
        title="LifeTune Mid-Fidelity Prototypes"
        class="rounded z-depth-1"
-       style="height: 350px; width: auto;"
+       style="height: 250px; width: auto;"
     %}
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
