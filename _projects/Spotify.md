@@ -2,7 +2,7 @@
 layout: page
 title: Spotify Browser
 description: High-Performance Music Streaming Web App
-img: https://upload.wikimedia.org/wikipedia/commons/5/56/Spotify_logo_horizontal_black.jpg
+img: https://static.vecteezy.com/system/resources/previews/006/057/992/non_2x/spotify-logo-on-transparent-background-free-vector.jpg
 importance: 1
 category: individual
 related_publications: false
