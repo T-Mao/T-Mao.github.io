@@ -399,8 +399,8 @@ ninja.data = [{
           description: "Efficient Task Management",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ThreeTodo/";
-            },},{id: "projects-writercards",
-          title: 'WriterCards',
+            },},{id: "projects-writercards-app",
+          title: 'WriterCards App',
           description: "Daily Creativity &amp; Self-Reflection",
           section: "Projects",handler: () => {
               window.location.href = "/projects/WriterCards/";
