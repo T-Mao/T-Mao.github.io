@@ -381,7 +381,7 @@ ninja.data = [{
               window.location.href = "/projects/HowDidI/";
             },},{id: "projects-lifetune-app",
           title: 'LifeTune App',
-          description: "Streamlined Health Monitoring",
+          description: "Streamlined Health Monitoring with a User-Centric, Tech-Driven Approach",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LifeTune/";
             },},{id: "projects-spotify-browser",
