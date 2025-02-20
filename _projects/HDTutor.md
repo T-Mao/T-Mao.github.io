@@ -3,7 +3,7 @@ layout: page
 title: HD EDU
 description: My Role as a Calculus Senior Tutor
 img: assets/img/HDEDU.JPG
-importance: 2
+importance: 80
 category: work
 related_publications: false
 ---
