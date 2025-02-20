@@ -10,7 +10,7 @@ related_publications: false
 
 ## Overview
 
-Since **July 2021**, I have served as a **Calculus Tutor** at **HD EDU**, helping university-level learners master **Single-Variable** and **Multivariable** Calculus. Over two years, I tutored more than **160** students, was promoted to **Advanced Tutor** in 2022 for consistently strong performance, and later rose to **Senior Tutor** in 2023. My focus lay in **designing** and **delivering** a well-structured curriculum—combining clear lesson outlines, interactive engagements, and practical problem-solving sessions—to ensure every student rapidly acquires both conceptual and real-world applications of calculus.
+Since **July 2021**, I have served as a **Calculus Tutor** at **HD EDU**, helping university-level learners master **Single-Variable** and **Multivariable** Calculus. Over two years, I tutored more than **200** students, was promoted to **Advanced Tutor** in 2022 for consistently strong performance, and later rose to **Senior Tutor** in 2023. My focus lay in **designing** and **delivering** a well-structured curriculum—combining clear lesson outlines, interactive engagements, and practical problem-solving sessions—to ensure every student rapidly acquires both conceptual and real-world applications of calculus.
 
 Working in a **remote**, **fast-paced** setting demanded effective planning, iterative lesson refinement, and efficient handling of diverse student needs. By systematically collecting feedback and analyzing student progress, I organized weekly instruction, mid-term workshops, and daily Q&A channels to address common pitfalls. The result: a more cohesive learning experience that fosters academic improvements and genuine enthusiasm for math.
 
