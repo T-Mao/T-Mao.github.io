@@ -8,6 +8,18 @@ category: individual
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="https://static.vecteezy.com/system/resources/previews/006/057/992/non_2x/spotify-logo-on-transparent-background-free-vector.jpg"
+       title="Spotify Browser"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 Between **October 2022** and **November 2022**, I developed a **Spotify-like** music streaming web application that aimed to be **high-performance** and **user-friendly**. The project blended a **Node.js / Express** backend with an **Angular** frontend, incorporating **OAuth** for secure authentication and leveraging **MongoDB** for multi-user capabilities. A major focus was **optimizing load times** using **lazy loading** and **caching** strategies, ensuring a smooth experience reminiscent of real Spotify use cases.

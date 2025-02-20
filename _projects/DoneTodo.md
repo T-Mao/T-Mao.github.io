@@ -8,6 +8,18 @@ category: individual
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/DoneTodo.png"
+       title="DoneTodo App"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 **DoneTodo** is a **lightweight iOS** time-planning application that leverages a **drag-and-drop** interface, **color-coded** timelines, and **usage analytics** to help users visualize where every minute is spent—and effortlessly schedule upcoming tasks. Inspired by a _“less is more”_ philosophy, I focused on minimal UI elements, **streamlined workflows**, and **intuitive** navigation, ensuring that users could plan and track their days without clutter or confusion.

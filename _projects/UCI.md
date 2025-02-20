@@ -8,6 +8,18 @@ category: education
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/1200px-University_of_California%2C_Irvine_seal.svg.png"
+       title="UCI"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 While at the **University of California, Irvine (UCI)**, I undertook a **double major** in **Informatics** and **Computer Science**, earned a **Minor in Statistics**, graduated **cum laude** (_3.938 GPA_), and specialized in both **Human-Computer Interaction (HCI)** and **Intelligent Systems**. This rigorous path immersed me in **software development**, **user-centric design**, **data analytics**, and **cutting-edge AI**.

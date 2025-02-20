@@ -8,6 +8,18 @@ category: group
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/Goshsha/goshsha.jpg"
+       title="Goshsha App"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 From **January 2024** to **June 2024**, I led efforts to **modernize the Goshsha App**—an **augmented reality** shopping prototype designed for **Gen Z**.  

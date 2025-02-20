@@ -8,6 +8,18 @@ category: group
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/LifeTune.png"
+       title="LifeTune App"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 From **January 2024** to **March 2024**, I spearheaded a **concept-to-prototype** project called **LifeTune**, aimed at **simplifying personal health management**. Rather than being a fully integrated, production-level app, **LifeTune** represents a **high-fidelity iOS prototype**—complete with user-driven design insights, interactive mockups, and foundational Swift code. Our focus was to **distill complex health data** (diet, activity, sleep) into clear visuals and **motivational nudges**, reducing data overload for everyday users.

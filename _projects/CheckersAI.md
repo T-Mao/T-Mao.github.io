@@ -8,6 +8,18 @@ category: group
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="https://t4.ftcdn.net/jpg/05/46/06/29/360_F_546062917_u6HIsUWvGiMbucvviIDZ0gAHXxB0xliN.jpg"
+       title="CheckersAI"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 From **September 2022** to **December 2022**, I developed **CheckersAI**, an **AI-driven** Checkers agent designed to showcase intelligent decision-making in board games. Unlike a typical graphical mobile app, this was a **full-fledged Python project** focusing on **algorithmic depth**, **strategic heuristics**, and **real-time move adaptations**. I took a hands-on approach—**coding**, **debugging**, and **testing**—to ensure the AI could dynamically handle complex board states and demonstrate high-level play.

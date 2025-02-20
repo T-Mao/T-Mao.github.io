@@ -8,6 +8,18 @@ category: education
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="https://3.files.edl.io/93a7/20/07/07/222049-aa3393e6-f126-49c4-a5d8-08a199590af8.jpg"
+       title="Arcadia High School"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 During my time at **Arcadia High School**, I immersed myself in **multi-faceted coursework**, from honors and AP-level classes to advanced design projects. I graduated **Salutatorian** (GPA 3.97/4.0), reflecting a commitment to both academic rigor and broad creative exploration. Whether excelling in **AP Computer Science A** (score of 5), or working on digital arts and promotional posters, I embraced each challenge with **adaptability**, **technical precision**, and **innovative thinking**—the same qualities that continue to guide my professional pursuits today.

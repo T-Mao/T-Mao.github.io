@@ -8,6 +8,18 @@ category: individual
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/threetodo.png"
+       title="ThreeTodo App"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 From **April 13 to April 21, 2024**, I independently built **ThreeTodo**, a **lightweight iOS** task manager emphasizing **fluid navigation**, **minimal UI**, and **drag-and-drop** efficiency. The project demanded a **swift**, **five-day** turnaround—an ideal environment to showcase my **agile** approach and expertise in **user-centric** design. ThreeTodo's hallmark is its **intuitive** multi-page structure (Plan / Today / Thoughts), requiring minimal taps or screens to keep track of evolving tasks and ideas.

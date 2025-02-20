@@ -8,6 +8,18 @@ category: work
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/HDEDU.JPG"
+       title="HD EDU"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 Since **July 2021**, I have served as a **Calculus Tutor** at **HD EDU**, helping university-level learners master **Single-Variable** and **Multivariable** Calculus. Over two years, I tutored more than **200** students, was promoted to **Advanced Tutor** in 2022 for consistently strong performance, and later rose to **Senior Tutor** in 2023. My focus lay in **designing** and **delivering** a well-structured curriculum—combining clear lesson outlines, interactive engagements, and practical problem-solving sessions—to ensure every student rapidly acquires both conceptual and real-world applications of calculus.

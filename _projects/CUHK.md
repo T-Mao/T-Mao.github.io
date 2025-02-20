@@ -8,6 +8,18 @@ category: education
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="https://upload.wikimedia.org/wikipedia/commons/1/1c/CU_Emblem.jpg"
+       title="CUHK"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 From **June 2023** to **August 2023**, I participated in a summer research internship at **The Chinese University of Hong Kong (CUHK)**, collaborating with **Ren Lab** on **endoscopic 3D reconstruction** for medical applications. My work primarily involved **dataset analysis**, **stereo video preprocessing**, and **pipeline creation** for **pose** and **depth** estimation within an advanced **NeRF**-based framework. I also interacted with **Neural Radiance Fields (NeRF)** and **point cloud registration** concepts, gaining insight into cutting-edge image reconstruction and 3D alignment techniques used in minimally invasive surgery research.

@@ -8,6 +8,18 @@ category: individual
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/writercards.png"
+       title="WriterCards App"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 **WriterCards** is an iOS application I created from scratch (February 2024 – April 2024) to inspire daily creative writing and introspection. Developed entirely in **Swift** using **SwiftUI**, this project demonstrates my comprehensive skill set spanning **UI/UX design**, **state management**, **data persistence**, and **project coordination** (via **Jira** and **GitHub**).

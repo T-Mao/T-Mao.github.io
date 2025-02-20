@@ -8,6 +8,18 @@ category: work
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="assets/img/SupTech.jpeg"
+       title="SupTech"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 During my time at **SupTech**, I took on the challenge of building two large-scale mobile applications in **Flutter**—the **SupTech Consumer App** (C-end) and **SupTech Technician App** (T-end). I was not only responsible for **designing and coding** these apps but also took on roles typically divided among multiple teams in larger companies.

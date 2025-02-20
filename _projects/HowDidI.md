@@ -8,6 +8,18 @@ category: group
 related_publications: false
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="https://i.fbcd.co/products/original/04-resume-cover-letter-page-free-resume-design-template-acc6f24923fb19e12b9a301619175f200cfdd73d19538a86453429f40ff5d7bf.jpg"
+       title="HowDidI App"
+       class="rounded z-depth-1"
+       max-width="250px"
+    %}
+  </div>
+</div>
+
 ## Overview
 
 From **June 2024** to **October 2024**, I served as both **Project Manager** and **Technical Lead** for the **HowDidI App**, an iOS application that enables professionals to upload their résumés, earn income from viewership, and offers readers first-hand application materials for purchase. We built this platform with **Swift** (front-end) and **Firebase** (back-end) to provide real-time content synchronization and user interactions.
