@@ -115,7 +115,7 @@ I welcome the chance to bring this **deep coding** background, **team leadership
 ## Additional Resources
 
 - **UCI Bren School of ICS**: [https://www.ics.uci.edu](https://www.ics.uci.edu)
-- **Informatics Program**: [Official Catalogue Link](https://www.informatics.uci.edu/)
-- **Computer Science Program**: [Official Catalogue Link](https://cs.ics.uci.edu/)
-- **Statistics Minor**: [Catalogue Entry](https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofstatistics/statistics_minor/)
+- **Informatics Program**: [Official Catalogue Link](https://www.informatics.uci.edu)
+- **Computer Science Program**: [Official Catalogue Link](https://cs.ics.uci.edu)
+- **Statistics Minor**: [Catalogue Entry](https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofstatistics/statistics_minor)
 <!-- - **Select Transcripts & Coursework**: [In-depth Academic Record (PDF)](#)   -->
