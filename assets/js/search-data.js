@@ -419,6 +419,11 @@ ninja.data = [{
           description: "Efficient Task Management",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ThreeTodo/";
+            },},{id: "projects-uci-academic-journey",
+          title: 'UCI Academic Journey',
+          description: "My dual-major accomplishments and how they forged my versatile coding, research, and leadership prowess",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/UCI/";
             },},{id: "projects-writercards-app",
           title: 'WriterCards App',
           description: "Daily Creativity &amp; Self-Reflection",
