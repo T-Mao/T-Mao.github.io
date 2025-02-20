@@ -14,7 +14,7 @@ related_publications: false
        loading="eager"
        path="assets/img/Goshsha/GoshshaLogoTransparentBG.png"
        title="Goshsha App"
-       class="rounded z-depth-1"
+       class="rounded z-depth-0.5"
        max-width="350px"
     %}
   </div>
