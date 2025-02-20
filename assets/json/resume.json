@@ -61,7 +61,7 @@
       "institution": "University of California, Irvine",
       "location": "Irvine, CA",
       "url": "https://t-mao.github.io/projects/UCI/",
-      "area": "Computer Science & Informatics (Minor in Statistics)",
+      "area": "B.S. in Computer Science & Informatics | Minor in Statistics",
       "studyType": "Bachelor of Science (GPA: 3.938 / 4.0, CUM LAUDE)",
       "startDate": "2020-09-01",
       "endDate": "2024-06-01",
@@ -78,7 +78,7 @@
       "institution": "The Chinese University of Hong Kong",
       "location": "Hong Kong",
       "url": "https://t-mao.github.io/projects/CUHK/",
-      "area": "Summer Undergraduate Research Program",
+      "area": "Dataset Engineering & Stereo 3D Reconstruction",
       "studyType": "Research Internship (GPA: 4.0)",
       "startDate": "2023-06-01",
       "endDate": "2023-08-01",
@@ -336,28 +336,28 @@
       "title": "UCI CUM LAUDE",
       "date": "2024-06-01",
       "awarder": "University of California, Irvine",
-      "url": "",
+      "url": "https://t-mao.github.io/projects/UCI/",
       "summary": "Granted upon graduation for exceptional academic performance across dual bachelor’s degrees (Computer Science & Informatics) and a minor in Statistics. Maintained a 3.938 GPA, demonstrating consistent dedication to rigorous coursework and research involvement."
     },
     {
-      "title": "Dean’s Honor List (10 quarters)",
+      "title": "UCI Dean’s Honor List (10 quarters)",
       "date": "2024-06-01",
       "awarder": "University of California, Irvine",
-      "url": "",
+      "url": "https://t-mao.github.io/projects/UCI/",
       "summary": "Recognized for outstanding academic standing over nine quarters in dual B.S. programs, reflecting steadfast commitment and excellence across a broad spectrum of technical and interdisciplinary courses."
     },
     {
       "title": "HD EDU Senior Tutor Recognition",
       "date": "2023-07-01",
       "awarder": "HD EDU",
-      "url": "",
+      "url": "https://t-mao.github.io/projects/HDTutor/",
       "summary": "Achieved multiple promotions in two years—initially to Advanced Tutor in 2022, followed by Senior Tutor in 2023—after teaching over 160 undergraduate students (200+ hours of instruction) in both single- and multivariable calculus. Reflects consistent high performance, exceptional curriculum design, and a proven track record of improving student outcomes."
     },
     {
-      "title": "Arcadia High School Salutatorian",
+      "title": "AHS Salutatorian",
       "date": "2020-06-01",
       "awarder": "Arcadia High School",
-      "url": "",
+      "url": "https://t-mao.github.io/projects/AHS/",
       "summary": "Earned Class of 2020 Salutatorian distinction with a 3.97 GPA. Demonstrated leadership in academics, maintained exemplary attendance, and upheld a strong disciplinary record throughout high school."
     }
   ],
