@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HD EDU
-description: New Media & Digital Outreach - My Role as a Content Creator & Marketer
+description: New Media & Digital Outreach – My Role as a Content Creator & Marketer
 img: https://upload.wikimedia.org/wikipedia/commons/c/c1/XiaohongshuLOGO.svg
 importance: 99
 category: work
@@ -10,139 +10,123 @@ related_publications: false
 
 ## Overview
 
-From **June 2024** to **December 2024**, I served as a **remote, part-time New Media Content Creator** at **HD EDU**, focusing on **Xiaohongshu (Little Red Book)** operations for the organization’s official account. Although this role differed from my typical app development background, I consistently leveraged a **tech-driven**, **data-informed** approach—similar to how I structure, optimize, and iterate on apps in the software realm. By blending **creative writing**, **social platform analytics**, and **overseas brand strategy**, I strengthened my skill set in **user-focused** content creation and enhanced my cross-functional effectiveness—traits equally important in product development and coding.
+From **June 2024** to **December 2024**, I worked part-time and **remotely** at **HD EDU** as a **New Media Content Creator**, overseeing the organization’s official **Xiaohongshu (Little Red Book)** channel. My goal was to engage Chinese students studying abroad through concise, visually appealing posts—using a **systematic**, **data-informed** approach to maintain a compelling brand presence. By fusing **creative writing**, **social media analytics**, and personal experience with international education, I delivered content that resonated with HD EDU’s audience and amplified user engagement.
+
+In practice, I approached each piece of content with an **iterative** mindset—methodically brainstorming topics, drafting posts, collecting metrics, and refining for future cycles. This allowed me to produce consistent, quality materials while quickly reacting to shifting audience interests or marketing objectives. As a result, HD EDU saw steady growth in followers and daily interactions, reflecting the value of a well-structured publishing routine driven by clear, relevant storytelling.
 
 <br>
 
 ## Project Highlights
 
-1. **Social Media Strategy & Execution**
+1. **Social Media Content Strategy**
 
-   - Managed HD EDU’s official **Xiaohongshu** account, crafting original content for **study-abroad** audiences.
-   - Employed a **minimalist**, **clear** writing style, ensuring content was concise, visually engaging, and easy to grasp—mirroring the clarity I strive for in my code and UI/UX design.
+   - **Daily/Weekly Posts**: Rolled out creative topics around study-abroad tips, campus survival guides, budgeting, or comedic short reads, balancing entertainment with useful insights.
+   - **Targeted Minimalism**: Adopted a clean, direct writing style—keeping text punchy and visually consistent for busy online users.
 
-2. **Creative Conceptualization & Production**
+2. **Creative Production & Scheduling**
 
-   - Produced **experience-based** posts, daily tips, and comedic or entertaining education snippets—maintaining a consistent schedule that followed user engagement data.
-   - Experimented with **graphic design** and short-form text, refining a style akin to “clean-coded” visuals—ensuring clarity, branding alignment, and audience appeal.
+   - **Experience-Based Posts**: Shared personal stories and tips from my overseas studies, adding authentic humor and relatable visuals to engage potential or current international students.
+   - **Iterative Ideation**: Maintained a backlog of content ideas, tested different headings or images, and tracked results to refine future posts.
 
-3. **Data-Informed Iterations**
+3. **Analytics & Refinement**
 
-   - Monitored engagement metrics (views, likes, shares, dwell time), allowing me to tweak content scheduling and thematic direction.
-   - Iterative improvement loop: similar to **A/B testing** in app dev, tested different headlines, visuals, or posting times, then used analytics to optimize user response.
+   - **Engagement Tracking**: Monitored metrics such as likes, saves, and average view duration. Adapted postings to peak audience hours, ensuring maximum reach.
+   - **Community Feedback Loop**: Leveraged user comments, poll responses, and direct messages to discover trending topics. Rapidly adjusted content angles for stronger resonance.
 
-4. **Cross-Cultural Insights & Language Adaptation**
-   - Drew on my **overseas study experience** to create relevant content for Chinese students studying abroad, bridging cultural nuances and comedic references.
-   - Balanced **bilingual** content strategy, ensuring clarity for both domestic and international audiences, analogous to handling **internationalization** in software.
+4. **Cross-Cultural & Bilingual Touch**
+
+   - **Localized Style**: Blended cultural references with comedic anecdotes for Chinese students abroad, bridging differences and building an inviting brand voice.
+   - **Language Adaptation**: Occasionally produced bilingual content, ensuring clarity for both domestic and overseas audiences seeking HD EDU’s programs.
 
 <br>
 
 ## Project Details
 
-### 1. New Media Operations on Xiaohongshu
+### 1. New Media Operations
 
-**Purpose:** Connect with prospective and current overseas students, build brand awareness, and amplify HD EDU’s presence in digital channels.
+**Purpose:** Increase brand recognition among study-abroad audiences, highlight HD EDU’s services, and cultivate an engaged community on Xiaohongshu.
 
-- **Daily Content Updates**:
+- **Regular Updates**: Published multiple times per week. Combined short tips (e.g., “Exam Survival 101”) with comedic stories to sustain steady interactions.
+- **Visually Cohesive Approach**: Applied consistent color themes, fonts, and layout guidelines. This visual unity made the channel look more professional and aligned with HD EDU’s brand identity.
 
-  - Published study tips, campus life diaries, and entertainment posts multiple times a week to maintain user engagement.
-  - Ensured text brevity and visual consistency—just as I strive for efficient, maintainable code structures.
+### 2. Data & Iterative Improvement
 
-- **Engagement Tactics**:
-  - Coordinated daily Q&A comments, friendly responses to feedback, and timely updates—akin to real-time bug tracking in app dev.
-  - Developed “experience-based” original posts, including “How to Survive Final Exams” or “Best Budgeting Tips Abroad.”
+**Purpose:** Continuously refine content by systematically reviewing performance.
 
-### 2. Analytics & Continuous Improvement
+- **Metrics-Oriented**: Checked standard metrics (CTR, shares, dwell time) to see what resonated. If certain topics or styles underperformed, revised or tested alternate formats in the next round.
+- **Structured Feedback**: Gathered direct viewer suggestions, then incorporated relevant tips or comments into subsequent posts—fostering a sense of community.
 
-**Purpose:** Refine content based on performance data, ensuring maximum reach and user satisfaction.
+### 3. Organized Creative Flow
 
-- **Metrics-Driven**:
+**Purpose:** Keep content output efficient and maintain a smooth pipeline from idea to publication.
 
-  - Monitored post performance metrics (CTR, saves, shares), employing a data pipeline reminiscent of analytics in software sprints.
-  - Identified peak engagement hours to schedule critical content drops.
-
-- **Creative Iteration**:
-  - Ran micro-experiments with short vs. long captions, bullet lists vs. mini-infographics, comparing user reactions.
-  - Treated each post cycle as a “mini-release,” adjusting next iterations based on “version feedback” from the audience.
-
-### 3. Technical Parallels & Skill Overlaps
-
-**Purpose:** Bring a “developer mindset” to social media marketing and highlight synergy between content creation & product dev.
-
-- **Workflow & Efficiency**:
-
-  - Automated repetitive tasks (e.g., post scheduling, keyword research) using free online scripts—reflecting the automation approach used in CI/CD pipelines.
-  - Organized all creative assets with naming conventions and version control—paralleling Git-based processes.
-
-- **Structured Brainstorming**:
-  - Adopted “sprint planning” for content: backlog of ideas, weekly stand-ups with the marketing lead, daily backlog grooming—akin to agile methodology.
-  - Mapped user profiles (personas) to tailor tone and style, echoing user-centric design in app development.
+- **Content Calendar**: Ran a monthly editorial schedule, balancing fun posts, serious tips, and Q&A pieces.
+- **Micro-Batch Creation**: Produced multiple related topics in short sprints, saving time and ensuring consistent messaging.
 
 <br>
 
 ## My Additional Responsibilities
 
-- **Brand Expansion**:
+- **Brand Consistency**
 
-  - Collaborated with cross-border e-learning teams to unify brand voice across different platforms.
-  - Provided feedback on web or landing pages, applying UI/UX best practices from my dev experience, ensuring brand cohesion.
+  - Aligned Xiaohongshu content with HD EDU’s broader marketing (official website, other social channels), ensuring cohesive voice and style.
+  - Offered design input for marketing materials, bridging text and visuals in promotional banners or campaign graphics.
 
-- **Ad Hoc Creative Tasks**:
+- **Ad Hoc Creative Tasks**
 
-  - Participated in short design sprints for upcoming marketing campaigns, bridging design sensibility with data insights.
-  - Assisted with small-scale HR tasks, such as screening design interns who might contribute to social media visuals.
+  - Assisted in design sprints for upcoming campaigns—brainstorming themes, drafting initial visuals, and finalizing narrative elements.
+  - Collaborated with internal teams (e.g., web design, HR) on smaller content pieces highlighting new tutors or specialized programs.
 
-- **Community Interaction**:
-  - Proactively engaged with user comments, offering warm, solution-oriented responses—mirroring how I handle user feedback in app dev cycles.
-  - Encouraged user feedback via polls, echoing the way we gather user stories or acceptance criteria in agile dev.
+- **Community Engagement**
+
+  - Maintained a friendly, responsive comment section—answering queries about HD EDU’s offerings, clarifying study-abroad concerns, and acknowledging user feedback.
+  - Organized small-scale giveaways or user polls for increased engagement, fueling recurring traffic to the account.
 
 <br>
 
 ## Technical Contributions
 
-**Content Workflow Automation**
+**Content Workflow & Automation**
 
-- Created basic **Python scripts** to parse raw text files, produce snippet variations, and schedule posts in a more structured pipeline—akin to a mini “build pipeline” for creative output.
+- Created simple scripts to batch-rename images, generate short captions, and schedule posts in a more structured pipeline.
+- Employed basic cloud-based version control to store draft images, captions, and old posts, ensuring easy retrieval of successful formats.
 
-**Efficiency & Quality**
+**Efficiency & QA**
 
-- Employed “checklists” for each post (like code reviews), ensuring grammar clarity, brand alignment, and consistent style guidelines.
-- Leveraged analytics dashboards (similar to product dashboards) to quickly pinpoint content that underperforms and rework them.
+- Utilized checklists for each release: verifying grammar, alignment with brand tone, and post timing. This mirrored the “quality assurance” approach used in other fields requiring consistent output.
+- Deployed built-in Xiaohongshu analytics to identify anomalies or flagged content, ensuring stable channel performance.
 
-**Platform & Integration**
+**Platform Integration**
 
-- Explored integration between Xiaohongshu and official HD EDU websites, ensuring consistent referral flows.
-- Adapted SEO-friendly text formats, reminiscent of optimizing for best performance on app store listings.
+- Explored cross-traffic from Xiaohongshu to HD EDU’s official site, optimizing short link usage and CTA wording.
+- Recommended SEO-friendly text structures for HD EDU’s webpage disclaimers, lightly mirroring metadata optimization methods used in tech fields.
 
 <br>
 
 ## Project Outcomes
 
-- **Expanded Digital Footprint**: Significantly boosted brand visibility among Chinese overseas students on Xiaohongshu, with **increased daily engagement** and consistent growth in followers.
-- **Elevated Brand Consistency**: By standardizing creative outputs (color palette, textual voice), user recall for HD EDU improved, fostering stronger brand recognition.
-- **User-Centric Content**: Engaging daily posts to address real student pain points (budget management, exam survival, campus life tips), which in turn improved lead conversion for HD’s education services.
+- **Higher Engagement & Growth**: Achieved visible increases in likes, saves, and comments, steadily building a loyal follower base.
+- **Unified Brand Image**: Maintained consistent color palettes, text style, and brand persona, thereby boosting user trust and channel recognition.
+- **Enhanced Community Spirit**: Through warm, user-centric posts and helpful advice, the account became a supportive space for prospective or current overseas students.
 
 <br>
 
 ## Personal Growth & Reflection
 
-**Translatable Skills**:
+**Systems Thinking**:
 
-- Reinforced my **agile** approach: content cycles mirrored dev sprints, featuring planning, building, analyzing, and iterating.
-- Maintained **developer-like** discipline: version tracking for posts, scheduling, and creative assets akin to code repository management.
+- Organized content creation as a cycle of ideation, production, and performance review—reinforcing the structured mindset I find valuable in many professional settings.
 
-**Communication & Creativity**:
+**Communication & Storytelling**:
 
-- Strengthened my ability to **simplify complex topics** into short, appealing visuals—mirroring how I break down complex app features for end users.
-- Ventured outside comfort zones to combine data insights with creative flair, a trait also essential in refining software for better user experience.
+- Learned to convey short, direct messages that resonate quickly—an important skill whether drafting social media copy or summarizing complex ideas for any project team.
 
-**Resilience & Adaptability**:
+**Adaptability & Responsiveness**:
 
-- Balanced tight deadlines (editorial calendars) with high-quality demands—similar to shipping a stable release under time constraints.
-- Adapted content style for shifting brand focuses, demonstrating the same flexibility needed when changing project scopes in dev.
+- Managed shifting editorial calendars and user interest trends. Balanced creativity with real-time feedback, ensuring posts remained timely and user-relevant.
 
 <br>
 
 ## Final Thoughts
 
-My tenure at **HD EDU**—while not classic software engineering—allowed me to **apply** developer-like frameworks (planning, iteration, analytics) in **new media**. I discovered that the same key principles—**user focus**, **agile iteration**, **data-driven** decisions—are universal, whether building an app or shaping social media presence. This experience sharpened my **communication**, **technical** creativity, and **organizational** prowess—all integral to delivering top-tier app solutions and forging deeper user connections.
+Though centered on **digital outreach** rather than technical development, my work at **HD EDU** honed an **iterative**, **user-focused** perspective—managing content like micro-projects, with cycles of planning, creation, and adaptation. This experience sharpened my ability to **communicate**, **organize resources**, and **work across teams**, all of which are equally valuable in delivering effective solutions, whether in marketing or any other professional endeavor.
