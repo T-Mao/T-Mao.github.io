@@ -364,7 +364,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-dataset-engineering-amp-stereo-3d-reconstruction",
+          section: "News",},{id: "projects-arcadia-high-school",
+          title: 'Arcadia High School',
+          description: "My achievements in design, academics, and leadership",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/AHS/";
+            },},{id: "projects-dataset-engineering-amp-stereo-3d-reconstruction",
           title: 'Dataset Engineering &amp;amp; Stereo 3D Reconstruction',
           description: "Research at CUHK – My Role as a Summer Research Intern",
           section: "Projects",handler: () => {
