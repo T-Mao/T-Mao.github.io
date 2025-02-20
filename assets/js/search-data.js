@@ -386,7 +386,7 @@ ninja.data = [{
               window.location.href = "/projects/Goshsha/";
             },},{id: "projects-hd-edu",
           title: 'HD EDU',
-          description: "New Media &amp; Digital Outreach - My Role as a Content Creator &amp; Marketer",
+          description: "New Media &amp; Digital Outreach – My Role as a Content Creator &amp; Marketer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HDRedNote/";
             },},{id: "projects-hd-edu",
