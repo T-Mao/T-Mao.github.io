@@ -14,7 +14,7 @@ related_publications: false
        loading="eager"
        path="assets/img/HDEDU.JPG"
        title="HD EDU"
-       class="rounded z-depth-1"
+       class="rounded z-depth-0"
        max-width="350px"
     %}
   </div>

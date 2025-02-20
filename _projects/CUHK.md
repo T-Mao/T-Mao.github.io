@@ -14,7 +14,7 @@ related_publications: false
        loading="eager"
        path="https://upload.wikimedia.org/wikipedia/commons/1/1c/CU_Emblem.jpg"
        title="CUHK"
-       class="rounded z-depth-1"
+       class="rounded z-depth-0"
        max-width="350px"
     %}
   </div>

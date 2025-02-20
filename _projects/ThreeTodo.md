@@ -14,7 +14,7 @@ related_publications: false
        loading="eager"
        path="assets/img/threetodo.png"
        title="ThreeTodo App"
-       class="rounded z-depth-1"
+       class="rounded z-depth-0"
        max-width="350px"
     %}
   </div>
