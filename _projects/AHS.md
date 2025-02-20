@@ -49,7 +49,7 @@ During my time at **Arcadia High School**, I immersed myself in **multi-faceted 
 - **Programming Club Involvement**
 
   - Served as an active member of the **school’s programming club**, where I further developed my coding skills through group challenges and personal side projects.
-  - Experimented with **Python** in my spare time—writing mini-games like the **classic Snake**—honeing logic, debugging techniques, and bridging concepts from my formal CS coursework.
+  - Experimented with **Python** in my spare time—writing mini-games like the **classic Snake**—honing logic, debugging techniques, and bridging concepts from my formal CS coursework.
 
 - **Graphic & Digital Media Courses**
   - Progressed from **Graphic Design** to **Advanced Graphic Design**, mastering design principles (composition, color, typography) and professional software (Photoshop, Illustrator).
@@ -75,25 +75,34 @@ During my time at **Arcadia High School**, I immersed myself in **multi-faceted 
 
 <br>
 
+## Personal Passion: Coding Beyond the Classroom
+
+I remember my **alarm clock** beeping at dawn, but I was never too tired to code. Early on, I honed my skills by creating simple mobile apps—like an **anti-theft** feature for phones and mini-games to **teach children mathematics**. One of my favorite projects was a **timer-based math game**, designed to help my cousin (who disliked math) develop a love for numbers through playful competition. The app included:
+
+- **User Registration**: Gamified setup for new users.
+- **Progressive Questions**: Ranging from simple to advanced, testing quick thinking.
+- **Leaderboard**: Encouraged friendly competition and higher engagement.
+
+Seeing my cousin’s excitement—and the resulting improvement in his math grades—reinforced how **programming** can uplift and inspire. This experience, combined with my high school’s **AP Computer Science** curriculum and **programming club** environment, fueled my belief that code is as much a **creative medium** as any form of art.
+
+<br>
+
 ## Personal Growth & Reflection
 
-- **Solid Technical & Creative Foundations**
+- **Technical & Creative Synergy**
 
-  - My experience fusing **art** and **engineering** concepts underpins my approach to **project development**—prioritizing both function and form.
-  - Excelled in **math-intensive** courses (culminating in a **5** on AP Calculus AB) and cultivated a flexible, critical thinking mindset ideal for complex software or design tasks.
+  - Fusing code logic with imaginative interfaces taught me how **user experience** and **practical function** go hand in hand.
+  - Exploring mini-projects like **tilt-based games** or math-focused apps sharpened my ability to transform abstract concepts into user-friendly designs.
 
-- **Team Leadership & Communication**
-
-  - Managing poster competitions, meeting deadlines, and delivering event materials taught me professional collaboration, constructive feedback loops, and **presentation** skills crucial for any development or design team.
-
-- **Building Toward the Future**
-  - This robust high school foundation foreshadowed my passion for **technical problem-solving** and **user-focused design**—elements integral to success in app or software development.
+- **From Idea to Impact**
+  - Witnessing how a small app drastically changed my cousin’s perception of math validated my conviction that technology can spark personal growth and **real-world** impact.
+  - This ethos—building solutions that **engage** and **motivate**—continues to guide my approach in all subsequent projects.
 
 <br>
 
 ## Final Thoughts
 
-My journey at **Arcadia High School** combined high-level academics, hands-on creative endeavors, and community-driven leadership. Excelling in AP coursework, designing for prominent school events, and placing a premium on **team collaboration** gave me the adaptability, discipline, and vision to thrive in a variety of **technical** and **artistic** realms. These same principles guide my ongoing growth as a **developer**, where **innovation**, **precision**, and **clear communication** remain paramount.
+My journey at **Arcadia High School** combined high-level academics, hands-on creative endeavors, and community-driven leadership. Excelling in AP coursework, designing for prominent school events, and placing a premium on **team collaboration** gave me the adaptability, discipline, and vision to thrive in a variety of **technical** and **artistic** realms. Whether coding educational games or designing dynamic posters, I’ve learned the importance of **innovation**, **precision**, and **clear communication**—principles that guide my ongoing growth as a **developer** and as a **creator** eager to make a difference.
 
 <br>
 
