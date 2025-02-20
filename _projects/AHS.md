@@ -15,7 +15,7 @@ related_publications: false
        path="https://3.files.edl.io/93a7/20/07/07/222049-aa3393e6-f126-49c4-a5d8-08a199590af8.jpg"
        title="Arcadia High School"
        class="rounded z-depth-1"
-       max-width="250px"
+       max-width="350px"
     %}
   </div>
 </div>

@@ -15,7 +15,7 @@ related_publications: false
        path="assets/img/threetodo.png"
        title="ThreeTodo App"
        class="rounded z-depth-1"
-       max-width="250px"
+       max-width="350px"
     %}
   </div>
 </div>

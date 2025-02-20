@@ -15,7 +15,7 @@ related_publications: false
        path="https://static.vecteezy.com/system/resources/previews/006/057/992/non_2x/spotify-logo-on-transparent-background-free-vector.jpg"
        title="Spotify Browser"
        class="rounded z-depth-1"
-       max-width="250px"
+       max-width="350px"
     %}
   </div>
 </div>

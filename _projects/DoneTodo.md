@@ -15,7 +15,7 @@ related_publications: false
        path="assets/img/DoneTodo.png"
        title="DoneTodo App"
        class="rounded z-depth-1"
-       max-width="250px"
+       max-width="350px"
     %}
   </div>
 </div>

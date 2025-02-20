@@ -15,7 +15,7 @@ related_publications: false
        path="https://img.logodad.com/upload/09f/xiaohongshu.svg.@ERESIZE@.preview.png"
        title="rednote"
        class="rounded z-depth-1"
-       max-width="250px"
+       max-width="350px"
     %}
   </div>
 </div>

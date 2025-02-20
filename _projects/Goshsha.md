@@ -12,10 +12,10 @@ related_publications: false
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
-       path="assets/img/Goshsha/goshsha.jpg"
+       path="assets/img/Goshsha/GoshshaLogoTransparentBG.png"
        title="Goshsha App"
        class="rounded z-depth-1"
-       max-width="250px"
+       max-width="350px"
     %}
   </div>
 </div>

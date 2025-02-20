@@ -15,7 +15,7 @@ related_publications: false
        path="https://t4.ftcdn.net/jpg/05/46/06/29/360_F_546062917_u6HIsUWvGiMbucvviIDZ0gAHXxB0xliN.jpg"
        title="CheckersAI"
        class="rounded z-depth-1"
-       max-width="250px"
+       max-width="350px"
     %}
   </div>
 </div>

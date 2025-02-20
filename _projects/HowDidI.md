@@ -15,7 +15,7 @@ related_publications: false
        path="https://i.fbcd.co/products/original/04-resume-cover-letter-page-free-resume-design-template-acc6f24923fb19e12b9a301619175f200cfdd73d19538a86453429f40ff5d7bf.jpg"
        title="HowDidI App"
        class="rounded z-depth-1"
-       max-width="250px"
+       max-width="350px"
     %}
   </div>
 </div>
