@@ -23,7 +23,7 @@ Hi, I’m **Tongze Mao**, a passionate app developer and creative tech enthusias
 
 - Graduated **CUM LAUDE** from the University of California, Irvine
 - Studied **Computer Science** and **Informatics**, with a minor in **Statistics**
-- Achieved a **3.934 GPA** and made the **Dean’s Honor List** for 9 quarters
+- Achieved a **3.938 GPA** and made the **Dean’s Honor List** for 9 quarters
 
 <br>
 
