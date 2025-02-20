@@ -15,7 +15,7 @@ related_publications: false
        path="assets/img/SupTech.jpeg"
        title="SupTech"
        class="rounded z-depth-0"
-       max-width="350px"
+       max-width="300px"
     %}
   </div>
 </div>

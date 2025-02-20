@@ -15,7 +15,7 @@ related_publications: false
        path="assets/img/writercards.png"
        title="WriterCards App"
        class="rounded z-depth-0"
-       max-width="350px"
+       max-width="300px"
     %}
   </div>
 </div>
