@@ -23,15 +23,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "post-harnessing-rsa-encryption-in-mobile-apps",
       
-        title: "a post with image galleries",
+        title: "Harnessing RSA Encryption in Mobile Apps",
       
-      description: "this is what included image galleries could look like",
+      description: "A closer look at RSA cryptography and its practical implementation in app development",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/photo-gallery/";
+          window.location.href = "/blog/2025/RSA-Encryption/";
         
       },
     },{id: "news-a-simple-inline-announcement",
