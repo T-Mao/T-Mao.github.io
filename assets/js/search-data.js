@@ -96,6 +96,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/Push-Notifications/";
         
       },
+    },{id: "post-embedding-ai-chat-in-your-mobile-app",
+      
+        title: "Embedding AI Chat in Your Mobile App",
+      
+      description: "An overview of integrating AI-driven conversation features inside a mobile client",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/AI/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
