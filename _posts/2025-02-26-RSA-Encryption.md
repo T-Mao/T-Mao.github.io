@@ -8,7 +8,6 @@ categories: mobile-encryption
 thumbnail: https://cheapsslsecurity.com/blog/wp-content/uploads/2022/06/rsa-algorithm-feature.jpg
 ---
 
-
 As modern applications handle increasingly sensitive data, robust security measures become paramount. One common, time-tested approach to safeguarding data is RSA encryption. Within the context of mobile app development, RSA proves invaluable for securing user credentials, passwords, or any piece of confidential data that traverses potentially insecure networks.
 
 ## RSA Overview
