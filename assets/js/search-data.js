@@ -74,6 +74,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/RSA-Encryption/";
         
       },
+    },{id: "post-leveraging-push-notifications-in-mobile-apps",
+      
+        title: "Leveraging Push Notifications in Mobile Apps",
+      
+      description: "Techniques for implementing push notifications across iOS and Android, including scheduling, message routing, and handling deep links",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Push-Notifications/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
