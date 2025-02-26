@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-integrating-stripe-payments-in-mobile-apps",
+        },{id: "post-harnessing-google-maps-for-real-time-mobile-apps",
+      
+        title: "Harnessing Google Maps for Real-Time Mobile Apps",
+      
+      description: "An inside look at how I built location-based features in my production apps using Google Maps",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Google-Maps/";
+        
+      },
+    },{id: "post-integrating-stripe-payments-in-mobile-apps",
       
         title: "Integrating Stripe Payments in Mobile Apps",
       
