@@ -121,8 +121,6 @@ My journey at **Arcadia High School** combined high-level academics, hands-on cr
 ## Additional Resources
 
 - **Arcadia High School Website**: [https://ahs.ausd.net/](https://ahs.ausd.net/)
-- **Salutatorian Announcement**: [Class of 2020 Honors](#)
+<!-- - **Salutatorian Announcement**: [Class of 2020 Honors](#)
 - **Speech & Debate Poster Design**: [View Sample Designs](#)
-- **Art Exhibition Showcase**: [Portfolio Images](#)
-
----
+- **Art Exhibition Showcase**: [Portfolio Images](#) -->
