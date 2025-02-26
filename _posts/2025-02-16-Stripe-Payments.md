@@ -15,7 +15,7 @@ thumbnail: https://www.digitalcommerce360.com/wp-content/uploads/2023/04/shutter
        path="https://www.digitalcommerce360.com/wp-content/uploads/2023/04/shutterstock_1936083859.jpg"
        title="Stripe Payments"
        class="rounded z-depth-1"
-       max-height="200px"
+       max-width="800px"
     %}
   </div>
 </div>

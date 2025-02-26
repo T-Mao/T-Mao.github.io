@@ -15,7 +15,7 @@ thumbnail: https://cheapsslsecurity.com/blog/wp-content/uploads/2022/06/rsa-algo
        path="https://cheapsslsecurity.com/blog/wp-content/uploads/2022/06/rsa-algorithm-feature.jpg"
        title="RSA"
        class="rounded z-depth-1"
-       max-height="200px"
+       max-width="800px"
     %}
   </div>
 </div>

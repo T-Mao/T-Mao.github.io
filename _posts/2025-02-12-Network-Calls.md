@@ -15,7 +15,7 @@ thumbnail: https://bizimages.withfloats.com/tile/66fbce0df93376ef9cc55c3e.jpg
        path="https://bizimages.withfloats.com/tile/66fbce0df93376ef9cc55c3e.jpg"
        title="Network Calls"
        class="rounded z-depth-1"
-       max-height="200px"
+       max-width="800px"
     %}
   </div>
 </div>
