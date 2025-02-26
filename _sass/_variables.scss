@@ -12,7 +12,7 @@ $orange-color: #f29105 !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
 $cyan-color: #2698ba !default;
-$background-color: #90e5ff !default;
+$background-color: #f0f6f6c9 !default;
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
 $green-color: #00ab37 !default;
 $green-color-lime: #b7d12a !default;
@@ -35,7 +35,7 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: color.adjust($background-color, $lightness: 5%); // 高光颜色 highlight。百分比越高越亮。
+$code-bg-color-light: color.adjust($background-color); // 高光颜色 highlight。百分比越高越亮。
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
