@@ -1,12 +1,24 @@
 ---
 layout: post
 title: Harnessing RSA Encryption in Mobile Apps
-date: 2025-02-26 09:00:00
+date: 2025-02-05 09:00:00
 description: A closer look at RSA cryptography and its practical implementation in app development
 tags: security cryptography rsa
 categories: mobile-encryption
 thumbnail: https://cheapsslsecurity.com/blog/wp-content/uploads/2022/06/rsa-algorithm-feature.jpg
 ---
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="https://cheapsslsecurity.com/blog/wp-content/uploads/2022/06/rsa-algorithm-feature.jpg"
+       title="RSA"
+       class="rounded z-depth-1"
+       max-height="200px"
+    %}
+  </div>
+</div>
 
 As modern applications handle increasingly sensitive data, robust security measures become paramount. One common, time-tested approach to safeguarding data is RSA encryption. Within the context of mobile app development, RSA proves invaluable for securing user credentials, passwords, or any piece of confidential data that traverses potentially insecure networks.
 

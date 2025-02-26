@@ -1,12 +1,24 @@
 ---
 layout: post
 title: Streamlining Network Calls with a Custom DioInstance
-date: 2025-02-26 10:00:00
+date: 2025-02-12 10:00:00
 description: A deep dive into building a refined Dio setup for mobile apps
 tags: http networking dio flutter
 categories: backend-integration
 thumbnail: https://bizimages.withfloats.com/tile/66fbce0df93376ef9cc55c3e.jpg
 ---
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid
+       loading="eager"
+       path="https://bizimages.withfloats.com/tile/66fbce0df93376ef9cc55c3e.jpg"
+       title="Network Calls"
+       class="rounded z-depth-1"
+       max-height="200px"
+    %}
+  </div>
+</div>
 
 When building mobile apps, reliable HTTP networking is paramount. In the Dart/Flutter ecosystem, [Dio](https://pub.dev/packages/dio) stands out as a robust library for HTTP requests. While you can quickly fire off GETs and POSTs with default configs, more complex applications benefit from a unified, reusable Dio instance (commonly referred to as `DioInstance`).
 
