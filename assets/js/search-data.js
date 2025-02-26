@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-harnessing-google-maps-for-real-time-mobile-apps",
+        },{id: "post-building-a-real-time-chat-feature",
+      
+        title: "Building a Real-Time Chat Feature",
+      
+      description: "An in-depth look at real-time chat implementation for mobile apps",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Chat/";
+        
+      },
+    },{id: "post-harnessing-google-maps-for-real-time-mobile-apps",
       
         title: "Harnessing Google Maps for Real-Time Mobile Apps",
       
