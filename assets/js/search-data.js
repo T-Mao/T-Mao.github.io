@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-harnessing-rsa-encryption-in-mobile-apps",
+        },{id: "post-streamlining-network-calls-with-a-custom-dioinstance",
+      
+        title: "Streamlining Network Calls with a Custom DioInstance",
+      
+      description: "A deep dive into building a refined Dio setup for mobile apps",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Network-Calls/";
+        
+      },
+    },{id: "post-harnessing-rsa-encryption-in-mobile-apps",
       
         title: "Harnessing RSA Encryption in Mobile Apps",
       
