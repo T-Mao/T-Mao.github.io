@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-streamlining-network-calls-with-a-custom-dioinstance",
+        },{id: "post-integrating-stripe-payments-in-mobile-apps",
+      
+        title: "Integrating Stripe Payments in Mobile Apps",
+      
+      description: "A practical look at adding secure in-app payments and payouts with Stripe",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Stripe-Payments/";
+        
+      },
+    },{id: "post-streamlining-network-calls-with-a-custom-dioinstance",
       
         title: "Streamlining Network Calls with a Custom DioInstance",
       
