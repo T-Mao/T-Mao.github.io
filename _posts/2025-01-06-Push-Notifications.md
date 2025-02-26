@@ -5,14 +5,14 @@ date: 2025-01-06 17:45:00
 description: Techniques for implementing push notifications across iOS and Android, including scheduling, message routing, and handling deep links
 tags: push-notifications firebase android ios
 categories: mobile-dev
-thumbnail: https://denis-test.com/wp-content/uploads/2024/07/Examples-of-standard-push-notifications-on-iOS-and-Android.png
+thumbnail: assets/img/pushNotification.png
 ---
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
-       path="https://denis-test.com/wp-content/uploads/2024/07/Examples-of-standard-push-notifications-on-iOS-and-Android.png"
+       path="assets/img/pushNotification.png"
        title="Push Notifications"
        class="rounded z-depth-1"
        max-width="800px"
