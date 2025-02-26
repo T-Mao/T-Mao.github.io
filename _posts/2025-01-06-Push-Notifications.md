@@ -5,14 +5,14 @@ date: 2025-01-06 17:45:00
 description: Techniques for implementing push notifications across iOS and Android, including scheduling, message routing, and handling deep links
 tags: push-notifications firebase android ios
 categories: mobile-dev
-thumbnail: assets/img/pushNotification.png
+thumbnail: https://www.heymarket.com/wp-content/uploads/2021/09/What-Are-Push-Notifications.jpg
 ---
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
-       path="assets/img/pushNotification.png"
+       path="https://www.heymarket.com/wp-content/uploads/2021/09/What-Are-Push-Notifications.jpg"
        title="Push Notifications"
        class="rounded z-depth-1"
        max-width="800px"
