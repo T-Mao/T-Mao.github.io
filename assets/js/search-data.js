@@ -162,6 +162,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/Multi-Role-MVP/";
         
       },
+    },{id: "post-technical-perspective-amp-app-development-insights-building-suptech-apps-from-zero-to-one",
+      
+        title: "Technical Perspective &amp; App Development Insights: Building SupTech Apps from Zero to One...",
+      
+      description: "How to deliver iOS/Android apps in just 2–3 months, why Flutter was chosen, the agile development/iteration process, and tackling major technical challenges.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Apps-from-Zero-to-One/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
