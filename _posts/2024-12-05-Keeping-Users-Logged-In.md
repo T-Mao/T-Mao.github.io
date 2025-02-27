@@ -3,7 +3,7 @@ layout: post
 title: Automatically Keeping Users Logged In on Mobile
 date: 2024-12-05 16:00:00
 description: A closer look at handling secure, persistent user authentication within mobile apps
-tags: [mobile, authentication, flutter, token, security]
+tags: [mobile, flutter, security, authentication]
 categories: mobile-dev
 thumbnail: https://rublon.com/wp-content/uploads/2023/08/MFA-login-for-privileged-access-1024x584.jpg
 ---

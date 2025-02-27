@@ -3,8 +3,8 @@ layout: post
 title: Streamlining Network Calls with a Custom DioInstance
 date: 2025-02-12 10:00:00
 description: A deep dive into building a refined Dio setup for mobile apps
-tags: http networking dio flutter
-categories: backend-integration
+tags: [mobile, flutter, http, networking]
+categories: [mobile-dev]
 thumbnail: https://bizimages.withfloats.com/tile/66fbce0df93376ef9cc55c3e.jpg
 ---
 

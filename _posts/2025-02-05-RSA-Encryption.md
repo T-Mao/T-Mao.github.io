@@ -3,8 +3,8 @@ layout: post
 title: Harnessing RSA Encryption in Mobile Apps
 date: 2025-02-05 09:00:00
 description: A closer look at RSA cryptography and its practical implementation in app development
-tags: security cryptography rsa
-categories: mobile-encryption
+tags: [mobile, flutter, security, cryptography]
+categories: [mobile-dev]
 thumbnail: https://cheapsslsecurity.com/blog/wp-content/uploads/2022/06/rsa-algorithm-feature.jpg
 ---
 

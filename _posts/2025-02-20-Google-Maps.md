@@ -3,7 +3,7 @@ layout: post
 title: Harnessing Google Maps for Real-Time Mobile Apps
 date: 2025-02-20 09:30:00
 description: An inside look at how I built location-based features in my production apps using Google Maps
-tags: google-maps location geolocation flutter firebase
+tags: [mobile, flutter, location, google-maps]
 categories: mobile-dev
 thumbnail: https://t3.ftcdn.net/jpg/02/80/13/30/360_F_280133039_IusHV9kCGFKrpIhd73AscKXyGLsz7iAG.jpg
 ---

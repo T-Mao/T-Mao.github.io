@@ -3,7 +3,7 @@ layout: post
 title: Leveraging Push Notifications in Mobile Apps
 date: 2025-01-06 17:45:00
 description: Techniques for implementing push notifications across iOS and Android, including scheduling, message routing, and handling deep links
-tags: push-notifications firebase android ios
+tags: [mobile, flutter, notifications, fcm]
 categories: mobile-dev
 thumbnail: https://www.heymarket.com/wp-content/uploads/2021/09/What-Are-Push-Notifications.jpg
 ---
