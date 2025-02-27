@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-building-a-real-time-chat-feature",
+        },{id: "post-future-career-planning-amp-summary-reflecting-on-suptech-what-s-my-next-step",
+      
+        title: "Future Career Planning &amp; Summary - Reflecting on SupTech, What’s My Next Step?...",
+      
+      description: "This article systematically summarizes my experience at SupTech and the achievements in app development while exploring my future career plans.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Planning/";
+        
+      },
+    },{id: "post-building-a-real-time-chat-feature",
       
         title: "Building a Real-Time Chat Feature",
       
