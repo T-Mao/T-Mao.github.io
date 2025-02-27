@@ -3,7 +3,7 @@ layout: post
 title: "Technical Perspective & App Development Insights: Building SupTech Apps from Zero to One"
 description: "How to deliver iOS/Android apps in just 2–3 months, why Flutter was chosen, the agile development/iteration process, and tackling major technical challenges."
 date: "2024-09-04 10:00:00"
-tags: [cross-platform, mobile, agile, flutter]
+tags: [mobile, agile, flutter, fast-delivery]
 categories: [mobile-dev]
 thumbnail: https://kms-technology.com/wp-content/uploads/2022/09/iStock-1336229255-scaled.jpg
 ---
