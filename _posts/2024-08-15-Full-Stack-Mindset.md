@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Technical Perspective & App Development Insights: How I Maintained High Standards Despite Handling Both Front/Back-End Alone"
+title: "How I Maintained High Standards Despite Handling Both Front/Back-End Alone"
 description: "Discussing how I managed a full-stack mindset, from Flutter front-end plus Node.js/Firebase back-end—or collaborating with Java/MySQL back-end teammates—and the tips for rapid MVP building, debugging standards, and unified logging/exception management."
 date: "2024-08-15 10:00:00"
 tags: [mobile, fullstack, flutter, node.js, firebase, java, mysql]

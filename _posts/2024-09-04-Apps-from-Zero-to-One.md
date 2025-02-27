@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Technical Perspective & App Development Insights: Building SupTech Apps from Zero to One"
+title: "Building SupTech Apps from Zero to One"
 description: "How to deliver iOS/Android apps in just 2–3 months, why Flutter was chosen, the agile development/iteration process, and tackling major technical challenges."
 date: "2024-09-04 10:00:00"
 tags: [mobile, agile, flutter, fast-delivery]
 categories: [mobile-dev]
-thumbnail: https://kms-technology.com/wp-content/uploads/2022/09/iStock-1336229255-scaled.jpg
+thumbnail: https://www.k4labs.com/assets/img/devOps-is-1404020923.jpg
 ---
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
-       path="https://kms-technology.com/wp-content/uploads/2022/09/iStock-1336229255-scaled.jpg"
+       path="https://www.k4labs.com/assets/img/devOps-is-1404020923.jpg"
        title="App Development"
        class="rounded z-depth-1"
        max-width="800px"
