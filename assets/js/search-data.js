@@ -129,6 +129,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/Team-Collaboration/";
         
       },
+    },{id: "post-bringing-orders-chat-and-payment-together-a-full-stack-approach-to-on-demand-services",
+      
+        title: "Bringing Orders, Chat, and Payment Together: A Full-Stack Approach to On-Demand Services",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Full-Stack/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
