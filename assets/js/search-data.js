@@ -162,9 +162,9 @@ ninja.data = [{
           window.location.href = "/blog/2024/Multi-Role-MVP/";
         
       },
-    },{id: "post-technical-perspective-amp-app-development-insights-building-suptech-apps-from-zero-to-one",
+    },{id: "post-building-suptech-apps-from-zero-to-one",
       
-        title: "Technical Perspective &amp; App Development Insights: Building SupTech Apps from Zero to One...",
+        title: "Building SupTech Apps from Zero to One",
       
       description: "How to deliver iOS/Android apps in just 2–3 months, why Flutter was chosen, the agile development/iteration process, and tackling major technical challenges.",
       section: "Posts",
@@ -173,15 +173,26 @@ ninja.data = [{
           window.location.href = "/blog/2024/Apps-from-Zero-to-One/";
         
       },
-    },{id: "post-technical-perspective-amp-app-development-insights-how-i-maintained-high-standards-despite-handling-both-front-back-end-alone",
+    },{id: "post-how-i-maintained-high-standards-despite-handling-both-front-back-end-alone",
       
-        title: "Technical Perspective &amp; App Development Insights: How I Maintained High Standards Despite Handling...",
+        title: "How I Maintained High Standards Despite Handling Both Front/Back-End Alone",
       
       description: "Discussing how I managed a full-stack mindset, from Flutter front-end plus Node.js/Firebase back-end—or collaborating with Java/MySQL back-end teammates—and the tips for rapid MVP building, debugging standards, and unified logging/exception management.",
       section: "Posts",
       handler: () => {
         
           window.location.href = "/blog/2024/Full-Stack-Mindset/";
+        
+      },
+    },{id: "post-integrating-stripe-payments-and-intelligent-job-dispatch",
+      
+        title: "Integrating Stripe Payments and Intelligent Job Dispatch",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Backend-Logic/";
         
       },
     },{id: "news-a-simple-inline-announcement",
