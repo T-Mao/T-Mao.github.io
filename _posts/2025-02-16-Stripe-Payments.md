@@ -4,7 +4,7 @@ title: Integrating Stripe Payments in Mobile Apps
 date: 2025-02-16 12:00:00
 description: A practical look at adding secure in-app payments and payouts with Stripe
 tags: [mobile, flutter, payments, stripe]
-categories: mobile-commerce
+categories: mobile-dev
 thumbnail: https://www.digitalcommerce360.com/wp-content/uploads/2023/04/shutterstock_1936083859.jpg
 ---
 

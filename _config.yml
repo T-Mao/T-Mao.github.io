@@ -270,7 +270,23 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["flutter", "security", "http", "messaging", "location", "payments", "notifications", "code-review", "backend-integration"] # ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_tags: [
+    "mobile",
+    "flutter",
+    "fullstack",
+    "agile",
+    "backend-integration",
+    "node.js",
+    "payments",
+    "security",
+    "messaging",
+    "ai",
+    "notifications",
+    "http",
+    "google-maps",
+    "code-review",
+    "project-management",
+  ] # ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: [mobile-dev, experience] # ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
