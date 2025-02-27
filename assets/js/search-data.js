@@ -118,6 +118,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/Keeping-Users-Logged-In/";
         
       },
+    },{id: "post-efficient-team-collaboration-for-flutter-projects-version-control-and-code-reviews",
+      
+        title: "Efficient Team Collaboration for Flutter Projects - Version Control and Code Reviews",
+      
+      description: "A deep dive into Git flow, code reviews, and CI/CD pipelines for Flutter teams",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Team-Collaboration/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
