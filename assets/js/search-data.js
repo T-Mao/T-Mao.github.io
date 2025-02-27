@@ -140,6 +140,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/Full-Stack/";
         
       },
+    },{id: "post-dealing-with-constantly-changing-requirements-in-mobile-app-projects",
+      
+        title: "Dealing with Constantly Changing Requirements in Mobile App Projects",
+      
+      description: "Real-world lessons learned from SupTech on requirement management, version control, agile dev, and iterative releases",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Project-Management/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
