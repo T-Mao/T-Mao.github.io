@@ -151,6 +151,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/Project-Management/";
         
       },
+    },{id: "post-becoming-the-multi-role-mvp-from-app-developer-to-pm-hr-admin-and-beyond",
+      
+        title: "Becoming the Multi-Role MVP: From App Developer to PM, HR, Admin, and Beyond...",
+      
+      description: "Reflections on wearing multiple hats in a startup: how juggling PM, HR, administrative, and customer support tasks shaped my growth as a developer—and beyond.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Multi-Role-MVP/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
