@@ -107,6 +107,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/AI/";
         
       },
+    },{id: "post-automatically-keeping-users-logged-in-on-mobile",
+      
+        title: "Automatically Keeping Users Logged In on Mobile",
+      
+      description: "A closer look at handling secure, persistent user authentication within mobile apps",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Keeping-Users-Logged-In/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
