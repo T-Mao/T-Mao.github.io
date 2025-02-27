@@ -173,6 +173,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/Apps-from-Zero-to-One/";
         
       },
+    },{id: "post-technical-perspective-amp-app-development-insights-how-i-maintained-high-standards-despite-handling-both-front-back-end-alone",
+      
+        title: "Technical Perspective &amp; App Development Insights: How I Maintained High Standards Despite Handling...",
+      
+      description: "Discussing how I managed a full-stack mindset, from Flutter front-end plus Node.js/Firebase back-end—or collaborating with Java/MySQL back-end teammates—and the tips for rapid MVP building, debugging standards, and unified logging/exception management.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/Full-Stack-Mindset/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
