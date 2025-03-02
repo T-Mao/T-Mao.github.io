@@ -96,17 +96,6 @@ ninja.data = [{
           window.location.href = "/blog/2025/RSA-Encryption/";
         
       },
-    },{id: "post-10-hard-earned-lessons-for-the-young-me",
-      
-        title: "10 Hard-Earned Lessons for the Young Me",
-      
-      description: "Reflecting on project pitfalls, late nights, discussions with the boss, overtime, labor rights, and professional growth, here are 10 condensed—but valuable—pieces of advice for anyone beginning their professional journey.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/Hard-Earned-Lessons/";
-        
-      },
     },{id: "post-leveraging-push-notifications-in-mobile-apps",
       
         title: "Leveraging Push Notifications in Mobile Apps",
