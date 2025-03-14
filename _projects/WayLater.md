@@ -56,17 +56,11 @@ In WayLater, you pick the **future date** for each letter. The app locks it. On 
 
 ### Watch WayLater in Action
 
-<div class="row">
-  <div class="col-sm-12 text-center">
-    <h4 class="text-center">Demonstration</h4>
-    <video width="320" height="240" controls>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+  <video controls="" style="max-height: 600px; max-width: 200px; margin-right: 20px;"> 
       <source src="assets/video/waylater.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p class="caption my-2">
-      A quick walkthrough: writing a letter, date-locking it, and browsing old messages.
-    </p>
-  </div>
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 <br>
