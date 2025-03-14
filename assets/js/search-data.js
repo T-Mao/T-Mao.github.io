@@ -237,6 +237,11 @@ ninja.data = [{
           description: "Minimalistic Time-Planning Solution",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DoneTodo/";
+            },},{id: "projects-flipperly-app",
+          title: 'Flipperly App',
+          description: "My Role as a Solo iOS App Developer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Flipperly/";
             },},{id: "projects-goshsha-app",
           title: 'Goshsha App',
           description: "Future AR Interactive Shopping Experience",
