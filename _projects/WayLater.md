@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WayLater
+title: WayLater App
 description: A Time-Capsule App for Writing Letters to Your Future Self
 img: assets/img/WayLater.jpeg
 importance: 2

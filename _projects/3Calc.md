@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 3Calc
+title: 3Calc App
 description: Multi-Calculator with Individual Histories
 img: assets/img/ThreeCalc.png
 importance: 2
