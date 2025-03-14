@@ -237,8 +237,8 @@ ninja.data = [{
           description: "Intelligent Board-Game Strategy",
           section: "Projects",handler: () => {
               window.location.href = "/projects/CheckersAI/";
-            },},{id: "projects-donetodo",
-          title: 'DoneTodo',
+            },},{id: "projects-donetodo-app",
+          title: 'DoneTodo App',
           description: "Minimalistic Time-Planning Solution",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DoneTodo/";
