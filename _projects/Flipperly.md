@@ -79,7 +79,7 @@ Flipperly’s gesture-based controls let users swipe left or right to mark resul
 <div class="row">
   <div class="col-sm-12 text-center">
   <video controls="" style="max-width: 200px;"> 
-      <source src="assets/video/flip.mp4" type="video/mp4">
+      <source src="/assets/video/flip.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p class="caption my-2">

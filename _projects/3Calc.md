@@ -83,7 +83,7 @@ Despite having numerous ways to unwind, **I dedicate my free time** to building 
 <div class="row">
   <div class="col-sm-12 text-center">
     <video width="320" height="240" controls>
-      <source src="assets/video/3calc.mp4" type="video/mp4">
+      <source src="/assets/video/3calc.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p class="caption my-2">

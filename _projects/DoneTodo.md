@@ -83,7 +83,7 @@ DoneTodo has **two** columns of color buttons: one for **planned** tasks (semi-t
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
   <video controls="" style="max-height: 600px; max-width: 200px;"> 
-      <source src="assets/video/donetodo.mp4" type="video/mp4">
+      <source src="/assets/video/donetodo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
