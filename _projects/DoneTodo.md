@@ -1,8 +1,8 @@
 ---
 layout: page
-title: DoneTodo App
+title: DoneTodo
 description: Minimalistic Time-Planning Solution
-img: assets/img/DoneTodo.png
+img: assets/img/DoneTodo.jpeg
 importance: 1
 category: individual
 related_publications: false
@@ -12,7 +12,7 @@ related_publications: false
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid
        loading="eager"
-       path="assets/img/DoneTodo.png"
+       path="assets/img/DoneTodo.jpeg"
        title="DoneTodo App"
        class="rounded z-depth-0"
        max-width="300px"
@@ -22,241 +22,244 @@ related_publications: false
 
 ## Overview
 
-**DoneTodo** is a **lightweight iOS** time-planning application that leverages a **drag-and-drop** interface, **color-coded** timelines, and **usage analytics** to help users visualize where every minute is spent—and effortlessly schedule upcoming tasks. Inspired by a _“less is more”_ philosophy, I focused on minimal UI elements, **streamlined workflows**, and **intuitive** navigation, ensuring that users could plan and track their days without clutter or confusion.
+**DoneTodo** is my latest iOS app designed for **visual time scheduling**. Users can **paint** their day with **color-coded tasks**, distinguishing between what they **plan** to do versus what they actually **complete**—all in a straightforward, grid-based UI.
 
-During this project (from **August 2024 to Present**), I took the lead in:
+I handled **every aspect** of DoneTodo’s creation:
 
-1. Designing a **SwiftUI** interface that merges **drag-and-drop** and color-coded blocks for tasks.
-2. Implementing **real-time analytics** on time distribution, providing daily/weekly/monthly/yearly usage stats with dynamic visualization.
-3. Building core data structures (e.g., color-coded tasks) and **serializable** states for storing multiple user-defined tasks across arbitrary dates.
-4. Integrating thoughtful **haptic feedback** and transitions to enhance user satisfaction and encourage consistent usage.
-5. Streamlining the entire app around a minimal footprint, ensuring **swift** performance and **low cognitive load** for users.
+- **Code Architecture** in Swift & SwiftUI
+- **Data Persistence** with JSON-encoded day schedules
+- **UI/UX Design** focusing on simplicity yet maintaining advanced features (undo/redo, analytics)
+- **App Store** submission and distribution
+
+It’s available now on the App Store, aiming to make personal time management both **effective** and **enjoyable**.
+
+<br>
+
+## Downloads
+
+<div class="row my-3">
+  <div class="col-sm-12 text-center">
+    <div class="row">
+      <div class="col-sm">
+        <a href="https://apps.apple.com/us/app/donetodo-task/id6743181289"
+           target="_blank"
+           style="display:inline-block;"
+        >
+          {% include figure.liquid
+             loading="eager"
+             path="assets/img/appleDownload.png"
+             alt="Download on iOS"
+             title="Download on iOS"
+             width="180"
+             class="rounded z-depth-1"
+             style="display:inline-block;"
+          %}
+        </a>
+      </div>
+    </div>
+    <div class="caption my-2">
+      Get <strong>DoneTodo</strong> for iOS.
+    </div>
+  </div>
+</div>
+
+<br>
+
+## User Stories & Demo
+
+### Story 1: The Visual Planner
+
+> _“I’m tired of text-heavy to-do apps. I want to literally ‘see’ how my day is mapped out—like a painter’s canvas for scheduling.”_
+
+DoneTodo uses a **24×6** grid (24 hours × 6 increments of 10 minutes). By tapping or dragging color-coded **task buttons** onto each cell, users visually **paint** their day, distinguishing tasks with unique hues.
+
+### Story 2: The Reflective Learner
+
+> _“Sometimes I plan tasks but end up doing something else. I need a way to mark the difference so I can analyze it later.”_
+
+DoneTodo has **two** columns of color buttons: one for **planned** tasks (semi-transparent) and another for **done** tasks (solid fill). This side-by-side approach clarifies how the day deviates from the plan, fueling reflection and self-improvement.
+
+### Watch DoneTodo in Action
+
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <video width="320" height="240" controls>
+      <source src="assets/video/donetodo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p class="caption my-2">
+      A quick walkthrough showing how tasks can be painted and erased, plus glimpses of the stats page.
+    </p>
+  </div>
+</div>
 
 <br>
 
 ## Project Highlights
 
-### 1. Lightweight UI/UX (SwiftUI)
+### 1. Color-coded, Grid-based UI
 
-- **Drag-and-drop** Time Grid
+- **10-minute Increments**  
+  Each cell in the grid is precisely 10 minutes. Users can plan up to 24 hours of the day in a single scroll.
+- **Current Time Indicator**  
+  A **black line** or marker shows the user’s real-time progress, so they know exactly where they stand compared to their planned schedule.
 
-  - Users effortlessly paint or erase 10-minute time blocks, with **instant** haptic feedback on touches.
-  - Real-time visual changes (“striped patterns” vs. “solid fills”) to differentiate **planned** vs. **done** tasks.
+### 2. Plan vs. Done Buttons
 
-- **Intuitive Daily Calendar**
-  - Custom **Mini Calendar** panel allowing quick date changes via gestures.
-  - Maintained minimal, decluttered design: only the essential elements appear on screen (time grid, tasks, day selector).
+- **Two Columns of Task Buttons**
+  - Left Column: **Plan** (lighter, shadow-like fill).
+  - Right Column: **Done** (fully colored fill).
+- **Eraser Tools**
+  - One eraser each for “Plan” or “Done.” Quickly correct scheduling mistakes with a single tap—no multi-level menus required.
 
-<details>
-<summary><strong>Sample: HapticButton + Drag Gesture</strong></summary>
+### 3. Calendar & Daily Swiping
 
-{% highlight swift %}
-struct HapticButton<Label: View>: View {
-var action: () -> Void
-var label: () -> Label
+- **Built-in Calendar**
+  - Users see which dates have data at a glance. Tapping a date loads the day’s timeline, letting them revisit past activities.
+- **Vertical Swipe Navigation**
+  - Swipe **up** or **down** on the grid to move to the next or previous day, with a smooth slide animation. Perfect for quickly scanning multiple days’ usage.
 
-    var body: some View {
-        Button(action: {
-            // Trigger haptic feedback
-            let generator = UIImpactFeedbackGenerator(style: .rigid)
-            generator.prepare()
-            generator.impactOccurred()
+### 4. Statistics & Time Analytics
 
-            // Perform the original action
-            action()
-        }, label: label)
-    }
+- **Pie Charts & Bar Graphs**
+  - Summaries of each task’s total minutes for a day, week, month, or year.
+  - **Striped** pattern highlights done-vs-planned time in the same bar.
+- **Average vs. Total**
+  - Toggle a segmented control to see either **total** or **average** usage for each task.
+  - Thoroughly coded in SwiftUI, with dynamic slice “exploding” animations on chart segments.
 
-}
+### 5. Undo/Redo & Local Persistence
 
-{% endhighlight %}
-**Why it’s clever**:
-
-- Combining **UIImpactFeedbackGenerator** with SwiftUI’s `Button` seamlessly provides user feedback.
-- Minimizes code duplication by encapsulating haptics in a custom view, simplifying repeated usage.
-
-</details>
-
-### 2. Color-Coded Timelines & Data Modeling
-
-- **Dynamic Color Management**
-
-  - Created **`ButtonItem`** objects (storing color & title) that users can freely add/edit.
-  - Implemented a **Codable** extension (`CodableColor`) that stores color in **Hex** format, ensuring consistent serialization/deserialization.
-
-- **Grid Storage**
-  - Each day’s schedule is stored in a 6x24 matrix (6 columns = 10-minute increments per hour, for 24 hours).
-  - Users can “paint” color blocks for “Plan” or apply a diagonal “striped pattern” for “Done,” each cell saving two color states.
-
-<details>
-<summary><strong>Sample: Color & Codable Implementation</strong></summary>
-
-{% highlight swift %}
-struct CodableColor: Codable, Equatable {
-let color: Color?
-
-    init(_ color: Color?) {
-        self.color = color
-    }
-
-    // encoding/decoding color as a hex string
-    func encode(to encoder: Encoder) throws {
-        var container = encoder.singleValueContainer()
-        if let color = color, let hex = color.toHex() {
-            try container.encode(hex)
-        } else {
-            try container.encodeNil()
-        }
-    }
-
-    init(from decoder: Decoder) throws {
-        let container = try decoder.singleValueContainer()
-        if let hex = try? container.decode(String.self) {
-            self.color = Color(hex: hex)
-        } else {
-            self.color = nil
-        }
-    }
-
-}
-{% endhighlight %}
-
-**Highlights**:
-
-- Supports full ARGB hex (`#RRGGBBAA` or `#RRGGBB`) for flexible color alpha.
-- **`CodableColor`** + `Color(hex:)` allowed robust data persistence in `UserDefaults`, minimizing user friction.
-
-</details>
-
-### 3. Real-time Statistics & Time Analytics
-
-- **Daily/Weekly/Monthly/Yearly Summaries**
-
-  - Automatic collection of planned vs. completed “minutes,” aggregated across tasks.
-  - Trend analytics in an optional **`StatisticsView`** with both bar-charts and donut visuals.
-
-- **Interactive Charts**
-  - **PieChartView** with **DonutSliceView** animates each slice and highlights details (percent, total minutes) on tap.
-  - Implementation of an “average vs. total” mode: can quickly re-summarize data across the chosen time period.
-
-<details>
-<summary><strong>Sample: PieChartView & DonutSliceView</strong></summary>
-
-{% highlight swift %}
-struct DonutSliceView: View {
-var pieSliceData: PieSliceData
-var isSelected: Bool
-
-    var body: some View {
-        GeometryReader { geometry in
-            // compute arcs + shape...
-            Path { path in
-                // outer arc
-                path.addArc( /* omitted */ )
-                // inner arc
-                // closeSubpath
-            }
-            .fill(pieSliceData.color)
-            // small offset if isSelected = true
-        }
-    }
-
-}
-
-{% endhighlight %}
-**Why it’s clever**:
-
-- Combines **offset** animations with SwiftUI geometry to “pop out” a slice on tap.
-- Simple configuration allows toggling between **“Total”** or **“Average”** calculations via a segmented control.
-
-</details>
-
-### 4. Undo/Redo & Gesture Handling
-
-- **Undo/Redo** Stack
-
-  - Maintains a maximum of 50 snapshot states in memory, enabling quick user corrections.
-  - Each time the user modifies the grid, the previous state is pushed onto an **undo stack**.
-
-- **Vertical Drag Navigation**
-  - SwiftUI’s `DragGesture` used to switch entire days with a vertical drag (like flipping a daily planner).
-  - Smooth transitions (with optional “preview” of the next day’s grid while dragging).
-
-### 5. Minimalism & Creativity
-
-- Focused solely on **core** productivity: color-coded tasks, scheduling & time usage, real-time stats.
-- Avoided “feature bloat”: **no** extraneous toggles or secondary screens—**immediate** load times and **less user stress**.
-- Task naming or editing uses an in-place textfield approach, quietly integrated into the color button row.
+- **Undo/Redo Stack**
+  - Stores up to 50 states of the **entire** schedule, replicating a typical design or text editor’s behavior.
+  - One line of code to revert an entire day’s painting or reapply it.
+- **Local JSON Storage**
+  - Each day’s 24×6 grid is encoded as `gridItems_YYYYMMDD` in `UserDefaults`.
+  - Custom color serialization using `Color.toHex()` ensures user-defined tasks never lose their chosen hues.
 
 <br>
 
-## Technical Contributions
+## Technical Breakdown
 
-1. **SwiftUI Architecture**
+My development **stack** includes **SwiftUI** with structured, maintainable code:
 
-   - Data stored in `[[GridItemState]]`, each state handling up to two color references (`backgroundColor` & `patternColor`).
-   - **Haptic** feedback extension (`HapticButton`) for consistent user experience across the entire UI.
+### Architecture & Data Modeling
 
-2. **Advanced Persistence**
+- **`GridItemState`** Model  
+  Encapsulates both a `backgroundColor` (planned) and a `patternColor` (done) for each cell, along with references to the **ButtonItem** `UUID`.
+- **`ButtonItem`** Model  
+  Each task button has an ID, a SwiftUI **Color**, and a text label. This design allows dynamic additions, renaming, or color adjustments without complicated DB tables.
 
-   - Used **UserDefaults** (keyed by `gridItems_YYYYMMDD`) to store each day’s entire schedule JSON.
-   - `CodableColor` + hex conversions ensuring color accuracy in iOS’ sRGB space.
+<details>
+<summary><strong>Sample: GridItemState</strong></summary>
 
-3. **Task List & Customizability**
+```swift
+struct GridItemState: Codable, Equatable {
+    var backgroundColor: CodableColor? = nil
+    var isPatternFilled: Bool = false
+    var patternColor: CodableColor? = nil
 
-   - Dynamically generated “Task Buttons” for each user-defined category.
-   - Real-time rename, recolor, or delete tasks—integrated into a **long-press** menu or **TextField** for in-place edits.
+    var backgroundButtonID: UUID? = nil
+    var patternButtonID: UUID? = nil
+}
+```
 
-4. **Undo/Redo**
-   - Simple but effective stack-based approach: pushing a full 2D array copy onto an “undoStack.”
-   - Clears “redoStack” on any new user changes, consistent with typical editor behavior.
+````
+
+**Key Insight**: Each cell can simultaneously store a “plan” color (backgroundColor) and a “done” pattern (patternColor), unlocking the layered approach that visually separates planning from action.
+
+</details>
+
+### Gesture Handling & Drawing
+
+- **Tap or Drag**
+  - A custom **DragGesture** recognized in the grid lets users paint multiple cells in a single swipe.
+  - The code calculates every “touched” cell along the drag path, filling them automatically with either plan or done color.
+- **Vertical Day-Swipe**
+  - A second gesture on the same grid detects vertical motion beyond a threshold—**switching** the entire day’s schedule to the next or previous date.
+  - This was carefully layered to not conflict with the painting gesture.
+
+### Undo/Redo System
+
+- **Push/Pull Stack**
+  - Before each painting action, DoneTodo captures the entire 2D grid as a “snapshot.”
+  - Undoing pops the last snapshot, reloading the entire grid from that memory.
+  - Redo is reversed if the user undoes then changes something new.
+
+<details>
+<summary><strong>Sample: Pushing an Undo State</strong></summary>
+
+```swift
+func pushUndoState() {
+    // Limit to 50 to prevent memory bloat
+    if undoStack.count >= 50 {
+        undoStack.removeFirst()
+    }
+    // Clone current grid state
+    undoStack.append(gridItems.map { $0.map { $0 } })
+    // Clear redo stack
+    redoStack.removeAll()
+}
+```
+
+**Why it’s clever**: The grid is a 2D array, so “copying” it carefully ensures changes to the new array don’t alter the old references.
+
+</details>
+
+### Statistics & Analytics
+
+- **Task Aggregation**
+  - Each day’s grid cells are scanned for background/done usage, tallying up total or average minutes for each **ButtonItem**.
+- **PieChartView & DonutSlice**
+  - A custom SwiftUI shape that arcs around the center with a configurable “explode” offset. On tapping a slice, it animates out, displaying stats in the center.
+
+### Design & UX Principles
+
+- **Minimal Overhead**
+  - The app has a single main screen (the time grid) plus an optional stats screen. No labyrinth of tabs or complicated forms.
+- **Color-coded Everything**
+  - Color is the user’s prime visual anchor. The code ensures consistent, bright palettes and easy shading or erasing.
 
 <br>
 
 ## Project Outcomes
 
-- **Enhanced User Productivity**
+1. **Highly Engaging Time Visualization**
 
-  - By blending a simple color-coded daily grid and minimal taps, users found it quick to plan time or do post-day reflection.
-  - The “Done” overlay stripes **visually** encourage quick recognition of completed tasks, providing motivational feedback.
+   - Users can see at a glance how their day “paints out.” They love the directness, skipping complex data entry and letting **color** handle the messaging.
 
-- **User Satisfaction**
+2. **Concrete Self-Review**
 
-  - Testers praised the **low friction** approach—**“Add a color-coded button, paint your time, done.”**
-  - In-app time usage logs reduced anxiety and improved daily accountability.
+   - Because each day can be recalled, users can reflect on time usage historically. The difference between plan vs. done fosters deeper self-awareness.
 
-- **Scalable for Additional Features**
-  - The underlying code structure is easily extended for multi-user login or heavier cloud sync (e.g., CloudKit).
-  - SwiftUI-based approach ensures consistent maintenance and future expansions (e.g., watchOS, widgets).
+3. **Performance & Scalability**
+   - The 24×6 grid remains extremely lightweight. The system easily extends to new features like iCloud sync or watchOS compatibility without major code rewrites.
 
 <br>
 
 ## Personal Growth & Reflection
 
-1. **Technical Mastery**
+**1. Technical Mastery**
 
-   - Strengthened SwiftUI knowledge with advanced gestures (drag, multi-state preview), custom shape drawing, and haptic feedback.
-   - Gained practical experience in **data serialization** (hex-based color coding) and **undo/redo** design patterns on iOS.
+- I refined advanced SwiftUI patterns, from custom shapes to dynamic color encoding, and orchestrated multi-gesture layers (painting + day-swiping) without UI collisions.
 
-2. **Design & UX**
+**2. Thoughtful Design Mindset**
 
-   - Balanced minimal UI with advanced capabilities like daily scheduling and analytics.
-   - Showcased strong attention to user-friendly details (tap vs. drag distinctions, “striped” done-layers, partial day scrolling).
+- Balancing minimalism with “power features” (undo/redo, day-swiping, stats) taught me how to present deeper complexity under a simple, calm UI—making it **instantly** approachable.
 
-3. **Adaptability & Creativity**
-   - Provided robust solutions (undo stack, vertical day-swiping) with minimal overhead.
-   - Devised a purely color-coded approach to reduce textual clutter, letting time blocks serve as the primary “UI language.”
+**3. Ownership from End to End**
+
+- I was responsible for everything: architecture, user flows, local storage, gesture management, and the final **App Store** submission. This 360° responsibility sharpened both my technical and product sensibilities.
 
 <br>
 
 ## Final Thoughts
 
-The **DoneTodo** project embodies my passion for **simple yet powerful** app design. By blending:
+**DoneTodo** exemplifies how **clean code** and **vibrant design** converge to create a **truly user-friendly** tool. Merging color-coded task painting with seamless day-to-day navigation, it stands out as:
 
-- **SwiftUI** for a quick, reactive interface
-- **Custom color-coded data** with easy-to-use serialization
-- **Analytics** for immediate time usage insights
+- **Immediate**: No steep learning curve, just intuitive taps and drags.
+- **Reflective**: Contrasting “planned” vs. “done” fosters genuine insights.
+- **Extendable**: The structured SwiftUI approach paves the way for future expansions—like watch apps or advanced analytics—without losing the elegant simplicity.
 
-I delivered an iOS app that **motivates** users to plan effectively while keeping friction near zero. The code foundation—**undo/redo stacks**, **gesture-based day navigation**, and **drag-based painting**—demonstrates both my creativity and systematic approach to designing a truly **user-centric** time planner.
-
-**DoneTodo** remains an evolving project, but its current success shows how carefully **orchestrated minimal features** can significantly enhance daily productivity—and do so with **fluid** performance and minimal complexity.
+Already **live on the App Store**, DoneTodo showcases my passion for building **polished**, **engaging**, and **technically robust** iOS apps. I look forward to applying this multi-faceted skill set—covering design, gestures, code architecture, and data persistence—on future projects or collaborations.
+````
