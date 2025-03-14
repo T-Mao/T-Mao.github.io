@@ -217,8 +217,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-3calc",
-          title: '3Calc',
+          section: "News",},{id: "projects-3calc-app",
+          title: '3Calc App',
           description: "Multi-Calculator with Individual Histories",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3Calc/";
@@ -292,8 +292,8 @@ ninja.data = [{
           description: "My dual-major accomplishments and how they forged my versatile coding, research, and leadership prowess",
           section: "Projects",handler: () => {
               window.location.href = "/projects/UCI/";
-            },},{id: "projects-waylater",
-          title: 'WayLater',
+            },},{id: "projects-waylater-app",
+          title: 'WayLater App',
           description: "A Time-Capsule App for Writing Letters to Your Future Self",
           section: "Projects",handler: () => {
               window.location.href = "/projects/WayLater/";
