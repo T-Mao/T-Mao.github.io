@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DoneTodo
+title: DoneTodo App
 description: Minimalistic Time-Planning Solution
 img: assets/img/DoneTodo.jpeg
 importance: 1
@@ -81,16 +81,11 @@ DoneTodo has **two** columns of color buttons: one for **planned** tasks (semi-t
 
 ### Watch DoneTodo in Action
 
-<div class="row">
-  <div class="col-sm-12 text-center">
-    <video width="320" height="240" controls>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+  <video controls="" style="max-height: 600px; max-width: 200px;"> 
       <source src="assets/video/donetodo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p class="caption my-2">
-      A quick walkthrough showing how tasks can be painted and erased, plus glimpses of the stats page.
-    </p>
-  </div>
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 <br>
