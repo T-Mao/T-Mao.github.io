@@ -282,9 +282,9 @@ ninja.data = [{
           description: "My role as an App Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SupTech/";
-            },},{id: "projects-threetodo-app",
-          title: 'ThreeTodo App',
-          description: "Efficient Task Management",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ThreeTodo/";
             },},{id: "projects-uci-academic-journey",
@@ -292,6 +292,11 @@ ninja.data = [{
           description: "My dual-major accomplishments and how they forged my versatile coding, research, and leadership prowess",
           section: "Projects",handler: () => {
               window.location.href = "/projects/UCI/";
+            },},{id: "projects-waylater",
+          title: 'WayLater',
+          description: "A Time-Capsule App for Writing Letters to Your Future Self",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/WayLater/";
             },},{id: "projects-writercards-app",
           title: 'WriterCards App',
           description: "Daily Creativity &amp; Self-Reflection",
