@@ -40,6 +40,34 @@ Despite typically having free time, I love building my own apps – this is my *
 
 <br>
 
+## Downloads
+
+<div class="row my-3">
+  <div class="col-sm-12 text-center">
+    <div class="row">
+      <div class="col-sm">
+        <a href="https://apps.apple.com/us/app/waylater/id6743181268" 
+           target="_blank" 
+           style="display:inline-block;"
+        >
+          {% include figure.liquid
+             loading="eager"
+             path="assets/img/appleDownload.png"
+             alt="Download on iOS"
+             title="Download on iOS"
+             width="180"
+             class="rounded z-depth-1"
+             style="display:inline-block;"
+          %}
+        </a>
+      </div>
+    </div>
+    <div class="caption my-2">
+      Get <strong>WayLater</strong> for iOS.
+    </div>
+  </div>
+</div>
+
 ## User Stories & Demo
 
 ### Story 1: The Reflective Dreamer
