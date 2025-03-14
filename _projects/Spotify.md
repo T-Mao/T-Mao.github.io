@@ -3,7 +3,7 @@ layout: page
 title: Spotify Browser
 description: High-Performance Music Streaming Web App
 img: https://static.vecteezy.com/system/resources/previews/006/057/992/non_2x/spotify-logo-on-transparent-background-free-vector.jpg
-importance: 1
+importance: 2
 category: individual
 related_publications: false
 ---
