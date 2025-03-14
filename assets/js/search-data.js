@@ -217,7 +217,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-arcadia-high-school",
+          section: "News",},{id: "projects-3calc",
+          title: '3Calc',
+          description: "Multi-Calculator with Individual Histories",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3Calc/";
+            },},{id: "projects-arcadia-high-school",
           title: 'Arcadia High School',
           description: "My achievements in design, academics, and leadership",
           section: "Projects",handler: () => {
