@@ -83,7 +83,6 @@ Flipperly’s gesture-based controls let users swipe left or right to mark resul
   </video>
 </div>
 
-
 ## Project Highlights
 
 ### 1. Core Purpose & Functionality

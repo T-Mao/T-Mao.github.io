@@ -58,7 +58,7 @@ During a summer internship, I worked on **endoscopic 3D reconstruction** for med
 
 <br>
 
-## Updated About Page (Personal Projects)
+## Personal Projects
 
 I love bringing my own app ideas to life—**solo**. Check out my **[App Store developer page](https://apps.apple.com/us/developer/tongze-mao/id1801828453){:target="\_blank"}** or see some highlights below:
 
