@@ -3,7 +3,7 @@ layout: page
 title: 3Calc
 description: Multi-Calculator with Individual Histories
 img: assets/img/ThreeCalc.png
-importance: 3
+importance: 2
 category: individual
 related_publications: false
 ---
