@@ -159,8 +159,6 @@ struct GridItemState: Codable, Equatable {
 }
 ```
 
-````
-
 **Key Insight**: Each cell can simultaneously store a “plan” color (backgroundColor) and a “done” pattern (patternColor), unlocking the layered approach that visually separates planning from action.
 
 </details>
@@ -257,4 +255,3 @@ func pushUndoState() {
 - **Extendable**: The structured SwiftUI approach paves the way for future expansions—like watch apps or advanced analytics—without losing the elegant simplicity.
 
 Already **live on the App Store**, DoneTodo showcases my passion for building **polished**, **engaging**, and **technically robust** iOS apps. I look forward to applying this multi-faceted skill set—covering design, gestures, code architecture, and data persistence—on future projects or collaborations.
-````
