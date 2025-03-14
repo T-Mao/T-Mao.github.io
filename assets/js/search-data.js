@@ -282,9 +282,9 @@ ninja.data = [{
           description: "My role as an App Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SupTech/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-threetodo-app",
+          title: 'ThreeTodo App',
+          description: "Efficient Task Management",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ThreeTodo/";
             },},{id: "projects-uci-academic-journey",
