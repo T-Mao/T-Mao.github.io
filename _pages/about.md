@@ -60,19 +60,19 @@ During a summer internship, I worked on **endoscopic 3D reconstruction** for med
 
 ## Updated About Page (Personal Projects)
 
-I love bringing my own app ideas to life—**solo**. Check out my **[App Store developer page](https://apps.apple.com/us/developer/tongze-mao/id1801828453){:target="_blank"}** or see some highlights below:
+I love bringing my own app ideas to life—**solo**. Check out my **[App Store developer page](https://apps.apple.com/us/developer/tongze-mao/id1801828453){:target="\_blank"}** or see some highlights below:
 
-- **[DoneTodo](https://t-mao.github.io/projects/DoneTodo/){:target="_blank"}**  
+- **[DoneTodo](https://t-mao.github.io/projects/DoneTodo/){:target="\_blank"}**  
   A **grid-based** iOS time-planning app with drag-to-paint scheduling, integrated analytics, and **undo/redo**.
 
-- **[3Calc](https://t-mao.github.io/projects/3Calc/){:target="_blank"}**  
+- **[3Calc](https://t-mao.github.io/projects/3Calc/){:target="\_blank"}**  
   A multi-calculator app where each swipe leads to a separate calculator—each with its own history log.
 
-- **[Flipperly](https://t-mao.github.io/projects/Flipperly/){:target="_blank"}**  
+- **[Flipperly](https://t-mao.github.io/projects/Flipperly/){:target="\_blank"}**  
   A **flashcard-based** memory app built in Swift, focusing on spaced repetition, flipping animations, and easy review tracking.
 
-- **[WayLater](https://t-mao.github.io/projects/WayLater/){:target="_blank"}**  
-  A **time-capsule** iOS app for writing future-dated letters. Letters remain locked until their chosen date, providing a reflective, personal journaling experience.  
+- **[WayLater](https://t-mao.github.io/projects/WayLater/){:target="\_blank"}**  
+  A **time-capsule** iOS app for writing future-dated letters. Letters remain locked until their chosen date, providing a reflective, personal journaling experience.
 
 <br>
 

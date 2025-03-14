@@ -80,16 +80,11 @@ Despite having numerous ways to unwind, **I dedicate my free time** to building 
 
 ### Watch 3Calc in Action
 
-<div class="row">
-  <div class="col-sm-12 text-center">
-    <video width="320" height="240" controls>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+  <video controls="" style="max-width: 250px;"> 
       <source src="/assets/video/3calc.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p class="caption my-2">
-      A quick walkthrough of using 3Calc, including switching calculators and reusing past results.
-    </p>
-  </div>
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 <br>
