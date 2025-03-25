@@ -195,17 +195,57 @@
 
   "projects": [
     {
-      "name": "DoneTodo App - Minimalistic Time-Planning Solution",
-      "summary": "A minimalistic time-planning app enabling effortless drag-and-drop scheduling, color-coded timelines, and detailed usage analytics.",
+      "name": "DoneTodo – Visual Time-Planning & Tracking App",
+      "summary": "A SwiftUI-based scheduling solution that lets users literally paint their day in color-coded tasks—contrasting planned vs. completed time. Built single-handedly, from UI/UX design to code architecture, local storage, advanced gestures, and App Store release.",
       "highlights": [
-        "Developed a Swift-based iOS application emphasizing lightweight UI/UX, reducing user friction and cognitive load.",
-        "Integrated statistical modules to visualize real-time time-distribution trends, providing actionable insights.",
-        "Adhered to a 'less-is-more' philosophy, focusing on core productivity features to minimize bloat and streamline workflows."
+        "Engineered a 24×6 interactive grid with 10-minute blocks. Tapping or dragging applies two color layers (Plan vs. Done) to reflect scheduled vs. actual usage.",
+        "Implemented a robust undo/redo system storing entire day snapshots—giving users 50+ levels of reliable change rollback.",
+        "Developed calendar-based navigation with vertical swipes to jump seamlessly between dates, all while preserving custom color-coded data and local JSON persistence.",
+        "Designed and built an analytics suite with pie/bar charts to reveal time distribution and highlight discrepancies between planned and actual activities."
       ],
       "startDate": "2024-08-01",
       "endDate": "Present",
       "url": "https://t-mao.github.io/projects/DoneTodo/"
     },
+    {
+      "name": "ThreeCalc – Triple-Calculator iOS App",
+      "summary": "An all-in-one SwiftUI calculator with three distinct calculators in one interface, each possessing its own scrollable history and interactive result reuse. Single-handedly created to handle finance, tipping, and day-to-day calculations without losing track of progress.",
+      "highlights": [
+        "Architected three calculators within a PageTabViewStyle to keep every calculation thread separate—no more mixed results or confusing histories.",
+        "Crafted a Decimal-based expression evaluator to minimize floating-point inaccuracies, crucial for precise financial/engineering tasks.",
+        "Integrated an interactive history feature: users tap past results to insert values into new expressions, or long-press to copy/delete them.",
+        "Executed the entire product pipeline independently: conceptual design, coding, debugging, SwiftUI layout, App Store deployment, and version updates."
+      ],
+      "startDate": "2024-01-19",
+      "endDate": "Present",
+      "url": "https://t-mao.github.io/projects/3Calc/"
+    },
+    {
+      "name": "WayLater – Self-Developed iOS Time-Capsule App",
+      "summary": "A solo-built SwiftUI app that lets users write letters to their future selves. Each letter stays locked until a chosen date, complete with photo attachments, comments, and local JSON storage. I coded every feature from concept to deployment.",
+      "highlights": [
+        "Created a date-gated letter mechanic—letters remain sealed until their receive date, then automatically unlock for reading or commentary.",
+        "Engineered the SwiftUI architecture, employing local JSON for reliable data persistence, user privacy, and offline usability.",
+        "Developed a built-in prompt system to spark writing ideas, encouraging deeper self-reflection and consistent letter creation.",
+        "Single-handedly drove the project: ideation, UI design, coding, local testing, iteration, and final submission to the App Store."
+      ],
+      "startDate": "2025-03-03",
+      "endDate": "Present",
+      "url": "https://t-mao.github.io/projects/WayLater/"
+    },
+    {
+      "name": "Flipperly – Solo-Developed iOS Flashcard App",
+      "summary": "A feature-rich flashcard application built entirely in SwiftUI, blending spaced-repetition logic, local JSON data storage, a 3D flipping animation, and user-friendly undone/redo capabilities—all crafted by a single developer.",
+      "highlights": [
+        "Authored every line of code: from data models (Flashcard, Deck) to SwiftUI’s 3D flipping animations, delivering a polished user experience.",
+        "Implemented a dynamic spaced-repetition system where ‘remembered’ cards reappear less often, optimizing learning efficiency.",
+        "Devised a custom undo/redo stack that reverses or replays incorrect reviews with a single tap—preventing accidental resets.",
+        "Handled all phases independently: concept, design, coding, QA, user feedback, and App Store publication, showcasing full-stack iOS expertise."
+      ],
+      "startDate": "2025-03-03",
+      "endDate": "Present",
+      "url": "https://t-mao.github.io/projects/Flipperly/"
+    },    
     {
       "name": "HowDidI App – Paid Résumé-Sharing Platform",
       "summary": "An iOS app allowing professionals to upload résumés for monetization, enabling readers to purchase passes and access first-hand application materials.",
