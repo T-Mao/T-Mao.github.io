@@ -35,7 +35,7 @@ It’s available now on the App Store, aiming to make personal time management b
 
 <br>
 
-## Downloads
+## Download
 
 <div class="row my-3">
   <div class="col-sm-12 text-center">

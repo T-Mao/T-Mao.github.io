@@ -34,7 +34,7 @@ Despite having numerous ways to unwind, **I dedicate my free time** to building 
 
 <br>
 
-## Downloads
+## Download
 
 <div class="row my-3">
   <div class="col-sm-12 text-center">

@@ -28,7 +28,7 @@ In larger teams, responsibilities like **UI/UX design**, **feature development**
 
 <br>
 
-## Downloads
+## Download
 
 <div class="row my-3">
   <div class="col-sm-12 text-center">

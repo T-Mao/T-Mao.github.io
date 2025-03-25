@@ -40,7 +40,7 @@ Despite typically having free time, I love building my own apps – this is my *
 
 <br>
 
-## Downloads
+## Download
 
 <div class="row my-3">
   <div class="col-sm-12 text-center">
