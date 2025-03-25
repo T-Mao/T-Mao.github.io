@@ -3,8 +3,8 @@ layout: page
 title: DoneTodo App
 description: Minimalistic Time-Planning Solution
 img: assets/img/DoneTodo.jpeg
-importance: 1
-category: individual
+importance: 2
+category: work
 related_publications: false
 ---
 

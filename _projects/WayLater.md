@@ -3,8 +3,8 @@ layout: page
 title: WayLater App
 description: A Time-Capsule App for Writing Letters to Your Future Self
 img: assets/img/WayLater.jpeg
-importance: 2
-category: individual
+importance: 4
+category: work
 related_publications: false
 ---
 
