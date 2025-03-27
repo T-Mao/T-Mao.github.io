@@ -247,6 +247,11 @@ ninja.data = [{
           description: "My Role as a Solo iOS App Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Flipperly/";
+            },},{id: "projects-fontmate",
+          title: 'FontMate',
+          description: "Dedicated iOS Font Explorer &amp; SwiftUI Code Generator",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/FontMate/";
             },},{id: "projects-goshsha-app",
           title: 'Goshsha App',
           description: "Future AR Interactive Shopping Experience",
@@ -272,6 +277,11 @@ ninja.data = [{
           description: "Streamlined Health Monitoring",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LifeTune/";
+            },},{id: "projects-sparkdays",
+          title: 'SparkDays',
+          description: "Habit Tracking with Reward-based Motivation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SparkDays/";
             },},{id: "projects-spotify-browser",
           title: 'Spotify Browser',
           description: "High-Performance Music Streaming Web App",
