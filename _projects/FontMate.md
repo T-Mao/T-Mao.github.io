@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FontMate
+title: FontMate App
 description: Dedicated iOS Font Explorer & SwiftUI Code Generator
 img: assets/img/FontMate.jpg
 importance: 5

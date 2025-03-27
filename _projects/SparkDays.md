@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SparkDays
+title: SparkDays App
 description: Habit Tracking with Reward-based Motivation
 img: assets/img/SparkDays.jpg
 importance: 5
