@@ -74,6 +74,12 @@ I love bringing my own app ideas to life—**solo**. Check out my **[App Store d
 - **[WayLater](https://t-mao.github.io/projects/WayLater/){:target="\_blank"}**  
   A **time-capsule** iOS app for writing future-dated letters. Letters remain locked until their chosen date, providing a reflective, personal journaling experience.
 
+- **[FontMate](https://t-mao.github.io/projects/FontMate/){:target="\_blank"}**  
+  A dedicated iOS font explorer and **SwiftUI code generator**, letting designers and developers **preview** and **compare** native system fonts. It automatically creates SwiftUI snippets—no more manual typing.
+
+- **[SparkDays](https://t-mao.github.io/projects/SparkDays/){:target="\_blank"}**  
+  A habit-tracking app infused with a **fun coin-and-reward system**. Earn coins each day and redeem them for items in your personal store, powering long-term motivation.
+
 <br>
 
 ### UCI Academic Journey

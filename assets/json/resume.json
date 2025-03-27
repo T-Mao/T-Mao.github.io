@@ -221,6 +221,32 @@
       "url": "https://t-mao.github.io/projects/3Calc/"
     },
     {
+      "name": "FontMate – iOS Font Explorer & SwiftUI Snippet Generator",
+      "summary": "A SwiftUI-powered iOS app for quickly previewing every native system font. Automatically generates SwiftUI font code, including size, weight, and color parameters. Solely developed from concept to App Store release.",
+      "highlights": [
+        "Displays real-time previews for any system font, letting designers and developers compare typefaces at various sizes, weights, and colors.",
+        "One-tap SwiftUI snippet generation: user picks the font, weight, color, and the app produces code for easy copying into Xcode.",
+        "Enables saving favorite fonts for quick reference; all data persisted locally with JSON and @AppStorage for user-friendly retrieval.",
+        "Singlehandedly managed the end-to-end process: design, architecture, Swift/SwiftUI coding, testing, marketing, and iterative version updates."
+      ],
+      "startDate": "2025-03-26",
+      "endDate": "Present",
+      "url": "https://t-mao.github.io/projects/FontMate/"
+    },
+    {
+      "name": "SparkDays – Habit Tracking & Reward System",
+      "summary": "A gamified habit-tracker built in SwiftUI. Users earn coins for completing daily tasks and redeem them in an in-app store. Entirely designed, coded, and maintained by a single developer.",
+      "highlights": [
+        "Implemented a daily check-in system with dynamic coin rewards—harder tasks earn more coins, and streaks earn bonus coins.",
+        "Introduced a personal in-app store with tiered items and experiences. Users spend accumulated coins to motivate consistent progress.",
+        "Devised a robust SwiftUI architecture with local JSON persistence, ensuring tasks, store data, and user settings stay in sync.",
+        "Oversaw every production step: conceptualization, UI/UX design, data modeling, coding, release, and ongoing iteration."
+      ],
+      "startDate": "2025-03-17",
+      "endDate": "Present",
+      "url": "https://t-mao.github.io/projects/SparkDays/"
+    },
+    {
       "name": "WayLater – Self-Developed iOS Time-Capsule App",
       "summary": "A solo-built SwiftUI app that lets users write letters to their future selves. Each letter stays locked until a chosen date, complete with photo attachments, comments, and local JSON storage. I coded every feature from concept to deployment.",
       "highlights": [
