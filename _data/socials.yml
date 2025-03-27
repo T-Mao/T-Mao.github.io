@@ -49,3 +49,7 @@ linkedin_username: tongze-mao # your LinkedIn user name
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #   title: Custom Social
 #   url: https://www.alberteinstein.com/
+custom_social:
+  logo: https://cdn-icons-png.flaticon.com/512/831/831327.png
+  title: App Store
+  url: https://apps.apple.com/us/developer/tongze-mao/id1801828453
