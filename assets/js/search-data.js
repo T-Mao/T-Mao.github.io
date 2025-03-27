@@ -327,6 +327,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/tongze-mao", "_blank");
         },
       },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://apps.apple.com/us/developer/tongze-mao/id1801828453", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
