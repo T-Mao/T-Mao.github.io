@@ -247,8 +247,8 @@ ninja.data = [{
           description: "My Role as a Solo iOS App Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Flipperly/";
-            },},{id: "projects-fontmate",
-          title: 'FontMate',
+            },},{id: "projects-fontmate-app",
+          title: 'FontMate App',
           description: "Dedicated iOS Font Explorer &amp; SwiftUI Code Generator",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FontMate/";
@@ -277,8 +277,8 @@ ninja.data = [{
           description: "Streamlined Health Monitoring",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LifeTune/";
-            },},{id: "projects-sparkdays",
-          title: 'SparkDays',
+            },},{id: "projects-sparkdays-app",
+          title: 'SparkDays App',
           description: "Habit Tracking with Reward-based Motivation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SparkDays/";
