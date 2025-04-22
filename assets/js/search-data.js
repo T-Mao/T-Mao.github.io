@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-future-career-planning-amp-summary-reflecting-on-suptech-what-s-my-next-step",
+        },{id: "post-shipping-bug-free-ios-apps-with-a-lean-sdet-strategy",
+      
+        title: "Shipping Bug‑Free iOS Apps With a Lean SDET Strategy",
+      
+      description: "A deep dive into the mobile‑first test pyramid, Appium + pytest pipelines, and why accessibility is the best API you never documented.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Mobile-SDET-Strategy-for-iOS-Apps/";
+        
+      },
+    },{id: "post-future-career-planning-amp-summary-reflecting-on-suptech-what-s-my-next-step",
       
         title: "Future Career Planning &amp; Summary - Reflecting on SupTech, What’s My Next Step?...",
       
