@@ -41,6 +41,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/Mobile-SDET-Strategy-for-iOS-Apps/";
         
       },
+    },{id: "post-beyond-the-buzzwords-a-field-manual-for-functional-integration-smoke-and-regression-testing",
+      
+        title: "Beyond the Buzzwords — A Field Manual for Functional, Integration, Smoke and Regression Testing",
+      
+      description: "An in‑depth, code‑backed taxonomy of core test layers, with battle‑tested heuristics for mobile and backend pipelines.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/SoftwareTesting/";
+        
+      },
     },{id: "post-future-career-planning-amp-summary-reflecting-on-suptech-what-s-my-next-step",
       
         title: "Future Career Planning &amp; Summary - Reflecting on SupTech, What’s My Next Step?...",
