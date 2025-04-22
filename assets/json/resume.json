@@ -14,7 +14,7 @@
       "position": "Software Developer & Team Lead",
       "url": "https://t-mao.github.io/projects/SupTech/",
       "startDate": "2024-04-23",
-      "endDate": "Present",
+      "endDate": "2025-04-11",
       "summary": "Led end-to-end development of two cross-platform mobile apps (Consumer App & Technician App) from scratch using Flutter, Firebase, and MySQL—covering architecture design, coding, testing, and deployment for both iOS and Android. Leveraged robust Node.js + Express backend integration, advanced encryption (RSA + AES), and Stripe Connect for secure payments and delayed transfer scheduling. Oversaw the entire SDLC through Agile sprints, code reviews, and close stakeholder collaboration.",
       "highlights": [
         "Engineered multi-tier features, including real-time location tracking (Haversine), geospatial queries, FCM-based push notifications, and consumer–technician chat sessions.",
