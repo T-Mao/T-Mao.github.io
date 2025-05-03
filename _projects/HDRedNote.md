@@ -13,7 +13,7 @@ related_publications: false
     {% include figure.liquid
        loading="eager"
        path="https://img.logodad.com/upload/09f/xiaohongshu.svg.@ERESIZE@.preview.png"
-       title="rednote"
+       title="RedNote"
        class="rounded z-depth-0"
        max-width="300px"
     %}
@@ -22,7 +22,7 @@ related_publications: false
 
 ## Overview
 
-From **June 2024** to **December 2024**, I worked part-time and **remotely** at **HD EDU** as a **New Media Content Creator**, overseeing the organization’s official **Xiaohongshu (rednote)** channel. My goal was to engage Chinese students studying abroad through concise, visually appealing posts—using a **systematic**, **data-informed** approach to maintain a compelling brand presence. By fusing **creative writing**, **social media analytics**, and personal experience with international education, I delivered content that resonated with HD EDU’s audience and amplified user engagement.
+From **June 2024** to **December 2024**, I worked part-time and **remotely** at **HD EDU** as a **New Media Content Creator**, overseeing the organization’s official **Xiaohongshu (RedNote)** channel. My goal was to engage Chinese students studying abroad through concise, visually appealing posts—using a **systematic**, **data-informed** approach to maintain a compelling brand presence. By fusing **creative writing**, **social media analytics**, and personal experience with international education, I delivered content that resonated with HD EDU’s audience and amplified user engagement.
 
 In practice, I approached each piece of content with an **iterative** mindset—methodically brainstorming topics, drafting posts, collecting metrics, and refining for future cycles. This allowed me to produce consistent, quality materials while quickly reacting to shifting audience interests or marketing objectives. As a result, HD EDU saw steady growth in followers and daily interactions, reflecting the value of a well-structured publishing routine driven by clear, relevant storytelling.
 
