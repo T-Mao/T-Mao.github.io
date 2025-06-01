@@ -4,7 +4,7 @@ title: 3Calc App
 description: Multi-Calculator with Individual Histories
 img: assets/img/ThreeCalc.png
 importance: 3
-category: work
+category: individual
 related_publications: false
 ---
 

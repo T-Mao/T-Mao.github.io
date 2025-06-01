@@ -4,7 +4,7 @@ title: SparkDays App
 description: Habit Tracking with Reward-based Motivation
 img: assets/img/SparkDays.jpg
 importance: 5
-category: work
+category: individual
 related_publications: false
 ---
 

@@ -3,8 +3,8 @@ layout: page
 title: Flipperly App
 description: My Role as a Solo iOS App Developer
 img: assets/img/Flipperly.jpeg
-importance: 4
-category: work
+importance: 88
+category: individual
 related_publications: false
 ---
 

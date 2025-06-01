@@ -3,8 +3,8 @@ layout: page
 title: DoneTodo App
 description: Minimalistic Time-Planning Solution
 img: assets/img/DoneTodo.jpeg
-importance: 2
-category: work
+importance: 1
+category: individual
 related_publications: false
 ---
 
@@ -255,3 +255,10 @@ func pushUndoState() {
 - **Extendable**: The structured SwiftUI approach paves the way for future expansions—like watch apps or advanced analytics—without losing the elegant simplicity.
 
 Already **live on the App Store**, DoneTodo showcases my passion for building **polished**, **engaging**, and **technically robust** iOS apps. I look forward to applying this multi-faceted skill set—covering design, gestures, code architecture, and data persistence—on future projects or collaborations.
+
+<br>
+
+## Additional Resources
+
+- **Feature Demo**: [DoneTodo on RedNote](http://xhslink.com/a/D9fGS7WITNWdb)
+- **Behind the Scenes**: [Why I Built DoneTodo](http://xhslink.com/a/APaKW0ALUNWdb)

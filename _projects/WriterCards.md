@@ -3,7 +3,7 @@ layout: page
 title: WriterCards App
 description: Daily Creativity & Self-Reflection
 img: assets/img/writercards.png
-importance: 2
+importance: 999
 category: individual
 related_publications: false
 ---
