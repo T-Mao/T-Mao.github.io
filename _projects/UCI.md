@@ -22,7 +22,7 @@ related_publications: false
 
 ## Overview
 
-While at the **University of California, Irvine (UCI)**, I undertook a **double major** in **Informatics** and **Computer Science**, earned a **Minor in Statistics**, graduated **cum laude** (_3.938 GPA_), and specialized in both **Human-Computer Interaction (HCI)** and **Intelligent Systems**. This rigorous path immersed me in **software development**, **user-centric design**, **data analytics**, and **cutting-edge AI**.
+While at the **University of California, Irvine (UCI)**, I undertook a **double major** in **Informatics** and **Computer Science**, earned a **Minor in Statistics**, graduated **cum laude** (_3.94 GPA_), and specialized in both **Human-Computer Interaction (HCI)** and **Intelligent Systems**. This rigorous path immersed me in **software development**, **user-centric design**, **data analytics**, and **cutting-edge AI**.
 
 Across countless courses and high-impact group projects, I built systems from **low-level architecture** up to **front-end design**. I learned to dissect user needs, design robust software architectures, and manage entire development lifecycles—experiences that translate seamlessly into **app development** and beyond.
 

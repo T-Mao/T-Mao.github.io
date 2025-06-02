@@ -21,7 +21,7 @@ social: true
 
 Hi, I’m **Tongze Mao**, a passionate app developer and creative tech enthusiast dedicated to building forward-thinking solutions that address real-life problems—especially those centered on **productivity** and **time management**. I love coding in my free time, delivering fully functional iOS (and sometimes cross-platform) apps that blend **beautiful design** with **robust functionality**.
 
-- Graduated **CUM LAUDE** from the **[University of California, Irvine](https://t-mao.github.io/projects/UCI/){:target="\_blank"}**, with a **3.938 GPA**
+- Graduated **CUM LAUDE** from the **[University of California, Irvine](https://t-mao.github.io/projects/UCI/){:target="\_blank"}**, with a **3.94 GPA**
 - Specialized in **Computer Science** + **Informatics**, plus a minor in **Statistics**
 - Passionate about **product design**, **UI/UX**, and **full-stack** mobile solutions
 
@@ -29,7 +29,7 @@ Hi, I’m **Tongze Mao**, a passionate app developer and creative tech enthusias
 
 ### Passion for Product Design & UI/UX
 
-I’ve tested and documented improvements for over **100+** apps, fueling my obsession with **user-centric enhancements**. This continuous cycle of hands-on exploration and idea generation shapes how I:
+I’ve tested and documented improvements for over **160+** apps, fueling my obsession with **user-centric enhancements**. This continuous cycle of hands-on exploration and idea generation shapes how I:
 
 - Rapidly learn and apply **new frameworks**
 - Continuously refine **UX flows** based on user feedback
@@ -41,12 +41,38 @@ I’ve tested and documented improvements for over **100+** apps, fueling my obs
 
 #### **SupTech**
 
-I led the development of two mobile apps—**[SupTech Consumer & SupTech Technician](https://t-mao.github.io/projects/SupTech/){:target="\_blank"}**—using **Flutter** for iOS & Android. Tasks included:
+As **Software Developer & Team Lead**, I directed a four-engineer team that launched SupTech’s first self-service platform: **[two cross-platform apps for consumers and field technicians](https://t-mao.github.io/projects/SupTech/){:target="_blank"}**.
 
-- **Full-cycle dev**: design → coding → backend integration → release
-- **Stripe** payments, real-time **location** tracking, push notifications
-- **AI Chat** integration and multi-language support
-- Project management and cross-team communication
+- **Ship fast, ship right** — Designed, built, and released both Flutter + Firebase apps; customer-support workload ↓ **85 %**.  
+- **Scalable back end** — Node.js micro-service layer + WebSocket gateway (10 k concurrent sockets, sub-150 ms latency).  
+- **Workflow automation** — State-machine order lifecycle + FCM push cuts dispatch SLA **70 %**; no more Excel trackers.  
+- **Feature depth** — Stripe Connect escrow & instant payout, geo-search (Haversine), end-to-end encrypted chat, AI repair assistant, multilingual UI.  
+- **Security & compliance** — RSA-2048 handshake + AES-GCM channels → **100 % PCI-DSS & SOC 2** pass.  
+- **CI/CD excellence** — Fastlane + GitHub Actions: commit-to-App Store **< 2 days**, crash rate **< 0.2 %**.  
+- **Process leadership** — Ran agile ceremonies; velocity ↑ **70 %**, 14 sprints at **98 %** on-time delivery.  
+- **Quality first** — Introduced TDD across a 380 k-LOC Dart monorepo → **96 %** test coverage & nightly regression matrix.
+
+<br>
+
+#### **TZAppify**
+
+Under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="_blank"}**, I’ve shipped eight native iOS apps that each tackle a specific workflow pain-point **→ [View my entire App Store developer page](https://apps.apple.com/us/developer/tongze-mao/id1801828453){:target="_blank"}**.
+
+Here are the public, live titles—organized by theme:
+
+##### Productivity & Planning
+- **[DoneTodo](https://t-mao.github.io/projects/DoneTodo/){:target="_blank"}** — ***#18 Productivity*** ∙ Paint-your-day grid planner with undo/redo and retention analytics.  
+- **[SparkDays](https://t-mao.github.io/projects/SparkDays/){:target="_blank"}** — ***#112 Lifestyle*** ∙ Habit tracker that turns streaks into reward coins for built-in store items.
+
+##### Memory & Reflection
+- **[WayLater](https://t-mao.github.io/projects/WayLater/){:target="_blank"}** — ***#169 Lifestyle*** ∙ “Time-capsule” letters that unlock on a future date; adds photos and comment threads.  
+- **[Flipperly](https://t-mao.github.io/projects/Flipperly/){:target="_blank"}** — Flashcard SRS with swipe-to-grade UX and spaced-repetition scheduling.
+
+##### Utilities & Developer Tools
+- **[3Calc](https://t-mao.github.io/projects/3Calc/){:target="_blank"}** — Triple calculator; swipe between three independent histories.  
+- **[FontMate](https://t-mao.github.io/projects/FontMate/){:target="_blank"}** — iOS font explorer that auto-generates SwiftUI code for any style.
+
+<small>*Two additional prototypes are in soft-launch; details coming soon.*</small>
 
 <br>
 
@@ -55,30 +81,6 @@ I led the development of two mobile apps—**[SupTech Consumer & SupTech Technic
 #### **Ren Lab, The Chinese University of Hong Kong (CUHK)**
 
 During a summer internship, I worked on **endoscopic 3D reconstruction** for medical imaging. Read more about my **dataset engineering** and **NeRF-based** experiments in **[CUHK Research](https://t-mao.github.io/projects/CUHK/){:target="\_blank"}**.
-
-<br>
-
-## Personal Projects
-
-I love bringing my own app ideas to life—**solo**. Check out my **[App Store developer page](https://apps.apple.com/us/developer/tongze-mao/id1801828453){:target="\_blank"}** or see some highlights below:
-
-- **[DoneTodo](https://t-mao.github.io/projects/DoneTodo/){:target="\_blank"}**  
-  A **grid-based** iOS time-planning app with drag-to-paint scheduling, integrated analytics, and **undo/redo**.
-
-- **[3Calc](https://t-mao.github.io/projects/3Calc/){:target="\_blank"}**  
-  A multi-calculator app where each swipe leads to a separate calculator—each with its own history log.
-
-- **[Flipperly](https://t-mao.github.io/projects/Flipperly/){:target="\_blank"}**  
-  A **flashcard-based** memory app built in Swift, focusing on spaced repetition, flipping animations, and easy review tracking.
-
-- **[WayLater](https://t-mao.github.io/projects/WayLater/){:target="\_blank"}**  
-  A **time-capsule** iOS app for writing future-dated letters. Letters remain locked until their chosen date, providing a reflective, personal journaling experience.
-
-- **[FontMate](https://t-mao.github.io/projects/FontMate/){:target="\_blank"}**  
-  A dedicated iOS font explorer and **SwiftUI code generator**, letting designers and developers **preview** and **compare** native system fonts. It automatically creates SwiftUI snippets—no more manual typing.
-
-- **[SparkDays](https://t-mao.github.io/projects/SparkDays/){:target="\_blank"}**  
-  A habit-tracking app infused with a **fun coin-and-reward system**. Earn coins each day and redeem them for items in your personal store, powering long-term motivation.
 
 <br>
 
