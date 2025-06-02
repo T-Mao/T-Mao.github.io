@@ -314,6 +314,11 @@ ninja.data = [{
           description: "My role as an App Developer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SupTech/";
+            },},{id: "projects-tzappify",
+          title: 'TZAppify',
+          description: "Indie App Studio — Building Productivity &amp; Lifestyle Apps in SwiftUI",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TZAppify/";
             },},{id: "projects-threetodo-app",
           title: 'ThreeTodo App',
           description: "Efficient Task Management",
