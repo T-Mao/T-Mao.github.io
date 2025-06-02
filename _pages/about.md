@@ -19,12 +19,12 @@ social: true
 
 ### Introduction
 
-Hi, I’m **Tongze Mao**, an iOS developer who turns productivity pain-points into joyful, data-driven apps.  
+Hi, I’m **Tongze Mao**, an iOS developer who turns productivity pain-points into joyful, data-driven apps.
 
-I’ve shipped 8 SwiftUI titles (3 top-200) under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="_blank"}**, and previously led a four-engineer team at **[SupTech](https://t-mao.github.io/projects/SupTech/){:target="_blank"}** to cut support workload 85 % with two cross-platform apps.
+I’ve shipped 8 SwiftUI titles (3 top-200) under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="\_blank"}**, and previously led a four-engineer team at **[SupTech](https://t-mao.github.io/projects/SupTech/){:target="\_blank"}** to cut support workload 85 % with two cross-platform apps.
 
-- **CUM LAUDE**, B.S. **Computer Science** & **Informatics** · Minor in **Statistics**, **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}** (GPA 3.94)  
-- Fan of rapid prototyping & clean UI  
+- **CUM LAUDE**, B.S. **Computer Science** & **Informatics** · Minor in **Statistics**, **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}** (GPA 3.94)
+- Fan of rapid prototyping & clean UI
 
 <br>
 
@@ -42,38 +42,41 @@ I’ve tested and documented improvements for over **160+** apps, fueling my obs
 
 #### **SupTech**
 
-As **Software Developer & Team Lead**, I directed a four-engineer team that launched SupTech’s first self-service platform: **[two cross-platform apps for consumers and field technicians](https://t-mao.github.io/projects/SupTech/){:target="_blank"}**.
+As **Software Developer & Team Lead**, I directed a four-engineer team that launched SupTech’s first self-service platform: **[two cross-platform apps for consumers and field technicians](https://t-mao.github.io/projects/SupTech/){:target="\_blank"}**.
 
-- **Ship fast, ship right** — Designed, built, and released both Flutter + Firebase apps; customer-support workload ↓ **85 %**.  
-- **Scalable back end** — Node.js micro-service layer + WebSocket gateway (10 k concurrent sockets, sub-150 ms latency).  
-- **Workflow automation** — State-machine order lifecycle + FCM push cuts dispatch SLA **70 %**; no more Excel trackers.  
-- **Feature depth** — Stripe Connect escrow & instant payout, geo-search (Haversine), end-to-end encrypted chat, AI repair assistant, multilingual UI.  
-- **Security & compliance** — RSA-2048 handshake + AES-GCM channels → **100 % PCI-DSS & SOC 2** pass.  
-- **CI/CD excellence** — Fastlane + GitHub Actions: commit-to-App Store **< 2 days**, crash rate **< 0.2 %**.  
-- **Process leadership** — Ran agile ceremonies; velocity ↑ **70 %**, 14 sprints at **98 %** on-time delivery.  
+- **Ship fast, ship right** — Designed, built, and released both Flutter + Firebase apps; customer-support workload ↓ **85 %**.
+- **Scalable back end** — Node.js micro-service layer + WebSocket gateway (10 k concurrent sockets, sub-150 ms latency).
+- **Workflow automation** — State-machine order lifecycle + FCM push cuts dispatch SLA **70 %**; no more Excel trackers.
+- **Feature depth** — Stripe Connect escrow & instant payout, geo-search (Haversine), end-to-end encrypted chat, AI repair assistant, multilingual UI.
+- **Security & compliance** — RSA-2048 handshake + AES-GCM channels → **100 % PCI-DSS & SOC 2** pass.
+- **CI/CD excellence** — Fastlane + GitHub Actions: commit-to-App Store **< 2 days**, crash rate **< 0.2 %**.
+- **Process leadership** — Ran agile ceremonies; velocity ↑ **70 %**, 14 sprints at **98 %** on-time delivery.
 - **Quality first** — Introduced TDD across a 380 k-LOC Dart monorepo → **96 %** test coverage & nightly regression matrix.
 
 <br>
 
 #### **TZAppify**
 
-Under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="_blank"}**, I’ve shipped eight native iOS apps that each tackle a specific workflow pain-point **→ [View my entire App Store developer page](https://apps.apple.com/us/developer/tongze-mao/id1801828453){:target="_blank"}**.
+Under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="\_blank"}**, I’ve shipped eight native iOS apps that each tackle a specific workflow pain-point **→ [View my entire App Store developer page](https://apps.apple.com/us/developer/tongze-mao/id1801828453){:target="\_blank"}**.
 
 Here are the public, live titles—organized by theme:
 
 ##### Productivity & Planning
-- **[DoneTodo](https://t-mao.github.io/projects/DoneTodo/){:target="_blank"}** — ***#18 Productivity*** ∙ Paint-your-day grid planner with undo/redo and retention analytics.  
-- **[SparkDays](https://t-mao.github.io/projects/SparkDays/){:target="_blank"}** — ***#112 Lifestyle*** ∙ Habit tracker that turns streaks into reward coins for built-in store items.
+
+- **[DoneTodo](https://t-mao.github.io/projects/DoneTodo/){:target="\_blank"}** — **_#18 Productivity_** ∙ Paint-your-day grid planner with undo/redo and retention analytics.
+- **[SparkDays](https://t-mao.github.io/projects/SparkDays/){:target="\_blank"}** — **_#112 Lifestyle_** ∙ Habit tracker that turns streaks into reward coins for built-in store items.
 
 ##### Memory & Reflection
-- **[WayLater](https://t-mao.github.io/projects/WayLater/){:target="_blank"}** — ***#169 Lifestyle*** ∙ “Time-capsule” letters that unlock on a future date; adds photos and comment threads.  
-- **[Flipperly](https://t-mao.github.io/projects/Flipperly/){:target="_blank"}** — Flashcard SRS with swipe-to-grade UX and spaced-repetition scheduling.
+
+- **[WayLater](https://t-mao.github.io/projects/WayLater/){:target="\_blank"}** — **_#169 Lifestyle_** ∙ “Time-capsule” letters that unlock on a future date; adds photos and comment threads.
+- **[Flipperly](https://t-mao.github.io/projects/Flipperly/){:target="\_blank"}** — Flashcard SRS with swipe-to-grade UX and spaced-repetition scheduling.
 
 ##### Utilities & Developer Tools
-- **[3Calc](https://t-mao.github.io/projects/3Calc/){:target="_blank"}** — Triple calculator; swipe between three independent histories.  
-- **[FontMate](https://t-mao.github.io/projects/FontMate/){:target="_blank"}** — iOS font explorer that auto-generates SwiftUI code for any style.
 
-<small>*Two additional prototypes are in soft-launch; details coming soon.*</small>
+- **[3Calc](https://t-mao.github.io/projects/3Calc/){:target="\_blank"}** — Triple calculator; swipe between three independent histories.
+- **[FontMate](https://t-mao.github.io/projects/FontMate/){:target="\_blank"}** — iOS font explorer that auto-generates SwiftUI code for any style.
+
+<small>_Two additional prototypes are in soft-launch; details coming soon._</small>
 
 <br>
 
