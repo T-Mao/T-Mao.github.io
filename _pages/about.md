@@ -19,12 +19,12 @@ social: true
 
 ### Introduction
 
-Hi, I’m **Tongze Mao**, an iOS developer who turns productivity pain-points into joyful, data-driven apps.
+Hi, I’m **Tongze Mao**—a **mobile & full-stack engineer** who transforms everyday workflow pain-points into delightful, data-driven software.
 
-I’ve shipped 8 SwiftUI titles (3 top-200) under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="\_blank"}**, and previously led a four-engineer team at **[SupTech](https://t-mao.github.io/projects/SupTech/){:target="\_blank"}** to cut support workload 85 % with two cross-platform apps.
+I’ve shipped **8** SwiftUI apps (3 cracked the App Store top-200) under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="\_blank"}**, and previously led a four-engineer team at **[SupTech](https://t-mao.github.io/projects/SupTech/){:target="\_blank"}**, cutting support workload **85 %** with 2 cross-platform Flutter apps.
 
-- **CUM LAUDE**, B.S. **Computer Science** & **Informatics** · Minor in **Statistics**, **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}** (GPA 3.94)
-- Fan of rapid prototyping & clean UI
+- **CUM LAUDE**, B.S. **Computer Science** & **Informatics** · Minor in **Statistics** — **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}** (GPA 3.94)
+- Rapid-prototyping addict · Clean-UI advocate · Always learning
 
 <br>
 
