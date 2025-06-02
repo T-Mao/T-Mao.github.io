@@ -19,11 +19,12 @@ social: true
 
 ### Introduction
 
-Hi, I’m **Tongze Mao**, a passionate app developer and creative tech enthusiast dedicated to building forward-thinking solutions that address real-life problems—especially those centered on **productivity** and **time management**. I love coding in my free time, delivering fully functional iOS (and sometimes cross-platform) apps that blend **beautiful design** with **robust functionality**.
+Hi, I’m **Tongze Mao**, an iOS developer who turns productivity pain-points into joyful, data-driven apps.  
 
-- Graduated **CUM LAUDE** from the **[University of California, Irvine](https://t-mao.github.io/projects/UCI/){:target="\_blank"}**, with a **3.94 GPA**
-- Specialized in **Computer Science** + **Informatics**, plus a minor in **Statistics**
-- Passionate about **product design**, **UI/UX**, and **full-stack** mobile solutions
+I’ve shipped 8 SwiftUI titles (3 top-200) under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="_blank"}**, and previously led a four-engineer team at **[SupTech](https://t-mao.github.io/projects/SupTech/){:target="_blank"}** to cut support workload 85 % with two cross-platform apps.
+
+- **CUM LAUDE**, B.S. **Computer Science** & **Informatics** · Minor in **Statistics**, **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}** (GPA 3.94)  
+- Fan of rapid prototyping & clean UI  
 
 <br>
 
