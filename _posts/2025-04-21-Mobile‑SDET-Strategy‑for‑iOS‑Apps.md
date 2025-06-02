@@ -140,7 +140,7 @@ Flaky spec? CI quarantines after three consecutive reds—mean‑time‑to‑gre
 
 ## 6 · Mutation Testing – Trust, but Verify
 
-Running [Stryker‑SwiftMutation](https://github.com/kloia/stryker-swift) on reducers surfaces _false‑positive_ unit tests—the ones that never fail because they never assert:
+Running Stryker‑SwiftMutation on reducers surfaces _false‑positive_ unit tests—the ones that never fail because they never assert:
 
 - killed mutants ≥ 85 % ⇒ tests are honestly exercising logic
 - each surviving mutant becomes **a new TDD card** in Jira

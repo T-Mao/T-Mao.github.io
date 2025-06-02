@@ -57,7 +57,7 @@ A typical in-app payment flow might look like this:
 1. **User Chooses Product**: The user selects a product or a service in your app.
 2. **Backend Request**: The mobile client calls your backend with product details (price, currency, etc.).
 3. **Server Creates PaymentIntent**: The server uses the Stripe API to create a PaymentIntent with the desired amount and currency.
-4. **Ephemeral Key Generation**: The server also retrieves or creates a Stripe `Customer` and returns an [EphemeralKey](https://stripe.com/docs/api/ephemeral_keys) for the client’s current session.
+4. **Ephemeral Key Generation**: The server also retrieves or creates a Stripe `Customer` and returns an EphemeralKey for the client’s current session.
 5. **Display Payment UI**: Your app either uses Stripe’s native Payment Sheet or a custom card entry form.
 6. **Confirm Payment**: The user enters payment details, Stripe processes them, and you receive a callback or webhook confirming success.
 
