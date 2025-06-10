@@ -23,7 +23,7 @@ Hi, I’m **Tongze Mao**—a **mobile & full-stack engineer** who transforms eve
 
 I’ve shipped **8** SwiftUI apps (3 cracked the App Store top-200) under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="\_blank"}**, and previously led a four-engineer team at **[SupTech](https://t-mao.github.io/projects/SupTech/){:target="\_blank"}**, cutting support workload **85 %** with 2 cross-platform Flutter apps.
 
-- **CUM LAUDE**, B.S. **Computer Science** & **Informatics** · Minor in **Statistics** — **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}** (GPA 3.94)
+- **CUM LAUDE**, Dual B.S. **Computer Science** & **Informatics** · Minor in **Statistics** — **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}** (GPA 3.94)
 - Rapid-prototyping addict · Clean-UI advocate · Always learning
 
 <br>
