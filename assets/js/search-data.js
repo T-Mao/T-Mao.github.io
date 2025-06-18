@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-shipping-bug-free-ios-apps-with-a-lean-sdet-strategy",
+        },{id: "post-why-i-studied-clinical-depression-and-how-it-shapes-my-work-and-leadership",
+      
+        title: "Why I Studied Clinical Depression—and How It Shapes My Work and Leadership",
+      
+      description: "A developer’s reflection on completing a clinical training in depression, the key knowledge gained, and the human-first mindset I’m bringing to future projects.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Certificate-in-Depression/";
+        
+      },
+    },{id: "post-shipping-bug-free-ios-apps-with-a-lean-sdet-strategy",
       
         title: "Shipping Bug‑Free iOS Apps With a Lean SDET Strategy",
       
