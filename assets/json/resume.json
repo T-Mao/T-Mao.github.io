@@ -151,9 +151,16 @@
       "url": "",
       "icon": "fa-solid fa-laptop",
       "summary": "Highest-level certification culminating in team-based projects and in-depth OOP mastery. Incorporated arrays, sequential file operations, and agile collaboration techniques while highlighting career pathways in Computer Programming and Software Engineering. Reflects a strong command of industry-relevant skills and readiness to tackle professional-level coding tasks."
+    },
+    {
+      "name": "Certificate in Depression",
+      "date": "2025-06-17",
+      "issuer": "ALLEGRA Learning Solutions (ANCC-accredited)",
+      "url": "https://t-mao.github.io/blog/2025/Certificate-in-Depression/",
+      "icon": "fa-solid fa-heart-pulse",
+      "summary": "Completed clinical training on the symptoms, risk factors, assessment tools, and integrative treatment options for depression—knowledge now informing user-centric app features, team well-being practices, and mental-health-positive design decisions."
     }
   ],
-
   "publications": [],
   "skills": [
     {
@@ -212,7 +219,6 @@
       ]
     }
   ],
-
   "projects": [
     {
       "name": "DoneTodo – Visual Time-Planning & Tracking App",
@@ -416,7 +422,6 @@
       "url": ""
     }
   ],
-
   "awards": [
     {
       "title": "UCI CUM LAUDE",
@@ -447,7 +452,6 @@
       "summary": "Earned Class of 2020 Salutatorian distinction with a 3.97 GPA. Demonstrated leadership in academics, maintained exemplary attendance, and upheld a strong disciplinary record throughout high school."
     }
   ],
-
   "volunteer": [
     {
       "organization": "Infinite Horizons Learning Collective",
@@ -491,7 +495,6 @@
       ]
     }
   ],
-
   "languages": [
     {
       "language": "English",
