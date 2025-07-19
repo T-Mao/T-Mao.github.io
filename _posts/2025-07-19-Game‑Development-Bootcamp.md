@@ -51,7 +51,7 @@ So I enrolled in LA County Library’s instructor‑facilitated **_How to Get
 | **L8 • Processes & Testing (Pt 2)**     | Wrote pseudocode first, code second; locked “Alpha → Limited Beta → Public” gates.              | Embed _pseudocode PR_ step in GitHub Actions; no sprint closes without device matrix coverage.                   |
 | **L9 • Mobile Publishing**              | Mapped Apple vs Google submission checklists & test‑device heuristics.                          | Zero rejection streak since—metadata & screenshots automated via Fastlane lanes.                                 |
 | **L10 • Post‑Production**               | Modeled **Fun × Audio × Graphics × Uniqueness × Replayability** formula for marketability.      | Funnel analytics dashboards through the same multiplier to flag low‑replay screens.                              |
-| **L11 • Career Pathing**                | Audited eroding barriers: hardware, software, publishing.                                       | Position personal brand as **“one‑person studio”**.            |
+| **L11 • Career Pathing**                | Audited eroding barriers: hardware, software, publishing.                                       | Position personal brand as **“one‑person studio”**.                                                              |
 | **L12 • Capstone**                      | Assembled concept → GDD → prototype → pitch deck in 48 h.                                       | Repurpose template for investor briefs on my smart‑repair SaaS spin‑off.                                         |
 
 ---
