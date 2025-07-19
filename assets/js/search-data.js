@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-why-i-studied-clinical-depression-and-how-it-shapes-my-work-and-leadership",
+        },{id: "post-leveling-up-my-dev-amp-pm-toolkit-24-hours-inside-a-full-cycle-game-development-bootcamp",
+      
+        title: "Leveling Up My Dev &amp; PM Toolkit—24 Hours Inside a Full‑Cycle Game‑Development Bootcamp",
+      
+      description: "Deep technical and product lessons I mined from “How to Get Started in Game Development,” and how they sharpen my muscles as an indie app developer, cross‑platform engineer, and product owner.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Game-Development-Bootcamp/";
+        
+      },
+    },{id: "post-why-i-studied-clinical-depression-and-how-it-shapes-my-work-and-leadership",
       
         title: "Why I Studied Clinical Depression—and How It Shapes My Work and Leadership",
       
