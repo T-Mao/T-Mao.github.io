@@ -76,8 +76,6 @@ Here are the public, live titles—organized by theme:
 - **[3Calc](https://t-mao.github.io/projects/3Calc/){:target="\_blank"}** — Triple calculator; swipe between three independent histories.
 - **[FontMate](https://t-mao.github.io/projects/FontMate/){:target="\_blank"}** — iOS font explorer that auto-generates SwiftUI code for any style.
 
-<small>_Two additional prototypes are in soft-launch; details coming soon._</small>
-
 <br>
 
 ### Research Endeavors
@@ -95,18 +93,6 @@ At **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}**, I pursue
 - **Software Engineering** fundamentals
 - **HCI** and **intelligent systems** knowledge
 - Project-based leadership and agile collaboration
-
-<br>
-
-### My Next Step
-
-I’m currently seeking **app development opportunities**—iOS, Android, or cross-platform—where I can contribute:
-
-- **Full-stack skill set** (front-end UI, backend logic, data analysis)
-- **User-first design mindset** (responsive, intuitive interfaces)
-- **Entrepreneurial spirit** (self-driven, adaptive, always learning)
-
-…and team up with a forward-thinking environment that values **innovation** and **impact**.
 
 <br>
 
