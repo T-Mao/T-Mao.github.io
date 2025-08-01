@@ -129,6 +129,22 @@
   ],
   "certificates": [
     {
+      "name": "Game Development Certificate",
+      "date": "2025-07-31",
+      "issuer": "ed2go | Education To Go",
+      "url": "https://t-mao.github.io/blog/2025/Game-Development-Bootcamp/",
+      "icon": "fa-solid fa-gamepad",
+      "summary": "Built a solid foundation in game design and development workflows for modern platforms (desktop, console, and mobile). Explored game genres, user interface design, production pipelines, development tools, and testing/release cycles. Gained practical insight into career paths, teamwork, and industry-standard practices for launching engaging digital games."
+    },
+    {
+      "name": "Java Development Certificate",
+      "date": "2025-07-31",
+      "issuer": "ed2go | Education To Go",
+      "url": "",
+      "icon": "fa-brands fa-java",
+      "summary": "Developed robust programming skills in Java, covering core language syntax, data types, object-oriented programming, error handling, debugging, and GUI/graphics basics. Completed practical projects on algorithmic logic, input/output processing, and software design patterns, with emphasis on writing efficient, maintainable code ready for real-world applications."
+    },
+    {
       "name": "Career Skills Certificate: Computer Programming I",
       "date": "2019-05-01",
       "issuer": "Arcadia High School",
@@ -159,6 +175,22 @@
       "url": "https://t-mao.github.io/blog/2025/Certificate-in-Depression/",
       "icon": "fa-solid fa-heart-pulse",
       "summary": "Completed clinical training on the symptoms, risk factors, assessment tools, and integrative treatment options for depression—knowledge now informing user-centric app features, team well-being practices, and mental-health-positive design decisions."
+    },
+    {
+      "name": "Accounting Fundamentals – Bookkeeping & Financial Reporting",
+      "date": "2025-07-31",
+      "issuer": "ed2go | Education To Go",
+      "url": "",
+      "icon": "fa-solid fa-file-invoice-dollar",
+      "summary": "Double-entry bookkeeping, journalizing, general ledger, payroll, bank reconciliation, and comprehensive financial statement preparation. Developed practical skills in managing accounts payable/receivable, end-of-period adjustments, and generating reports critical for business analysis and compliance."
+    },
+    {
+      "name": "QuickBooks Certificate – Accounting & Bookkeeping",
+      "date": "2025-07-31",
+      "issuer": "ed2go | Education To Go",
+      "url": "",
+      "icon": "fa-solid fa-calculator",
+      "summary": "Gained hands-on experience in QuickBooks Online for business accounting, including file setup, bank reconciliation, invoicing, expense management, and custom reporting."
     }
   ],
   "publications": [],
