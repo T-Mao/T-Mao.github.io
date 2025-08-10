@@ -342,6 +342,11 @@ ninja.data = [{
           description: "High-Performance Music Streaming Web App",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Spotify/";
+            },},{id: "projects-stockquery-tcp-client-server-c",
+          title: 'StockQuery TCP Client/Server (C)',
+          description: "A compact client–server system in C for querying historical stock data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/StockQuery/";
             },},{id: "projects-suptech-apps",
           title: 'SupTech Apps',
           description: "My role as an App Developer",
