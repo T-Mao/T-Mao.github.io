@@ -307,6 +307,11 @@ ninja.data = [{
           description: "Dedicated iOS Font Explorer &amp; SwiftUI Code Generator",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FontMate/";
+            },},{id: "projects-gesture-driven-shopping-app-angular-handtrackjs",
+          title: 'Gesture-Driven Shopping App (Angular + handtrackjs)',
+          description: "Implements hand gesture control in an Angular storefront using handtrackjs, with custom gesture combos for navigation and quantity control and a clean cart flow.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GestureDrivenShopping/";
             },},{id: "projects-goshsha-app",
           title: 'Goshsha App',
           description: "Future AR Interactive Shopping Experience",
