@@ -377,6 +377,11 @@ ninja.data = [{
           description: "A Time-Capsule App for Writing Letters to Your Future Self",
           section: "Projects",handler: () => {
               window.location.href = "/projects/WayLater/";
+            },},{id: "projects-web-crawler-python",
+          title: 'Web Crawler (Python)',
+          description: "Implements a polite, trap-aware crawler over the UCI ICS static corpus with absolute-URL extraction, heuristics for trap avoidance, and comprehensive crawl analytics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/WebCrawler/";
             },},{id: "projects-writercards-app",
           title: 'WriterCards App',
           description: "Daily Creativity &amp; Self-Reflection",
