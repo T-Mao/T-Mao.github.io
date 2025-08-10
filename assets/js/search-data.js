@@ -342,6 +342,11 @@ ninja.data = [{
           description: "A TF-IDF search engine over the UCI ICS corpus with HTML-aware weighting, bigram indexing, PageRank, and a Flask JSON API.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SearchEngine/";
+            },},{id: "projects-mini-shell-c",
+          title: 'Mini Shell (C)',
+          description: "A small but capable POSIX-style shell",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Shell/";
             },},{id: "projects-sparkdays-app",
           title: 'SparkDays App',
           description: "Habit Tracking with Reward-based Motivation",
