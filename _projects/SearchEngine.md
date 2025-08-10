@@ -28,19 +28,19 @@ I worked with a teammate to implement a production-style search engine for the U
 
 ## Highlights
 
-* **Inverted index over 37k+ pages** with weighted tokens extracted from HTML, stored in MongoDB for fast aggregation queries.
-* **Ranking formula** that multiplies TF, IDF, tag weight, and PageRank to surface authoritative matches.
-* **Bigram expansion** of queries to capture short phrases.
-* **PageRank computation** from outbound link graphs and persisted scores used at ranking time.
-* **Concurrent processing**: multi-process indexing and multi-threaded TF-IDF computation and retrieval.  
-* **Flask search API** with CORS that returns top results with titles and snippets.
+- **Inverted index over 37k+ pages** with weighted tokens extracted from HTML, stored in MongoDB for fast aggregation queries.
+- **Ranking formula** that multiplies TF, IDF, tag weight, and PageRank to surface authoritative matches.
+- **Bigram expansion** of queries to capture short phrases.
+- **PageRank computation** from outbound link graphs and persisted scores used at ranking time.
+- **Concurrent processing**: multi-process indexing and multi-threaded TF-IDF computation and retrieval.
+- **Flask search API** with CORS that returns top results with titles and snippets.
 
 <br>
 
 ## Architecture
 
 1. **Data loading**: bookkeeping map from document id to URL is inserted into `url_data` in MongoDB.
-2. **Indexing**: HTML is parsed, tokens are lemmatized and stop words removed; tag weights are applied; bigrams are generated; per-document token weights accumulate in memory. 
+2. **Indexing**: HTML is parsed, tokens are lemmatized and stop words removed; tag weights are applied; bigrams are generated; per-document token weights accumulate in memory.
 3. **Link analysis**: outbound links are extracted and a graph is built; PageRank scores are computed and stored.
 4. **Scoring**: TF-IDF is computed in parallel and multiplied by tag weight and PageRank; the result is written back to `collection`.
 5. **Search**: queries are preprocessed like documents, then MongoDB aggregation returns high-score postings which are combined into final rankings.
@@ -59,24 +59,24 @@ After stop-word removal and lemmatization, we add bigrams like “artificial int
 
 ### PageRank for authority
 
-We build a link graph from extracted anchors, compute PageRank with damping, then inject those scores into the ranking multiplier, which favors well-referenced pages without ignoring relevance. 
+We build a link graph from extracted anchors, compute PageRank with damping, then inject those scores into the ranking multiplier, which favors well-referenced pages without ignoring relevance.
 
 ### Parallelism
 
-* **Indexing** runs with a process pool to parse and tokenize documents concurrently.
-* **TF-IDF** uses a thread pool to compute token scores across the vocabulary.
-* **Retrieval** queries per-token postings in parallel and merges scores thread-safely.
+- **Indexing** runs with a process pool to parse and tokenize documents concurrently.
+- **TF-IDF** uses a thread pool to compute token scores across the vocabulary.
+- **Retrieval** queries per-token postings in parallel and merges scores thread-safely.
 
 ### Data model in MongoDB
 
-* `data` collection: `{ document, url, links, main_content, page_rank }` for snippets and link analysis.
-* `collection`: `{ token, documents: [{ document, score }] }` for ranked postings and fast `$unwind`/`$sort`.
+- `data` collection: `{ document, url, links, main_content, page_rank }` for snippets and link analysis.
+- `collection`: `{ token, documents: [{ document, score }] }` for ranked postings and fast `$unwind`/`$sort`.
 
 <br>
 
 ## Ranking Formula
 
-For token *t* in document *d*:
+For token _t_ in document _d_:
 
 ```
 score(t, d) = tf(t, d) * idf(t) * tag_weight(t, d) * pagerank(d)
@@ -88,8 +88,8 @@ TF is frequency normalized by document token count. IDF is computed as log(N / d
 
 ## CLI and API
 
-* **CLI**: an interactive loop accepts queries, times the search, and prints the top results with URLs and main content.
-* **API**: a Flask endpoint accepts JSON `{ "query": "..." }` and returns `{ time_taken, total_docs, searched_top_n }` for integration and demos.
+- **CLI**: an interactive loop accepts queries, times the search, and prints the top results with URLs and main content.
+- **API**: a Flask endpoint accepts JSON `{ "query": "..." }` and returns `{ time_taken, total_docs, searched_top_n }` for integration and demos.
 
 <br>
 
@@ -103,30 +103,30 @@ TF is frequency normalized by document token count. IDF is computed as log(N / d
 python src/main.py
 ```
 
-`main.py` builds the index if absent, computes PageRank and TF-IDF, prints index statistics, and starts the interactive search loop. First run takes a few minutes on a typical laptop.  
+`main.py` builds the index if absent, computes PageRank and TF-IDF, prints index statistics, and starts the interactive search loop. First run takes a few minutes on a typical laptop.
 
 <br>
 
 ## Results and Observations
 
-* **Early precision** improves with tag weighting. Title and H1 tokens dominate top ranks for navigational queries.
-* **Authority bias** from PageRank helps disambiguate head terms and reduces noisy pages that match only in body text.
-* **Throughput** benefits from process and thread pools during indexing, scoring, and retrieval.  
+- **Early precision** improves with tag weighting. Title and H1 tokens dominate top ranks for navigational queries.
+- **Authority bias** from PageRank helps disambiguate head terms and reduces noisy pages that match only in body text.
+- **Throughput** benefits from process and thread pools during indexing, scoring, and retrieval.
 
 <br>
 
 ## My Role
 
-I focused on pipeline orchestration, HTML-aware preprocessing, ranking integration, and retrieval logic. Specifically: tag-weighted token emission, bigram expansion, TF-IDF computation with parallelism, and the search aggregator that merges per-token postings into final scores. I also helped wire PageRank into the score multiplier and structured the MongoDB schema for postings and snippets.  
+I focused on pipeline orchestration, HTML-aware preprocessing, ranking integration, and retrieval logic. Specifically: tag-weighted token emission, bigram expansion, TF-IDF computation with parallelism, and the search aggregator that merges per-token postings into final scores. I also helped wire PageRank into the score multiplier and structured the MongoDB schema for postings and snippets.
 
 <br>
 
 ## Appendix: Key Modules
 
-* `preprocessing.py` for tokenization, lemmatization, tag weighting, bigrams, link extraction, and snippet generation.
-* `indexing.py` for multi-process indexing and inverted index creation.
-* `page_ranking.py` for PageRank over the outbound link graph.
-* `ranking_calc.py` for parallel TF-IDF with PageRank.
-* `mongodb_interaction.py` for batch inserts and collection indexes.
-* `search.py` for parallel retrieval and result formatting.
-* `tf_idf.py` as the orchestrator that builds the database, runs ranking, and prints statistics.
+- `preprocessing.py` for tokenization, lemmatization, tag weighting, bigrams, link extraction, and snippet generation.
+- `indexing.py` for multi-process indexing and inverted index creation.
+- `page_ranking.py` for PageRank over the outbound link graph.
+- `ranking_calc.py` for parallel TF-IDF with PageRank.
+- `mongodb_interaction.py` for batch inserts and collection indexes.
+- `search.py` for parallel retrieval and result formatting.
+- `tf_idf.py` as the orchestrator that builds the database, runs ranking, and prints statistics.
