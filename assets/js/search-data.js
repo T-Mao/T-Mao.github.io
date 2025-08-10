@@ -372,6 +372,11 @@ ninja.data = [{
           description: "Efficient Task Management",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ThreeTodo/";
+            },},{id: "projects-tic-tac-toe-python-cli",
+          title: 'Tic-Tac-Toe (Python CLI)',
+          description: "A compact two-player console game",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TicTacToe/";
             },},{id: "projects-uci-academic-journey",
           title: 'UCI Academic Journey',
           description: "My dual-major accomplishments and how they forged my versatile coding, research, and leadership prowess",
