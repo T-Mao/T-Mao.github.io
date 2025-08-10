@@ -337,6 +337,11 @@ ninja.data = [{
           description: "Streamlined Health Monitoring",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LifeTune/";
+            },},{id: "projects-byte-level-memory-allocator-c-127-byte-heap",
+          title: 'Byte-Level Memory Allocator (C, 127-byte Heap)',
+          description: "A compact implicit-list heap simulator with 1-byte headers and footers, splitting, coalescing, Best-Fit or First-Fit allocation, and low-level memory I/O commands.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MemoryAllocator/";
             },},{id: "projects-search-engine-python-mongodb",
           title: 'Search Engine (Python, MongoDB)',
           description: "A TF-IDF search engine over the UCI ICS corpus with HTML-aware weighting, bigram indexing, PageRank, and a Flask JSON API.",
