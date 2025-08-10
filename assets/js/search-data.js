@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-leveling-up-my-dev-amp-pm-toolkit-24-hours-inside-a-full-cycle-game-development-bootcamp",
+        },{id: "post-what-i-learned-from-infrastructure-as-code-the-big-picture",
+      
+        title: "What I Learned from “Infrastructure as Code - The Big Picture”",
+      
+      description: "Detailed notes and reflections on IaC concepts, risks, benefits, tool selection, and the DevOps fit, based on Eugene Meidinger’s course.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/IaC/";
+        
+      },
+    },{id: "post-leveling-up-my-dev-amp-pm-toolkit-24-hours-inside-a-full-cycle-game-development-bootcamp",
       
         title: "Leveling Up My Dev &amp; PM Toolkit—24 Hours Inside a Full‑Cycle Game‑Development Bootcamp",
       
