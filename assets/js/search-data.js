@@ -362,6 +362,11 @@ ninja.data = [{
           description: "High-Performance Music Streaming Web App",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Spotify/";
+            },},{id: "projects-stockbuyerx",
+          title: 'StockBuyerX',
+          description: "A reinforcement-learning portfolio simulator with a custom Gym environment, PPO baseline, and risk-aware diagnostics across large-cap equities and an S\&amp;P 500 ETF.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/StockBuyerX/";
             },},{id: "projects-stockquery-tcp-client-server-c",
           title: 'StockQuery TCP Client/Server (C)',
           description: "A compact client–server system in C for querying historical stock data.",
