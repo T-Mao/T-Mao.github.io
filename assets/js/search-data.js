@@ -392,6 +392,11 @@ ninja.data = [{
           description: "My dual-major accomplishments and how they forged my versatile coding, research, and leadership prowess",
           section: "Projects",handler: () => {
               window.location.href = "/projects/UCI/";
+            },},{id: "projects-virtual-memory-simulator-c",
+          title: 'Virtual Memory Simulator (C)',
+          description: "An interactive demand-paged VM simulator",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VirtualMemorySimulator/";
             },},{id: "projects-waylater-app",
           title: 'WayLater App',
           description: "A Time-Capsule App for Writing Letters to Your Future Self",
