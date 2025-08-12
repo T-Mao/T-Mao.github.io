@@ -23,7 +23,7 @@ related\_publications: false
 
 ## Overview
 
-**TZAppify** is my one-person indie studio focused on crafting **beautiful, data-driven mobile experiences** that solve everyday problems. Since **January 2024**, I have solo-ideated, designed, coded, and shipped **8 SwiftUI apps** to the App Store—three of which broke into their category’s top-200 within 10 days of launch.
+**TZAppify** is my one-person indie studio focused on crafting **beautiful, data-driven mobile experiences** that solve everyday problems. Since **January 2024**, I have solo-ideated, designed, coded, and shipped **[8 SwiftUI apps](https://apps.apple.com/developer/tongze-mao/id1801828453)** to the App Store—three of which broke into their category’s top-200 within 10 days of launch.
 
 <br>
 
@@ -91,5 +91,5 @@ I’m expanding TZAppify’s toolkit—exploring **Swift Data**, **Swift Concurr
 
 ## Additional Resources
 
-- **App Store Developer Page**: [All live apps](https://apps.apple.com/us/developer/tongze-mao/id1801828453)
+- **App Store Developer Page**: [All live apps](https://apps.apple.com/developer/tongze-mao/id1801828453)
 - **RedNote (TZAppify)**: [Behind-the-scenes demos & dev diaries](https://www.xiaohongshu.com/user/profile/601ded70000000000101c389)
