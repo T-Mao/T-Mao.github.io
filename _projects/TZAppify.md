@@ -29,12 +29,12 @@ related\_publications: false
 
 ## Fast Facts
 
-| Metric                       | Value                                              |
-| :--------------------------- | :------------------------------------------------- |
-| Apps shipped (100 % SwiftUI) | **8**                                              |
-| Flagship ranking             | **#18** Productivity <sub>([DoneTodo](https://apps.apple.com/app/donetodo-task/id6743181289))</sub>         |
-| 7-day retention lift         | **+23 %** after analytics-driven onboarding tweaks |
-| CI / CD pipeline             | **1-click** Fastlane → TestFlight → notarization   |
+| Metric                       | Value                                                                                               |
+| :--------------------------- | :-------------------------------------------------------------------------------------------------- |
+| Apps shipped (100 % SwiftUI) | **8**                                                                                               |
+| Flagship ranking             | **#18** Productivity <sub>([DoneTodo](https://apps.apple.com/app/donetodo-task/id6743181289))</sub> |
+| 7-day retention lift         | **+23 %** after analytics-driven onboarding tweaks                                                  |
+| CI / CD pipeline             | **1-click** Fastlane → TestFlight → notarization                                                    |
 
 <br>
 
