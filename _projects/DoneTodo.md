@@ -20,22 +20,11 @@ related_publications: false
   </div>
 </div>
 
-## Overview
+> “Todo · Done · Goal” — DoneTodo lets you understand your day at a glance
 
-**DoneTodo** is my latest iOS app designed for **visual time scheduling**. Users can **paint** their day with **color-coded tasks**, distinguishing between what they **plan** to do versus what they actually **complete**—all in a straightforward, grid-based UI.
-
-I handled **every aspect** of DoneTodo’s creation:
-
-- **Code Architecture** in Swift & SwiftUI
-- **Data Persistence** with JSON-encoded day schedules
-- **UI/UX Design** focusing on simplicity yet maintaining advanced features (undo/redo, analytics)
-- **App Store** submission and distribution
-
-It’s available now on the App Store, aiming to make personal time management both **effective** and **enjoyable**.
+DoneTodo turns each day into a time grid. First color your **Todo**, then record your **Done**, then check against your **Goal**. Plan, act, and review live in one place so efficiency and fulfilment rise together.
 
 <br>
-
-## Download
 
 <div class="row my-3">
   <div class="col-sm-12 text-center">
@@ -65,6 +54,65 @@ It’s available now on the App Store, aiming to make personal time management b
 
 <br>
 
+## Where the Idea Came From
+
+In 2019 I started paper journaling and designed my own templates. A time grid helped more than anything else. I first used one grid to mark what I finished for end-of-day review, then realized I also needed a way to plan before the day began. The template evolved into two time grids: one for **Todo** and one for **Done**. I used it daily and kept improving it. That two-layer idea is the core of DoneTodo: **Todo before I start, Done after I finish**.
+
+The system worked so well that I created digital time-grid templates and published them on the Goodnotes Marketplace in 2021, where I became the most popular creator that month. The momentum showed the idea resonated.
+
+Paper looks beautiful, but it cannot update itself or follow me everywhere. I taught myself Swift and iOS over three years and rebuilt the concept for mobile: two synchronized layers in one grid (Todo with diagonal stripes, Done with solid fill), visible Goal markers, and instant statistics. I designed the UI and UX, wrote every screen and algorithm, tuned haptics, crafted copy, tested, iterated, and shipped. Many late nights, one purpose: **make time visible, make feedback immediate, make planning feel rewarding**.
+
+## Why Use DoneTodo?
+
+1. **Time in plain sight**: colored blocks beat text lists. You immediately see where hours went.
+2. **Todo–Done feedback loop**: every Done block gives visual reward that strengthens habits.
+3. **Goal driven**: unmet Goals are highlighted so you can adjust in time.
+4. **Ultra-lightweight**: tiny binary, fast launch, minimal battery and storage.
+5. **Privacy first**: fully offline, no ads, no in-app purchases, no tracking.
+
+## Core Features
+
+1. **Time-Grid Method**: visualize the entire day with a grid. Vertical axis is hours, horizontal axis is minutes, and a moving black line shows the current time.
+2. **Todo vs Done**: plan beforehand, log afterwards, compare anytime to reduce procrastination and anxiety. Diagonal stripes represent Todo. Solid fill represents Done.
+3. **Daily Goal**: set constraints such as “≥ 30 min Study” or “≤ 1 h Phone.” Colored bars and markers show progress and gap at a glance across day, week, month, year, and all-time.
+4. **Smart Statistics**: Day, Week, Month, Year, and All with Total and Average for multi-angle analysis.
+5. **Lightning Sync**: seamless handoff between iPhone and iPad.
+6. **Custom Colors**: grid presets, spectrum, sliders, and elegant random palettes.
+7. **Gestures and Haptics**: swipe to change dates, quick calendar, undo and redo, eraser tools, and system-grade haptics.
+
+## Design Philosophy
+
+### 1. Todo × Done = Time Awareness
+
+Most task managers list items and use a checkmark for feedback. DoneTodo overlays **Todo** and **Done** in one grid: planning is a promise, finishing is a trophy. Twin-layer visuals align input and output in real time, easing the feeling of “I achieved nothing.” Immediate, concrete feedback makes satisfaction real. Coloring a plan is faster than managing long text lists.
+
+### 2. Minimal and Elegant
+
+Only the essentials: clear grid, intuitive colors, subtle animation, and precise haptics. No ads, pop-ups, leaderboards, or social pressure. It is a quiet canvas for your time.
+
+### 3. Useful and Fast
+
+Every action takes at most three steps. Heavy optimization keeps the “think, open, record” loop under one second so your focus stays on doing.
+
+### 4. Goal-Driven and Visible
+
+Goals are drawn directly on progress bars with colored triangles. You see status without doing mental math. Unmet Goals auto-highlight on Home and Statistics, a persistent nudge to adjust in time.
+
+## Overview
+
+**DoneTodo** is my latest iOS app designed for **visual time scheduling**. Users can **paint** their day with **color-coded tasks**, distinguishing between what they **plan** to do versus what they actually **complete**—all in a straightforward, grid-based UI.
+
+I handled **every aspect** of DoneTodo’s creation:
+
+- **Code Architecture** in Swift & SwiftUI
+- **Data Persistence** with JSON-encoded day schedules
+- **UI/UX Design** focusing on simplicity yet maintaining advanced features (undo/redo, analytics)
+- **App Store** submission and distribution
+
+It’s available now on the App Store, aiming to make personal time management both **effective** and **enjoyable**.
+
+<br>
+
 ## User Stories & Demo
 
 ### Story 1: The Visual Planner
@@ -78,17 +126,6 @@ DoneTodo uses a **24×6** grid (24 hours × 6 increments of 10 minutes). By tapp
 > _“Sometimes I plan tasks but end up doing something else. I need a way to mark the difference so I can analyze it later.”_
 
 DoneTodo has **two** columns of color buttons: one for **planned** tasks (semi-transparent) and another for **done** tasks (solid fill). This side-by-side approach clarifies how the day deviates from the plan, fueling reflection and self-improvement.
-
-### Watch DoneTodo in Action
-
-<div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
-  <video controls="" style="max-width: 250px;"> 
-      <source src="/assets/video/donetodo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<br>
 
 ## Project Highlights
 
@@ -255,10 +292,3 @@ func pushUndoState() {
 - **Extendable**: The structured SwiftUI approach paves the way for future expansions—like watch apps or advanced analytics—without losing the elegant simplicity.
 
 Already **live on the App Store**, DoneTodo showcases my passion for building **polished**, **engaging**, and **technically robust** iOS apps. I look forward to applying this multi-faceted skill set—covering design, gestures, code architecture, and data persistence—on future projects or collaborations.
-
-<br>
-
-## Additional Resources
-
-- **Feature Demo**: [DoneTodo on RedNote](http://xhslink.com/a/D9fGS7WITNWdb)
-- **Behind the Scenes**: [Why I Built DoneTodo](http://xhslink.com/a/APaKW0ALUNWdb)
