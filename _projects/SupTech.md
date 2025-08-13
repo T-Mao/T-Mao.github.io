@@ -298,14 +298,38 @@ I believe these experiences and the robust code I wrote can significantly contri
 
 ## Office Gallery
 
-<div class="row">
-{% for i in (1..56) %}
-  {% capture img_path %}assets/img/SupTechPhoto_web/office-{{ i }}.jpg{% endcapture %}
-  {% capture img_title %}SupTech Office Photo {{ i }}{% endcapture %}
-  <div class="col-6 col-md-4 col-lg-3 mb-3 text-center">
-    {% include figure.liquid loading="lazy" path=img_path title=img_title class="rounded z-depth-1" max-width="100%" %}
-  </div>
-{% endfor %}
+<style>
+  .office-gallery { column-gap: 0.75rem; }
+  @media (max-width: 575.98px) { .office-gallery { column-count: 2; } }
+  @media (min-width: 576px)      { .office-gallery { column-count: 2; } }
+  @media (min-width: 768px)      { .office-gallery { column-count: 3; } }
+  @media (min-width: 992px)      { .office-gallery { column-count: 4; } }
+
+  .office-gallery .item { break-inside: avoid; margin-bottom: 0.75rem; }
+  .office-gallery figure { margin: 0; } 
+  .office-gallery .thumb {
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.08);
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .office-gallery .thumb:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0,0,0,.12);
+  }
+  .office-gallery img { width: 100%; height: auto; display: block; }
+</style>
+
+<div class="office-gallery">
+  {% for i in (1..56) %}
+    {% capture img_path %}assets/img/SupTechPhoto_web/office-{{ i }}.jpg{% endcapture %}
+    {% capture img_title %}SupTech Office Photo {{ i }}{% endcapture %}
+    <div class="item">
+      <div class="thumb">
+        {% include figure.liquid loading="lazy" path=img_path title=img_title class="rounded z-depth-1" max-width="100%" %}
+      </div>
+    </div>
+  {% endfor %}
 </div>
 
 <div class="caption my-2">
