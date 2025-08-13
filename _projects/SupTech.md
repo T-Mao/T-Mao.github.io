@@ -296,6 +296,22 @@ I believe these experiences and the robust code I wrote can significantly contri
 
 <br>
 
+## Office Gallery
+
+<div class="row">
+{% for i in (1..56) %}
+  {% capture img_path %}assets/img/SupTechPhoto_web/office-{{ i }}.jpg{% endcapture %}
+  {% capture img_title %}SupTech Office Photo {{ i }}{% endcapture %}
+  <div class="col-6 col-md-4 col-lg-3 mb-3 text-center">
+    {% include figure.liquid loading="lazy" path=img_path title=img_title class="rounded z-depth-1" max-width="100%" %}
+  </div>
+{% endfor %}
+</div>
+
+<div class="caption my-2">
+  A look at my work environment.
+</div>
+
 ## Additional Resources
 
 - **SupTech Official Website**: [https://suptech.pro](https://suptech.pro)
