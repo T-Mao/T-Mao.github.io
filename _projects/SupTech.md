@@ -289,8 +289,7 @@ Besides solely focusing on app coding, I played multiple roles:
 
 ## Final Thoughts
 
-My experience at SupTech was both demanding and rewarding. I took pride in **shipping two fully functional Flutter apps**—from scratch to production—and integrating them with dynamic, AI-powered features.  
-Though the path was challenging, I honed my full-stack understanding, sharpened my project management skills, and grew more confident as an **App Developer** ready for new frontiers.
+My experience at SupTech was both demanding and rewarding. I took pride in **shipping two fully functional Flutter apps**—from scratch to production—and integrating them with dynamic, AI-powered features. Though the path was challenging, I honed my full-stack understanding, sharpened my project management skills, and grew more confident as an **App Developer** ready for new frontiers.
 
 I believe these experiences and the robust code I wrote can significantly contribute to any team seeking a **passionate** developer with **multi-faceted** problem-solving skills and an eye for **quality software** that truly serves its end users.
 
