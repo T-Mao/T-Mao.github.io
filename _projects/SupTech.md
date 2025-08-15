@@ -316,23 +316,25 @@ I believe these experiences and the robust code I wrote can significantly contri
     transform: translateY(-2px);
     box-shadow: 0 10px 24px rgba(0,0,0,.12);
   }
-  .office-gallery img { width: 100%; height: auto; display: block; }
+  .office-gallery img { width: 100%; height: auto; display: block; image-orientation: from-image; }
 </style>
 
+{% assign photos = site.static_files
+  | where_exp: "f", "f.path contains '/assets/img/SupTechPhoto_web/'"
+  | where_exp: "f", "f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.JPG' or f.extname == '.JPEG'"
+%}
+{% assign photos = photos | sample: photos.size %}
+
 <div class="office-gallery">
-  {% for i in (1..56) %}
-    {% capture img_path %}assets/img/SupTechPhoto_web/office-{{ i }}.jpg{% endcapture %}
-    {% capture img_title %}SupTech Office Photo {{ i }}{% endcapture %}
+  {% for photo in photos %}
+    {% capture img_path %}{{ photo.path | remove_first: '/' }}{% endcapture %}
+    {% capture img_title %}SupTech Office Photo {{ forloop.index }}{% endcapture %}
     <div class="item">
       <div class="thumb">
         {% include figure.liquid loading="lazy" path=img_path title=img_title class="rounded z-depth-1" max-width="100%" %}
       </div>
     </div>
   {% endfor %}
-</div>
-
-<div class="caption my-2">
-  A look at my work environment.
 </div>
 
 ## Additional Resources
