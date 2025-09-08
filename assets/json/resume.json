@@ -169,6 +169,14 @@
       "summary": "Highest-level certification culminating in team-based projects and in-depth OOP mastery. Incorporated arrays, sequential file operations, and agile collaboration techniques while highlighting career pathways in Computer Programming and Software Engineering. Reflects a strong command of industry-relevant skills and readiness to tackle professional-level coding tasks."
     },
     {
+      "name": "SQL Certificate",
+      "date": "2025-09-05",
+      "issuer": "ed2go | Education To Go",
+      "url": "",
+      "icon": "fa-solid fa-database",
+      "summary": "Instructor-led training in relational databases and SQL. Practiced in SSMS with graded exercises covering schema design and normalization (1NF–3NF), DDL/DML, SELECT with WHERE/GROUP BY/HAVING, INNER/LEFT JOINs, subqueries, basic views and indexes. Emphasis on query correctness, data integrity checks, edge cases, and baseline performance review."
+    },
+    {
       "name": "Certificate in Depression",
       "date": "2025-06-17",
       "issuer": "ALLEGRA Learning Solutions (ANCC-accredited)",
