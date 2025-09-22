@@ -9,6 +9,20 @@
   },
   "work": [
     {
+      "name": "Veeva Systems",
+      "position": "Associate Software Engineer in Test (Infrastructure)",
+      "url": "https://t-mao.github.io/projects/Veeva/",
+      "startDate": "2025-09-15",
+      "summary": "Build and expand automated test coverage for Vault core infrastructure (Durable Queue Framework, FileManager/FSA, Configuration Framework), improving release confidence and platform reliability.",
+      "highlights": [
+        "Design white-box tests, reusable harnesses, and tooling to exercise critical paths and edge cases.",
+        "Improve CI/CD gates and code coverage; reduce flakiness via deterministic fixtures and idempotent teardown.",
+        "Validate behavior across deployment lifecycles, HA/DR scenarios, performance, and scalability.",
+        "Partner with platform/SRE on observability, alerting, and failure injection to raise reliability.",
+        "Author docs, runbooks, and examples to help engineers adopt frameworks safely and quickly."
+      ]
+    },
+    {
       "name": "SupTech",
       "position": "Software Developer & Team Lead",
       "url": "https://t-mao.github.io/projects/SupTech/",

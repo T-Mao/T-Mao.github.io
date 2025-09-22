@@ -30,6 +30,8 @@ At **Veeva Systems** (Vault **Infrastructure / QA & Release Engineering**), I wo
 
 I design and automate tests, harden pipelines, and collaborate with platform engineers so features ship **fast, stable, and compliant**.
 
+<br>
+
 ## Office Gallery
 
 <style>
@@ -71,6 +73,8 @@ I design and automate tests, harden pipelines, and collaborate with platform eng
     </div>
   {% endfor %}
 </div>
+
+<br>
 
 ## Additional Resources
 
