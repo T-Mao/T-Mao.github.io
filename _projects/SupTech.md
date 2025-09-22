@@ -3,7 +3,7 @@ layout: page
 title: SupTech Apps
 description: My role as an App Developer
 img: assets/img/SupTech.jpeg
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---
