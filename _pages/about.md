@@ -10,6 +10,7 @@ profile:
   image_circular: true
   more_info: >
     <p><strong>Tongze Mao (She/Her/Hers)</strong></p>
+    <br><p>Associate SDET (Infra) @ Veeva</p>
     <br><p><strong>Mobile App Developer</strong></p>
     <br><p>UI/UX Designer</p>
 news: false
@@ -19,12 +20,24 @@ social: true
 
 ### Introduction
 
-Hi, I’m **Tongze Mao**—a **mobile & full-stack engineer** who transforms everyday workflow pain-points into delightful, data-driven software.
+Hi, I’m **Tongze Mao**, a **mobile & full-stack engineer** who transforms everyday workflow pain-points into delightful, data-driven software.
 
-I’ve shipped **8** SwiftUI apps (3 cracked the App Store top-200) under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="\_blank"}**, and previously led a four-engineer team at **[SupTech](https://t-mao.github.io/projects/SupTech/){:target="\_blank"}**, cutting support workload **85 %** with 2 cross-platform Flutter apps.
+I’m currently an **Associate Software Engineer in Test (Infrastructure)** at **[Veeva Systems](https://t-mao.github.io/projects/Veeva/){:target="\_blank"}**, focusing on release confidence and reliability for **Vault** core infrastructure.
+
+I’ve shipped **8** SwiftUI apps (1 cracked the App Store top-20) under my indie studio **[TZAppify](https://t-mao.github.io/projects/TZAppify/){:target="\_blank"}**, and previously led a four-engineer team at **[SupTech](https://t-mao.github.io/projects/SupTech/){:target="\_blank"}**, cutting support workload **85 %** with 2 cross-platform Flutter apps.
+
+<br>
 
 - **CUM LAUDE**, Dual B.S. **Computer Science** & **Informatics** · Minor in **Statistics** — **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}** (GPA 3.94)
 - Rapid-prototyping addict · Clean-UI advocate · Always learning
+
+<br>
+
+<br>
+
+<br>
+
+---
 
 <br>
 
@@ -38,7 +51,23 @@ I’ve tested and documented improvements for over **160+** apps, fueling my obs
 
 <br>
 
+---
+
+<br>
+
 ### Professional Experience
+
+#### **Veeva Systems**
+
+As an **[Associate Software Engineer in Test (Infrastructure)](https://t-mao.github.io/projects/Veeva/){:target="\_blank"}** on **Vault Infrastructure / QA & Release Engineering**, I build and expand automated test coverage for core platform components—**Durable Queue Framework**, **FileManager/FSA**, and the **Configuration Framework**—to improve release confidence and platform reliability.
+
+- **Coverage & tooling** — Design **white-box tests**, reusable **harnesses**, and developer tooling that exercise critical paths and edge cases.
+- **CI/CD quality gates** — Tighten pipelines (Git/GitLab CI), raise **code coverage**, and reduce flakiness with deterministic fixtures & idempotent teardown.
+- **Scale & resilience** — Validate behavior across **deploy lifecycles**, **HA/DR**, performance, and **scalability**; enforce SLO-driven “go/no-go”.
+- **Reliability engineering** — Partner with platform/SRE on **observability**, **alerting**, and **failure injection** to raise uptime and MTTR.
+- **Enablement** — Author docs/runbooks/examples so engineers can adopt frameworks **safely and quickly**.
+
+<br>
 
 #### **SupTech**
 
@@ -78,6 +107,10 @@ Here are the public, live titles—organized by theme:
 
 <br>
 
+---
+
+<br>
+
 ### Research Endeavors
 
 #### **Ren Lab, The Chinese University of Hong Kong (CUHK)**
@@ -86,13 +119,23 @@ During a summer internship, I worked on **endoscopic 3D reconstruction** for med
 
 <br>
 
+---
+
+<br>
+
 ### UCI Academic Journey
+
+#### **University of California, Irvine**
 
 At **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}**, I pursued **dual majors** in Computer Science and Informatics, plus a Statistics Minor. My studies deeply shaped my:
 
 - **Software Engineering** fundamentals
 - **HCI** and **intelligent systems** knowledge
 - Project-based leadership and agile collaboration
+
+<br>
+
+---
 
 <br>
 
