@@ -125,7 +125,7 @@ During a summer internship, I worked on **endoscopic 3D reconstruction** for med
 
 ### UCI Academic Journey
 
-#### **University of California, Irvine**
+#### **University of California, Irvine (UCI)**
 
 At **[UCI](https://t-mao.github.io/projects/UCI/){:target="\_blank"}**, I pursued **dual majors** in Computer Science and Informatics, plus a Statistics Minor. My studies deeply shaped my:
 
