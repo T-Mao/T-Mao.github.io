@@ -397,6 +397,11 @@ ninja.data = [{
           description: "My dual-major accomplishments and how they forged my versatile coding, research, and leadership prowess",
           section: "Projects",handler: () => {
               window.location.href = "/projects/UCI/";
+            },},{id: "projects-veeva-systems",
+          title: 'Veeva Systems',
+          description: "Associate Software Engineer in Test - Infrastructure",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Veeva/";
             },},{id: "projects-virtual-memory-simulator-c",
           title: 'Virtual Memory Simulator (C)',
           description: "An interactive demand-paged VM simulator",
