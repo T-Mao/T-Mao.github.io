@@ -482,6 +482,22 @@
       "startDate": "2022-08-01",
       "endDate": "2022-09-01",
       "url": ""
+    },
+    {
+      "name": "App Inventor Challenge (2017) – My First Android Prototype",
+      "summary": "Built my first Android app with MIT App Inventor and participated in the 2017 National App Inventor Student Challenge. This experience kickstarted my path to mobile development.",
+      "highlights": [
+        "Explored event-driven programming with blocks; implemented multi-screen navigation and basic data storage.",
+        "Learned to scope features, test on-device APKs, and present a working demo under a deadline.",
+        "Reflected on UX trade-offs that later influenced my SwiftUI projects.",
+        "Mini apps I built at the time:",
+        "1. Competition Helper – quick calculators, multiple-choice quizzes, and a simple leaderboard (timers, score persistence).",
+        "2. Anti-Theft Alarm – arms the phone; any movement triggers vibration + siren (accelerometer events, state toggles).",
+        "3. Spider vs. Bugs – tap/drag to move a spider and eat randomly spawned bugs (sprite collisions, randomization)."
+      ],
+      "startDate": "2017-06-01",
+      "endDate": "2017-10-10",
+      "url": ""
     }
   ],
   "awards": [
