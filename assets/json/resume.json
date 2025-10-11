@@ -143,6 +143,14 @@
   ],
   "certificates": [
     {
+      "name": "QA Innovation Certificate",
+      "date": "2025-10-09",
+      "issuer": "Veeva Systems",
+      "url": "https://t-mao.github.io/projects/Veeva/",
+      "icon": "fa-solid fa-award",
+      "summary": "Recognized at the Veeva Vault QE Associates Annual Event 2025 for leveraging Gemini to design and implement a solution that improves a core Quality Assurance process, driving efficiency and operational excellence."
+    },
+    {
       "name": "Game Development Certificate",
       "date": "2025-07-31",
       "issuer": "ed2go | Education To Go",
