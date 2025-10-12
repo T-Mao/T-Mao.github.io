@@ -31,7 +31,6 @@ Below is a curated portfolio of my artwork and design projects, grouped by categ
 
 <br>
 
-
 ## Fine Art & Sketches
 
 <br>
@@ -488,8 +487,9 @@ In 2021, I ventured into digital illustration for social media, creating a serie
 
 <br>
 
-**Links:**  
-- **Crocodile Sticker — Set A**: [View on WeChat Stickers](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/N52VZPptlbTJlTme0PUvBvV2nYy+L89FmZEdO1YHmg4bd2yWoVooghrUd22TrF7gk=)  
+**Links:**
+
+- **Crocodile Sticker — Set A**: [View on WeChat Stickers](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/N52VZPptlbTJlTme0PUvBvV2nYy+L89FmZEdO1YHmg4bd2yWoVooghrUd22TrF7gk=)
 - **Crocodile Sticker — Set B**: [View on WeChat Stickers](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/P4Ejh/sTacmZ2ucWwCAvFcknVTyC57Syk9pYUFgXkhx5NuonQ0N3Ru58ZNQQcwOUc=)
 
 <br>
@@ -510,7 +510,8 @@ Another digital sticker created in 2021, this furry little monster character sho
 
 <br>
 
-**Link:**  
+**Link:**
+
 - **Fluffy Monster Sticker**: [View on WeChat Stickers](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/PbdO9ncdHotin6RaeHF7YjZQWjiHa8I4x7Gn5NGCm3NDym0SbdfMVLUk4FaXkjB/0=)
 
 <br>
