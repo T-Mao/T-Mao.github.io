@@ -282,6 +282,11 @@ ninja.data = [{
           description: "My achievements in design, academics, and leadership",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AHS/";
+            },},{id: "projects-graphic-design-amp-art-portfolio",
+          title: 'Graphic Design &amp;amp; Art Portfolio',
+          description: "A showcase of my multi-disciplinary artwork and design projects",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ArtPortfolio/";
             },},{id: "projects-research-at-cuhk",
           title: 'Research at CUHK',
           description: "Dataset Engineering &amp; Stereo 3D Reconstruction – My Role as a Summer Research Intern",
