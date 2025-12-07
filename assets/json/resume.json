@@ -89,8 +89,8 @@
       "url": "https://t-mao.github.io/projects/CUHK/",
       "area": "Dataset Engineering & Stereo 3D Reconstruction",
       "studyType": "Research Internship (GPA: 4.0)",
-      "startDate": "2023-06-01",
-      "endDate": "2023-08-01",
+      "startDate": "2023-06-24",
+      "endDate": "2023-08-19",
       "courses": [
         "Data Pipeline & Preprocessing: Developed scripts to split stereo frames, generate depth via disparity estimation, and organize large-scale endoscopic datasets for real-time 3D analysis.",
         "Pose & Registration: Explored classical SfM (COLMAP) and neural-based 3D alignment techniques, merging camera parameter outputs with NeRF-based coordinate systems for robust pose estimation.",
