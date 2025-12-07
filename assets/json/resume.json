@@ -63,31 +63,6 @@
         "Automated frame alignment, disparity maps, and COLMAP pose extraction—pipeline 65 % faster than prior flow.",
         "Maintained concise wiki + weekly briefs; enabled five new researchers to reproduce results within 24 h."
       ]
-    },
-    {
-      "name": "HD EDU",
-      "position": "Senior Calculus Tutor",
-      "url": "https://t-mao.github.io/projects/HDTutor/",
-      "startDate": "2021-07-01",
-      "endDate": "2024-06-01",
-      "summary": "Taught 200 + students single- and multivariable calculus in remote settings; twice promoted for sustained 5-star feedback.",
-      "highlights": [
-        "Designed curricula on antiderivatives, FTC, Taylor series, and multivariable topics; >200 teaching hours.",
-        "Authored problem banks & grading scripts, demonstrating strong communication and mentoring skills."
-      ]
-    },
-    {
-      "name": "HD EDU",
-      "position": "New-Media Content Creator & Social Media Strategist",
-      "url": "https://t-mao.github.io/projects/HDRedNote/",
-      "startDate": "2024-06-01",
-      "endDate": "2024-12-01",
-      "summary": "Ran HD EDU’s official RedNote channel, delivering bite-sized academic tips for international students and refining content strategy through analytics.",
-      "highlights": [
-        "Published trending, action-oriented posts mixing study hacks and lighter cultural pieces to keep engagement high.",
-        "Used in-app metrics to optimize topics, posting cadence, and targeting, steadily growing follower base.",
-        "Collaborated with stakeholders to protect brand voice while streamlining the draft–review–publish loop."
-      ]
     }
   ],
   "education": [
@@ -221,14 +196,6 @@
       "url": "",
       "icon": "fa-solid fa-calculator",
       "summary": "Gained hands-on experience in QuickBooks Online for business accounting, including file setup, bank reconciliation, invoicing, expense management, and custom reporting."
-    },
-    {
-      "name": "Teaching Pedagogy Certificate",
-      "date": "2021-08-04",
-      "issuer": "HD EDU",
-      "url": "",
-      "icon": "fa-solid fa-chalkboard-teacher",
-      "summary": "Completed a 7-day instructor training program covering pedagogy, lesson planning, assessment design, active learning, classroom management, and professional communication. Passed a micro-teaching practicum and final evaluation and subsequently joined the Calculus tutoring team."
     }
   ],
   "publications": [],
@@ -522,13 +489,6 @@
       "awarder": "University of California, Irvine",
       "url": "https://t-mao.github.io/projects/UCI/",
       "summary": "Recognized for outstanding academic standing over 10 quarters in dual B.S. programs, reflecting steadfast commitment and excellence across a broad spectrum of technical and interdisciplinary courses."
-    },
-    {
-      "title": "HD EDU Senior Tutor Recognition",
-      "date": "2023-07-01",
-      "awarder": "HD EDU",
-      "url": "https://t-mao.github.io/projects/HDTutor/",
-      "summary": "Achieved multiple promotions in two years—initially to Advanced Tutor in 2022, followed by Senior Tutor in 2023—after teaching over 160 undergraduate students (200+ hours of instruction) in both single- and multivariable calculus. Reflects consistent high performance, exceptional curriculum design, and a proven track record of improving student outcomes."
     },
     {
       "title": "AHS Salutatorian",
