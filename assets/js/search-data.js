@@ -322,16 +322,6 @@ ninja.data = [{
           description: "Future AR Interactive Shopping Experience",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Goshsha/";
-            },},{id: "projects-hd-edu",
-          title: 'HD EDU',
-          description: "New Media &amp; Digital Outreach – My Role as a Content Creator &amp; Marketer",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/HDRedNote/";
-            },},{id: "projects-hd-edu",
-          title: 'HD EDU',
-          description: "My Role as a Calculus Senior Tutor",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/HDTutor/";
             },},{id: "projects-howdidi-app",
           title: 'HowDidI App',
           description: "Paid Résumé-Sharing Platform",
