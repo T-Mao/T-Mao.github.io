@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      A Lean Testing Strategy for Independent iOS Apps | Tongze Mao
+    
+  
+</title>
+<meta name="author" content="Tongze Mao">
+<meta name="description" content="A practical approach to logic tests, UI automation, accessibility, and release checks for independent iOS apps.">
+
+  <meta name="keywords" content="Tongze Mao, software engineering, software testing, SwiftUI, Flutter, product design">
+
+
+
+
+
+
+  
+  
+  <!-- OpenGraph -->
+  <meta property="og:site_name" content="Tongze Mao">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Tongze Mao | A Lean Testing Strategy for Independent iOS Apps">
+  <meta property="og:url" content="https://t-mao.github.io/blog/2025/Mobile-SDET-Strategy-for-iOS-Apps/">
+  <meta property="og:description" content="A practical approach to logic tests, UI automation, accessibility, and release checks for independent iOS apps.">
+  
+    <meta property="og:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta property="og:image:alt" content="Tongze Mao’s illustrated avatar">
+    
+      <meta property="og:image:width" content="2400">
+      <meta property="og:image:height" content="2400">
+    
+    
+      <meta property="og:image:type" content="image/png">
+    
+  
+  <meta property="og:locale" content="en">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A Lean Testing Strategy for Independent iOS Apps">
+  <meta name="twitter:description" content="A practical approach to logic tests, UI automation, accessibility, and release checks for independent iOS apps.">
+  
+    <meta name="twitter:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta name="twitter:image:alt" content="Tongze Mao’s illustrated avatar">
+  
+  
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+  <!-- Bootstrap Table -->
+  <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.4/dist/bootstrap-table.min.css" integrity="sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c=" crossorigin="anonymous">
+
+
+<!-- Fonts & Icons -->
+<!-- Self-host the template's typeface rather than depending on Google at runtime. -->
+<link rel="preload" href="/assets/fonts/Roboto-Latin.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?86fbbecec189054f486c8d20d21d47df" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="/assets/img/notion_tran.ico?77fbfb63394a7e37d18d66a902a5f583">
+
+<link rel="stylesheet" href="/assets/css/main.css?270872882d5cd89676ef56a1e7eeb1b7">
+<link rel="canonical" href="https://t-mao.github.io/blog/2025/Mobile-SDET-Strategy-for-iOS-Apps/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?d98463a409656fe02a51d7f901d6c1b4"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav sticky-bottom-footer">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Tongze</span>
+            
+            
+            Mao
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">About
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">CV
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="/blog/">Blog
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" aria-label="Search this site" onclick="openSearchModal()">
+                <span class="nav-link"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme" aria-label="Change color theme">
+                <span id="light-toggle-system" aria-hidden="true">◐</span>
+                <span id="light-toggle-dark" aria-hidden="true">☾</span>
+                <span id="light-toggle-light" aria-hidden="true">☼</span>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <main id="main-content" class="container mt-5" role="main" tabindex="-1">
+      
+        
+
+
+
+
+
+
+
+<div class="post blog-article">
+  <header class="post-header">
+    <h1 class="post-title">A Lean Testing Strategy for Independent iOS Apps</h1>
+    <p class="post-meta">
+      Published on April 21, 2025
+      
+      , last updated on October 5, 2026
+      
+    </p>
+    <p class="post-tags">
+      
+        <a href="/blog/2025"> <i class="fa-solid fa-calendar fa-sm"></i> 2025 </a>
+      
+      
+          ·  
+        
+          
+            <a href="/blog/tag/ios"> <i class="fa-solid fa-hashtag fa-sm"></i> ios</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/swiftui"> <i class="fa-solid fa-hashtag fa-sm"></i> swiftui</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/appium"> <i class="fa-solid fa-hashtag fa-sm"></i> appium</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/pytest"> <i class="fa-solid fa-hashtag fa-sm"></i> pytest</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/sdet"> <i class="fa-solid fa-hashtag fa-sm"></i> sdet</a>
+          
+          
+        
+      
+
+      
+          ·  
+        
+          
+            <a href="/blog/category/quality-engineering">
+              <i class="fa-solid fa-tag fa-sm"></i> quality-engineering</a>
+          
+          
+        
+      
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+      <div class="article-cover">
+        
+
+
+
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/blog/ios-quality-480.webp?v=1eb97c2ed828 480w,/assets/img/blog/ios-quality-800.webp?v=1eb97c2ed828 800w,/assets/img/blog/ios-quality-1400.webp?v=1eb97c2ed828 1400w," type="image/webp" sizes="(max-width: 575px) 95vw, 500px">
+    
+    <img src="/assets/img/blog/ios-quality.jpg" class="article-cover-image" width="1200" height="800" decoding="async" fetchpriority="high" alt="A blank mobile device is inspected beside test components, an accessible control, and a reaching hand." loading="eager" onerror="var picture=this.closest('picture');if(picture&amp;&amp;picture.querySelector('source')){picture.querySelectorAll('source').forEach(function(source){source.remove();});}else{this.onerror=null;this.dataset.imageFallback='true';this.src='/assets/img/image-unavailable.svg';}">
+  </source></picture>
+
+  
+    <figcaption class="caption">Concept illustration of logic testing, mobile interaction, and accessibility review.</figcaption>
+  
+</figure>
+
+      </div>
+    
+    
+    <div id="markdown-content">
+      <p>Developing my own Swift apps drew me toward quality engineering. I enjoyed building the interaction, but I was especially interested in the defect that appeared only after an unusual sequence of actions. Writing test plans and learning automation gave me a way to pursue those questions more systematically.</p>
+
+<p>For an independent app, I would organize testing around quick feedback on logic, focused UI coverage where interaction matters, and clear evidence about the release candidate. These examples show how that strategy fits the kinds of apps I build.</p>
+
+<hr class="article-section-divider">
+<h2 id="move-rules-where-they-can-be-exercised-directly">Move rules where they can be exercised directly</h2>
+
+<p>A view can display state and translate gestures into actions. The calculation, validation, or state-transition rules should be testable without tapping through the entire interface.</p>
+
+<p>A calculator provides a compact example. Operator precedence, repeated equals, backspace, percent, and entry after a completed calculation are behavior questions. The rules should be explicit before the tests become authoritative.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Illustrative test for an application-defined calculator model.</span>
+<span class="kd">func</span> <span class="nf">testMultiplicationPrecedesAddition</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">calculator</span> <span class="o">=</span> <span class="kt">Calculator</span><span class="p">()</span>
+    <span class="n">calculator</span><span class="o">.</span><span class="nf">enter</span><span class="p">([</span><span class="s">"2"</span><span class="p">,</span> <span class="s">"+"</span><span class="p">,</span> <span class="s">"3"</span><span class="p">,</span> <span class="s">"×"</span><span class="p">,</span> <span class="s">"4"</span><span class="p">,</span> <span class="s">"="</span><span class="p">])</span>
+    <span class="kt">XCTAssertEqual</span><span class="p">(</span><span class="n">calculator</span><span class="o">.</span><span class="n">display</span><span class="p">,</span> <span class="s">"14"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Choosing <code class="language-plaintext highlighter-rouge">Decimal</code> supports decimal arithmetic. The model also needs explicit rounding, precision, and domain rules, with tests for the expected behavior.</p>
+
+<hr class="article-section-divider">
+<h2 id="use-ui-tests-for-questions-the-model-cannot-answer">Use UI tests for questions the model cannot answer</h2>
+
+<p>UI tests can check whether a control is reachable, whether a sheet blocks navigation, and whether a result remains readable with larger text. They complement the rules exercised by model tests.</p>
+
+<p>Appium with Python and pytest is one possible route. The following illustrative session uses the options-based API described in the <a href="https://github.com/appium/python-client" rel="external nofollow noopener" target="_blank">Appium Python client documentation</a>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">appium</span> <span class="kn">import</span> <span class="n">webdriver</span>
+<span class="kn">from</span> <span class="n">appium.options.ios</span> <span class="kn">import</span> <span class="n">XCUITestOptions</span>
+
+<span class="n">options</span> <span class="o">=</span> <span class="nc">XCUITestOptions</span><span class="p">().</span><span class="nf">load_capabilities</span><span class="p">({</span>
+    <span class="sh">"</span><span class="s">platformName</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">iOS</span><span class="sh">"</span><span class="p">,</span>
+    <span class="sh">"</span><span class="s">appium:automationName</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">XCUITest</span><span class="sh">"</span><span class="p">,</span>
+    <span class="sh">"</span><span class="s">appium:udid</span><span class="sh">"</span><span class="p">:</span> <span class="n">simulator_udid</span><span class="p">,</span>
+    <span class="sh">"</span><span class="s">appium:app</span><span class="sh">"</span><span class="p">:</span> <span class="n">simulator_app_path</span><span class="p">,</span>
+<span class="p">})</span>
+<span class="n">driver</span> <span class="o">=</span> <span class="n">webdriver</span><span class="p">.</span><span class="nc">Remote</span><span class="p">(</span><span class="sh">"</span><span class="s">http://127.0.0.1:4723</span><span class="sh">"</span><span class="p">,</span> <span class="n">options</span><span class="o">=</span><span class="n">options</span><span class="p">)</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="nf">verify_critical_flow</span><span class="p">(</span><span class="n">driver</span><span class="p">)</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">driver</span><span class="p">.</span><span class="nf">quit</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Here, <code class="language-plaintext highlighter-rouge">simulator_udid</code>, <code class="language-plaintext highlighter-rouge">simulator_app_path</code>, and <code class="language-plaintext highlighter-rouge">verify_critical_flow</code> stand for the project’s own configuration and assertions. The Appium server, XCUITest driver, simulator runtime, and simulator-compatible build must be set up separately. Session reuse can reduce startup work, but every test still needs a controlled starting state.</p>
+
+<hr class="article-section-divider">
+<h2 id="give-automation-and-accessibility-separate-attention">Give automation and accessibility separate attention</h2>
+
+<p>A stable accessibility identifier helps a UI test find an element. A meaningful accessibility label and value help someone using VoiceOver understand it. They serve distinct purposes and need separate review.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">Text</span><span class="p">(</span><span class="n">display</span><span class="p">)</span>
+    <span class="o">.</span><span class="nf">accessibilityIdentifier</span><span class="p">(</span><span class="s">"calculator.result"</span><span class="p">)</span>
+    <span class="o">.</span><span class="nf">accessibilityLabel</span><span class="p">(</span><span class="s">"Result"</span><span class="p">)</span>
+    <span class="o">.</span><span class="nf">accessibilityValue</span><span class="p">(</span><span class="n">display</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Apple documents <a href="https://developer.apple.com/documentation/swiftui/view/accessibilityidentifier(_:)" rel="external nofollow noopener" target="_blank">identifiers</a> and <a href="https://developer.apple.com/documentation/swiftui/view/accessibilitylabel(_:)" rel="external nofollow noopener" target="_blank">labels</a> separately. I would verify the spoken experience as well as the locator. Localization, focus order, contrast, and larger text introduce questions a stable ID does not answer.</p>
+
+<hr class="article-section-divider">
+<h2 id="build-a-small-trustworthy-release-check">Build a small, trustworthy release check</h2>
+
+<p>A useful candidate check might include installation and launch, the primary flow, persisted state after relaunch, and one meaningful failure path. Device testing remains important for behavior simulators do not represent completely.</p>
+
+<p>Test output should identify the build, environment, action sequence, and observed result. Screenshots and logs help only when they correspond to the actual failure and avoid sensitive data.</p>
+
+<p>I would investigate flakes as defects in the test system: timing assumptions, shared state, unstable locators, or environment problems. Blind retries can make a pipeline green without making its evidence stronger.</p>
+
+<hr class="article-section-divider">
+<h2 id="grow-coverage-from-risk">Grow coverage from risk</h2>
+
+<p>A newly found bug is an opportunity to add the smallest test that reproduces it. A feature with several states may need a transition table before automation. A simple visual change may need a device review rather than a large new suite.</p>
+
+<p>The maintenance question is practical: when a test fails, does it tell me something useful about the app? Coverage should grow from those answers, from reported defects, and from features whose failure would matter most to the person using them.</p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+    
+      
+<hr class="article-section-divider">
+<aside class="home-section" aria-label="More writing">
+  <h2>Keep reading</h2>
+  <ul>
+    
+      <li><a href="/blog/2025/IaC/">Infrastructure as Code: Make the Change Inspectable</a></li>
+    
+      <li><a href="/blog/2025/Game-Development-Bootcamp/">What a Game Development Course Taught Me About App Design</a></li>
+    
+      <li><a href="/blog/2025/Certificate-in-Depression/">Why I Studied Depression as a Software Developer</a></li>
+    
+      <li><a href="/blog/2025/SoftwareTesting/">What Functional, Integration, Smoke, and Regression Tests Actually Tell Us</a></li>
+    
+      <li><a href="/blog/2025/Planning/">From Shipping Apps to Asking Better Quality Questions</a></li>
+    
+  </ul>
+</aside>
+
+
+    
+  
+
+  
+  
+</div>
+
+      
+    </main>
+
+    <!-- Footer -->
+    
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    
+
+    <div class="container">
+      © 2026
+      Tongze
+      
+      Mao. All rights reserved. 
+      
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script defer src="/assets/js/bootstrap.bundle.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+  <!-- Bootstrap Table -->
+  <!-- Bootstrap Table doesn't go well with diff2html -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.4/dist/bootstrap-table.min.js" integrity="sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78=" crossorigin="anonymous"></script>
+
+
+<!-- Load Common JS -->
+<script defer src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?c15de51d4bb57887caa2c21988d97279"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script defer src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script defer src="/assets/js/search-data.js"></script>
+  <script defer src="/assets/js/shortcut-key.js?5a7815ec38e664d1c4d028a0f17cbd5e"></script>
+
+
+
+
+  </body>
+</html>

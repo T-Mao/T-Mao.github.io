@@ -1,0 +1,576 @@
+{
+  "basics": {
+    "name": "Tongze Mao",
+    "label": "Software Engineer in Test · iOS Developer",
+    "image": "notion.PNG",
+    "email": "tongzemao@gmail.com",
+    "url": "/",
+    "summary": "Software engineer in test at Veeva Systems, working on Vault infrastructure. Previously built eight Swift apps published on the App Store and two cross-platform Flutter apps for SupTech. Graduated cum laude from UC Irvine with a double major in Computer Science and Informatics and a minor in Statistics. My work connects product design, hands-on development, and careful testing."
+  },
+  "work": [
+    {
+      "name": "Veeva Systems",
+      "position": "Associate Software Engineer in Test - Infrastructure",
+      "url": "/projects/Veeva/",
+      "startDate": "2025-09-15",
+      "summary": "Test and validate Vault infrastructure across the Durable Queue Framework, FileManager and File Staging API, and Configuration Framework.",
+      "highlights": [
+        "Validate queue isolation, metadata, administration, and upgrade behavior across platform releases.",
+        "Help build the queue automation framework, maintain queue automation and triage pipelines, investigate failed runs, and collaborate with the Hyderabad team on continued stability.",
+        "Raise design concerns with developers when behavior is ambiguous, difficult to validate, or leaves a failure mode unresolved.",
+        "Contribute API and UI automation for Vault Message Isolation, queue metadata, and file staging; investigate automation instability.",
+        "Test file staging SDK and API changes, performance enhancements, rate limiting, and remote configuration security changes.",
+        "During the Vault Message Isolation rollout, identified critical defects through release validation and contributed to its automation framework while supporting other SET responsibilities."
+      ]
+    },
+    {
+      "name": "SupTech",
+      "position": "Software Developer & Team Lead",
+      "url": "/projects/SupTech/",
+      "startDate": "2024-04-23",
+      "endDate": "2025-04-11",
+      "summary": "Led development of consumer and technician apps in Flutter and Firebase for a service business.",
+      "highlights": [
+        "Built two cross-platform apps from the initial concept through implementation, covering service requests, scheduling, and order tracking.",
+        "Connected the mobile interfaces to backend services, real-time communication, notifications, and payment workflows.",
+        "Coordinated development work and worked through interface, integration, and testing issues with the team."
+      ]
+    },
+    {
+      "name": "TZAppify",
+      "position": "Founder & iOS Developer",
+      "url": "/projects/TZAppify/",
+      "startDate": "2024-01-01",
+      "endDate": "2025-08-24",
+      "summary": "Independent app studio focused on small, practical tools for productivity, learning, and creative work.",
+      "highlights": [
+        "Designed, developed, tested, and published eight Swift apps on the App Store.",
+        "One app reached the Top 20 in the App Store Productivity category during March, April, and May 2025.",
+        "Built interfaces and data models for time planning, calculators, flashcards, habit tracking, writing prompts, and letters to a future self.",
+        "Wrote detailed test plans and learned automated testing while developing the apps; debugging became a particular interest."
+      ]
+    },
+    {
+      "name": "The Chinese University of Hong Kong",
+      "position": "Research Intern · Dataset Engineering & Stereo 3D Reconstruction",
+      "url": "/projects/CUHK/",
+      "startDate": "2023-06-24",
+      "endDate": "2023-08-19",
+      "summary": "Worked on endoscopic stereo-video data preparation for a medical imaging research project.",
+      "highlights": [
+        "Prepared stereo frames and explored disparity estimation and camera-pose extraction with COLMAP.",
+        "Reviewed NeRF and point-cloud registration methods and documented the data-processing workflow."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "26R2 Platform Outstanding Contributor Award Nominee",
+      "date": "2026-09",
+      "awarder": "Veeva Systems",
+      "url": "/projects/Veeva/",
+      "summary": "Nominated for ownership during the Vault Message Isolation rollout: finding critical, feature-breaking defects through release validation, helping prevent issues from reaching downstream environments, and contributing to automation while supporting other SET responsibilities."
+    },
+    {
+      "title": "Cum Laude",
+      "date": "2024-06",
+      "awarder": "University of California, Irvine",
+      "url": "/projects/UCI/",
+      "summary": "Graduated with a double major in Computer Science and Informatics and a minor in Statistics; GPA 3.94/4.0."
+    },
+    {
+      "title": "Dean’s Honor List · Ten Quarters",
+      "date": "2024-06",
+      "awarder": "University of California, Irvine",
+      "url": "/projects/UCI/",
+      "summary": "Recognized for academic performance across ten quarters at UCI."
+    },
+    {
+      "title": "Salutatorian",
+      "date": "2020-06",
+      "awarder": "Arcadia High School",
+      "url": "/projects/AHS/",
+      "summary": "Graduated as salutatorian of the class of 2020; GPA 3.97/4.0."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Irvine",
+      "location": "Irvine, CA",
+      "url": "/projects/UCI/",
+      "area": "Double major: Computer Science and Informatics · Minor: Statistics",
+      "studyType": "Bachelor of Science · Cum Laude",
+      "startDate": "2020-09-28",
+      "endDate": "2024-06-14",
+      "courses": [
+        "Graduated cum laude; GPA 3.94/4.0; Dean’s Honor List for ten quarters.",
+        "Studied human-computer interaction, intelligent systems, software engineering, and statistical analysis.",
+        "Course projects included mobile development, accessibility research, health informatics, web applications, and game-playing AI."
+      ],
+      "summary": "Graduated cum laude with a 3.94/4.0 GPA and ten quarters on the Dean’s Honor List."
+    },
+    {
+      "institution": "The Chinese University of Hong Kong",
+      "location": "Hong Kong",
+      "url": "/projects/CUHK/",
+      "area": "Dataset Engineering & Stereo 3D Reconstruction",
+      "studyType": "Summer Research Internship",
+      "startDate": "2023-06-24",
+      "endDate": "2023-08-19",
+      "courses": [
+        "Prepared endoscopic stereo-video data and explored depth estimation and camera-pose extraction.",
+        "Reviewed NeRF, point-cloud registration, and alignment methods for the research team."
+      ],
+      "summary": "Research experience in medical imaging, stereo-video datasets, and 3D reconstruction."
+    },
+    {
+      "institution": "Arcadia High School",
+      "location": "Arcadia, CA",
+      "url": "/projects/AHS/",
+      "area": "High School Diploma",
+      "studyType": "High School Diploma · Salutatorian",
+      "startDate": "2018-02-01",
+      "endDate": "2020-06-01",
+      "courses": [
+        "Graduated as salutatorian; GPA 3.97/4.0.",
+        "Studied AP computer science, calculus, physics, and graphic design.",
+        "Designed the Speech & Debate Team poster and Annual Art Exhibition poster; a digital collage was selected for exhibition."
+      ],
+      "summary": "Graduated as salutatorian with a 3.97/4.0 GPA."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Moment · Web Clock",
+      "summary": "Designed and built a responsive flip and analog clock as an installable offline PWA.",
+      "highlights": [
+        "Created coordinated flip and SVG analog displays with custom motion, local typography, two themes, and responsive fullscreen layouts.",
+        "Implemented shared timestamp calculations, IANA time-zone formatting, server synchronization, and second-boundary scheduling.",
+        "Built versioned service-worker caching and coordinated updates; added keyboard controls, reduced-motion support, wake lock, and local preferences.",
+        "October 6, 2026 release passed 49 automated tests covering time calculations, offline recovery, update lifecycle, and fullscreen behavior."
+      ],
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-06",
+      "url": "/projects/Moment/"
+    },
+    {
+      "name": "Humfolio · Musical Idea Notebook",
+      "summary": "An independent browser application for capturing monophonic humming as editable notes, with A/B audition and MIDI, WAV, and text export.",
+      "highlights": [
+        "Built the React and TypeScript piano roll, Web Audio capture and synthesis, Pitchy-based transcription, and local score storage.",
+        "Improved repeated-note segmentation with fine energy boundaries; added recoverable editing and guards against deletion/autosave races.",
+        "October 4, 2026 revision passed 52 unit tests and 31 Chromium browser tests, including checks against the deployed site."
+      ],
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-04",
+      "url": "/projects/Humfolio/"
+    },
+    {
+      "name": "DoneTodo · Visual Time Planning",
+      "summary": "A SwiftUI app for comparing planned time with the way a day actually unfolds.",
+      "highlights": [
+        "Built a color-coded time grid, drag interactions, undo and redo, and local data storage.",
+        "Added charts to review time spent across activities."
+      ],
+      "startDate": "2024-08-01",
+      "endDate": "2025-09-01",
+      "url": "/projects/DoneTodo/"
+    },
+    {
+      "name": "ThreeCalc · Three Calculators in One",
+      "summary": "An iOS calculator with three independent calculation histories.",
+      "highlights": [
+        "Built expression evaluation and reusable results so users can keep related calculations separate."
+      ],
+      "startDate": "2024-01-19",
+      "endDate": "2025-09-01",
+      "url": "/projects/3Calc/"
+    },
+    {
+      "name": "FontMate · Font Explorer",
+      "summary": "An iOS tool for previewing system fonts and generating SwiftUI font snippets.",
+      "highlights": [
+        "Added font comparisons, configurable styles, saved favorites, and copyable code."
+      ],
+      "startDate": "2025-03-26",
+      "endDate": "2025-09-01",
+      "url": "/projects/FontMate/"
+    },
+    {
+      "name": "SparkDays · Habit Tracker",
+      "summary": "A SwiftUI app that pairs daily tasks with a personal reward system.",
+      "highlights": [
+        "Built check-ins, coin rewards, a customizable reward store, and local storage."
+      ],
+      "startDate": "2025-03-17",
+      "endDate": "2025-09-01",
+      "url": "/projects/SparkDays/"
+    },
+    {
+      "name": "WayLater · Letters to a Future Self",
+      "summary": "An iOS app for writing letters that become available on a chosen future date.",
+      "highlights": [
+        "Built date-based access, photo attachments, writing prompts, and local storage."
+      ],
+      "startDate": "2025-03-03",
+      "endDate": "2025-09-01",
+      "url": "/projects/WayLater/"
+    },
+    {
+      "name": "Flipperly · Flashcards",
+      "summary": "A SwiftUI flashcard app with spaced review and a card-flip interface.",
+      "highlights": [
+        "Built decks, review scheduling, local storage, and undo and redo for review actions."
+      ],
+      "startDate": "2025-03-03",
+      "endDate": "2025-09-01",
+      "url": "/projects/Flipperly/"
+    },
+    {
+      "name": "HowDidI · Résumé Sharing",
+      "summary": "A Swift and Firebase app for sharing application materials through paid access.",
+      "highlights": [
+        "Served as project manager and technical lead for a university team, coordinating implementation and feedback."
+      ],
+      "startDate": "2024-06-17",
+      "endDate": "2024-10-24",
+      "url": "/projects/HowDidI/"
+    },
+    {
+      "name": "ThreeTodo · Task Management",
+      "summary": "A compact iOS task manager organized around Plan, Today, and Thoughts.",
+      "highlights": [
+        "Built drag-and-drop task movement, inline editing, and contextual actions."
+      ],
+      "startDate": "2024-04-01",
+      "endDate": "2025-09-01",
+      "url": "/projects/ThreeTodo/"
+    },
+    {
+      "name": "WriterCards · Writing Prompts",
+      "summary": "An iOS app for daily writing prompts, custom topics, and writing history.",
+      "highlights": [
+        "Designed and developed the app in SwiftUI, with local persistence and issue tracking in Jira and GitHub."
+      ],
+      "startDate": "2024-02-01",
+      "endDate": "2024-04-01",
+      "url": "/projects/WriterCards/"
+    },
+    {
+      "name": "Goshsha · Shopping App Prototype",
+      "summary": "A university project improving an AR shopping prototype with React Native and Expo.",
+      "highlights": [
+        "Worked on interface redesign, cross-platform behavior, and database integration using stakeholder feedback."
+      ],
+      "startDate": "2024-01-01",
+      "endDate": "2024-06-01",
+      "url": "/projects/Goshsha/"
+    },
+    {
+      "name": "LifeTune · Health Informatics Prototype",
+      "summary": "A high-fidelity prototype exploring clearer ways to present diet, activity, and sleep information.",
+      "highlights": [
+        "Conducted user research and developed wireframes and interactive prototypes."
+      ],
+      "startDate": "2024-01-01",
+      "endDate": "2024-03-01",
+      "url": "/projects/LifeTune/"
+    },
+    {
+      "name": "MyWellness · Health & Fitness Course Project",
+      "summary": "A course project exploring an iOS interface for diet, exercise, and sleep information.",
+      "highlights": [
+        "Worked on visualizations, lifestyle recommendation concepts, and the project’s visual identity."
+      ],
+      "startDate": "2023-04-01",
+      "endDate": "2023-06-01"
+    },
+    {
+      "name": "Canvas for Neurodivergent Students · Accessibility Study",
+      "summary": "A design project examining how Canvas could better support neurodivergent students.",
+      "highlights": [
+        "Used interviews, wireframes, and prototypes to explore dark mode, text-to-speech, and simpler navigation."
+      ],
+      "startDate": "2023-04-01",
+      "endDate": "2023-06-01"
+    },
+    {
+      "name": "Spotify Browser · Web Application",
+      "summary": "An Angular web app using Spotify’s API with a Node.js and Express backend.",
+      "highlights": [
+        "Implemented OAuth, API data retrieval, and MongoDB-backed user features."
+      ],
+      "startDate": "2022-10-01",
+      "endDate": "2022-11-01",
+      "url": "/projects/Spotify/"
+    },
+    {
+      "name": "CheckersAI · Game-Playing Agent",
+      "summary": "A Python checkers agent built around search and board evaluation.",
+      "highlights": [
+        "Implemented alpha-beta pruning and heuristics, then tested moves, promotions, and multi-jump behavior."
+      ],
+      "startDate": "2022-09-01",
+      "endDate": "2022-12-01",
+      "url": "/projects/CheckersAI/"
+    },
+    {
+      "name": "Cancer Observer · Health Informatics Prototype",
+      "summary": "A WordPress prototype exploring screening information and reminders.",
+      "highlights": [
+        "Worked on branding, page design, and the reminder experience."
+      ],
+      "startDate": "2022-08-01",
+      "endDate": "2022-09-01"
+    },
+    {
+      "name": "App Inventor Challenge · Early Android Projects",
+      "summary": "My first Android development experience, using MIT App Inventor for the 2017 National App Inventor Student Challenge.",
+      "highlights": [
+        "Built Competition Helper, an Anti-Theft Alarm, and Spider vs. Bugs.",
+        "Practiced event-driven programming, device testing, and presenting a working demo."
+      ],
+      "startDate": "2017-06-01",
+      "endDate": "2017-10-10"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Testing",
+      "icon": "fa-solid fa-check-double",
+      "keywords": [
+        "Release validation",
+        "API testing",
+        "UI automation",
+        "Regression testing",
+        "Test plans",
+        "Debugging"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "icon": "fa-solid fa-mobile-screen",
+      "keywords": [
+        "Swift",
+        "SwiftUI",
+        "Flutter",
+        "Dart",
+        "React Native / Expo"
+      ]
+    },
+    {
+      "name": "Web & Data",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "Java",
+        "JavaScript / TypeScript",
+        "Angular",
+        "Node.js / Express",
+        "Firebase",
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Design & Collaboration",
+      "icon": "fa-solid fa-pencil-ruler",
+      "keywords": [
+        "Figma",
+        "Adobe Photoshop / Illustrator",
+        "UI/UX research",
+        "Prototyping",
+        "Git / GitHub",
+        "Jira"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "QA Innovation Certificate",
+      "date": "2025-10-09",
+      "issuer": "Veeva Systems",
+      "url": "/projects/Veeva/",
+      "icon": "fa-solid fa-award",
+      "summary": "Received Veeva Systems’ QA Innovation Certificate in October 2025."
+    },
+    {
+      "name": "SQL Certificate",
+      "date": "2025-09-05",
+      "issuer": "ed2go | Education To Go",
+      "url": "",
+      "icon": "fa-solid fa-database",
+      "summary": "Completed coursework in relational databases, SQL queries, joins, and schema design."
+    },
+    {
+      "name": "Game Development Certificate",
+      "date": "2025-07-19",
+      "issuer": "ed2go | Education To Go",
+      "url": "/blog/2025/Game-Development-Bootcamp/",
+      "icon": "fa-solid fa-gamepad",
+      "summary": "Completed coursework in game design, development tools, production workflows, and testing."
+    },
+    {
+      "name": "Java Development Certificate",
+      "date": "2025-07-31",
+      "issuer": "ed2go | Education To Go",
+      "url": "",
+      "icon": "fa-brands fa-java",
+      "summary": "Completed coursework in Java programming, object-oriented design, debugging, and graphics."
+    },
+    {
+      "name": "Accounting Fundamentals: Bookkeeping & Financial Reporting",
+      "date": "2025-07-31",
+      "issuer": "ed2go | Education To Go",
+      "url": "",
+      "icon": "fa-solid fa-file-invoice-dollar",
+      "summary": "Completed coursework in bookkeeping, reconciliation, payroll, and financial reporting."
+    },
+    {
+      "name": "QuickBooks Certificate: Accounting & Bookkeeping",
+      "date": "2025-07-31",
+      "issuer": "ed2go | Education To Go",
+      "url": "",
+      "icon": "fa-solid fa-calculator",
+      "summary": "Completed QuickBooks Online coursework covering setup, invoices, expenses, and reporting."
+    },
+    {
+      "name": "Certificate in Depression",
+      "date": "2025-06-17",
+      "issuer": "ALLEGRA Learning Solutions",
+      "url": "/blog/2025/Certificate-in-Depression/",
+      "icon": "fa-solid fa-heart-pulse",
+      "summary": "Completed a continuing education program on depression, including assessment concepts and approaches to care."
+    },
+    {
+      "name": "Career Skills Certificate: Computer Programming I",
+      "date": "2019-05-01",
+      "issuer": "Arcadia High School",
+      "url": "",
+      "icon": "fa-solid fa-laptop",
+      "summary": "Completed introductory programming coursework covering control flow and structured problem-solving."
+    },
+    {
+      "name": "Career Skills Certificate: Computer Programming II Java",
+      "date": "2019-05-01",
+      "issuer": "Arcadia High School",
+      "url": "",
+      "icon": "fa-solid fa-laptop",
+      "summary": "Completed Java coursework in object-oriented programming, data structures, and algorithms."
+    },
+    {
+      "name": "Career Skills Certificate: Computer Programming IB Java",
+      "date": "2019-05-01",
+      "issuer": "Arcadia High School",
+      "url": "",
+      "icon": "fa-solid fa-laptop",
+      "summary": "Completed further Java programming coursework and team projects."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Infinite Horizons Learning Collective",
+      "location": "Remote",
+      "position": "Founder & Organizer",
+      "url": "",
+      "startDate": "2023-11-01",
+      "endDate": "Present",
+      "summary": "Organized a self-directed study group for learning outside formal coursework.",
+      "highlights": [
+        "Encouraged regular reading, progress sharing, and discussion across different subjects."
+      ]
+    },
+    {
+      "organization": "Arcadia Performing Arts Foundation",
+      "location": "Arcadia, CA",
+      "position": "Theater & Event Volunteer",
+      "url": "https://www.arcadiapaf.org/",
+      "startDate": "2018-06-01",
+      "endDate": "2020-03-01",
+      "summary": "Supported theater productions and school district events through front-of-house and venue work.",
+      "highlights": [
+        "Helped with ticket checks, audience assistance, and cleanup."
+      ]
+    },
+    {
+      "organization": "TreePeople",
+      "location": "Los Angeles, CA",
+      "position": "Environmental Volunteer",
+      "url": "https://www.treepeople.org/",
+      "startDate": "2018-12-01",
+      "endDate": "2018-12-01",
+      "summary": "Participated in community tree planting and cleanup in Los Angeles.",
+      "highlights": [
+        "Worked alongside other volunteers on a local environmental project."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Mandarin",
+      "fluency": "Native speaker",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Apps & Product Design",
+      "icon": "fa-solid fa-mobile-screen",
+      "keywords": [
+        "160+ purchased apps",
+        "Independent developers",
+        "UI/UX and product analysis"
+      ],
+      "summary": "I collect apps and study the small decisions that make a product useful, clear, and enjoyable."
+    },
+    {
+      "name": "Illustration & Graphic Design",
+      "icon": "fa-solid fa-paintbrush",
+      "keywords": [
+        "Original WeChat sticker sets",
+        "School exhibition and event posters",
+        "Future Art China 2017"
+      ],
+      "summary": "My creative work includes digital illustration, character stickers, and posters for school and performing arts events."
+    },
+    {
+      "name": "Writing & Literature",
+      "icon": "fa-solid fa-book",
+      "keywords": [
+        "Chinese writing",
+        "Classical Chinese writing contests",
+        "Fiction"
+      ],
+      "summary": "I enjoy writing in Chinese and developing stories of my own."
+    },
+    {
+      "name": "Musicals & Singing",
+      "icon": "fa-solid fa-music",
+      "keywords": [
+        "Hamilton",
+        "EPIC: The Musical",
+        "SIX",
+        "Latin dance"
+      ],
+      "summary": "Musicals are a long-standing interest, and singing is one of my favorite ways to unwind."
+    },
+    {
+      "name": "Photography & Exploration",
+      "icon": "fa-solid fa-camera",
+      "keywords": [
+        "Photography",
+        "Films and anime",
+        "Games",
+        "Classes in new subjects"
+      ],
+      "summary": "I enjoy taking photographs and learning through classes well outside my day-to-day engineering work."
+    }
+  ],
+  "publications": [],
+  "references": []
+}

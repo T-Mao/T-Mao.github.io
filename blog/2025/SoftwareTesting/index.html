@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      What Functional, Integration, Smoke, and Regression Tests Actually Tell Us | Tongze Mao
+    
+  
+</title>
+<meta name="author" content="Tongze Mao">
+<meta name="description" content="Choosing tests by the behavior, boundary, and release risk they help investigate.">
+
+  <meta name="keywords" content="Tongze Mao, software engineering, software testing, SwiftUI, Flutter, product design">
+
+
+
+
+
+
+  
+  
+  <!-- OpenGraph -->
+  <meta property="og:site_name" content="Tongze Mao">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Tongze Mao | What Functional, Integration, Smoke, and Regression Tests Actually Tell Us">
+  <meta property="og:url" content="https://t-mao.github.io/blog/2025/SoftwareTesting/">
+  <meta property="og:description" content="Choosing tests by the behavior, boundary, and release risk they help investigate.">
+  
+    <meta property="og:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta property="og:image:alt" content="Tongze Mao’s illustrated avatar">
+    
+      <meta property="og:image:width" content="2400">
+      <meta property="og:image:height" content="2400">
+    
+    
+      <meta property="og:image:type" content="image/png">
+    
+  
+  <meta property="og:locale" content="en">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="What Functional, Integration, Smoke, and Regression Tests Actually Tell Us">
+  <meta name="twitter:description" content="Choosing tests by the behavior, boundary, and release risk they help investigate.">
+  
+    <meta name="twitter:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta name="twitter:image:alt" content="Tongze Mao’s illustrated avatar">
+  
+  
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+  <!-- Bootstrap Table -->
+  <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.4/dist/bootstrap-table.min.css" integrity="sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c=" crossorigin="anonymous">
+
+
+<!-- Fonts & Icons -->
+<!-- Self-host the template's typeface rather than depending on Google at runtime. -->
+<link rel="preload" href="/assets/fonts/Roboto-Latin.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?86fbbecec189054f486c8d20d21d47df" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="/assets/img/notion_tran.ico?77fbfb63394a7e37d18d66a902a5f583">
+
+<link rel="stylesheet" href="/assets/css/main.css?270872882d5cd89676ef56a1e7eeb1b7">
+<link rel="canonical" href="https://t-mao.github.io/blog/2025/SoftwareTesting/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?d98463a409656fe02a51d7f901d6c1b4"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav sticky-bottom-footer">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Tongze</span>
+            
+            
+            Mao
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">About
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">CV
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="/blog/">Blog
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" aria-label="Search this site" onclick="openSearchModal()">
+                <span class="nav-link"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme" aria-label="Change color theme">
+                <span id="light-toggle-system" aria-hidden="true">◐</span>
+                <span id="light-toggle-dark" aria-hidden="true">☾</span>
+                <span id="light-toggle-light" aria-hidden="true">☼</span>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <main id="main-content" class="container mt-5" role="main" tabindex="-1">
+      
+        
+
+
+
+
+
+
+
+<div class="post blog-article">
+  <header class="post-header">
+    <h1 class="post-title">What Functional, Integration, Smoke, and Regression Tests Actually Tell Us</h1>
+    <p class="post-meta">
+      Published on April 11, 2025
+      
+      , last updated on October 5, 2026
+      
+    </p>
+    <p class="post-tags">
+      
+        <a href="/blog/2025"> <i class="fa-solid fa-calendar fa-sm"></i> 2025 </a>
+      
+      
+          ·  
+        
+          
+            <a href="/blog/tag/testing"> <i class="fa-solid fa-hashtag fa-sm"></i> testing</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/sdet"> <i class="fa-solid fa-hashtag fa-sm"></i> sdet</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/mobile"> <i class="fa-solid fa-hashtag fa-sm"></i> mobile</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/ci"> <i class="fa-solid fa-hashtag fa-sm"></i> ci</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/qa"> <i class="fa-solid fa-hashtag fa-sm"></i> qa</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/quality-engineering"> <i class="fa-solid fa-hashtag fa-sm"></i> quality‑engineering</a>
+          
+          
+        
+      
+
+      
+          ·  
+        
+          
+            <a href="/blog/category/quality-engineering">
+              <i class="fa-solid fa-tag fa-sm"></i> quality-engineering</a>
+          
+          
+        
+      
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+      <div class="article-cover">
+        
+
+
+
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/blog/test-evidence-480.webp?v=9110f783be3d 480w,/assets/img/blog/test-evidence-800.webp?v=9110f783be3d 800w,/assets/img/blog/test-evidence-1400.webp?v=9110f783be3d 1400w," type="image/webp" sizes="(max-width: 575px) 95vw, 500px">
+    
+    <img src="/assets/img/blog/test-evidence.jpg" class="article-cover-image" width="1200" height="800" decoding="async" fetchpriority="high" alt="Four magnifying lenses inspect different parts and connections of a mechanical assembly." loading="eager" onerror="var picture=this.closest('picture');if(picture&amp;&amp;picture.querySelector('source')){picture.querySelectorAll('source').forEach(function(source){source.remove();});}else{this.onerror=null;this.dataset.imageFallback='true';this.src='/assets/img/image-unavailable.svg';}">
+  </source></picture>
+
+  
+    <figcaption class="caption">Concept illustration of examining behavior, component boundaries, readiness, and the effects of change.</figcaption>
+  
+</figure>
+
+      </div>
+    
+    
+    <div id="markdown-content">
+      <p>When I began writing more deliberate test plans for my apps, I found that test names were less useful than test questions. “We have integration tests” says little without knowing which boundary they exercise. “The regression suite passed” says little without knowing which behaviors it revisits.</p>
+
+<p>These names describe different aspects of testing. Functional describes the behavior being checked; integration describes an interaction boundary; smoke describes a limited readiness check; regression describes testing after change. They can overlap. I find the names most useful when they explain what a test checks and what its failure tells us. The <a href="https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf" rel="external nofollow noopener" target="_blank">ISTQB Foundation Level syllabus</a> distinguishes test levels, test types, and testing after change.</p>
+
+<hr class="article-section-divider">
+<h2 id="functional-does-the-behavior-match-the-requirement">Functional: does the behavior match the requirement?</h2>
+
+<p>A functional test checks an expected capability at a unit, API, component, or end-to-end level. Its dependencies and interface follow from the behavior being checked.</p>
+
+<p>Consider a cart requirement: adding two items should produce the correct total. An isolated model test can check calculation quickly. An API test can check the returned total. A UI test can check what the user sees. Those tests ask related questions at different boundaries.</p>
+
+<p>This illustrative XCTest example focuses on behavior without a network dependency:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">testAddingTwoItemsUpdatesTotal</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">cart</span> <span class="o">=</span> <span class="kt">Cart</span><span class="p">()</span>
+    <span class="n">cart</span><span class="o">.</span><span class="nf">add</span><span class="p">(</span><span class="nv">price</span><span class="p">:</span> <span class="kt">Decimal</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"3.50"</span><span class="p">)</span><span class="o">!</span><span class="p">,</span> <span class="nv">quantity</span><span class="p">:</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="kt">XCTAssertEqual</span><span class="p">(</span><span class="n">cart</span><span class="o">.</span><span class="n">total</span><span class="p">,</span> <span class="kt">Decimal</span><span class="p">(</span><span class="mi">7</span><span class="p">))</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This focused example checks quantity multiplication. Tax, rounding policy, and currency rules would each need additional cases.</p>
+
+<hr class="article-section-divider">
+<h2 id="integration-do-the-components-agree">Integration: do the components agree?</h2>
+
+<p>An integration test exercises interaction across a meaningful boundary: service and database, client and API, or publisher and consumer. The setup should state which components are real and which surrounding dependencies are substituted.</p>
+
+<p>A contract test can verify an agreed request and response shape without exercising the entire deployed system. <a href="https://docs.pact.io/getting_started/how_pact_works" rel="external nofollow noopener" target="_blank">Pact’s documentation</a> explains how consumer tests and provider verification check different sides of that agreement. The deployed connection may still fail because of permissions, configuration, or runtime behavior outside the contract.</p>
+
+<p>For a mobile API, I would inspect field names, optional values, serialization, authorization errors, and pagination. A fake that always returns the same ideal object can hide the very mismatch an integration test is meant to find.</p>
+
+<p>Test data also needs isolation. A convenient shared environment can introduce changing state and unclear ownership. Disposable databases or uniquely scoped fixtures are useful where the system supports them.</p>
+
+<hr class="article-section-divider">
+<h2 id="smoke-is-the-candidate-usable-enough-to-continue">Smoke: is the candidate usable enough to continue?</h2>
+
+<p>A smoke suite is a deliberately small set of high-value checks. It may include launch, sign-in, and one critical transaction. It can exercise business logic; its defining feature is narrow scope and fast evidence about basic viability.</p>
+
+<p>The suite should remain small enough to run at an important decision point, such as after deployment. Including the principal user workflow gives more useful readiness evidence than a health endpoint alone.</p>
+
+<p>Failure should have a defined response. That may block promotion or trigger investigation. The team should define when failure blocks promotion, triggers investigation, or warrants rollback.</p>
+
+<hr class="article-section-divider">
+<h2 id="regression-did-a-change-break-behavior-we-rely-on">Regression: did a change break behavior we rely on?</h2>
+
+<p>Regression testing revisits existing behavior after change. Tests for historical defects are particularly useful examples, but the category is broader than bug history.</p>
+
+<p>When fixing a defect, I first want to reproduce the original failure and confirm that the fix resolves it. That is confirmation testing. Regression testing asks the wider question: what else might the change have affected? A test for the original defect can remain in future regression coverage, with a linked issue explaining why it exists.</p>
+
+<hr class="article-section-divider">
+<h2 id="put-cost-and-evidence-together">Put cost and evidence together</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Question</th>
+      <th>Useful evidence</th>
+      <th>Common blind spot</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Does the rule work?</td>
+      <td>Focused functional assertion</td>
+      <td>Unrealistic fixture</td>
+    </tr>
+    <tr>
+      <td>Do components agree?</td>
+      <td>Boundary exercised with stated dependencies</td>
+      <td>Environment drift</td>
+    </tr>
+    <tr>
+      <td>Is this build viable?</td>
+      <td>Short critical-path smoke flow</td>
+      <td>Suite expands until rarely run</td>
+    </tr>
+    <tr>
+      <td>Did behavior change unexpectedly?</td>
+      <td>Repeatable regression coverage</td>
+      <td>Missing original conditions</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Runtime, reliability, and diagnostic value belong in the same discussion. A quick assertion on an unrealistic fixture can miss the problem. A slower boundary test may be worth keeping if it catches a costly failure and tells us where to investigate. I would measure those properties before setting a suite budget.</p>
+
+<p>The part I enjoy is turning an uncertain behavior into a precise question. A good suite makes those questions repeatable and makes the next failure easier to investigate.</p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+    
+      
+<hr class="article-section-divider">
+<aside class="home-section" aria-label="More writing">
+  <h2>Keep reading</h2>
+  <ul>
+    
+      <li><a href="/blog/2025/IaC/">Infrastructure as Code: Make the Change Inspectable</a></li>
+    
+      <li><a href="/blog/2025/Game-Development-Bootcamp/">What a Game Development Course Taught Me About App Design</a></li>
+    
+      <li><a href="/blog/2025/Certificate-in-Depression/">Why I Studied Depression as a Software Developer</a></li>
+    
+      <li><a href="/blog/2025/Mobile-SDET-Strategy-for-iOS-Apps/">A Lean Testing Strategy for Independent iOS Apps</a></li>
+    
+      <li><a href="/blog/2025/Planning/">From Shipping Apps to Asking Better Quality Questions</a></li>
+    
+  </ul>
+</aside>
+
+
+    
+  
+
+  
+  
+</div>
+
+      
+    </main>
+
+    <!-- Footer -->
+    
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    
+
+    <div class="container">
+      © 2026
+      Tongze
+      
+      Mao. All rights reserved. 
+      
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script defer src="/assets/js/bootstrap.bundle.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+  <!-- Bootstrap Table -->
+  <!-- Bootstrap Table doesn't go well with diff2html -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.4/dist/bootstrap-table.min.js" integrity="sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78=" crossorigin="anonymous"></script>
+
+
+<!-- Load Common JS -->
+<script defer src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?c15de51d4bb57887caa2c21988d97279"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script defer src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script defer src="/assets/js/search-data.js"></script>
+  <script defer src="/assets/js/shortcut-key.js?5a7815ec38e664d1c4d028a0f17cbd5e"></script>
+
+
+
+
+  </body>
+</html>

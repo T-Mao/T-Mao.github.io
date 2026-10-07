@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      A Flutter Network Layer With Dio | Tongze Mao
+    
+  
+</title>
+<meta name="author" content="Tongze Mao">
+<meta name="description" content="Refining a Flutter Dio wrapper around authentication, error semantics, uploads, retries, and testability.">
+
+  <meta name="keywords" content="Tongze Mao, software engineering, software testing, SwiftUI, Flutter, product design">
+
+
+
+
+
+
+  
+  
+  <!-- OpenGraph -->
+  <meta property="og:site_name" content="Tongze Mao">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Tongze Mao | A Flutter Network Layer With Dio">
+  <meta property="og:url" content="https://t-mao.github.io/blog/2025/Network-Calls/">
+  <meta property="og:description" content="Refining a Flutter Dio wrapper around authentication, error semantics, uploads, retries, and testability.">
+  
+    <meta property="og:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta property="og:image:alt" content="Tongze Mao’s illustrated avatar">
+    
+      <meta property="og:image:width" content="2400">
+      <meta property="og:image:height" content="2400">
+    
+    
+      <meta property="og:image:type" content="image/png">
+    
+  
+  <meta property="og:locale" content="en">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A Flutter Network Layer With Dio">
+  <meta name="twitter:description" content="Refining a Flutter Dio wrapper around authentication, error semantics, uploads, retries, and testability.">
+  
+    <meta name="twitter:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta name="twitter:image:alt" content="Tongze Mao’s illustrated avatar">
+  
+  
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<!-- Self-host the template's typeface rather than depending on Google at runtime. -->
+<link rel="preload" href="/assets/fonts/Roboto-Latin.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?86fbbecec189054f486c8d20d21d47df" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="/assets/img/notion_tran.ico?77fbfb63394a7e37d18d66a902a5f583">
+
+<link rel="stylesheet" href="/assets/css/main.css?270872882d5cd89676ef56a1e7eeb1b7">
+<link rel="canonical" href="https://t-mao.github.io/blog/2025/Network-Calls/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?d98463a409656fe02a51d7f901d6c1b4"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav sticky-bottom-footer">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Tongze</span>
+            
+            
+            Mao
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">About
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">CV
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="/blog/">Blog
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" aria-label="Search this site" onclick="openSearchModal()">
+                <span class="nav-link"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme" aria-label="Change color theme">
+                <span id="light-toggle-system" aria-hidden="true">◐</span>
+                <span id="light-toggle-dark" aria-hidden="true">☾</span>
+                <span id="light-toggle-light" aria-hidden="true">☼</span>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <main id="main-content" class="container mt-5" role="main" tabindex="-1">
+      
+        
+
+
+
+
+
+
+
+<div class="post blog-article">
+  <header class="post-header">
+    <h1 class="post-title">A Flutter Network Layer With Dio</h1>
+    <p class="post-meta">
+      Published on February 12, 2025
+      
+      , last updated on October 5, 2026
+      
+    </p>
+    <p class="post-tags">
+      
+        <a href="/blog/2025"> <i class="fa-solid fa-calendar fa-sm"></i> 2025 </a>
+      
+      
+          ·  
+        
+          
+            <a href="/blog/tag/mobile"> <i class="fa-solid fa-hashtag fa-sm"></i> mobile</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/flutter"> <i class="fa-solid fa-hashtag fa-sm"></i> flutter</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/http"> <i class="fa-solid fa-hashtag fa-sm"></i> http</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/networking"> <i class="fa-solid fa-hashtag fa-sm"></i> networking</a>
+          
+          
+        
+      
+
+      
+          ·  
+        
+          
+            <a href="/blog/category/mobile-dev">
+              <i class="fa-solid fa-tag fa-sm"></i> mobile-dev</a>
+          
+          
+        
+      
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+      <div class="article-cover">
+        
+
+
+
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/blog/network-client-480.webp?v=12383b06a429 480w,/assets/img/blog/network-client-800.webp?v=12383b06a429 800w,/assets/img/blog/network-client-1400.webp?v=12383b06a429 1400w," type="image/webp" sizes="(max-width: 575px) 95vw, 500px">
+    
+    <img src="/assets/img/blog/network-client.jpg" class="article-cover-image" width="1200" height="800" decoding="async" fetchpriority="high" alt="Request packets enter one network-client hub with routes for data, uploads, and a timeout." loading="eager" onerror="var picture=this.closest('picture');if(picture&amp;&amp;picture.querySelector('source')){picture.querySelectorAll('source').forEach(function(source){source.remove();});}else{this.onerror=null;this.dataset.imageFallback='true';this.src='/assets/img/image-unavailable.svg';}">
+  </source></picture>
+
+  
+    <figcaption class="caption">Concept illustration of shared network configuration and distinct request policies.</figcaption>
+  
+</figure>
+
+      </div>
+    
+    
+    <div id="markdown-content">
+      <p>My Flutter apps shared a custom Dio wrapper for configuration, headers, interceptors, and uploads. It reduced repeated setup, but reviewing it also showed where one global policy could accidentally override the needs of an individual request.</p>
+
+<p>The boundary I now aim for is a small configured client, with explicit policies for authentication, response parsing, and retries. A feature should still be able to tell whether it is performing a read, uploading a file, or creating something that must not be repeated.</p>
+
+<hr class="article-section-divider">
+<h2 id="share-configuration-without-requiring-global-state">Share configuration without requiring global state</h2>
+
+<p>A shared Dio configuration gives the app consistent timeouts, authentication handling, and environment selection. <a href="https://pub.dev/packages/dio" rel="external nofollow noopener" target="_blank">Dio’s documentation</a> describes instance options, interceptors, cancellation, and multipart requests.</p>
+
+<p>A singleton is one way to distribute that configuration. Passing the configured client into repositories is another, and it makes tests easier to isolate. I care more about consistent ownership than the particular pattern.</p>
+
+<p>This illustrative setup shows a configured client passed into a feature API:</p>
+
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Dio</span> <span class="nf">createApiClient</span><span class="p">(</span><span class="kt">String</span> <span class="n">baseUrl</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">Dio</span><span class="p">(</span><span class="n">BaseOptions</span><span class="p">(</span>
+  <span class="nl">baseUrl:</span> <span class="n">baseUrl</span><span class="p">,</span>
+  <span class="nl">connectTimeout:</span> <span class="kd">const</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="mi">15</span><span class="p">),</span>
+  <span class="nl">receiveTimeout:</span> <span class="kd">const</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="mi">30</span><span class="p">),</span>
+  <span class="nl">sendTimeout:</span> <span class="kd">const</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="mi">30</span><span class="p">),</span>
+<span class="p">));</span>
+
+<span class="kd">class</span> <span class="nc">OrderApi</span> <span class="p">{</span>
+  <span class="n">OrderApi</span><span class="p">(</span><span class="k">this</span><span class="o">.</span><span class="na">client</span><span class="p">);</span>
+  <span class="kd">final</span> <span class="n">Dio</span> <span class="n">client</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The example timeout values should be adapted to the operation. Uploads and ordinary reads may warrant different policies. Environment selection should also be intentional; changing a global base URL while requests are in flight can make failures hard to reproduce.</p>
+
+<hr class="article-section-divider">
+<h2 id="let-interceptors-handle-cross-cutting-concerns">Let interceptors handle cross-cutting concerns</h2>
+
+<p>Authentication headers, safe request diagnostics, and standard transport error mapping fit naturally into interceptors. Credentials should only be attached to the intended API origin, including when a client follows redirects or is reused for another host. Business decisions generally belong closer to the feature.</p>
+
+<p>For example, a response envelope may contain an application <code class="language-plaintext highlighter-rouge">code</code>, but that convention should be parsed only for endpoints that use it. A successful file download or a <code class="language-plaintext highlighter-rouge">204 No Content</code> response should not fail because it lacks <code class="language-plaintext highlighter-rouge">data['code'] == 200</code>.</p>
+
+<p>The wrapper should preserve useful evidence: HTTP status, application error code, operation, and an appropriate correlation ID. Turning every failure into a string discards information the UI and tests may need.</p>
+
+<hr class="article-section-divider">
+<h2 id="define-retry-policy-for-each-operation">Define retry policy for each operation</h2>
+
+<p>A read that fails before receiving a response can often be retried. A request to create an order or transfer money is different. The server may have applied it even if the client timed out.</p>
+
+<p>For those operations, I would use server-supported idempotency and a way to query the resulting state. Repeating the HTTP call without that agreement risks repeating the action.</p>
+
+<p>Authentication refresh has its own concurrency concern. Several requests can fail authorization together, and independent refresh attempts can race. A coordinated in-flight refresh is a useful pattern, with a strict retry limit and an escape from the interceptor loop.</p>
+
+<hr class="article-section-divider">
+<h2 id="treat-uploads-as-a-distinct-operation">Treat uploads as a distinct operation</h2>
+
+<p>Multipart uploads need the correct content type and boundary. Dio can build them from <code class="language-plaintext highlighter-rouge">FormData</code>; forcing a URL-encoded content type over that request is the wrong default.</p>
+
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Illustrative upload; server-side validation is still required.</span>
+<span class="kd">final</span> <span class="n">form</span> <span class="o">=</span> <span class="n">FormData</span><span class="o">.</span><span class="na">fromMap</span><span class="p">({</span>
+  <span class="s">'file'</span><span class="o">:</span> <span class="k">await</span> <span class="n">MultipartFile</span><span class="o">.</span><span class="na">fromFile</span><span class="p">(</span><span class="n">file</span><span class="o">.</span><span class="na">path</span><span class="p">,</span> <span class="nl">filename:</span> <span class="n">fileName</span><span class="p">),</span>
+<span class="p">});</span>
+<span class="k">await</span> <span class="n">client</span><span class="o">.</span><span class="na">post</span><span class="p">(</span><span class="s">'/uploads'</span><span class="p">,</span> <span class="nl">data:</span> <span class="n">form</span><span class="p">,</span> <span class="nl">cancelToken:</span> <span class="n">cancelToken</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Progress, cancellation, size limits, and validation are also part of the experience. For a retry, create fresh <code class="language-plaintext highlighter-rouge">FormData</code> and <code class="language-plaintext highlighter-rouge">MultipartFile</code> objects; Dio documents this requirement because an earlier request can finalize their streams.</p>
+
+<hr class="article-section-divider">
+<h2 id="log-what-helps-omit-what-harms">Log what helps, omit what harms</h2>
+
+<p>The method, route pattern, status, and duration are often sufficient to begin investigation. Tokens, passwords, raw payment data, and full private response bodies are poor logging defaults. Debug mode alone does not make realistic user data safe to print.</p>
+
+<p>The UI should receive a meaningful error category, such as offline, timeout, unauthorized, validation failure, or conflict. Raw exception text rarely gives the user a useful next step.</p>
+
+<hr class="article-section-divider">
+<h2 id="test-the-policy-at-the-boundary">Test the policy at the boundary</h2>
+
+<p>I would verify header injection, cancellation, known response shapes, empty success responses, malformed data, concurrent refresh, and retry behavior. A fake transport can cover these cases without contacting a live backend.</p>
+
+<p>I would keep the wrapper small enough that its behavior can be read and tested. Its value is consistent defaults, useful failure evidence, and a deliberate escape for requests that need a different policy.</p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+    
+      
+<hr class="article-section-divider">
+<aside class="home-section" aria-label="More writing">
+  <h2>Keep reading</h2>
+  <ul>
+    
+      <li><a href="/blog/2025/IaC/">Infrastructure as Code: Make the Change Inspectable</a></li>
+    
+      <li><a href="/blog/2025/Game-Development-Bootcamp/">What a Game Development Course Taught Me About App Design</a></li>
+    
+      <li><a href="/blog/2025/Certificate-in-Depression/">Why I Studied Depression as a Software Developer</a></li>
+    
+      <li><a href="/blog/2025/Mobile-SDET-Strategy-for-iOS-Apps/">A Lean Testing Strategy for Independent iOS Apps</a></li>
+    
+      <li><a href="/blog/2025/SoftwareTesting/">What Functional, Integration, Smoke, and Regression Tests Actually Tell Us</a></li>
+    
+  </ul>
+</aside>
+
+
+    
+  
+
+  
+  
+</div>
+
+      
+    </main>
+
+    <!-- Footer -->
+    
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    
+
+    <div class="container">
+      © 2026
+      Tongze
+      
+      Mao. All rights reserved. 
+      
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script defer src="/assets/js/bootstrap.bundle.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script defer src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?c15de51d4bb57887caa2c21988d97279"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script defer src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script defer src="/assets/js/search-data.js"></script>
+  <script defer src="/assets/js/shortcut-key.js?5a7815ec38e664d1c4d028a0f17cbd5e"></script>
+
+
+
+
+  </body>
+</html>
