@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      Building Two Mobile Apps Around One Service Workflow | Tongze Mao
+    
+  
+</title>
+<meta name="author" content="Tongze Mao">
+<meta name="description" content="What building consumer and technician apps at SupTech taught me about cross-platform delivery, integration, and release decisions.">
+
+  <meta name="keywords" content="Tongze Mao, software engineering, software testing, SwiftUI, Flutter, product design">
+
+
+
+
+
+
+  
+  
+  <!-- OpenGraph -->
+  <meta property="og:site_name" content="Tongze Mao">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Tongze Mao | Building Two Mobile Apps Around One Service Workflow">
+  <meta property="og:url" content="https://t-mao.github.io/blog/2024/Apps-from-Zero-to-One/">
+  <meta property="og:description" content="What building consumer and technician apps at SupTech taught me about cross-platform delivery, integration, and release decisions.">
+  
+    <meta property="og:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta property="og:image:alt" content="Tongze Mao’s illustrated avatar">
+    
+      <meta property="og:image:width" content="2400">
+      <meta property="og:image:height" content="2400">
+    
+    
+      <meta property="og:image:type" content="image/png">
+    
+  
+  <meta property="og:locale" content="en">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Building Two Mobile Apps Around One Service Workflow">
+  <meta name="twitter:description" content="What building consumer and technician apps at SupTech taught me about cross-platform delivery, integration, and release decisions.">
+  
+    <meta name="twitter:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta name="twitter:image:alt" content="Tongze Mao’s illustrated avatar">
+  
+  
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<!-- Self-host the template's typeface rather than depending on Google at runtime. -->
+<link rel="preload" href="/assets/fonts/Roboto-Latin.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?86fbbecec189054f486c8d20d21d47df" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="/assets/img/notion_tran.ico?77fbfb63394a7e37d18d66a902a5f583">
+
+<link rel="stylesheet" href="/assets/css/main.css?270872882d5cd89676ef56a1e7eeb1b7">
+<link rel="canonical" href="https://t-mao.github.io/blog/2024/Apps-from-Zero-to-One/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?d98463a409656fe02a51d7f901d6c1b4"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav sticky-bottom-footer">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Tongze</span>
+            
+            
+            Mao
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">About
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">CV
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="/blog/">Blog
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" aria-label="Search this site" onclick="openSearchModal()">
+                <span class="nav-link"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme" aria-label="Change color theme">
+                <span id="light-toggle-system" aria-hidden="true">◐</span>
+                <span id="light-toggle-dark" aria-hidden="true">☾</span>
+                <span id="light-toggle-light" aria-hidden="true">☼</span>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <main id="main-content" class="container mt-5" role="main" tabindex="-1">
+      
+        
+
+
+
+
+
+
+
+<div class="post blog-article">
+  <header class="post-header">
+    <h1 class="post-title">Building Two Mobile Apps Around One Service Workflow</h1>
+    <p class="post-meta">
+      Published on September 4, 2024
+      
+      , last updated on October 5, 2026
+      
+    </p>
+    <p class="post-tags">
+      
+        <a href="/blog/2024"> <i class="fa-solid fa-calendar fa-sm"></i> 2024 </a>
+      
+      
+          ·  
+        
+          
+            <a href="/blog/tag/mobile"> <i class="fa-solid fa-hashtag fa-sm"></i> mobile</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/agile"> <i class="fa-solid fa-hashtag fa-sm"></i> agile</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/flutter"> <i class="fa-solid fa-hashtag fa-sm"></i> flutter</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/fast-delivery"> <i class="fa-solid fa-hashtag fa-sm"></i> fast-delivery</a>
+          
+          
+        
+      
+
+      
+          ·  
+        
+          
+            <a href="/blog/category/mobile-dev">
+              <i class="fa-solid fa-tag fa-sm"></i> mobile-dev</a>
+          
+          
+        
+      
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+      <div class="article-cover">
+        
+
+
+
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/blog/two-apps-one-service-480.webp?v=5c0a6faed96d 480w,/assets/img/blog/two-apps-one-service-800.webp?v=5c0a6faed96d 800w,/assets/img/blog/two-apps-one-service-1400.webp?v=5c0a6faed96d 1400w," type="image/webp" sizes="(max-width: 575px) 95vw, 500px">
+    
+    <img src="/assets/img/blog/two-apps-one-service.jpg" class="article-cover-image" width="1200" height="800" decoding="async" fetchpriority="high" alt="Consumer and technician phone silhouettes sharing the stages of one service request." loading="eager" onerror="var picture=this.closest('picture');if(picture&amp;&amp;picture.querySelector('source')){picture.querySelectorAll('source').forEach(function(source){source.remove();});}else{this.onerror=null;this.dataset.imageFallback='true';this.src='/assets/img/image-unavailable.svg';}">
+  </source></picture>
+
+  
+    <figcaption class="caption">Concept illustration: two mobile clients present different views of the same service journey.</figcaption>
+  
+</figure>
+
+      </div>
+    
+    
+    <div id="markdown-content">
+      <p>At SupTech, I was the sole app developer for two Flutter applications built from the ground up: a consumer app for requesting service and a technician app for finding and completing work. Both needed to run on iOS and Android. I had to turn evolving requirements into two clients that agreed about the same service workflow.</p>
+
+<p>The consumer wanted a clear answer to “What happens next?” The technician needed to know “Which action can I take now?” Orders, location, chat, payment, and notifications had to tell a consistent story across both clients.</p>
+
+<hr class="article-section-divider">
+<h2 id="choose-shared-work-carefully">Choose shared work carefully</h2>
+
+<p>Flutter was a practical choice because much of the UI and application logic could be shared across platforms. Authentication, localization, API models, and reusable components offered opportunities to avoid duplicate work.</p>
+
+<p>Shared code worked alongside native responsibilities. Notification permissions, signing, location behavior, and store submission required platform-specific attention and separate end-to-end checks for iOS and Android.</p>
+
+<p>I also needed to distinguish reusable infrastructure from different product decisions. Consumers and technicians could use the same order model while seeing different actions and explanations. Forcing both into identical screens would have saved code at the expense of clarity.</p>
+
+<hr class="article-section-divider">
+<h2 id="build-the-service-journey-before-polishing-its-edges">Build the service journey before polishing its edges</h2>
+
+<p>With requirements still evolving, I broke the work into connected capabilities: sign in, create an order, find eligible work, accept it, communicate, pay, and complete service. The dependency between those steps determined useful implementation order.</p>
+
+<p>A payment screen without an agreed order lifecycle is hard to validate. A nearby-job map without reliable acceptance rules can look finished while hiding the largest risk. Getting a complete, modest version of the journey working was more valuable than finishing many disconnected screens.</p>
+
+<p>Regular internal builds also made requirements concrete. A stakeholder can give more useful feedback after trying the actual sequence than after reading a list of planned features. Each new idea from that feedback still needs a scope decision and a place in the development plan.</p>
+
+<hr class="article-section-divider">
+<h2 id="integrations-are-product-behavior">Integrations are product behavior</h2>
+
+<p>The apps included Stripe payments, location-based job discovery, chat, notifications, and multilingual interfaces. Each integration introduced a different kind of uncertainty.</p>
+
+<p>For payments, the server needed to establish authoritative transaction state. A completed mobile interaction cannot be the only trigger for fulfillment because the app may close before reporting its result. Stripe’s <a href="https://docs.stripe.com/payments/payment-intents/verifying-status#monitor-a-paymentintent-with-webhooks" rel="external nofollow noopener" target="_blank">payment status guidance</a> recommends monitoring the result on the server with webhooks.</p>
+
+<p>For chat, persisted messages and synchronization were separate from push alerts. A notification could invite someone back to a conversation; the conversation still needed to load its history from a durable source.</p>
+
+<p>For location, the interesting work was often outside the map widget: permission denial, stale coordinates, battery use, and the difference between nearby and practically reachable.</p>
+
+<p>For localization, I needed to think beyond translated strings. English, Simplified Chinese, and Traditional Chinese can change line length and layout. Flutter’s <a href="https://docs.flutter.dev/ui/internationalization" rel="external nofollow noopener" target="_blank">internationalization documentation</a> describes the framework support; checking real screens remains part of the work.</p>
+
+<hr class="article-section-divider">
+<h2 id="let-backend-changes-stop-at-a-defined-boundary">Let backend changes stop at a defined boundary</h2>
+
+<p>The project involved Node.js/Firebase and later Java/MySQL integration. That made stable client-facing models especially valuable. Keeping API access out of widgets reduced the places that needed attention when endpoints or response shapes changed.</p>
+
+<p>This illustrative example separates API access from the client-facing order model:</p>
+
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">OrderRepository</span> <span class="p">{</span>
+  <span class="n">OrderRepository</span><span class="p">(</span><span class="k">this</span><span class="o">.</span><span class="na">api</span><span class="p">);</span>
+  <span class="kd">final</span> <span class="n">OrderApi</span> <span class="n">api</span><span class="p">;</span>
+
+  <span class="n">Future</span><span class="p">&lt;</span><span class="kt">List</span><span class="p">&lt;</span><span class="n">Order</span><span class="p">&gt;&gt;</span> <span class="n">nearbyOrders</span><span class="p">()</span> <span class="kd">async</span> <span class="p">{</span>
+    <span class="kd">final</span> <span class="n">response</span> <span class="o">=</span> <span class="k">await</span> <span class="n">api</span><span class="o">.</span><span class="na">fetchNearbyOrders</span><span class="p">();</span>
+    <span class="k">return</span> <span class="n">response</span><span class="o">.</span><span class="na">items</span><span class="o">.</span><span class="na">map</span><span class="p">(</span><span class="n">Order</span><span class="o">.</span><span class="na">fromJson</span><span class="p">)</span><span class="o">.</span><span class="na">toList</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The repository also needs an intentional error contract so the UI can present failures in product terms.</p>
+
+<hr class="article-section-divider">
+<h2 id="release-the-complete-flow">Release the complete flow</h2>
+
+<p>A signed binary is one release artifact. The release also depends on configuration, permissions, backend compatibility, store metadata, and a way to investigate problems afterward.</p>
+
+<p>The most demanding part of these apps was keeping the whole journey in view while working through individual screens and integrations. An order could look correct in one client and still leave the other user unsure what to do. Building both sides gave me a practical habit I still use: follow the same action from the first tap to the state the other person receives.</p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+    
+      
+<hr class="article-section-divider">
+<aside class="home-section" aria-label="More writing">
+  <h2>Keep reading</h2>
+  <ul>
+    
+      <li><a href="/blog/2025/IaC/">Infrastructure as Code: Make the Change Inspectable</a></li>
+    
+      <li><a href="/blog/2025/Game-Development-Bootcamp/">What a Game Development Course Taught Me About App Design</a></li>
+    
+      <li><a href="/blog/2025/Certificate-in-Depression/">Why I Studied Depression as a Software Developer</a></li>
+    
+      <li><a href="/blog/2025/Mobile-SDET-Strategy-for-iOS-Apps/">A Lean Testing Strategy for Independent iOS Apps</a></li>
+    
+      <li><a href="/blog/2025/SoftwareTesting/">What Functional, Integration, Smoke, and Regression Tests Actually Tell Us</a></li>
+    
+  </ul>
+</aside>
+
+
+    
+  
+
+  
+  
+</div>
+
+      
+    </main>
+
+    <!-- Footer -->
+    
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    
+
+    <div class="container">
+      © 2026
+      Tongze
+      
+      Mao. All rights reserved. 
+      
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script defer src="/assets/js/bootstrap.bundle.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script defer src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?c15de51d4bb57887caa2c21988d97279"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script defer src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script defer src="/assets/js/search-data.js"></script>
+  <script defer src="/assets/js/shortcut-key.js?5a7815ec38e664d1c4d028a0f17cbd5e"></script>
+
+
+
+
+  </body>
+</html>

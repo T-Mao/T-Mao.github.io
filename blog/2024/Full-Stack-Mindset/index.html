@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      Full-Stack Ownership Starts at the Boundaries | Tongze Mao
+    
+  
+</title>
+<meta name="author" content="Tongze Mao">
+<meta name="description" content="How I approached Flutter, backend integration, debugging, and maintainability when the mobile work depended on one developer.">
+
+  <meta name="keywords" content="Tongze Mao, software engineering, software testing, SwiftUI, Flutter, product design">
+
+
+
+
+
+
+  
+  
+  <!-- OpenGraph -->
+  <meta property="og:site_name" content="Tongze Mao">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Tongze Mao | Full-Stack Ownership Starts at the Boundaries">
+  <meta property="og:url" content="https://t-mao.github.io/blog/2024/Full-Stack-Mindset/">
+  <meta property="og:description" content="How I approached Flutter, backend integration, debugging, and maintainability when the mobile work depended on one developer.">
+  
+    <meta property="og:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta property="og:image:alt" content="Tongze Mao’s illustrated avatar">
+    
+      <meta property="og:image:width" content="2400">
+      <meta property="og:image:height" content="2400">
+    
+    
+      <meta property="og:image:type" content="image/png">
+    
+  
+  <meta property="og:locale" content="en">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Full-Stack Ownership Starts at the Boundaries">
+  <meta name="twitter:description" content="How I approached Flutter, backend integration, debugging, and maintainability when the mobile work depended on one developer.">
+  
+    <meta name="twitter:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta name="twitter:image:alt" content="Tongze Mao’s illustrated avatar">
+  
+  
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<!-- Self-host the template's typeface rather than depending on Google at runtime. -->
+<link rel="preload" href="/assets/fonts/Roboto-Latin.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?86fbbecec189054f486c8d20d21d47df" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="/assets/img/notion_tran.ico?77fbfb63394a7e37d18d66a902a5f583">
+
+<link rel="stylesheet" href="/assets/css/main.css?270872882d5cd89676ef56a1e7eeb1b7">
+<link rel="canonical" href="https://t-mao.github.io/blog/2024/Full-Stack-Mindset/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?d98463a409656fe02a51d7f901d6c1b4"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav sticky-bottom-footer">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Tongze</span>
+            
+            
+            Mao
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">About
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">CV
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="/blog/">Blog
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" aria-label="Search this site" onclick="openSearchModal()">
+                <span class="nav-link"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme" aria-label="Change color theme">
+                <span id="light-toggle-system" aria-hidden="true">◐</span>
+                <span id="light-toggle-dark" aria-hidden="true">☾</span>
+                <span id="light-toggle-light" aria-hidden="true">☼</span>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <main id="main-content" class="container mt-5" role="main" tabindex="-1">
+      
+        
+
+
+
+
+
+
+
+<div class="post blog-article">
+  <header class="post-header">
+    <h1 class="post-title">Full-Stack Ownership Starts at the Boundaries</h1>
+    <p class="post-meta">
+      Published on August 15, 2024
+      
+      , last updated on October 5, 2026
+      
+    </p>
+    <p class="post-tags">
+      
+        <a href="/blog/2024"> <i class="fa-solid fa-calendar fa-sm"></i> 2024 </a>
+      
+      
+          ·  
+        
+          
+            <a href="/blog/tag/mobile"> <i class="fa-solid fa-hashtag fa-sm"></i> mobile</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/fullstack"> <i class="fa-solid fa-hashtag fa-sm"></i> fullstack</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/flutter"> <i class="fa-solid fa-hashtag fa-sm"></i> flutter</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/node-js"> <i class="fa-solid fa-hashtag fa-sm"></i> node.js</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/firebase"> <i class="fa-solid fa-hashtag fa-sm"></i> firebase</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/java"> <i class="fa-solid fa-hashtag fa-sm"></i> java</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/mysql"> <i class="fa-solid fa-hashtag fa-sm"></i> mysql</a>
+          
+          
+        
+      
+
+      
+          ·  
+        
+          
+            <a href="/blog/category/mobile-dev">
+              <i class="fa-solid fa-tag fa-sm"></i> mobile-dev</a>
+          
+          
+        
+      
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+      <div class="article-cover">
+        
+
+
+
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/blog/full-stack-boundaries-480.webp?v=9c985e957b33 480w,/assets/img/blog/full-stack-boundaries-800.webp?v=9c985e957b33 800w,/assets/img/blog/full-stack-boundaries-1400.webp?v=9c985e957b33 1400w," type="image/webp" sizes="(max-width: 575px) 95vw, 500px">
+    
+    <img src="/assets/img/blog/full-stack-boundaries.jpg" class="article-cover-image" width="1200" height="800" decoding="async" fetchpriority="high" alt="A mobile order card passing through a removable adapter boundary to a server and database." loading="eager" onerror="var picture=this.closest('picture');if(picture&amp;&amp;picture.querySelector('source')){picture.querySelectorAll('source').forEach(function(source){source.remove();});}else{this.onerror=null;this.dataset.imageFallback='true';this.src='/assets/img/image-unavailable.svg';}">
+  </source></picture>
+
+  
+    <figcaption class="caption">Concept illustration: a repository boundary translates between the mobile client and its backend.</figcaption>
+  
+</figure>
+
+      </div>
+    
+    
+    <div id="markdown-content">
+      <p>Being responsible for both mobile clients changes how I read a requirement. “Show the order status” brings together the interface, API contract, and order lifecycle. I need to know who can change that status, which transitions are valid, how the API represents it, and what the user sees if the update fails.</p>
+
+<p>At SupTech, I was the app developer for both consumer and technician clients. My Flutter work connected first with Node.js and Firebase and later with a Java/MySQL backend, where I collaborated with a backend teammate. The work taught me to follow a problem across client and server while keeping their responsibilities clear.</p>
+
+<hr class="article-section-divider">
+<h2 id="give-the-ui-a-stable-vocabulary">Give the UI a stable vocabulary</h2>
+
+<p>A screen should speak in product concepts: order, assignment, payment state, conversation. It should not need to understand a Firestore document shape or a backend-specific response envelope.</p>
+
+<p>A repository boundary is useful because it translates external data into those concepts. Flutter’s <a href="https://docs.flutter.dev/app-architecture/guide#repositories" rel="external nofollow noopener" target="_blank">architecture guide</a> describes this role, including data transformation and error handling. This illustrative interface is deliberately small:</p>
+
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">abstract</span> <span class="kd">interface</span> <span class="kd">class</span> <span class="nc">OrderRepository</span> <span class="p">{</span>
+  <span class="n">Future</span><span class="p">&lt;</span><span class="n">Order</span><span class="p">&gt;</span> <span class="n">loadOrder</span><span class="p">(</span><span class="kt">String</span> <span class="n">id</span><span class="p">);</span>
+  <span class="n">Future</span><span class="p">&lt;</span><span class="n">Order</span><span class="p">&gt;</span> <span class="n">acceptOrder</span><span class="p">(</span><span class="kt">String</span> <span class="n">id</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The implementation may call a REST API or another service. The screen should still receive an <code class="language-plaintext highlighter-rouge">Order</code>, or an error it knows how to present. This boundary concentrates the effects of a backend migration. Authentication, pagination, validation rules, and error semantics can then be reviewed where the data enters the app.</p>
+
+<p>I favor introducing this boundary around payments, assignment, and authentication first because those flows carry the most risk. Other abstractions can wait until they solve a clear problem. An abstraction earns its place when it protects a real decision.</p>
+
+<hr class="article-section-divider">
+<h2 id="agree-on-failure-as-well-as-success">Agree on failure as well as success</h2>
+
+<p>When working with a backend teammate, a sample success response is only the beginning of the API contract. We also need answers to questions such as:</p>
+
+<ul>
+  <li>What happens when an order has already been accepted?</li>
+  <li>Is a missing field optional, or is the response invalid?</li>
+  <li>Can a request be retried safely?</li>
+  <li>Does an expired session have a distinct error code?</li>
+  <li>Which fields are server-owned?</li>
+</ul>
+
+<p>These details determine the user experience. A generic “Something went wrong” message may hide a conflict the app could explain clearly. Treating every error as a network problem can also lead to dangerous retries.</p>
+
+<p>A short versioned document is often enough to settle these questions. I care more about whether it describes real behavior than whether the team uses a particular documentation tool.</p>
+
+<hr class="article-section-divider">
+<h2 id="follow-one-action-through-the-system">Follow one action through the system</h2>
+
+<p>Debugging became more useful when I treated the client and server as parts of one request. The client knows what the person tried to do. The server knows which validation or dependency failed. Both perspectives matter.</p>
+
+<p>A correlation ID is a useful general pattern for connecting those records. Logs should include the operation, environment, status, and safe identifiers. They should omit passwords, tokens, raw card details, and unnecessary personal data. Logging every response body is convenient during development and a poor default for a released app.</p>
+
+<p>The UI also needs distinct loading, empty, failed, and completed states. An empty list after an unsuccessful request is misleading. Keeping the previous data visible during refresh can help, as long as the screen makes stale information clear.</p>
+
+<hr class="article-section-divider">
+<h2 id="preserve-a-path-back-to-a-known-state">Preserve a path back to a known state</h2>
+
+<p>Small commits and focused feature branches helped me reason about changes under shifting requirements. For a larger change, I want a clear record of the previous behavior and a way to test the new one before release.</p>
+
+<p>Feature flags can help separate deployment from exposure, but they add configuration and testing work. A useful flag has a tested disabled path and a clear removal plan. Backend schema changes may also outlive a client rollback.</p>
+
+<hr class="article-section-divider">
+<h2 id="what-ownership-means-to-me">What ownership means to me</h2>
+
+<p>Full-stack ownership is the willingness to follow a problem beyond the first layer where it appears. It includes asking for clarification, reproducing a defect, examining the API, and checking the released build.</p>
+
+<p>I also learned to keep the process proportionate to the team. A useful API contract and a repeatable release check can do more for a small project than layers of ceremony. The next developer should be able to see where the data comes from, how a request can fail, and what needs checking before release.</p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+    
+      
+<hr class="article-section-divider">
+<aside class="home-section" aria-label="More writing">
+  <h2>Keep reading</h2>
+  <ul>
+    
+      <li><a href="/blog/2025/IaC/">Infrastructure as Code: Make the Change Inspectable</a></li>
+    
+      <li><a href="/blog/2025/Game-Development-Bootcamp/">What a Game Development Course Taught Me About App Design</a></li>
+    
+      <li><a href="/blog/2025/Certificate-in-Depression/">Why I Studied Depression as a Software Developer</a></li>
+    
+      <li><a href="/blog/2025/Mobile-SDET-Strategy-for-iOS-Apps/">A Lean Testing Strategy for Independent iOS Apps</a></li>
+    
+      <li><a href="/blog/2025/SoftwareTesting/">What Functional, Integration, Smoke, and Regression Tests Actually Tell Us</a></li>
+    
+  </ul>
+</aside>
+
+
+    
+  
+
+  
+  
+</div>
+
+      
+    </main>
+
+    <!-- Footer -->
+    
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    
+
+    <div class="container">
+      © 2026
+      Tongze
+      
+      Mao. All rights reserved. 
+      
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script defer src="/assets/js/bootstrap.bundle.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script defer src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?c15de51d4bb57887caa2c21988d97279"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script defer src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script defer src="/assets/js/search-data.js"></script>
+  <script defer src="/assets/js/shortcut-key.js?5a7815ec38e664d1c4d028a0f17cbd5e"></script>
+
+
+
+
+  </body>
+</html>
