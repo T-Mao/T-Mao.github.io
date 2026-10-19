@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      CHROMADAY: A Calendar with Room for Detail | Tongze Mao
+    
+  
+</title>
+<meta name="author" content="Tongze Mao">
+<meta name="description" content="A minimal calendar with nested daily notes, stable color hierarchies, and careful local persistence.">
+
+  <meta name="keywords" content="Tongze Mao, software engineering, software testing, SwiftUI, Flutter, product design">
+
+
+
+
+
+
+  
+  
+  <!-- OpenGraph -->
+  <meta property="og:site_name" content="Tongze Mao">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tongze Mao | CHROMADAY: A Calendar with Room for Detail">
+  <meta property="og:url" content="https://t-mao.github.io/projects/CHROMADAY/">
+  <meta property="og:description" content="A minimal calendar with nested daily notes, stable color hierarchies, and careful local persistence.">
+  
+    <meta property="og:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta property="og:image:alt" content="Tongze Mao’s illustrated avatar">
+    
+      <meta property="og:image:width" content="2400">
+      <meta property="og:image:height" content="2400">
+    
+    
+      <meta property="og:image:type" content="image/png">
+    
+  
+  <meta property="og:locale" content="en">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CHROMADAY: A Calendar with Room for Detail">
+  <meta name="twitter:description" content="A minimal calendar with nested daily notes, stable color hierarchies, and careful local persistence.">
+  
+    <meta name="twitter:image" content="https://t-mao.github.io/assets/img/notion.PNG">
+    <meta name="twitter:image:alt" content="Tongze Mao’s illustrated avatar">
+  
+  
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<!-- Self-host the template's typeface rather than depending on Google at runtime. -->
+<link rel="preload" href="/assets/fonts/Roboto-Latin.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?86fbbecec189054f486c8d20d21d47df" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="/assets/img/notion_tran.ico?77fbfb63394a7e37d18d66a902a5f583">
+
+<link rel="stylesheet" href="/assets/css/main.css?be8cef517d16d7d24745a2e77deb4faa">
+<link rel="canonical" href="https://t-mao.github.io/projects/CHROMADAY/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?d98463a409656fe02a51d7f901d6c1b4"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav sticky-bottom-footer">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Tongze</span>
+            
+            
+            Mao
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">About
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">CV
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                      <span class="sr-only">(current)</span>
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/blog/">Blog
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" aria-label="Search this site" onclick="openSearchModal()">
+                <span class="nav-link"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme" aria-label="Change color theme">
+                <span id="light-toggle-system" aria-hidden="true">◐</span>
+                <span id="light-toggle-dark" aria-hidden="true">☾</span>
+                <span id="light-toggle-light" aria-hidden="true">☼</span>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <main id="main-content" class="container mt-5" role="main" tabindex="-1">
+      
+        
+
+<div class="post project-article" style="--cover-width: 740px; --cover-ratio: 740 / 555;">
+  <header class="post-header">
+    <h1 class="post-title">CHROMADAY: A Calendar with Room for Detail</h1>
+    <p class="post-description">A minimal calendar with nested daily notes, stable color hierarchies, and careful local persistence.</p>
+  </header>
+
+  <article class="post-content">
+    
+      
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/CHROMADAY/editor-480.webp?v=f073cc1c4a46 480w,/assets/img/CHROMADAY/editor-800.webp?v=f073cc1c4a46 800w,/assets/img/CHROMADAY/editor-1400.webp?v=f073cc1c4a46 1400w," type="image/webp" sizes="(max-width: 575px) 95vw, 740px"></source>
+    
+    <img src="/assets/img/CHROMADAY/editor.jpg" class="project-cover-image" width="1200" height="900" decoding="async" fetchpriority="high" alt="CHROMADAY showing a monthly calendar beside the rich-text editor for a demonstration daily outline" loading="eager" onerror="var picture=this.closest('picture');if(picture&amp;&amp;picture.querySelector('source')){picture.querySelectorAll('source').forEach(function(source){source.remove();});}else{this.onerror=null;this.dataset.imageFallback='true';this.src='/assets/img/image-unavailable.svg';}">
+  </picture>
+
+  
+    <figcaption class="caption">The calendar and daily editor share one workspace. The notes shown here are demonstration content.</figcaption>
+  
+</figure>
+
+<hr class="article-section-divider">
+<h2 id="see-the-month-then-work-through-the-day">See the month, then work through the day</h2>
+
+<p>I designed and built <strong>CHROMADAY</strong> to combine a monthly calendar with a structured notebook for each date. I wanted to see an entire month at once, write directly into a day, and organize its smaller tasks without crowding the overview. The project’s <strong>October 7, 2026</strong> release brings together nested notes, checklists, rich text, tables, and offline use.</p>
+
+<p>The name combines <em>chroma</em>, referring to color, with <em>day</em>. Color became part of the document’s structure: each top-level entry receives a distinct tone, and its children inherit lighter shades. A short plan can grow into an outline while keeping a visible relationship between its parts.</p>
+
+<p><a href="https://chromaday.vercel.app/" rel="external nofollow noopener" target="_blank">Open CHROMADAY</a></p>
+
+<hr class="article-section-divider">
+<h2 id="move-between-overview-inspection-and-editing">Move between overview, inspection, and editing</h2>
+
+<p>CHROMADAY opens to the current month and marks today. Compact navigation provides previous and next periods, a Today button, and a date title that opens a picker. Month, week, and day views use the same notes. Changing the view changes the space available to read them.</p>
+
+<p>Weeks begin on Monday, and the monthly grid uses the number of rows that the month requires. Adjacent-month dates complete the grid. Selecting a date reveals its outline; selecting it again collapses the details. Double-clicking, pressing Enter, or using the edit button opens the editor. On desktop, a side panel keeps the calendar visible while writing. Phones use the available width for editing and a bottom panel for selected-day details.</p>
+
+<p>A daily note might contain homework with Math and English underneath it, lunch with Eggs, and a shopping reminder. The collapsed calendar shows three root items: <strong>Do homework, Lunch, and Buy food</strong>. A chevron and descendant count identify the particular entries with children. Selecting the date reveals the complete outline without changing the saved document.</p>
+
+<p><a href="https://www.cs.umd.edu/~ben/papers/Shneiderman1996eyes.pdf" rel="external nofollow noopener" target="_blank">Ben Shneiderman’s information-visualization research</a> provided a useful reference for moving from an overview to details on demand. I applied that relationship through the calendar views and expandable notes. <a href="https://www.vitsoe.com/us/about/good-design" rel="external nofollow noopener" target="_blank">Dieter Rams’s design principles</a> informed the limited controls, thin grid lines, and generous space for dates and writing.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/CHROMADAY/month-480.webp?v=854c0180e3c2 480w,/assets/img/CHROMADAY/month-800.webp?v=854c0180e3c2 800w,/assets/img/CHROMADAY/month-1400.webp?v=854c0180e3c2 1400w," type="image/webp" sizes="(max-width: 767px) 95vw, 740px"></source>
+    
+    <img src="/assets/img/CHROMADAY/month.jpg" class="img-fluid rounded" width="1200" height="900" decoding="async" alt="CHROMADAY’s monthly overview with demonstration notes organized under individual dates" loading="lazy" onerror="var picture=this.closest('picture');if(picture&amp;&amp;picture.querySelector('source')){picture.querySelectorAll('source').forEach(function(source){source.remove();});}else{this.onerror=null;this.dataset.imageFallback='true';this.src='/assets/img/image-unavailable.svg';}">
+  </picture>
+
+  
+    <figcaption class="caption">Collapsed dates retain the root items and indicate which entries contain more detail.</figcaption>
+  
+</figure>
+
+<hr class="article-section-divider">
+<h2 id="give-a-growing-outline-a-consistent-hierarchy">Give a growing outline a consistent hierarchy</h2>
+
+<p>The editor starts in bullet-list mode. Its toolbar provides bold, italic, underline, strikethrough, highlighting, font sizes, text colors, indentation, checklists, tables, and undo and redo. Table cells are editable, columns can be resized, and row and column operations remain within the document. Converting an outline into a checklist preserves its text and nesting.</p>
+
+<p>Up to three indentations produce four displayed levels:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Level</th>
+      <th style="text-align: right">Default font weight</th>
+      <th>Automatic color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Root item</td>
+      <td style="text-align: right">600</td>
+      <td>Assigned base tone</td>
+    </tr>
+    <tr>
+      <td>First indentation</td>
+      <td style="text-align: right">400</td>
+      <td>Lighter inherited tone</td>
+    </tr>
+    <tr>
+      <td>Second indentation</td>
+      <td style="text-align: right">300</td>
+      <td>Progressively lighter tone</td>
+    </tr>
+    <tr>
+      <td>Third indentation</td>
+      <td style="text-align: right">200</td>
+      <td>Lightest permitted tone</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Indentation, weight, and child indicators provide several ways to recognize structure.</p>
+
+<p>The palette contains <strong>96 stable tones</strong>. A new root receives a random tone different from the preceding root; descendants inherit the ancestor’s hue, with lighter shades and variation between siblings. These values are stored with the document. Reopening a note preserves its appearance rather than assigning new colors.</p>
+
+<p>Making text lighter also requires a contrast constraint. The algorithm computes a lightness ceiling for each hue, targeting <strong>4.6:1</strong> against the relevant backgrounds, with <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html" rel="external nofollow noopener" target="_blank">WCAG’s contrast criterion</a> as its readability baseline. This constraint applies to the automatic palette; users retain control over manually selected colors.</p>
+
+<hr class="article-section-divider">
+<h2 id="keep-documents-structured-and-dates-local">Keep documents structured and dates local</h2>
+
+<p>I built CHROMADAY with <strong>React, TypeScript, and Vite</strong>, using <strong>Tiptap and ProseMirror</strong> for editing. Each date stores a small record:</p>
+
+<div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">interface</span> <span class="nx">Note</span> <span class="p">{</span>
+  <span class="nl">date</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="nl">content</span><span class="p">:</span> <span class="nx">JSONContent</span><span class="p">;</span>
+  <span class="nl">updatedAt</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The document tree preserves paragraphs, lists, checklist states, formatting marks, and tables. List items carry identity, tone, depth, and sibling-shade metadata. A custom ProseMirror extension normalizes that metadata as lines split, items move, or bullets become tasks.</p>
+
+<p>The calendar renders previews from the saved structure independently of the editor. It can show root items or the full outline while the editing interface loads lazily through React’s <code class="language-plaintext highlighter-rouge">lazy</code> and <code class="language-plaintext highlighter-rouge">Suspense</code>. Someone checking the month can begin reading before the editor is needed.</p>
+
+<p>A calendar date also needs different handling from a timestamp. CHROMADAY builds date keys from local year, month, and day values, parses them at local noon, and navigates with calendar-day arithmetic. A note stays attached to its visible date across daylight-saving transitions, month boundaries, and leap years.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/CHROMADAY/day-480.webp?v=de10a0628e47 480w,/assets/img/CHROMADAY/day-800.webp?v=de10a0628e47 800w,/assets/img/CHROMADAY/day-1400.webp?v=de10a0628e47 1400w," type="image/webp" sizes="(max-width: 767px) 95vw, 740px"></source>
+    
+    <img src="/assets/img/CHROMADAY/day.jpg" class="img-fluid rounded" width="1200" height="900" decoding="async" alt="CHROMADAY’s day view displaying the full hierarchy of a demonstration daily note" loading="lazy" onerror="var picture=this.closest('picture');if(picture&amp;&amp;picture.querySelector('source')){picture.querySelectorAll('source').forEach(function(source){source.remove();});}else{this.onerror=null;this.dataset.imageFallback='true';this.src='/assets/img/image-unavailable.svg';}">
+  </picture>
+
+  
+    <figcaption class="caption">Day view gives the saved outline more room while preserving the same document and colors.</figcaption>
+  
+</figure>
+
+<hr class="article-section-divider">
+<h2 id="make-autosave-respect-concurrent-work">Make autosave respect concurrent work</h2>
+
+<p>Notes persist locally in <strong>IndexedDB through <code class="language-plaintext highlighter-rouge">idb</code></strong>. The visible document updates immediately, while a serialized save queue groups pending changes by date. Rapid typing can replace an outdated pending document with the latest one. The interface reports a note as saved only after its transaction completes.</p>
+
+<p>Each edit retains the exact persisted record from which it began. Before writing, the storage layer reads the current record and compares it with that baseline inside the same read/write transaction. This <strong>compare-and-set</strong> operation protects the starting point of the edit.</p>
+
+<p>If two tabs open one date and the first saves, the second cannot overwrite it with a document based on the older record. Its write is rejected, and its local draft remains available. Comparing the complete baseline matters: a later timestamp can still belong to a stale edit.</p>
+
+<p>BroadcastChannel announces committed changes, with a localStorage change token as a fallback. The signals contain no note content. Focus and visibility changes provide further opportunities to refresh other dates.</p>
+
+<p>Failed writes retain pending documents and expose retry and backup actions. If the initial database read fails, editing waits for recovery, preventing an unread collection from being replaced by an empty starting state.</p>
+
+<hr class="article-section-divider">
+<h2 id="build-recovery-into-the-same-workflow">Build recovery into the same workflow</h2>
+
+<p>Export first attempts to flush pending writes, then reads the shared database and combines saved records with local drafts. A conflict backup can preserve both versions of the same date. If a later database read fails, the application can export the content already available in memory and identifies that recovery file as incomplete.</p>
+
+<p>Import validates backup metadata, file size, dates, timestamps, document structure, and nesting before merging records in one transaction. A failed write rolls back the entire import. Newer timestamps take precedence during reconciliation, and cleared notes remain timestamped empty documents, preventing an older backup from bringing back content cleared more recently. Competing documents remain available in the original conflict backup; import selects the newer timestamp.</p>
+
+<p>Notes belong to the current browser and website origin. JSON export and import provide a way to move them to another browser or device and keep a separate copy. The application uses local storage without an account or server database.</p>
+
+<hr class="article-section-divider">
+<h2 id="keep-writing-available-offline">Keep writing available offline</h2>
+
+<p>Workbox and <code class="language-plaintext highlighter-rouge">vite-plugin-pwa</code> cache the application while IndexedDB stores its notes. After an online visit completes caching, both the calendar and the lazy editor can reopen offline, including an editor that was not opened during the first session.</p>
+
+<p>I used Workbox’s <code class="language-plaintext highlighter-rouge">clientsClaim</code> so the initially open page can become controlled by the activated service worker without requiring another reload. Updates appear as a prompt and wait while editing, saving, or showing a save error. Pending writes are flushed before an update reload proceeds.</p>
+
+<div class="text-center">
+
+
+
+
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/CHROMADAY/mobile-day-480.webp?v=99fb37d4d2b3 480w,/assets/img/CHROMADAY/mobile-day-800.webp?v=99fb37d4d2b3 800w,/assets/img/CHROMADAY/mobile-day-1400.webp?v=99fb37d4d2b3 1400w," type="image/webp" sizes="(max-width: 375px) 85vw, 320px"></source>
+    
+    <img src="/assets/img/CHROMADAY/mobile-day.jpg" class="img-fluid rounded" width="390" height="844" decoding="async" style="
+          
+          
+          
+            max-width: min(100%, 320px);
+          
+          
+        " alt="CHROMADAY’s single-day mobile view showing a demonstration daily outline" loading="lazy" onerror="var picture=this.closest('picture');if(picture&amp;&amp;picture.querySelector('source')){picture.querySelectorAll('source').forEach(function(source){source.remove();});}else{this.onerror=null;this.dataset.imageFallback='true';this.src='/assets/img/image-unavailable.svg';}">
+  </picture>
+
+  
+    <figcaption class="caption">A demonstration daily outline in CHROMADAY’s mobile day view.</figcaption>
+  
+</figure>
+
+</div>
+
+<hr class="article-section-divider">
+<h2 id="test-the-transitions-that-affect-trust">Test the transitions that affect trust</h2>
+
+<p>The <strong>October 7, 2026 release verification</strong> recorded <strong>169 unit tests</strong>, <strong>33 end-to-end tests in Chromium</strong>, and <strong>the same 33 tests in WebKit</strong>, along with the production build and online, offline, and responsive checks.</p>
+
+<p>Storage coverage includes stale writes, simultaneous edits, transaction rollback, repeated imports, cleared-note preservation, clock changes, database upgrades, and read and write failures. Editor coverage includes nested outlines, formatting, checklists, tables, color persistence, CJK font weights, and backup round trips. Calendar coverage includes date boundaries, navigation, keyboard interactions, and view switching. Browser tests use real IndexedDB to exercise the save and recovery paths.</p>
+
+<p>CHROMADAY brings interface design and persistence engineering into the same project. The month gives a plan its context, the outline gives it detail, and the document model keeps those views connected. Stable colors, local date handling, transaction checks, and recoverable drafts support the ordinary sequence the app is built for: write, collapse, return, and continue.</p>
+
+<p><a href="https://chromaday.vercel.app/" rel="external nofollow noopener" target="_blank">Open CHROMADAY</a></p>
+
+    
+  </article>
+
+  
+
+  
+</div>
+
+      
+    </main>
+
+    <!-- Footer -->
+    
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    
+
+    <div class="container">
+      © 2026
+      Tongze
+      
+      Mao. All rights reserved. 
+      
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script defer src="/assets/js/bootstrap.bundle.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script defer src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?c15de51d4bb57887caa2c21988d97279"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script defer src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script defer src="/assets/js/search-data.js"></script>
+  <script defer src="/assets/js/shortcut-key.js?5a7815ec38e664d1c4d028a0f17cbd5e"></script>
+
+
+
+
+  </body>
+</html>
