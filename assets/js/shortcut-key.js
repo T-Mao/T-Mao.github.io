@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("search-toggle");e&&(e.title=navigator.platform.toUpperCase().includes("MAC")?"Search (\u2318 K)":"Search (Ctrl K)")}));
