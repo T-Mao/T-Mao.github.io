@@ -1,0 +1,1 @@
+(()=>{const t=document.currentScript?.dataset.measurementId;/^G-[A-Z0-9]+$/.test(t||"")&&(window.dataLayer=window.dataLayer||[],window.gtag=window.gtag||function(){window.dataLayer.push(arguments)},window.gtag("js",new Date),window.gtag("config",t))})();
